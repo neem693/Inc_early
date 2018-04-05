@@ -209,3 +209,6 @@ comment on column product.pname is 'ªÛ«≥∏Ì';
 
 
 comment on column product.price is '∞°∞›';
+
+
+
