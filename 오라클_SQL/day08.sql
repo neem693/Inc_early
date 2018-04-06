@@ -421,7 +421,7 @@ INSERT ALL  INTO 도서 VALUES (101,    '오라클1',     '기본',   '상세',   '2017-0
             INTO 도서 VALUES (102,    '오라클2',     '기본',   '상세',   '2017-06-24',   100) 
             INTO 도서 VALUES (201,    '자바1',       '기본',    '상세',   '2017-06-25',  200) 
             INTO 도서 VALUES (301,    '안드로이드1',  '기본',    '상세',   '2017-06-24',  300)
-) SELECT *FROM dual;    
+SELECT *FROM dual;    
 --'오라클'의 모든 도서의 도서코드, 도서명, 기본설명 출력
 
 SELECT
@@ -498,21 +498,20 @@ select *
 from 이그지스트_그룹 e inner join 이그지스트_그룹 f
 on e.gr = f.gr;
 
-select e.gr,count(*)
+select e.gr,e.el
 from 이그지스트_그룹 e
 where exists( select 1
               from 이그지스트_그룹
               where gr = e.gr and
-                    (el= 'A' OR el= 'B')
-              group by gr
-              having count(*)=2)
-              group by e.gr;
-
-
+              el=e.el and
+                    (el= 'A' OR el= 'B'));
 select empno,ename,sal,deptno
 from emp e
 where exists (select max(sal)
 from emp
 group by deptno
 having e.sal = max(sal));
+
+--도서코드가 301인 도서의 기본설명을 '저자 : 홍길동'으로 수정
+
 
