@@ -120,7 +120,7 @@ drop table emp05;
 CREATE TABLE EMP05( 
 EMPNO NUMBER(4) PRIMARY KEY ,
 ENAME VARCHAR2(10)  NOT NULL, 
-JOB VARCHAR2(9),
+JOB VARCHAR2(9) ,
 DEPTNO NUMBER(2)
 ); 
 
@@ -167,7 +167,7 @@ into MEM(MEMID,MEMNAME,MEMADDR) VALUES('orat','오라트리','서울')
 into MEM(MEMID,MEMNAME,MEMADDR) VALUES('gkeo','개코','전주')
 into MEM(MEMID,MEMNAME,MEMADDR) VALUES('defconn','장노','LA')
 into MEM(MEMID,MEMNAME,MEMADDR) VALUES('wied','가고','뉴욕')
-into MEM(MEMID,MEMNAME,MEMADDR) VALUES('eodi','감히','파리')
+into MEM(MEMID,MEMNAME,MEMADDR) VALUES('howdare','감히','파리')
 into MEM(MEMID,MEMNAME,MEMADDR) VALUES('ioi','DAVID','파리')
 into MEM(MEMID,MEMNAME,MEMADDR) VALUES('doef','똥파리','런던')
 into MEM(MEMID,MEMNAME,MEMADDR) VALUES('wks','미사토','도쿄')
@@ -255,7 +255,7 @@ on book.bno = border.bno;
 select bname,sum(oqty)
 from book , border
 where book.bno = border.bno
-group by book.bname;
+group by rollup(book.bname);
 
 select *
 from book , border
@@ -270,6 +270,33 @@ inner join book
 on book.bno = border.bno
 group by book.bname,mem.memid
 order by book.bname;
+
+
+
+
+
+select mem.memname,book.bname,sum(oqty)
+from mem inner join border
+on mem.memid =border.memid
+inner join book
+on book.bno = border.bno
+group by book.bname,mem.memname
+order by book.bname;
+
+
+
+
+
+
+select book.bname,mem.memname,sum(oqty)
+from mem inner join border
+on mem.memid =border.memid
+inner join book
+on book.bno = border.bno
+group by book.bname,mem.memname
+order by book.bname,mem.memname;
+
+
 
 
 
@@ -290,3 +317,8 @@ into MEM(MEMID,MEMNAME,MEMADDR) VALUES('doef','똥파리','런던')
 into MEM(MEMID,MEMNAME,MEMADDR) VALUES('wks','미사토','도쿄')
 into MEM(MEMID,MEMNAME,MEMADDR) VALUES('eofi','밤주','베이징')
 select * from dual;
+
+
+
+
+

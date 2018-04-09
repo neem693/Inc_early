@@ -1,0 +1,82 @@
+6.이름에 "K"자가 들어가는 사원들 중 가장 급여가 적은 사원의 부서명,사원명,급여를 출력하시오.
+
+FROM 서브쿼리 가능
+
+SELECT ENAME,DNAME,SAL 
+FROM EMP E,DEPT D
+WHERE SAL=(
+  SELECT MIN(SAL) FROM (
+    SELECT ENAME,SAL FROM EMP WHERE ENAME LIKE '%K%'
+  )
+) AND E.DEPTNO=D.DEPTNO
+ 
+7.커미션 계약조건이 없는(커미션이 비어있음) 사원중  
+입사일이 가장 빠른(가장작은 입사일과 같은) 사원의 부서명, 사원명,입사일을 출력하시오.
+ 
+SELECT ENAME,DNAME,HIREDATE
+FROM EMP E,DEPT D
+WHERE E.DEPTNO=D.DEPTNO
+AND HIREDATE=(
+    SELECT MIN(HIREDATE) FROM (
+    SELECT ENAME,HIREDATE FROM EMP
+    WHERE COMM IS NULL
+     )
+)
+ 
+8. KING 의 급여에서 SCOTT의 급여를 뺀 결과보다 적은 급여를 받는 사원의 부서명,이름,급여를 출력하시오.
+ 
+SELECT DNAME,ENAME,SAL FROM EMP E, DEPT D
+WHERE E.DEPTNO=D.DEPTNO
+AND SAL < (
+  SELECT  (SELECT SAL FROM EMP WHERE ENAME='KING') - (SELECT SAL FROM EMP WHERE ENAME='SCOTT') FROM DUAL
+)
+
+9. 커미션 계약조건이 있는 사원중 이름에 'N'자가 들어가는 
+사원의 최소급여를 받는 사원의 사원명, 부서명을 출력하시오.
+9.1 최종 출력할 사원명은 'N'과 무관
+SELECT ENAME,SAL 
+FROM EMP E, DEPT D WHERE 
+E.DEPTNO=D.DEPTNO AND SAL=(
+SELECT MIN(SAL) FROM (
+  SELECT SAL,ENAME FROM EMP WHERE COMM IS NOT NULL 
+  AND ENAME LIKE '%N%'
+))
+
+MARTIN	1250
+WARD	1250 
+
+
+10. EMP 테이블에서 이름이 5글자인 사원중 급여가 가장 높은 사원의 이름,급여,부서명을 출력하시오.
+
+SELECT ENAME,SAL,DNAME
+FROM EMP E,DEPT D
+WHERE E.DEPTNO=D.DEPTNO
+AND SAL=(SELECT MAX(SAL) FROM EMP WHERE LENGTH(ENAME)=5)
+AND LENGTH(ENAME)=5 
+
+11. CLARK이 속한 부서의 평균 연봉보다 높은 (연봉을 받은) 사원중 입사일이 가장 빠른 사원의 부서명, 사원명, 연봉을 출력하시오.
+
+SELECT DNAME,ENAME,(SAL*12)+NVL(COMM,0)
+FROM EMP E, DEPT D
+WHERE E.DEPTNO=D.DEPTNO
+AND HIREDATE=(
+SELECT MIN(HIREDATE) FROM EMP
+WHERE  (SAL*12)+NVL(COMM,0) > (
+  SELECT AVG((SAL*12)+NVL(COMM,0))  FROM EMP
+  WHERE DEPTNO=(SELECT DEPTNO FROM EMP WHERE ENAME='CLARK')
+)
+)
+
+12. 두번째로 많은 급여를 받는 사원의 이름과 급여를 출력하시오  .
+1등나간 그룹에서 1등이 2등 
+
+SELECT ENAME,SAL FROM EMP
+WHERE SAL=(
+SELECT MAX(SAL) FROM 
+(
+SELECT ENAME,SAL FROM EMP
+WHERE SAL < (
+  SELECT MAX(SAL) FROM EMP
+) ORDER BY SAL DESC
+)
+)

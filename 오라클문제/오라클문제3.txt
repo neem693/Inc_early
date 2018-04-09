@@ -1,0 +1,153 @@
+
+-------------------------------------------------------------------------
+
+1.최소급여를 받는 사원과 같은 부서의 모든 사원명을 출력하세요.
+
+-------------------------------------------------------------------------
+
+SELECT ENAME FROM EMP WHERE SAL=(SELECT MIN(SAL) FROM EMP)
+
+ 
+
+-------------------------------------------------------------------------
+
+2.최소급여를 받는 사원과 같은 부서에서 근무하는 모든 사원명,부서명을 출력하세요.
+
+-------------------------------------------------------------------------
+
+SELECT ENAME,DNAME 
+FROM EMP E, DEPT D
+WHERE E.DEPTNO=D.DEPTNO
+AND E.DEPTNO=(
+SELECT DEPTNO FROM EMP
+WHERE SAL=(SELECT MIN(SAL) FROM EMP)
+)
+
+ 
+
+ 
+
+-------------------------------------------------------------------------
+
+3.SCOTT 보다 입사일이 늦은 사원과 같은 부서에서 근무하는 사원들의 부서명,이름,급여를 출력하세요.
+
+-------------------------------------------------------------------------
+
+SELECT DNAME,ENAME,SAL 
+FROM EMP E,DEPT D
+WHERE E.DEPTNO=D.DEPTNO
+AND E.DEPTNO=(
+    select DEPTNO from emp 
+    where hiredate > (select hiredate from emp where ename='SCOTT')
+)
+
+ 
+
+-------------------------------------------------------------------------
+
+4.이름에 "K"자가 들어가는 사원들 중 가장 급여가 적은 사원의 부서명,사원명,급여를 출력하세요.
+
+-------------------------------------------------------------------------
+
+SELECT ENAME,DNAME,SAL FROM EMP E,DEPT D
+WHERE SAL=(
+  SELECT MIN(SAL) FROM (
+    SELECT ENAME,SAL FROM EMP WHERE ENAME LIKE '%K%'
+  )
+) AND E.DEPTNO=D.DEPTNO
+
+ 
+
+ 
+
+-------------------------------------------------------------------------
+
+5.커미션 계약조건이 없는(커미션이 비어있음) 사원중  입사일이 가장 빠른 사원의 부서명, 사원명,입사일을 출력하세요.
+
+-------------------------------------------------------------------------
+
+SELECT ENAME,DNAME,HIREDATE
+FROM EMP E,DEPT D
+WHERE E.DEPTNO=D.DEPTNO
+AND HIREDATE=(
+    SELECT MIN(HIREDATE) FROM (
+    SELECT ENAME,HIREDATE FROM EMP
+       WHERE COMM IS NULL
+     )
+)
+
+ 
+
+-------------------------------------------------------------------------
+
+6.위치가 시카고인 부서에 속한 사원들의 이름과 부서명을 출력하세요.
+
+-------------------------------------------------------------------------
+
+SELECT ENAME,DNAME FROM EMP E,DEPT D
+WHERE E.DEPTNO=D.DEPTNO
+AND E.DEPTNO=(
+SELECT DEPTNO FROM DEPT
+WHERE LOC='CHICAGO'
+)
+
+ 
+
+-------------------------------------------------------------------------
+
+7.KING 의 급여에서 SCOTT의 급여를 뺀 결과보다 적은 급여를 받는 사원의 부서명,이름,급여를 출력하세요
+
+-------------------------------------------------------------------------
+
+SELECT DNAME,ENAME,SAL FROM EMP E, DEPT D
+WHERE E.DEPTNO=D.DEPTNO
+AND SAL < (
+SELECT  (SELECT SAL FROM EMP WHERE ENAME='KING') - (SELECT SAL FROM EMP WHERE ENAME='SCOTT') FROM DUAL
+)
+
+ 
+
+-------------------------------------------------------------------------
+
+8.DALLAS에 위치한 부서에 속한 사원의 총사원수,평균급여,전체급여,최고급여,최저급여을 구하세요.
+
+-------------------------------------------------------------------------
+
+SELECT COUNT(*),AVG(SAL),SUM(SAL),MAX(SAL),MIN(SAL) FROM (
+   SELECT SAL FROM EMP E,DEPT D 
+   WHERE E.DEPTNO=D.DEPTNO
+   AND E.DEPTNO=(
+     SELECT DEPTNO FROM DEPT WHERE LOC='DALLAS'
+   )
+)
+
+ 
+
+-------------------------------------------------------------------------
+
+9.커미션 계약조건이 있는 사원중 이름에 'N'자가 들어가는 사원의 최소급여를 받는 사원의 사원명, 부서명을 출력하세요.
+
+-------------------------------------------------------------------------
+
+SELECT ENAME,SAL 
+FROM EMP E, DEPT D WHERE 
+E.DEPTNO=D.DEPTNO AND SAL=(
+SELECT MIN(SAL) FROM (
+  SELECT SAL,ENAME FROM EMP WHERE COMM IS NOT NULL
+  AND  ENAME LIKE '%N%'
+)
+) AND   ENAME LIKE '%N%'
+
+ 
+
+-------------------------------------------------------------------------
+
+10.ALLEN 보다 입사일이 빠른 사원의 부서명,사원명을 출력하세요.
+
+-------------------------------------------------------------------------
+
+SELECT ENAME,DNAME FROM EMP E , DEPT D
+WHERE E.DEPTNO=D.DEPTNO
+AND HIREDATE < (SELECT HIREDATE FROM EMP WHERE ENAME='ALLEN') 
+
+  

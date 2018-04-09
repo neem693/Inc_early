@@ -505,6 +505,11 @@ where exists( select 1
               where gr = e.gr and
               el=e.el and
                     (el= 'A' OR el= 'B'));
+                    
+                    
+                    
+                    
+                    
 select empno,ename,sal,deptno
 from emp e
 where exists (select max(sal)
