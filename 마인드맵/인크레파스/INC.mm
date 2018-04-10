@@ -5,7 +5,7 @@
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <node CREATED="1520997194632" ID="ID_71993851" MODIFIED="1522819762549" POSITION="right" TEXT="&#xc608;&#xbe44;">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1520991894578" FOLDED="true" ID="ID_1981419265" MODIFIED="1522889334101" TEXT="&#xac1c;&#xb150;">
+<node CREATED="1520991894578" ID="ID_1981419265" MODIFIED="1523360756721" TEXT="&#xac1c;&#xb150;">
 <node CREATED="1520988601772" ID="ID_1039317525" MODIFIED="1520991901043" TEXT="&#xc774;&#xc815;&#xbd09;"/>
 <node CREATED="1520988606312" ID="ID_1684502249" MODIFIED="1520999310334" TEXT="&#xc790;&#xbc14;(&#xc6d4;&#xb798;&#xb294; SQL)"/>
 <node CREATED="1520988692818" FOLDED="true" ID="ID_753711007" MODIFIED="1522889068324" TEXT="dir&#xc774;&#xb77c;&#xb294; &#xba85;&#xb839;&#xc5b4;">
@@ -107,7 +107,7 @@
 <node CREATED="1521162909706" ID="ID_1085958493" MODIFIED="1521162912955" TEXT="CRM"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1521421734918" FOLDED="true" ID="ID_71483204" MODIFIED="1522889329292" TEXT="&#xcf54;&#xb529;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1521421734918" ID="ID_71483204" MODIFIED="1523360756755" TEXT="&#xcf54;&#xb529;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1521165423516" FOLDED="true" ID="ID_1748999813" MODIFIED="1522889069840" TEXT="&#xbc14;&#xc774;&#xd2b8;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1521165439426" ID="ID_1882231851" MODIFIED="1521165813435" TEXT="&#xba54;&#xbaa8;&#xb9ac;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1521165448076" ID="ID_1952859514" MODIFIED="1521165550258" TEXT="&#xc218; &#xb9ce;&#xc740; &#xd2b8;&#xb79c;&#xc9c0;&#xc2a4;&#xd130; &#xc18c;&#xc790;&#xb85c; &#xc9d1;&#xc57d;"/>
@@ -194,7 +194,7 @@
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1521428652228" ID="ID_15504400" MODIFIED="1521428657902" TEXT="&#xc18c;&#xc218; &#xb05d;&#xc790;&#xb9ac;&#xb294; &#xbc18;&#xc62c;&#xb9bc; &#xb41c;&#xb2e4;."/>
 </node>
-<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1521428949340" FOLDED="true" ID="ID_872721044" MODIFIED="1522889069840" STYLE="bubble" TEXT="&#xb2e8;&#xcd95;&#xd0a4;">
+<node BACKGROUND_COLOR="#ffffff" COLOR="#ff3333" CREATED="1521428949340" ID="ID_872721044" MODIFIED="1523360758248" STYLE="bubble" TEXT="&#xb2e8;&#xcd95;&#xd0a4;">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1521428964397" ID="ID_238658055" MODIFIED="1521680521962" TEXT="&#xcf54;&#xb4dc;&#xc815;&#xb82c;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1521428955905" ID="ID_299424764" MODIFIED="1521680521962" TEXT="CTRL + SHIFT + F"/>
@@ -6425,8 +6425,7 @@
   <body>
     <img src="INC_5055560606329791126.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523327474401" ID="ID_698735311" MODIFIED="1523327478760" TEXT="&#xc6d4;&#xb798; &#xd589;&#xb9c8;&#xb2e4; &#xc8fc;&#xc18c;&#xac00; &#xc788;&#xb2e4;."/>
@@ -6449,8 +6448,7 @@
   <body>
     <img src="INC_3891921069590133628.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6554,8 +6552,7 @@
   <body>
     <img src="INC_8088747211900906214.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523341040541" FOLDED="true" ID="ID_250503396" MODIFIED="1523342957289" TEXT="&#xc6b0;&#xd074;&#xb9ad;&#xd558;&#xace0; &#xd3b8;&#xc9d1;&#xc744; &#xd558;&#xba74; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xd654;&#xba74;&#xc774; &#xb098;&#xc628;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
@@ -6567,8 +6564,7 @@
   <body>
     <img src="INC_5403432058177026370.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6596,8 +6592,7 @@
   <body>
     <img src="INC_4414981408614991368.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6610,8 +6605,7 @@
   <body>
     <img src="INC_328803479927008583.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523342027322" FOLDED="true" ID="ID_190572028" MODIFIED="1523344355185" TEXT="&#xc6d0;&#xc778;">
@@ -6657,8 +6651,7 @@
   <body>
     <img src="INC_6429602035809089632.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523342673230" FOLDED="true" ID="ID_1019192487" MODIFIED="1523346275001" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
@@ -6687,8 +6680,7 @@
   <body>
     <img src="INC_2685488319729583509.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523344419955" ID="ID_775918116" MODIFIED="1523344424049" TEXT="&#xd14c;&#xc774;&#xbe14;&#xc744; &#xd558;&#xb098; &#xb9cc;&#xb4e4;&#xc5b4;&#xbcf4;&#xc790;"/>
@@ -6705,8 +6697,7 @@
   <body>
     <img src="INC_1921595901434778000.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6726,8 +6717,7 @@
   <body>
     <img src="INC_4888358713411758337.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523344899576" FOLDED="true" ID="ID_1579434360" MODIFIED="1523347725396" TEXT="&#xbd80;&#xc5ec;&#xb41c; &#xb8f0;(=&#xc5ed;&#xd560;)&#xc5d0;&#xc11c; &#xc27d;&#xac8c; &#xc2dc;&#xc2a4;&#xd15c; &#xad8c;&#xd55c;&#xc744; &#xc904; &#xc218; &#xc788;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
@@ -6739,8 +6729,7 @@
   <body>
     <img src="INC_7105765101642433460.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523345034793" FOLDED="true" ID="ID_72196021" MODIFIED="1523347725396" TEXT="&#xbd80;&#xc5ec;&#xb41c; &#xb8f0;">
@@ -6788,8 +6777,7 @@
   <body>
     <img src="INC_1371355975644917146.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
