@@ -1,0 +1,46 @@
+SQL> create table book_tb(
+  2  book_code number(4) constraint book_pk primary key,
+  3  book_name varchar2(30 char) not null
+  4  );
+
+Table created.
+
+SQL> insert into book_tb
+  2  values(1001,'오라클');
+
+1 row created.
+
+SQL> commit;
+
+Commit complete.
+
+SQL> grant all
+  2  on book_tb
+  3  to user01;
+
+Grant succeeded.
+
+SQL> show user;
+USER is "USER02"
+SQL> revoke all
+  2  on book_tb
+  3  from user01;
+
+Revoke succeeded.
+
+SQL> select * book_tb;
+select * book_tb
+         *
+ERROR at line 1:
+ORA-00923: FROM keyword not found where expected
+
+
+SQL> select * from book_tb;
+
+ BOOK_CODE BOOK_NAME
+---------- ----------------------------------------------
+      1001 오라클
+
+SQL> save day_11_cmd
+Created file day_11_cmd.sql
+SQL> host
