@@ -1,0 +1,39 @@
+<table>
+  <tbody><tr>
+    <th style="width:14%">Value</th>
+    <th>Description</th>
+    <th>Play it</th>    
+  </tr>  
+  <tr>
+    <td>normal</td>
+    <td>A normal line height. This is default</td>
+  <td><a target="_blank" class="w3-btn btnplayit" href="playit.asp?filename=playcss_line-height">Play it »</a></td>    
+  </tr>
+  <tr>
+    <td><i>number</i></td>
+    <td>A number that will be multiplied with the current
+      font-size to set the line height</td>
+  <td><a target="_blank" class="w3-btn btnplayit" href="playit.asp?filename=playcss_line-height&amp;preval=3">Play it »</a></td>    
+  </tr>
+  <tr>
+    <td><i>length</i></td>
+    <td>A fixed line height in px, pt, cm, etc.</td>
+  <td><a target="_blank" class="w3-btn btnplayit" href="playit.asp?filename=playcss_line-height&amp;preval=25px">Play it »</a></td>    
+  </tr>
+  <tr>
+    <td><i>%</i></td>
+    <td>A line height in percent of the current font
+      size</td>
+  <td><a target="_blank" class="w3-btn btnplayit" href="playit.asp?filename=playcss_line-height&amp;preval=150%25">Play it »</a></td>          
+  </tr>
+  <tr>
+    <td>initial</td>
+    <td>Sets this property to its default value. <a href="css_initial.asp">Read about <em>initial</em></a></td>
+  <td><a target="_blank" class="w3-btn btnplayit" href="playit.asp?filename=playcss_line-height&amp;preval=initial">Play it »</a></td>          
+    </tr>
+  <tr>
+    <td>inherit</td>
+    <td>Inherits this property from its parent element. <a href="css_inherit.asp">Read about <em>inherit</em></a></td>
+  <td></td>
+    </tr>
+</tbody></table>
