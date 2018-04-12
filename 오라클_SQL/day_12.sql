@@ -218,14 +218,18 @@ end;
 
 delete from pnoodle;
 
-drop table p;
+drop table pnoodle;
 create table pnoodle(
-pnum varchar(4),
+pnum char(4),
 pname varchar(20) constraint pname_notnull not null,
 sell number,
 price number,
 constraint pro_pk_pnum primary key(pnum));
 
+comment on column pnoodle.pnum is '상품번호 형식: p001...p999(999개)';
+--설명도 추가해줌
+
+desc pnoodle;
 
 --2. 상품번호는 자동증가컬럼으로 시퀀스가  입력
 --    조건 :1..999(999개)
@@ -247,19 +251,19 @@ select * from pnoodle;
 
 
 insert all
-into pnoodle(pnum,pname,sell,price)values(concat('P',lpad(nnum.nextval,3,0)),'진라면',90,500)
-into pnoodle(pnum,pname,sell,price)values(concat('P',lpad(nnum.nextval,3,0)),'신라면',69,450)
-into pnoodle(pnum,pname,sell,price)values(concat('P',lpad(nnum.nextval,3,0)),'너구리',60,550)
-into pnoodle(pnum,pname,sell,price)values(concat('P',lpad(nnum.nextval,3,0)),'팔도비빔면',89,600)
-into pnoodle(pnum,pname,sell,price)values(concat('P',lpad(nnum.nextval,3,0)),'짜파게티',37,650)
+into pnoodle(pnum,pname,sell,price)values(concat('P',TO_CHAR(lpad(nnum.nextval,3,'0'))),'진라면',90,500)
+into pnoodle(pnum,pname,sell,price)values(concat('P',TO_CHAR(lpad(nnum.nextval,3,'0'))),'신라면',69,450)
+into pnoodle(pnum,pname,sell,price)values(concat('P',TO_CHAR(lpad(nnum.nextval,3,'0'))),'너구리',60,550)
+into pnoodle(pnum,pname,sell,price)values(concat('P',TO_CHAR(lpad(nnum.nextval,3,'0'))),'팔도비빔면',89,600)
+into pnoodle(pnum,pname,sell,price)values(concat('P',TO_CHAR(lpad(nnum.nextval,3,'0'))),'짜파게티',37,650)
 select * from dual;
 
 
-insert into pnoodle(pnum,pname,sell,price)values(concat('P',lpad(nnum.nextval,3,0)),'진라면',90,500);
-insert into pnoodle(pnum,pname,sell,price)values(concat('P',lpad(nnum.nextval,3,0)),'신라면',69,450);
-insert into pnoodle(pnum,pname,sell,price)values(concat('P',lpad(nnum.nextval,3,0)),'너구리',60,550);
-insert into pnoodle(pnum,pname,sell,price)values(concat('P',lpad(nnum.nextval,3,0)),'팔도비빔면',89,600);
-insert into pnoodle(pnum,pname,sell,price)values(concat('P',lpad(nnum.nextval,3,0)),'짜파게티',37,650);
+insert into pnoodle(pnum,pname,sell,price)values(concat('P',TO_CHAR(lpad(nnum.nextval,3,'0'))),'진라면',90,500);
+insert into pnoodle(pnum,pname,sell,price)values(concat('P',TO_CHAR(lpad(nnum.nextval,3,'0'))),'신라면',69,450);
+insert into pnoodle(pnum,pname,sell,price)values(concat('P',TO_CHAR(lpad(nnum.nextval,3,'0'))),'너구리',60,550);
+insert into pnoodle(pnum,pname,sell,price)values(concat('P',TO_CHAR(lpad(nnum.nextval,3,'0'))),'팔도비빔면',89,600);
+insert into pnoodle(pnum,pname,sell,price)values(concat('P',TO_CHAR(lpad(nnum.nextval,3,'0'))),'짜파게티',37,650);
 
 select concat('P',lpad(nnum.nextval,3,0))
 from dual;
@@ -273,6 +277,14 @@ from dual;
 
 /*4. 현재 총매출액을 구하여 inline_view 뷰로 정의
 */
+
+create view p_view
+as
+select sum(sell * price) as "총매출액"
+from pnoodle;
+
+select 총매출액
+from p_view;
 
 select "총매출액"
 from(select sum(sell*price) as "총매출액"
@@ -293,7 +305,15 @@ from (select *
         order by sell desc) p
         where rownum <=2;
     
-
+create view p
+as
+select *
+        from pnoodle
+        order by sell desc;
+        
+select rownum as "순위", p.pname,p.sell
+from p
+where rownum <=2;
 
 select *
 from(select sell*price
