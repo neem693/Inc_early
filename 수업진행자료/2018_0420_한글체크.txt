@@ -1,0 +1,14 @@
+	char ch = 'ㅏ';
+	
+	Character.UnicodeBlock unicodeBlock = Character.UnicodeBlock.of( ch );
+
+        if ( UnicodeBlock.HANGUL_SYLLABLES.equals( unicodeBlock ) || 
+                UnicodeBlock.HANGUL_COMPATIBILITY_JAMO.equals( unicodeBlock )
+                || UnicodeBlock.HANGUL_JAMO.equals( unicodeBlock ) )
+        {
+            System.out.println("--한글 Yes--");
+        }
+        else {
+        	System.out.println("--한글 No--");
+        }
+
