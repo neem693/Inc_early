@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1520988580139" ID="ID_467252459" MODIFIED="1523436097905" TEXT="&#xc778;&#xd06c;&#xb808;&#xd30c;&#xc2a4;">
-<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node CREATED="1522112333425" ID="ID_665456941" MODIFIED="1526262812952" POSITION="right" TEXT="&#xc624;&#xb77c;&#xd074;_SQL_&#xbcf8;&#xacfc;&#xc815;">
 <font NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522113334785" ID="ID_347530400" MODIFIED="1522198769239" STYLE="fork" TEXT="&#xc720;&#xc6a9;&#xd55c; &#xb370;&#xc774;&#xd130;&#xc758; &#xc9d1;&#xd569;"/>
@@ -17289,8 +17289,7 @@
   <body>
     <img src="INC_8246535519739748024.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526268557918" ID="ID_166043931" MODIFIED="1526268569340" TEXT="LinkedList">
@@ -17304,8 +17303,7 @@
   <body>
     <img src="INC_8830889633064318309.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -17323,8 +17321,7 @@
   <body>
     <img src="INC_2034438907345276506.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -17351,8 +17348,7 @@
   <body>
     <img src="INC_3330420371798679869.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -17598,8 +17594,7 @@
   <body>
     <img src="INC_6141187126768550487.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526364520926" ID="ID_307758907" MODIFIED="1526364530992" TEXT="db.properties &#xb77c;&#xace0; &#xb9cc;&#xb4e0;&#xb2e4;."/>
@@ -17691,9 +17686,550 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1526365214555" FOLDED="true" ID="ID_1025829109" MODIFIED="1526365722993" TEXT="Base64 &#xd074;&#xb798;&#xc2a4;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526365214555" FOLDED="true" ID="ID_1025829109" MODIFIED="1526435879368" TEXT="Base64 &#xd074;&#xb798;&#xc2a4;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526365225450" ID="ID_1829691705" MODIFIED="1526365233872" TEXT="64&#xc9c4;&#xc218;&#xb97c; &#xd1b5;&#xd55c; &#xc554;&#xd638;&#xd654;/&#xbcf5;&#xd638;&#xd654;&#xb97c; &#xc704;&#xd55c; &#xd074;&#xb798;&#xc2a4;&#xc774;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526365296775" ID="ID_1446119557" MODIFIED="1526365303150" TEXT="&#xd398;&#xc774;&#xc9c0; 401~403"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431671722" ID="ID_1187241989" MODIFIED="1526431677240" TEXT="AWT">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431681873" ID="ID_1221817041" MODIFIED="1526431689811" TEXT="Abstract Window Toolkit"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431699738" FOLDED="true" ID="ID_90235956" MODIFIED="1526435875726" TEXT="&#xae30;&#xbcf8;&#xc801; &#xad6c;&#xc870; (&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526435500774" MODIFIED="1526435500774">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_492365035735374173.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431915448" FOLDED="true" ID="ID_271141700" MODIFIED="1526435881016" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108;&#xc758; &#xad6c;&#xc870;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526435621389" MODIFIED="1526435621389">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_4855375706293502217.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431918879" ID="ID_476010895" MODIFIED="1526431930994" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; &#xc0ac;&#xc6a9;&#xd560; &#xb54c;&#xb294; &#xd574;&#xb2f9; &#xd074;&#xb798;&#xc2a4;&#xb97c; &#xb530;&#xb85c; &#xc0dd;&#xc131;&#xd558;&#xb294;&#xac8c; &#xc544;&#xb2c8;&#xb77c;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431931180" ID="ID_1240623033" MODIFIED="1526431941961" TEXT="&#xadf8;&#xb0e5; &#xc0c1;&#xc18d;&#xd574;&#xc11c; &#xd574;&#xb2f9; &#xd074;&#xb798;&#xc2a4;&#xb97c; &#xb9cc;&#xb4e4;&#xc5b4;&#xbc84;&#xb824;&#xc11c;, this &#xc5d0; &#xb123;&#xb294;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431942301" ID="ID_1027726258" MODIFIED="1526431944754" TEXT="&#xc774;&#xac8c; &#xc77c;&#xbc18;&#xc801; &#xc0ac;&#xc6a9;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431944925" ID="ID_45125661" MODIFIED="1526431951844" TEXT="&#xadf8;&#xb807;&#xc9c0; &#xc54a;&#xc73c;&#xba74; &#xb108;&#xbb34; &#xbc88;&#xac70;&#xb86d;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432103719" ID="ID_641451144" MODIFIED="1526432127959" TEXT="&#xcee8;&#xd14c;&#xc774;&#xb108;&#xc758; &#xae30;&#xbcf8; &#xbc30;&#xce58;&#xad00;&#xb9ac;&#xc790;&#xac00; &#xc874;&#xc7ac;&#xd55c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432127959" ID="ID_67266431" MODIFIED="1526437406082" TEXT="&#xd574;&#xb2f9; &#xcee8;&#xd14c;&#xc774;&#xb108; - &#xae30;&#xbcf8; &#xbc30;&#xce58;&#xad00;&#xb9ac;&#xc790;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432111230" ID="ID_343546644" MODIFIED="1526432113449" TEXT="Frame">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432156896" ID="ID_1304426325" MODIFIED="1526437429834" TEXT="BorderLayout">
+<font NAME="&#xad74;&#xb9bc;&#xccb4;" SIZE="12"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432114456" ID="ID_1321258181" MODIFIED="1526432115643" TEXT="Panel">
+<node COLOR="#3333ff" CREATED="1526432161846" ID="ID_342535528" MODIFIED="1526437530578" STYLE="bubble" TEXT="FlowLayout">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432115907" ID="ID_1929292562" MODIFIED="1526432118360" TEXT="Dialog">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432166812" ID="ID_540603880" MODIFIED="1526432170609" TEXT="BorderLayout"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432119077" ID="ID_1837971040" MODIFIED="1526432121562" TEXT="Applet">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432171542" ID="ID_267184545" MODIFIED="1526432174526" TEXT="FlowLayout"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526437514898" ID="ID_1378394570" MODIFIED="1526437528632" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xb4e4;&#xc740; &#xae30;&#xbcf8;&#xac12;&#xc758; &#xb808;&#xc774;&#xc544;&#xc6c3;&#xc744; &#xd65c;&#xc6a9;&#xd55c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526437531939" ID="ID_125475104" MODIFIED="1526437542717" TEXT="&#xd398;&#xb110;&#xc758; &#xb808;&#xc774;&#xc544;&#xc6c3;&#xc774;"/>
+</node>
+<node COLOR="#3333ff" CREATED="1526432156896" FOLDED="true" ID="ID_544021119" MODIFIED="1526439588460" STYLE="bubble" TEXT="BorderLayout">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432781554" FOLDED="true" ID="ID_610063896" MODIFIED="1526434376057" TEXT="&#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526434315588" MODIFIED="1526434315588">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_7217540287594554704.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526434317843" FOLDED="true" ID="ID_652204259" MODIFIED="1526434375379" TEXT="&#xac1c;&#xc694;_more(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526434366173" ID="ID_731004353" MODIFIED="1526434366173">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_1919786510575413097.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432786483" ID="ID_1332956011" MODIFIED="1526432865254" TEXT="&#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; NORTH, WEST, EAST, SOUTH, CENTER &#xb85c; &#xb098;&#xb25c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432795235" ID="ID_324163986" LINK="#ID_1670740944" MODIFIED="1526433233794" TEXT="&#xc774;&#xb294; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xc608;&#xc81c;&#xc5d0;&#xc11c; &#xc798; &#xb4e4;&#xc5b4;&#xb09c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526433236658" ID="ID_390435648" MODIFIED="1526433289790" TEXT="&#xc0c1;&#xc218;&#xb85c; &#xd558;&#xac70;&#xb098;, &#xc544;&#xb2c8;&#xba74; BorderLayout"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432161846" FOLDED="true" ID="ID_357962273" MODIFIED="1526439589274" TEXT="FlowLayout">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432179471" ID="ID_1339233281" MODIFIED="1526437451103" TEXT="&#xd50c;&#xb85c;&#xc6b0; &#xb808;&#xc774;&#xc544;&#xc6c3;&#xc740; &#xadf8;&#xb0e5; &#xbb3c; &#xd750;&#xb974;&#xb4ef;&#xc774; &#xacc4;&#xc18d;&#xd574;&#xc11c; &#xbd99;&#xc774;&#xb294;&#xac78; &#xb9d0;&#xd55c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526433868331" ID="ID_1187286134" MODIFIED="1526435151405" TEXT="&#xc774;&#xc81c; setLayout&#xc744; &#xd560; &#xb54c; &#xc774;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526433962687" ID="ID_872070441" MODIFIED="1526433968516" TEXT="&#xae30;&#xbcf8;&#xac12;&#xc740; BorderLayout&#xc774;&#xae30; &#xb54c;&#xbb38;&#xc5d0;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526433968708" ID="ID_438647312" MODIFIED="1526433974911" TEXT="&#xc774;&#xac78; &#xbc14;&#xafd4;&#xc8fc;&#xb824;&#xba74; setLayout&#xc744; &#xd574;&#xc57c; &#xd55c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526434394677" ID="ID_1435305487" MODIFIED="1526434425180" TEXT="&#xc5ec;&#xae30;&#xc5d0; &#xb300;&#xd55c; &#xc0dd;&#xc131;&#xc790;&#xb97c; &#xbcf4;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526434422699" MODIFIED="1526434422699">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_1900632941155252391.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526434460457" ID="ID_1873623869" MODIFIED="1526434466786" TEXT="&#xae30;&#xbcf8; &#xc0dd;&#xc131;&#xc790;&#xb294; CENTER&#xc774;&#xb2e4;.">
+<node CREATED="1526434467041" ID="ID_628154265" MODIFIED="1526434467041" TEXT="public FlowLayout() {"/>
+<node CREATED="1526434467041" ID="ID_1934035919" MODIFIED="1526434467041" TEXT="this(CENTER, 5, 5);"/>
+<node CREATED="1526434467041" ID="ID_1824665368" MODIFIED="1526434467041" TEXT="}"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526434526678" ID="ID_1858192174" MODIFIED="1526434535069" TEXT="&#xc5ec;&#xae30;&#xc5d0; &#xb300;&#xd55c; &#xc9c4;&#xc815;&#xd55c; &#xc0dd;&#xc131;&#xc790;&#xb294; &#xc774;&#xac83;&#xc774;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526434535294" ID="ID_973950543" MODIFIED="1526434535294">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_7375471434913964295.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526434545671" ID="ID_1813662392" MODIFIED="1526434775421" TEXT="&#xc5ec;&#xae30;&#xc11c; gap&#xc740; &#xcc28;&#xc774;&#xb97c; &#xc758;&#xbbf8;&#xd55c;&#xb2e4;. hgap&#xc740; &#xb192;&#xc774;&#xb97c; vgap&#xc740; &#xb113;&#xc774;&#xb97c; &#xc758;&#xbbf8;&#xd55c;&#xb2e4;."/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436468662" FOLDED="true" ID="ID_1419190961" MODIFIED="1526439592415" TEXT="GridLayout">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436472692" ID="ID_1622420185" MODIFIED="1526436478551" TEXT="&#xd589;&#xc218;&#xc640; &#xc5f4;&#xc218;&#xb97c; &#xc9c0;&#xc815;&#xd560; &#xc218; &#xc788;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436478890" ID="ID_1782175192" MODIFIED="1526436483562" TEXT="&#xad1c;&#xd788; &#xc801;&#xac8c; &#xd558;&#xac70;&#xb098; &#xb9ce;&#xc774; &#xd560; &#xd544;&#xc694;&#xc5c6;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436538616" ID="ID_1737627143" MODIFIED="1526436540350" TEXT="&#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526436547629" MODIFIED="1526436547629">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_2088320054156101437.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436548799" ID="ID_556101529" MODIFIED="1526436555174" TEXT="&#xc5ec;&#xae30;&#xc11c; rows&#xac00; &#xd589;, cols&#xac00; &#xc5f4;&#xc774;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436555357" ID="ID_1312407917" MODIFIED="1526436560497" TEXT="&#xcd9c;&#xb825;&#xacb0;&#xacfc;&#xb97c; &#xbbf8;&#xb9ac;&#xbcf4;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526436565714" MODIFIED="1526436565714">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_8636162576708856984.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436567088" ID="ID_720854816" MODIFIED="1526436572354" TEXT="&#xc911;&#xc694;&#xd55c;&#xac74; &#xd589;&#xc744; &#xc6b0;&#xc120;&#xc801;&#xc73c;&#xb85c; &#xb9de;&#xcd98;&#xb2e4;&#xb294; &#xc810;&#xc774;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436572629" ID="ID_1531141279" MODIFIED="1526436577676" TEXT="&#xd589;&#xc744; &#xb9de;&#xcd9c; &#xc218; &#xc788;&#xb2e4;&#xba74; &#xc5f4;&#xc740; &#xbb34;&#xc2dc;&#xd55c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436577830" ID="ID_163336596" MODIFIED="1526436581173" TEXT="10&#xac1c;&#xb97c; &#xb9cc;&#xb4e0;&#xb2e4;&#xace0; &#xd588;&#xc744; &#xb54c;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436581488" ID="ID_1209311602" MODIFIED="1526436585472" TEXT="&#xc774; &#xaf2c;&#xb77c;&#xc9c0;&#xac00; &#xb09c;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526436618967" MODIFIED="1526436618967">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_6083001894803165667.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436690809" ID="ID_656935294" MODIFIED="1526436693512" TEXT="CardLayout"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526432680716" FOLDED="true" ID="ID_862969350" MODIFIED="1526437110130" TEXT="&#xc608;&#xc81c;(BorderLayout)">
+<node CREATED="1526433194957" ID="ID_1908169040" MODIFIED="1526433194957" TEXT="package mymain;"/>
+<node CREATED="1526433194957" MODIFIED="1526433194957" TEXT="import java.awt.BorderLayout;"/>
+<node CREATED="1526433194957" MODIFIED="1526433194957" TEXT="import javax.swing.JButton;"/>
+<node CREATED="1526433194957" MODIFIED="1526433194957" TEXT="import javax.swing.JFrame;"/>
+<node CREATED="1526433194957" ID="ID_1661428894" MODIFIED="1526433194957" TEXT="public class MyMain_BorderLayoutTest extends JFrame {">
+<node CREATED="1526433194957" ID="ID_1601132280" MODIFIED="1526433194957" TEXT="public MyMain_BorderLayoutTest() {">
+<node CREATED="1526433194957" MODIFIED="1526433194957" TEXT="super(&quot;&#xb0b4;&#xac00;&#xb9cc;&#xb4e0; &#xc708;&#xb3c4;&#xc6b0;&quot;);"/>
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="//this.setLocation(200,100);"/>
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="this.setBounds(200, 100, 400, 300);"/>
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="JButton jbt_east = new JButton(&quot;East&quot;);"/>
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="JButton jbt_west = new JButton(&quot;West&quot;);"/>
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="JButton jbt_south = new JButton(&quot;South&quot;);"/>
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="JButton jbt_north = new JButton(&quot;North&quot;);"/>
+<node CREATED="1526433194972" ID="ID_158212854" MODIFIED="1526433194972" TEXT="JButton jbt_center = new JButton(&quot;Center&quot;);"/>
+<node COLOR="#3333ff" CREATED="1526433194972" ID="ID_1670740944" MODIFIED="1526433225584" STYLE="bubble" TEXT="this.add(jbt_east,&quot;East&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1526433194972" ID="ID_1151539814" MODIFIED="1526433225584" STYLE="bubble" TEXT="this.add(jbt_west,BorderLayout.WEST);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1526433194972" ID="ID_500108035" MODIFIED="1526433225584" STYLE="bubble" TEXT="this.add(jbt_south,&quot;South&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1526433194972" ID="ID_91614112" MODIFIED="1526433225584" STYLE="bubble" TEXT="this.add(jbt_north , &quot;North&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1526433194972" ID="ID_1297494478" MODIFIED="1526433225584" STYLE="bubble" TEXT="this.add(jbt_center);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1526433194972" ID="ID_482162064" MODIFIED="1526433225584" STYLE="bubble" TEXT="//&#xbd99;&#xc774;&#xb294; &#xc635;&#xc158;&#xc744; &#xc0dd;&#xb7b5;&#xd558;&#xba74; &#xae30;&#xbcf8;&#xac12; center&#xac00; &#xc801;&#xc6a9;&#xb41c;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1526433194972" ID="ID_1020248237" MODIFIED="1526433194972" TEXT="this.setVisible(true);"/>
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);"/>
+</node>
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="}"/>
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="public static void main(String[] args) {">
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="new MyMain_BorderLayoutTest();"/>
+</node>
+<node CREATED="1526433194972" MODIFIED="1526433194972" TEXT="}"/>
+</node>
+<node CREATED="1526433194972" ID="ID_799226162" MODIFIED="1526433194972" TEXT="}"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526435065522" FOLDED="true" ID="ID_1047315892" MODIFIED="1526435085455" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526435084457" MODIFIED="1526435084457">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_3654420650484191935.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526434955042" FOLDED="true" ID="ID_1750310950" MODIFIED="1526437110130" TEXT="&#xc608;&#xc81c;(FlowLayout)">
+<node COLOR="#3333ff" CREATED="1526434965445" ID="ID_944620027" MODIFIED="1526434970281" STYLE="bubble" TEXT="package mymain;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1526434965446" ID="ID_1400106238" MODIFIED="1526434970277" TEXT="import java.awt.FlowLayout;"/>
+<node CREATED="1526434965446" ID="ID_1105225584" MODIFIED="1526434970277" TEXT="import javax.swing.JButton;"/>
+<node CREATED="1526434965447" ID="ID_630241178" MODIFIED="1526434970277" TEXT="import javax.swing.JFrame;"/>
+<node CREATED="1526434965447" ID="ID_1282942622" MODIFIED="1526434970277" TEXT="public class MyMain_FlowLayoutTest extends JFrame {">
+<node CREATED="1526434965447" ID="ID_1982242676" MODIFIED="1526434970278" TEXT="public MyMain_FlowLayoutTest() {">
+<node CREATED="1526434965448" MODIFIED="1526434970278" TEXT="super(&quot;&#xb0b4;&#xac00;&#xb9cc;&#xb4e0; &#xc708;&#xb3c4;&#xc6b0;&quot;);"/>
+<node CREATED="1526434965448" MODIFIED="1526434970278" TEXT="//this.setLocation(200,100);"/>
+<node CREATED="1526434965448" MODIFIED="1526434970278" TEXT="FlowLayout fl = new FlowLayout(FlowLayout.LEFT);"/>
+<node CREATED="1526434965448" MODIFIED="1526434970278" TEXT="this.setLayout(fl);"/>
+<node CREATED="1526434965448" MODIFIED="1526434970278" TEXT="for(int i =1; i&lt;30; i++) {">
+<node CREATED="1526434965449" MODIFIED="1526434970278" TEXT="JButton jbt = new JButton(&quot;Bt_&quot; + i);"/>
+<node CREATED="1526434965449" MODIFIED="1526434970278" TEXT="this.add(jbt);"/>
+</node>
+<node CREATED="1526434965449" MODIFIED="1526434970278" TEXT="}"/>
+<node CREATED="1526434965449" MODIFIED="1526434970278" TEXT="this.setBounds(200, 100, 400, 300);"/>
+<node CREATED="1526434965449" MODIFIED="1526434970278" TEXT="this.setVisible(true);"/>
+<node CREATED="1526434965450" MODIFIED="1526434970278" TEXT="this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);"/>
+</node>
+<node CREATED="1526434965450" MODIFIED="1526434970278" TEXT="}"/>
+<node CREATED="1526434965450" MODIFIED="1526434970278" TEXT="public static void main(String[] args) {">
+<node CREATED="1526434965450" MODIFIED="1526434970278" TEXT="new MyMain_FlowLayoutTest();"/>
+</node>
+<node CREATED="1526434965450" MODIFIED="1526434970278" TEXT="}"/>
+</node>
+<node CREATED="1526434965451" ID="ID_1385252079" MODIFIED="1526434970279" TEXT="}"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526435048649" FOLDED="true" ID="ID_239560220" MODIFIED="1526435087192" TEXT="&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526435061678" MODIFIED="1526435061678">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_2960393352186037152.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526436272224" FOLDED="true" ID="ID_1747959395" MODIFIED="1526437110130" TEXT="&#xc608;&#xc81c;(GridLayout)">
+<node COLOR="#3333ff" CREATED="1526436634346" FOLDED="true" ID="ID_1551820274" MODIFIED="1526436638621" STYLE="bubble" TEXT="package mymain;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1526436634346" ID="ID_1206022435" MODIFIED="1526436638143" TEXT="import java.awt.GridLayout;"/>
+<node CREATED="1526436634346" ID="ID_423789505" MODIFIED="1526436638143" TEXT="import javax.swing.JButton;"/>
+<node CREATED="1526436634346" ID="ID_1262529195" MODIFIED="1526436638143" TEXT="import javax.swing.JFrame;"/>
+<node CREATED="1526436634346" ID="ID_709150677" MODIFIED="1526436638143" TEXT="public class MyMain_GridLayoutTest extends JFrame {">
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="public MyMain_GridLayoutTest() {">
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="super(&quot;&#xb0b4;&#xac00;&#xb9cc;&#xb4e0; &#xc708;&#xb3c4;&#xc6b0;&quot;);"/>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="//this.setLocation(200,100);"/>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="GridLayout gl = new GridLayout(2,3,5,5);"/>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="this.setLayout(gl);"/>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="for(int i =1; i&lt;=6;i++) {">
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="String title = String.format(&quot;Bt_%02d&quot;, i);"/>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="JButton jbt = new JButton(title);"/>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="this.add(jbt);"/>
+</node>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="}"/>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="this.setBounds(200, 100, 400, 300);"/>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="this.setVisible(true);"/>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);"/>
+</node>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="}"/>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="public static void main(String[] args) {">
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="new MyMain_GridLayoutTest();"/>
+</node>
+<node CREATED="1526436634346" MODIFIED="1526436638143" TEXT="}"/>
+</node>
+<node CREATED="1526436634346" ID="ID_329619727" MODIFIED="1526436638143" TEXT="}"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526437118085" ID="ID_1741268051" MODIFIED="1526437123429" TEXT="&#xb808;&#xc774;&#xc544;&#xc6c3; &#xd65c;&#xc6a9;&#xd558;&#xae30;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526437125806" ID="ID_891962364" MODIFIED="1526437147134" TEXT="Jpanel&#xb3c4; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xc774;&#xb2e4;. &#xacb0;&#xad6d; &#xc774;&#xb7ec;&#xd55c; &#xcee8;&#xd14c;&#xc774;&#xb108;&#xb97c; &#xbc30;&#xce58;&#xd558;&#xb294;&#xb370;&#xb294; &#xc55e;&#xc11c; &#xbc30;&#xc6b4; Layout&#xc744; &#xc0ac;&#xc6a9;&#xd558;&#xba74; &#xb41c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526448144090" FOLDED="true" ID="ID_1346141358" MODIFIED="1526452274247" TEXT="&#xc608;&#xc81c;(CardLayout)">
+<node COLOR="#3333ff" CREATED="1526448169778" ID="ID_1989977467" MODIFIED="1526448285044" STYLE="bubble" TEXT="package mymain;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1526448169779" ID="ID_1224509615" MODIFIED="1526448176309" TEXT="import java.awt.CardLayout;"/>
+<node CREATED="1526448169779" ID="ID_135777595" MODIFIED="1526448176309" TEXT="import java.awt.Color;"/>
+<node CREATED="1526448169779" ID="ID_1114719434" MODIFIED="1526448176309" TEXT="import java.awt.GridLayout;"/>
+<node CREATED="1526448169780" ID="ID_903377393" MODIFIED="1526448176309" TEXT="import java.awt.event.ActionEvent;"/>
+<node CREATED="1526448169780" ID="ID_1259048335" MODIFIED="1526448176309" TEXT="import java.awt.event.ActionListener;"/>
+<node CREATED="1526448169780" ID="ID_1379702270" MODIFIED="1526448176309" TEXT="import javax.swing.JButton;"/>
+<node CREATED="1526448169780" ID="ID_1562653892" MODIFIED="1526448176309" TEXT="import javax.swing.JFrame;"/>
+<node CREATED="1526448169781" ID="ID_604497038" MODIFIED="1526448176309" TEXT="import javax.swing.JPanel;"/>
+<node CREATED="1526448169781" ID="ID_1884947460" MODIFIED="1526448286323" TEXT="public class MyMain_CardLayoutTest extends JFrame {">
+<node CREATED="1526448169781" MODIFIED="1526448176310" TEXT="JPanel centerP;// &#xc911;&#xc559;&#xc5d0; &#xb123;&#xc744; &#xd328;&#xb110;"/>
+<node CREATED="1526448169781" MODIFIED="1526448176310" TEXT="CardLayout card = new CardLayout();"/>
+<node CREATED="1526448169781" ID="ID_1903509195" MODIFIED="1526448176310" TEXT="public MyMain_CardLayoutTest() {">
+<node CREATED="1526448169782" MODIFIED="1526448176311" TEXT="super(&quot;&#xb0b4;&#xac00;&#xb9cc;&#xb4e0; &#xc708;&#xb3c4;&#xc6b0;&quot;);"/>
+<node CREATED="1526448169782" MODIFIED="1526448176311" TEXT="JPanel menuP = new JPanel();"/>
+<node CREATED="1526448169782" MODIFIED="1526448176311" TEXT="this.add(menuP, &quot;North&quot;);"/>
+<node CREATED="1526448169782" MODIFIED="1526448176311" TEXT="JButton jbt_red = new JButton(&quot;Red&quot;);"/>
+<node CREATED="1526448169782" MODIFIED="1526448176311" TEXT="JButton jbt_green = new JButton(&quot;Green&quot;);"/>
+<node CREATED="1526448169782" MODIFIED="1526448176311" TEXT="JButton jbt_blue = new JButton(&quot;Blue&quot;);"/>
+<node CREATED="1526448169783" MODIFIED="1526448176311" TEXT="menuP.setLayout(new GridLayout(1, 3));"/>
+<node CREATED="1526448169783" MODIFIED="1526448176311" TEXT="menuP.add(jbt_red);"/>
+<node CREATED="1526448169783" MODIFIED="1526448176311" TEXT="menuP.add(jbt_green);"/>
+<node CREATED="1526448169783" MODIFIED="1526448176311" TEXT="menuP.add(jbt_blue);"/>
+<node CREATED="1526448169783" MODIFIED="1526448176311" TEXT="centerP = new JPanel();"/>
+<node CREATED="1526448169783" MODIFIED="1526448176311" TEXT="this.add(centerP, &quot;Center&quot;);"/>
+<node CREATED="1526448169784" MODIFIED="1526448176312" TEXT="// centerP&#xc758; &#xbc30;&#xce58;&#xbc29;&#xbc95;&#xc744; &#xbcc0;&#xacbd;"/>
+<node CREATED="1526448169784" MODIFIED="1526448176312" TEXT="card = new CardLayout();"/>
+<node CREATED="1526448169784" MODIFIED="1526448176312" TEXT="centerP.setLayout(card);"/>
+<node CREATED="1526448169784" MODIFIED="1526448176312" TEXT="RedPanel redP = new RedPanel();"/>
+<node CREATED="1526448169784" MODIFIED="1526448176312" TEXT="redP.setBackground(Color.RED);"/>
+<node CREATED="1526448169784" MODIFIED="1526448176312" TEXT="GreenPanel greenP = new GreenPanel();"/>
+<node CREATED="1526448169785" MODIFIED="1526448176312" TEXT="greenP.setBackground(Color.GREEN);"/>
+<node CREATED="1526448169785" MODIFIED="1526448176312" TEXT="BluePanel blueP = new BluePanel();"/>
+<node CREATED="1526448169785" MODIFIED="1526448176312" TEXT="blueP.setBackground(Color.BLUE);"/>
+<node CREATED="1526448169786" MODIFIED="1526448176312" TEXT="centerP.add(redP, &quot;red&quot;);"/>
+<node CREATED="1526448169786" MODIFIED="1526448176312" TEXT="centerP.add(greenP, &quot;green&quot;);"/>
+<node CREATED="1526448169787" MODIFIED="1526448176312" TEXT="centerP.add(blueP, &quot;blue&quot;);"/>
+<node CREATED="1526448169787" MODIFIED="1526448176312" TEXT="// card.show(centerP, &quot;green&quot;);\"/>
+<node CREATED="1526448169788" MODIFIED="1526448176312" TEXT="// &#xce74;&#xb4dc;&#xb97c; &#xb4a4;&#xc9d1;&#xc74c;"/>
+<node COLOR="#3333ff" CREATED="1526448169788" ID="ID_754454948" MODIFIED="1526448301278" STYLE="bubble" TEXT="jbt_green.addActionListener(new ActionListener() {">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1526448169789" MODIFIED="1526448301276" TEXT="@Override"/>
+<node CREATED="1526448169789" MODIFIED="1526448301277" TEXT="public void actionPerformed(ActionEvent e) {">
+<node CREATED="1526448169790" MODIFIED="1526448301277" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526448169791" MODIFIED="1526448301277" TEXT="card.show(centerP, &quot;green&quot;);"/>
+</node>
+<node CREATED="1526448169791" MODIFIED="1526448301277" TEXT="}"/>
+</node>
+<node CREATED="1526448169791" ID="ID_875512563" MODIFIED="1526448176312" TEXT="});"/>
+<node COLOR="#3333ff" CREATED="1526448169791" ID="ID_1764395206" MODIFIED="1526448302327" STYLE="bubble" TEXT="jbt_red.addActionListener(new ActionListener() {">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1526448169792" MODIFIED="1526448302327" TEXT="@Override"/>
+<node CREATED="1526448169792" MODIFIED="1526448302327" TEXT="public void actionPerformed(ActionEvent e) {">
+<node CREATED="1526448169792" MODIFIED="1526448302327" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526448169792" MODIFIED="1526448302327" TEXT="card.show(centerP, &quot;red&quot;);"/>
+<node CREATED="1526448169792" MODIFIED="1526448302327" TEXT="//MyMain_CardLayoutTest.this.repaint();//&#xba54;&#xc778; &#xc708;&#xb3c4;&#xc6b0;&#xb97c; &#xb2e4;&#xc2dc; &#xadf8;&#xb824;&#xb77c;"/>
+<node CREATED="1526448169793" MODIFIED="1526448302327" TEXT="//&#xc5ec;&#xae30;&#xc11c; this&#xd558;&#xba74; ActionListener&#xac00; &#xc120;&#xd0dd;&#xb428;"/>
+<node CREATED="1526448169793" MODIFIED="1526448302327" TEXT="//&#xadfc;&#xb370; &#xb098;&#xb294; &#xc65c; &#xb2e4;&#xc2dc; &#xc548;&#xadf8;&#xb824;&#xb3c4; &#xc794;&#xc0c1;&#xc774; &#xc548;&#xb0a8;&#xb0d0;"/>
+</node>
+<node CREATED="1526448169793" MODIFIED="1526448302327" TEXT="}"/>
+</node>
+<node CREATED="1526448169793" ID="ID_478901685" MODIFIED="1526448176313" TEXT="});"/>
+<node COLOR="#3333ff" CREATED="1526448169793" ID="ID_1867194706" MODIFIED="1526448302963" STYLE="bubble" TEXT="jbt_blue.addActionListener(new ActionListener() {">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1526448169794" MODIFIED="1526448302962" TEXT="@Override"/>
+<node CREATED="1526448169794" MODIFIED="1526448302962" TEXT="public void actionPerformed(ActionEvent e) {">
+<node CREATED="1526448169794" MODIFIED="1526448302962" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526448169794" MODIFIED="1526448302962" TEXT="card.show(centerP, &quot;blue&quot;);"/>
+</node>
+<node CREATED="1526448169794" MODIFIED="1526448302962" TEXT="}"/>
+</node>
+<node CREATED="1526448169795" ID="ID_1379015001" MODIFIED="1526448176313" TEXT="});"/>
+<node CREATED="1526448169795" ID="ID_1242123566" MODIFIED="1526448176313" TEXT="init_button_event();"/>
+<node CREATED="1526448169795" ID="ID_1058815708" MODIFIED="1526448176313" TEXT="// this.setLocation(200,100);"/>
+<node CREATED="1526448169795" ID="ID_499737075" MODIFIED="1526448176313" TEXT="this.setBounds(200, 100, 400, 300);"/>
+<node CREATED="1526448169795" ID="ID_97215023" MODIFIED="1526448176313" TEXT="this.setVisible(true);"/>
+<node CREATED="1526448169795" ID="ID_1026278035" MODIFIED="1526448176313" TEXT="this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);"/>
+</node>
+<node CREATED="1526448169796" MODIFIED="1526448176313" TEXT="}"/>
+<node CREATED="1526448169796" MODIFIED="1526448176313" TEXT="private void init_button_event() {">
+<node CREATED="1526448169796" MODIFIED="1526448176313" TEXT="// TODO Auto-generated method stub"/>
+</node>
+<node CREATED="1526448169796" MODIFIED="1526448176313" TEXT="}"/>
+<node CREATED="1526448169796" MODIFIED="1526448176313" TEXT="public static void main(String[] args) {">
+<node CREATED="1526448169797" MODIFIED="1526448176313" TEXT="new MyMain_CardLayoutTest();"/>
+</node>
+<node CREATED="1526448169797" MODIFIED="1526448176313" TEXT="}"/>
+</node>
+<node CREATED="1526448169797" ID="ID_1000209195" MODIFIED="1526448176313" TEXT="}"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526448312585" ID="ID_888378759" MODIFIED="1526448333514" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc911;&#xc694;&#xd55c;&#xc810;&#xc740; ActionListener&#xb97c; add&#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;&#xb294; &#xac83;&#xc774;&#xb2e4;. &#xbc84;&#xd2bc;&#xc548;&#xc5d0; &#xb9d0;&#xc774;&#xb2e4;."/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526452275782" FOLDED="true" ID="ID_1164555991" MODIFIED="1526452313076" TEXT="&#xc608;&#xc81c;(CardLayout + &#xc2ac;&#xb77c;&#xc774;&#xb354; + &#xbc84;&#xd2bc;&#xc774;&#xbca4;&#xd2b8; + &#xc2ac;&#xb77c;&#xc774;&#xb354; &#xc774;&#xbca4;&#xd2b8;)">
+<node COLOR="#3333ff" CREATED="1526452298672" FOLDED="true" ID="ID_1051838619" MODIFIED="1526452308572" STYLE="bubble" TEXT="package mymain;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1526452298672" ID="ID_1492345930" MODIFIED="1526452308127" TEXT="import java.awt.Color;"/>
+<node CREATED="1526452298673" ID="ID_1258408461" MODIFIED="1526452308127" TEXT="import java.awt.Dimension;"/>
+<node CREATED="1526452298673" ID="ID_1345337142" MODIFIED="1526452308128" TEXT="import java.awt.Graphics;"/>
+<node CREATED="1526452298673" ID="ID_361897715" MODIFIED="1526452308128" TEXT="import java.awt.GridLayout;"/>
+<node CREATED="1526452298674" ID="ID_1260467662" MODIFIED="1526452308128" TEXT="import java.awt.Image;"/>
+<node CREATED="1526452298674" ID="ID_1909877146" MODIFIED="1526452308128" TEXT="import java.awt.event.ActionEvent;"/>
+<node CREATED="1526452298674" ID="ID_216768765" MODIFIED="1526452308128" TEXT="import java.awt.event.ActionListener;"/>
+<node CREATED="1526452298674" ID="ID_128395910" MODIFIED="1526452308128" TEXT="import javax.swing.ImageIcon;"/>
+<node CREATED="1526452298674" ID="ID_1757168829" MODIFIED="1526452308128" TEXT="import javax.swing.JButton;"/>
+<node CREATED="1526452298674" ID="ID_1224573769" MODIFIED="1526452308128" TEXT="import javax.swing.JFrame;"/>
+<node CREATED="1526452298675" ID="ID_112920645" MODIFIED="1526452308128" TEXT="import javax.swing.JPanel;"/>
+<node CREATED="1526452298675" ID="ID_1995116502" MODIFIED="1526452308128" TEXT="import javax.swing.JSlider;"/>
+<node CREATED="1526452298675" ID="ID_1115628417" MODIFIED="1526452308128" TEXT="import javax.swing.event.ChangeEvent;"/>
+<node CREATED="1526452298675" ID="ID_587540731" MODIFIED="1526452308128" TEXT="import javax.swing.event.ChangeListener;"/>
+<node CREATED="1526452298675" ID="ID_1882455179" MODIFIED="1526452308128" TEXT="public class ImageViewer extends JFrame {">
+<node CREATED="1526452298675" MODIFIED="1526452308129" TEXT="static Image image_pic1, image_pic2, image_pic3;"/>
+<node CREATED="1526452298676" MODIFIED="1526452308129" TEXT="static {">
+<node CREATED="1526452298676" MODIFIED="1526452308129" TEXT="image_pic1 = new ImageIcon(&quot;&#xcd08;&#xc774;&#xc2a4;.jpg&quot;).getImage();"/>
+<node CREATED="1526452298676" MODIFIED="1526452308130" TEXT="image_pic2 = new ImageIcon(&quot;&#xae40;&#xaddc;&#xbbfc;.jpg&quot;).getImage();"/>
+<node CREATED="1526452298676" MODIFIED="1526452308130" TEXT="image_pic3 = new ImageIcon(&quot;&#xae40;&#xc0c1;&#xc218;.jpg&quot;).getImage();"/>
+</node>
+<node CREATED="1526452298676" MODIFIED="1526452308130" TEXT="}"/>
+<node CREATED="1526452298677" MODIFIED="1526452308130" TEXT="//&#xd654;&#xba74;&#xc5d0; &#xadf8;&#xb9b4; &#xc774;&#xbbf8;&#xc9c0;"/>
+<node CREATED="1526452298677" MODIFIED="1526452308130" TEXT="Image pic = image_pic1;"/>
+<node CREATED="1526452298677" MODIFIED="1526452308130" TEXT="JPanel grimPan;"/>
+<node CREATED="1526452298677" MODIFIED="1526452308130" TEXT="int red=255,green=0,blue=0,alpha=120;"/>
+<node CREATED="1526452298677" MODIFIED="1526452308130" TEXT="public ImageViewer() {">
+<node CREATED="1526452298677" MODIFIED="1526452308130" TEXT="super(&quot;&#xb0b4;&#xac00;&#xb9cc;&#xb4e0; &#xc708;&#xb3c4;&#xc6b0;&quot;);"/>
+<node CREATED="1526452298678" MODIFIED="1526452308130" TEXT="init_toolbar_menu();"/>
+<node CREATED="1526452298678" MODIFIED="1526452308130" TEXT="init_grimpan();"/>
+<node CREATED="1526452298678" MODIFIED="1526452308130" TEXT="init_color_slider();"/>
+<node CREATED="1526452298678" MODIFIED="1526452308130" TEXT="this.setLocation(200,100);"/>
+<node CREATED="1526452298678" MODIFIED="1526452308130" TEXT="this.setResizable(false);"/>
+<node CREATED="1526452298678" MODIFIED="1526452308130" TEXT="//&#xb354;&#xad70;&#xb2e4;&#xb098; &#xc0ac;&#xc774;&#xc988; &#xbcc0;&#xacbd;&#xc744; &#xbabb;&#xd558;&#xac8c; &#xd55c;&#xb2e4;."/>
+<node CREATED="1526452298679" MODIFIED="1526452308130" TEXT="this.pack();"/>
+<node CREATED="1526452298679" MODIFIED="1526452308130" TEXT="//&#xc790;&#xc2dd;&#xc708;&#xb3c4;&#xc6b0; &#xc8fc;&#xc704;&#xb97c; &#xbd80;&#xbaa8;&#xac00; &#xac10;&#xc2fc;&#xb2e4;. &#xc989;, &#xc2e4;&#xc9c8;&#xc801;&#xc73c;&#xb85c; &#xc548;&#xc5d0; &#xc788;&#xb294; &#xcf58;&#xd150;&#xce20;&#xac00; &#xac00;&#xb85c;&#xc640; &#xc138;&#xb85c;&#xc758; &#xae38;&#xc774;&#xb97c; &#xc124;&#xc815;&#xd574;&#xc900;&#xb2e4;."/>
+<node CREATED="1526452298679" MODIFIED="1526452308130" TEXT="//this.setBounds(200, 100, 400, 300);"/>
+<node CREATED="1526452298679" MODIFIED="1526452308130" TEXT="this.setVisible(true);"/>
+<node CREATED="1526452298679" MODIFIED="1526452308130" TEXT="this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);"/>
+</node>
+<node CREATED="1526452298680" MODIFIED="1526452308130" TEXT="}"/>
+<node CREATED="1526452298680" MODIFIED="1526452308130" TEXT="private void init_color_slider() {">
+<node CREATED="1526452298680" MODIFIED="1526452308131" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526452298680" MODIFIED="1526452308131" TEXT="JPanel p = new JPanel(new GridLayout(4,1));"/>
+<node CREATED="1526452298680" MODIFIED="1526452308131" TEXT="JSlider sliderRed = new JSlider(0,255,red);"/>
+<node CREATED="1526452298681" MODIFIED="1526452308131" TEXT="JSlider sliderGreen = new JSlider(0,255,green);"/>
+<node CREATED="1526452298681" MODIFIED="1526452308131" TEXT="JSlider sliderBlue = new JSlider(0,255,blue);"/>
+<node CREATED="1526452298681" MODIFIED="1526452308131" TEXT="JSlider sliderAlpha = new JSlider(0,255,alpha);"/>
+<node CREATED="1526452298681" MODIFIED="1526452308131" TEXT="sliderRed.setMajorTickSpacing(50);"/>
+<node CREATED="1526452298681" MODIFIED="1526452308131" TEXT="sliderRed.setMajorTickSpacing(5);"/>
+<node CREATED="1526452298681" MODIFIED="1526452308131" TEXT="p.add(sliderRed);"/>
+<node CREATED="1526452298681" MODIFIED="1526452308131" TEXT="p.add(sliderGreen);"/>
+<node CREATED="1526452298682" MODIFIED="1526452308131" TEXT="p.add(sliderBlue);"/>
+<node CREATED="1526452298682" MODIFIED="1526452308131" TEXT="p.add(sliderAlpha);"/>
+<node CREATED="1526452298682" MODIFIED="1526452308131" TEXT="this.add(p,&quot;South&quot;);"/>
+<node CREATED="1526452298682" MODIFIED="1526452308131" TEXT="ChangeListener c_listener = new ChangeListener() {">
+<node CREATED="1526452298682" MODIFIED="1526452308131" TEXT="@Override"/>
+<node CREATED="1526452298682" MODIFIED="1526452308131" TEXT="public void stateChanged(ChangeEvent e) {">
+<node CREATED="1526452298683" MODIFIED="1526452308131" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526452298683" MODIFIED="1526452308131" TEXT="red = sliderRed.getValue();"/>
+<node CREATED="1526452298683" MODIFIED="1526452308131" TEXT="green = sliderGreen.getValue();"/>
+<node CREATED="1526452298683" MODIFIED="1526452308131" TEXT="blue = sliderBlue.getValue();"/>
+<node CREATED="1526452298683" MODIFIED="1526452308131" TEXT="alpha  = sliderAlpha.getValue();"/>
+<node CREATED="1526452298684" MODIFIED="1526452308131" TEXT="//System.out.println(sliderRed.getValue());"/>
+<node CREATED="1526452298684" MODIFIED="1526452308131" TEXT="grimPan.repaint();"/>
+</node>
+<node CREATED="1526452298684" MODIFIED="1526452308131" TEXT="}"/>
+</node>
+<node CREATED="1526452298684" MODIFIED="1526452308131" TEXT="};"/>
+<node CREATED="1526452298684" MODIFIED="1526452308131" TEXT="sliderRed.addChangeListener(c_listener);"/>
+<node CREATED="1526452298684" MODIFIED="1526452308131" TEXT="sliderBlue.addChangeListener(c_listener);"/>
+<node CREATED="1526452298685" MODIFIED="1526452308131" TEXT="sliderGreen.addChangeListener(c_listener);"/>
+<node CREATED="1526452298685" MODIFIED="1526452308131" TEXT="sliderAlpha.addChangeListener(c_listener);"/>
+</node>
+<node CREATED="1526452298685" MODIFIED="1526452308131" TEXT="}"/>
+<node CREATED="1526452298685" MODIFIED="1526452308131" TEXT="private void init_grimpan() {">
+<node CREATED="1526452298685" MODIFIED="1526452308132" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526452298686" MODIFIED="1526452308132" TEXT="grimPan = new JPanel() {">
+<node CREATED="1526452298686" MODIFIED="1526452308132" TEXT="@Override"/>
+<node CREATED="1526452298686" MODIFIED="1526452308132" TEXT="protected void paintComponent(Graphics g) {">
+<node CREATED="1526452298686" MODIFIED="1526452308132" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526452298686" MODIFIED="1526452308132" TEXT="super.paintComponent(g);"/>
+<node CREATED="1526452298686" MODIFIED="1526452308132" TEXT="g.drawImage(pic, 0, 0, this);"/>
+<node CREATED="1526452298687" MODIFIED="1526452308132" TEXT="Color color = new Color(red,green,blue,alpha);"/>
+<node CREATED="1526452298687" MODIFIED="1526452308132" TEXT="g.setColor(color);"/>
+<node CREATED="1526452298687" MODIFIED="1526452308132" TEXT="g.fillRect(0, 0, 300, 300);"/>
+</node>
+<node CREATED="1526452298687" MODIFIED="1526452308132" TEXT="}"/>
+</node>
+<node CREATED="1526452298687" MODIFIED="1526452308132" TEXT="};"/>
+<node CREATED="1526452298687" MODIFIED="1526452308132" TEXT="grimPan.setPreferredSize(new Dimension(300, 300));"/>
+<node CREATED="1526452298688" MODIFIED="1526452308132" TEXT="this.add((grimPan),&quot;Center&quot;);"/>
+</node>
+<node CREATED="1526452298688" MODIFIED="1526452308132" TEXT="}"/>
+<node CREATED="1526452298688" MODIFIED="1526452308132" TEXT="private void init_toolbar_menu() {">
+<node CREATED="1526452298688" MODIFIED="1526452308133" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526452298688" MODIFIED="1526452308133" TEXT="JPanel p = new JPanel(new GridLayout(1, 3));"/>
+<node CREATED="1526452298688" MODIFIED="1526452308133" TEXT="JButton jbt_pic1 = new JButton(&quot;&#xc0ac;&#xc9c4;1&quot;);"/>
+<node CREATED="1526452298689" MODIFIED="1526452308133" TEXT="JButton jbt_pic2 = new JButton(&quot;&#xc0ac;&#xc9c4;2&quot;);"/>
+<node CREATED="1526452298689" MODIFIED="1526452308133" TEXT="JButton jbt_pic3 = new JButton(&quot;&#xc0ac;&#xc9c4;3&quot;);"/>
+<node CREATED="1526452298689" MODIFIED="1526452308133" TEXT="p.add(jbt_pic1);"/>
+<node CREATED="1526452298689" MODIFIED="1526452308133" TEXT="p.add(jbt_pic2);"/>
+<node CREATED="1526452298689" MODIFIED="1526452308133" TEXT="p.add(jbt_pic3);"/>
+<node CREATED="1526452298689" MODIFIED="1526452308133" TEXT="this.add(p, &quot;North&quot;);"/>
+<node CREATED="1526452298690" MODIFIED="1526452308133" TEXT="// &#xbc84;&#xd2bc;&#xc774;&#xbca4;&#xd2b8; &#xcc98;&#xb9ac;&#xac1d;&#xccb4;(&#xc775;&#xba85; &#xb85c;&#xceec; &#xb0b4;&#xbd80;&#xd074;&#xb798;&#xc2a4;)"/>
+<node CREATED="1526452298690" MODIFIED="1526452308133" TEXT="ActionListener listener = new ActionListener() {">
+<node CREATED="1526452298690" MODIFIED="1526452308133" TEXT="@Override"/>
+<node CREATED="1526452298690" MODIFIED="1526452308133" TEXT="public void actionPerformed(ActionEvent e) {">
+<node CREATED="1526452298690" MODIFIED="1526452308134" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526452298690" MODIFIED="1526452308134" TEXT="System.out.println(e);"/>
+<node CREATED="1526452298691" MODIFIED="1526452308134" TEXT="Object evt_bt = e.getSource();"/>
+<node CREATED="1526452298691" MODIFIED="1526452308134" TEXT="if (evt_bt == jbt_pic1) {">
+<node CREATED="1526452298691" MODIFIED="1526452308134" TEXT="System.out.println(&quot;--&#xc0ac;&#xc9c4;1--&quot;);"/>
+<node CREATED="1526452298691" MODIFIED="1526452308134" TEXT="pic = image_pic1;"/>
+</node>
+<node CREATED="1526452298691" MODIFIED="1526452308134" TEXT="} else if (evt_bt == jbt_pic2) {">
+<node CREATED="1526452298691" MODIFIED="1526452308134" TEXT="System.out.println(&quot;--&#xc0ac;&#xc9c4;2--&quot;);"/>
+<node CREATED="1526452298692" MODIFIED="1526452308134" TEXT="pic = image_pic2;"/>
+</node>
+<node CREATED="1526452298692" MODIFIED="1526452308134" TEXT="} else if (evt_bt == jbt_pic3) {">
+<node CREATED="1526452298692" MODIFIED="1526452308134" TEXT="System.out.println(&quot;--&#xc0ac;&#xc9c4;3--&quot;);"/>
+<node CREATED="1526452298692" MODIFIED="1526452308134" TEXT="pic = image_pic3;"/>
+</node>
+<node CREATED="1526452298692" MODIFIED="1526452308134" TEXT="}"/>
+<node CREATED="1526452298693" MODIFIED="1526452308134" TEXT="grimPan.repaint();"/>
+</node>
+<node CREATED="1526452298693" MODIFIED="1526452308134" TEXT="}"/>
+</node>
+<node CREATED="1526452298693" MODIFIED="1526452308134" TEXT="};"/>
+<node CREATED="1526452298693" MODIFIED="1526452308134" TEXT="// &#xbc84;&#xd2bc;&#xc774;&#xbca4;&#xd2b8; &#xb4f1;&#xb85d;"/>
+<node CREATED="1526452298693" MODIFIED="1526452308134" TEXT="jbt_pic1.addActionListener(listener);"/>
+<node CREATED="1526452298693" MODIFIED="1526452308134" TEXT="jbt_pic2.addActionListener(listener);"/>
+<node CREATED="1526452298694" MODIFIED="1526452308134" TEXT="jbt_pic3.addActionListener(listener);"/>
+</node>
+<node CREATED="1526452298694" MODIFIED="1526452308134" TEXT="}"/>
+<node CREATED="1526452298694" MODIFIED="1526452308134" TEXT="public static void main(String[] args) {">
+<node CREATED="1526452298694" MODIFIED="1526452308134" TEXT="new ImageViewer();"/>
+</node>
+<node CREATED="1526452298694" MODIFIED="1526452308134" TEXT="}"/>
+</node>
+<node CREATED="1526452298695" ID="ID_161329387" MODIFIED="1526452308134" TEXT="}"/>
+</node>
+</node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1524472345954" ID="ID_1557935746" MODIFIED="1526372488893" STYLE="bubble" TEXT="&#xae30;&#xb2a5;(&#xbd80;&#xb85d;)">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -17879,8 +18415,7 @@
   <body>
     <img src="INC_3676768661762862186.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526360954837" FOLDED="true" ID="ID_1620412010" MODIFIED="1526361063974" TEXT="&#xc790;&#xc138;&#xd788;2(&#xc774;&#xbbf8;&#xc9c0;)">
@@ -17892,8 +18427,7 @@
   <body>
     <img src="INC_2608512162212758747.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -17988,6 +18522,9 @@
 </node>
 </node>
 </node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526439716537" ID="ID_502429602" MODIFIED="1526439722271" TEXT="&#xc774;&#xbca4;&#xd2b8; &#xb9ac;&#xc2a4;&#xb108;(&#xb530;&#xc628;&#xac83;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526439738313" ID="ID_1989317932" MODIFIED="1526439740485" TEXT="&#xc774;&#xbca4;&#xd2b8; &#xd074;&#xb798;&#xc2a4;"/>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" COLOR="#ff3333" CREATED="1526005227219" ID="ID_450092262" MODIFIED="1526005261142" STYLE="bubble" TEXT="----&#xc5ec;&#xae30;&#xc11c;&#xbd80;&#xd130;&#xb294; &#xc774;&#xb860;&#xc774; &#xc544;&#xb2c8;&#xb77c; &#xc2e4;&#xc2b5;&#xc704;&#xc8fc; &#xc608;&#xc81c;---">
@@ -18455,9 +18992,9 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1526283413588" FOLDED="true" ID="ID_1734493211" MODIFIED="1526372525172" TEXT="&#xb208;&#xc54c;&#xb3cc;&#xb9ac;&#xae30;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1526283433639" FOLDED="true" ID="ID_364115984" MODIFIED="1526360052418" TEXT="&#xc0bc;&#xac01;&#xbe44;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1526283466619" MODIFIED="1526283466619">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526283413588" ID="ID_1734493211" MODIFIED="1526452991375" TEXT="&#xb208;&#xc54c;&#xb3cc;&#xb9ac;&#xae30;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526283433639" FOLDED="true" ID="ID_364115984" MODIFIED="1526453008808" TEXT="&#xc0bc;&#xac01;&#xbe44;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1526283466619" ID="ID_822198185" MODIFIED="1526283466619">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -18468,7 +19005,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1526283440580" FOLDED="true" ID="ID_570604205" MODIFIED="1526360100576" TEXT="&#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526283440580" FOLDED="true" ID="ID_570604205" MODIFIED="1526453010415" TEXT="&#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1526283481962" ID="ID_1499430748" MODIFIED="1526283481962">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -18480,7 +19017,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1526360053355" FOLDED="true" ID="ID_238435032" MODIFIED="1526360100875" TEXT="&#xb208;&#xc54c;&#xb3cc;&#xb9ac;&#xae30; &#xc0bc;&#xac01;&#xbe44; &#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526360053355" FOLDED="true" ID="ID_238435032" MODIFIED="1526453012048" TEXT="&#xb208;&#xc54c;&#xb3cc;&#xb9ac;&#xae30; &#xc0bc;&#xac01;&#xbe44; &#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1526360091511" ID="ID_1842737753" MODIFIED="1526360091511">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -18489,12 +19026,11 @@
   <body>
     <img src="INC_713460543733535276.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1526294806967" ID="ID_1688837997" MODIFIED="1526372526016" TEXT="&#xc774;&#xbbf8;&#xc9c0; &#xcd94;&#xac00;&#xd558;&#xae30;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526294806967" FOLDED="true" ID="ID_1688837997" MODIFIED="1526431346216" TEXT="&#xc774;&#xbbf8;&#xc9c0; &#xcd94;&#xac00;&#xd558;&#xae30;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526294810942" ID="ID_1746565084" MODIFIED="1526372529272" TEXT="&#xc608;&#xc81c;">
 <node CREATED="1526294809215" ID="ID_1278517675" MODIFIED="1526294814957" TEXT="import java.awt.Graphics;"/>
 <node CREATED="1526294809215" ID="ID_136048692" MODIFIED="1526294814956" TEXT="import java.awt.image.BufferedImage;"/>
@@ -18560,14 +19096,13 @@
   <body>
     <img src="INC_5160025197427986487.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526366975854" ID="ID_1435037997" MODIFIED="1526366978729" TEXT="&#xd574;&#xb2f9; &#xc88c;&#xd45c;&#xb97c; &#xcc38;&#xace0;&#xd574;&#xc57c; &#xd55c;&#xb2e4;."/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1526296054608" FOLDED="true" ID="ID_1879288000" MODIFIED="1526365992777" TEXT="&#xbc30;&#xacbd;&#xd654;&#xba74; &#xcd94;&#xac00;&#xd558;&#xae30;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526296054608" FOLDED="true" ID="ID_1879288000" MODIFIED="1526431449095" TEXT="&#xbc30;&#xacbd;&#xd654;&#xba74; &#xcd94;&#xac00;&#xd558;&#xae30;">
 <node CREATED="1526296281440" MODIFIED="1526296281440" TEXT="class BackgroundPanel extends Panel"/>
 <node CREATED="1526296281441" ID="ID_816884654" MODIFIED="1526296281441" TEXT="{">
 <node CREATED="1526296281441" MODIFIED="1526296281441" TEXT="// The Image to store the background image in."/>
@@ -18616,6 +19151,423 @@
 <node CREATED="1526296363392" MODIFIED="1526296363392" TEXT="}"/>
 </node>
 </node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431381162" ID="ID_1027701999" MODIFIED="1526431540038" TEXT="&#xc608;&#xc81c;(&#xc2e4;&#xc2b5;52&#xc5d0; &#xbc30;&#xacbd;&#xd654;&#xba74; &#xcd94;&#xac00;&#xd558;&#xace0; &#xacf5;&#xc744; &#xad74;&#xb824;&#xc11c; &#xb208;&#xc54c;&#xc774; &#xcad3;&#xc544;&#xac00;&#xac8c; &#xd558;&#xae30;)">
+<node COLOR="#3333ff" CREATED="1526431527848" FOLDED="true" ID="ID_664708785" MODIFIED="1526447026398" STYLE="bubble" TEXT="package mymain;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1526431527848" ID="ID_268019538" MODIFIED="1526431607471" TEXT="import java.awt.Color;"/>
+<node CREATED="1526431527848" ID="ID_1432423234" MODIFIED="1526431607471" TEXT="import java.awt.Dimension;"/>
+<node CREATED="1526431527848" ID="ID_696197340" MODIFIED="1526431607471" TEXT="import java.awt.Graphics;"/>
+<node CREATED="1526431527863" ID="ID_688437114" MODIFIED="1526431607471" TEXT="import java.awt.Point;"/>
+<node CREATED="1526431527863" ID="ID_1834761602" MODIFIED="1526431607471" TEXT="import java.awt.Rectangle;"/>
+<node CREATED="1526431527863" ID="ID_1764192913" MODIFIED="1526431607471" TEXT="import java.awt.event.ActionEvent;"/>
+<node CREATED="1526431527863" ID="ID_517752742" MODIFIED="1526431607471" TEXT="import java.awt.event.ActionListener;"/>
+<node CREATED="1526431527863" ID="ID_728080462" MODIFIED="1526431607471" TEXT="import java.awt.event.MouseAdapter;"/>
+<node CREATED="1526431527863" ID="ID_1598995637" MODIFIED="1526431607471" TEXT="import java.awt.event.MouseEvent;"/>
+<node CREATED="1526431527863" ID="ID_1357488103" MODIFIED="1526431607471" TEXT="import java.awt.image.BufferedImage;"/>
+<node CREATED="1526431527863" ID="ID_1704899657" MODIFIED="1526431607471" TEXT="import java.io.File;"/>
+<node CREATED="1526431527863" ID="ID_249790623" MODIFIED="1526431607471" TEXT="import javax.imageio.ImageIO;"/>
+<node CREATED="1526431527863" ID="ID_50114288" MODIFIED="1526431607471" TEXT="import javax.swing.JFrame;"/>
+<node CREATED="1526431527863" ID="ID_124946283" MODIFIED="1526431607471" TEXT="import javax.swing.JPanel;"/>
+<node CREATED="1526431527863" ID="ID_65489433" MODIFIED="1526431607471" TEXT="import javax.swing.Timer;"/>
+<node CREATED="1526431527863" ID="ID_89298329" MODIFIED="1526431607471" TEXT="import myutil.MyConst;"/>
+<node CREATED="1526431527863" ID="ID_1510961642" MODIFIED="1526441734488" TEXT="public class Nunal extends JFrame {">
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="static BufferedImage img;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="static {">
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="try {">
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="img = ImageIO.read(new File(&quot;&#xc655;&#xb208;&#xc774;.jpg&quot;));"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="MyConst.GAME_W = img.getWidth();"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="MyConst.GAME_H = img.getHeight();"/>
+</node>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="} catch (Exception e) {"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="}"/>
+</node>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="}"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="Rectangle ball_rect;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="Rectangle rect_left, rect_right;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="Rectangle ballL, ballR, ballD, ballU;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="Rectangle RballL, RballR, RballD, RballU;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="JPanel gamePan;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="Timer timer;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="int ballsize, ball_x, ball_y;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="boolean bRight = true, bDown = true;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="Point eye_left, eye_right, eyeball_left, eyeball_right;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="int eye_radius, eyeball_radius;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="public Nunal() {">
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="super(&quot;&#xb208;&#xc54c;&#xad74;&#xb9ac;&#xae30;&quot;);"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="// &#xadf8;&#xb9bc;&#xd310; &#xcd08;&#xae30;&#xd654;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="init_gamepan();"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="// &#xb208;&#xc54c;&#xc758; &#xc88c;&#xd45c; &#xcd08;&#xae30;&#xd654;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="init_eye_position();"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="init_eyeball_position();"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="init_ball();"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="init_mouse_event();"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="this.setLocation(200, 100);"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="this.setResizable(false);"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="this.pack();"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="// this.setBounds(200, 100, 400, 300);"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="this.setVisible(true);"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="init_timer();"/>
+</node>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="}"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="private void init_timer() {">
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="ActionListener listner = new ActionListener() {">
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="@Override"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="public void actionPerformed(ActionEvent e) {">
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="move_ball();"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="Point pt = new Point();"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="pt.x = ball_x;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="pt.y = ball_y;"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="right_eyeball_position(pt);"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="left_eyeball_position(pt);"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="gamePan.repaint();"/>
+<node CREATED="1526431527863" MODIFIED="1526431527863" TEXT="work_rect(pt);"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="}"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="};"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="timer = new Timer(10, listner);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="timer.start();"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="}"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="protected void work_rect(Point pt) {">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="double x, y;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="x = eye_left.x - eye_radius;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="y = eye_left.y;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="rect_left = new Rectangle(eye_left.x - eye_radius + 5, eye_left.y - eye_radius + 5, eye_radius * 2 - 15,">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="eye_radius * 2 - 15);"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="rect_right = new Rectangle(eye_right.x - eye_radius + 5, eye_right.y - eye_radius + 5, eye_radius * 2 - 15,">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="eye_radius * 2 - 15);"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="ball_rect = new Rectangle(ball_x, ball_y, ballsize, ballsize);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="if (ball_rect.intersects(ballL)) {">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="System.out.println(&quot;left&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="bRight = false;"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="}"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="if (ball_rect.intersects(ballR)) {">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="System.out.println(&quot;Right&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="bRight = true;"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="}"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="if (ball_rect.intersects(ballD)) {">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="System.out.println(&quot;Down&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="bDown = true;"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="}"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="if (ball_rect.intersects(ballU)) {">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="System.out.println(&quot;Up&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="bDown = false;"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="}"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="if (ball_rect.intersects(RballL)) {">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="System.out.println(&quot;left&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="bRight = false;"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="}"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="if (ball_rect.intersects(RballR)) {">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="System.out.println(&quot;Right&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="bRight = true;"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="}"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="if (ball_rect.intersects(RballD)) {">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="System.out.println(&quot;Down&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="bDown = true;"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="}"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="if (ball_rect.intersects(RballU)) {">
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="System.out.println(&quot;Up&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="bDown = false;"/>
+</node>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="}"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// boolean left_eye = rect_left.contains(pt);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// boolean right_eye = rect_right.contains(pt);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// if(left_eye) {"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// bDown = !bDown;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// bRight = !bRight;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// }"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// if(ballR.contains((int)x,(int)y)) {"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// System.out.println(&quot;left&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// bRight = false;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// }"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// x= eye_left.x+eye_radius;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// if(ballL.contains((int)x,(int) y)) {"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// System.out.println(&quot;right&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// bRight = true;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// }"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// x=eye_left.x;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// y= eye_left.y - eye_radius;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="//"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// if(ballD.contains((int)x,(int) y)) {"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// System.out.println(&quot;Up&quot;);"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// bDown = false;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// }"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="//"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// y= eye_left.y + eye_radius;"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="//"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// if(ballD.contains((int)x,(int) y)) {"/>
+<node CREATED="1526431527879" MODIFIED="1526431527879" TEXT="// System.out.println(&quot;Down&quot;);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// bDown = true;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// }"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="}"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="protected void move_ball() {">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="if (bRight) {">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ball_x += 2;"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="} else">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ball_x -= 3;"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="if (bDown)">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ball_y += 2;"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="else">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ball_y -= 3;"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="if (ball_x &gt;= (img.getWidth(null) - ballsize)) {">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="bRight = false;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ball_x = MyConst.GAME_W - ballsize;"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="} else if (ball_x &lt;= 0)">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="bRight = true;"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="if (ball_y &gt;= img.getHeight(null) - ballsize) {">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="bDown = false;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ball_y = MyConst.GAME_H - ballsize;"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="} else if (ball_y &lt;= 0)">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="bDown = true;"/>
+</node>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="}"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="private void init_ball() {">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ballsize = eye_radius / 2;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ball_x = 185;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ball_y = 165;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="int rect_xL = eye_left.x - eye_radius + 5;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="int rect_xR = eye_right.x - eye_radius + 5;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="int rect_yL = eye_left.y - eye_radius + 5;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="int rect_yR = eye_right.y - eye_radius + 5;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// g.drawRect(rect_xL, rect_yL, 5, eye_radius *2 -15);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// g.drawRect(rect_xL, rect_yL, eye_radius * 2 -15, 5);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// g.drawRect(rect_xL, rect_yL + eye_radius*2 -15 -5, eye_radius * 2 -15, 5);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// g.drawRect(rect_xL + eye_radius*2 -15 -5, rect_yL, 5, eye_radius * 2 -15);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ballL = new Rectangle(rect_xL, rect_yL, 5, eye_radius * 2 - 15);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ballR = new Rectangle(rect_xL + eye_radius * 2 - 15 - 5, rect_yL, 5, eye_radius * 2 - 15);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ballU = new Rectangle(rect_xL, rect_yL, eye_radius * 2 - 15, 5);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="ballD = new Rectangle(rect_xL, rect_yL + eye_radius * 2 - 15 - 5, eye_radius * 2 - 15, 5);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="rect_xL = eye_right.x - eye_radius + 5;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="rect_xR = eye_right.x - eye_radius + 5;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="rect_yL = eye_right.y - eye_radius + 5;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="rect_yR = eye_right.y - eye_radius + 5;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="RballL = new Rectangle(rect_xL, rect_yL, 5, eye_radius * 2 - 15);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="RballR = new Rectangle(rect_xL + eye_radius * 2 - 15 - 5, rect_yL, 5, eye_radius * 2 - 15);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="RballU = new Rectangle(rect_xL, rect_yL, eye_radius * 2 - 15, 5);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="RballD = new Rectangle(rect_xL, rect_yL + eye_radius * 2 - 15 - 5, eye_radius * 2 - 15, 5);"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="}"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="private void init_mouse_event() {">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="MouseAdapter adapter = new MouseAdapter() {">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="@Override"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="public void mousePressed(MouseEvent e) {">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="super.mousePressed(e);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="System.out.println(e);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="Point pt = e.getPoint();"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// &#xc67c;&#xcabd; &#xb208;&#xc54c; &#xc911;&#xc2ec;&#xc88c;&#xd45c; &#xad6c;&#xd558;&#xae30;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="left_eyeball_position(pt);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// &#xc624;&#xb978;&#xcabd; &#xb208;&#xc54c; &#xc911;&#xc2ec;&#xc88c;&#xd45c; &#xad6c;&#xd558;&#xae30;"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="right_eyeball_position(pt);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="gamePan.repaint();"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// timer.stop();"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="}"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="@Override"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="public void mouseReleased(MouseEvent e) {">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="super.mouseReleased(e);"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="init_eyeball_position();"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="gamePan.repaint();"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="timer.start();"/>
+</node>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="}"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="@Override"/>
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="public void mouseDragged(MouseEvent e) {">
+<node CREATED="1526431527895" MODIFIED="1526431527895" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="super.mouseDragged(e);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="System.out.println(e);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="Point pt = e.getPoint();"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="// &#xc67c;&#xcabd; &#xb208;&#xc54c; &#xc911;&#xc2ec;&#xc88c;&#xd45c; &#xad6c;&#xd558;&#xae30;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="left_eyeball_position(pt);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="// &#xc624;&#xb978;&#xcabd; &#xb208;&#xc54c; &#xc911;&#xc2ec;&#xc88c;&#xd45c; &#xad6c;&#xd558;&#xae30;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="right_eyeball_position(pt);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="gamePan.repaint();"/>
+</node>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="}"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="@Override"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="public void mouseMoved(MouseEvent e) {">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="super.mouseMoved(e);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="Point pt = e.getPoint();"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="zero_point();"/>
+</node>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="}"/>
+</node>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="};"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="// gamePan&#xc5d0; &#xb9c8;&#xc6b0;&#xc2a4; &#xc774;&#xbca4;&#xd2b8; &#xc124;&#xc815;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="gamePan.addMouseListener(adapter);// pressed,released,entered,exited,clicked"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="gamePan.addMouseMotionListener(adapter);// draged,moved"/>
+</node>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="}"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="protected void zero_point() {">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="// TODO Auto-generated method stub"/>
+</node>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="}"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="protected void right_eyeball_position(Point pt) {">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="int xx = pt.x - eye_right.x;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="int yy = pt.y - eye_right.y;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="double r = Math.sqrt(xx * xx + yy * yy);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="double right_rate = eyeball_radius / r;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eyeball_right.x = (int) (eye_right.x + xx * right_rate);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eyeball_right.y = (int) (eye_right.y + yy * right_rate);"/>
+</node>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="}"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="protected void left_eyeball_position(Point pt) {">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="int xx = pt.x - eye_left.x;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="int yy = pt.y - eye_left.y;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="double r = Math.sqrt(xx * xx + yy * yy);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="double left_rate = eyeball_radius / r;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eyeball_left.x = (int) (eye_left.x + xx * left_rate);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eyeball_left.y = (int) (eye_left.y + yy * left_rate);"/>
+</node>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="}"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="private void init_eyeball_position() {">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eyeball_left = new Point(eye_left.x, eye_left.y);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eyeball_right = new Point(eye_right.x, eye_right.y);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eyeball_radius = eye_radius / 2;"/>
+</node>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="}"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="private void init_eye_position() {">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="// &#xc67c;&#xcabd; &#xb208; &#xc911;&#xc2ec;&#xc88c;&#xd45c;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eye_left = new Point();"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eye_left.x = 139;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eye_left.y = 118;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="// &#xc624;&#xb978;&#xcabd; &#xb208; &#xc911;&#xc2ec;&#xc88c;&#xd45c;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eye_right = new Point();"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eye_right.x = 248;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eye_right.y = 116;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="// &#xb208;&#xc758; &#xbc18;&#xc9c0;&#xb984;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eye_radius = 45;"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="rect_left = new Rectangle(eye_left.x - eye_radius + 5, eye_left.y - eye_radius + 5, eye_radius * 2 - 15,">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eye_radius * 2 - 15);"/>
+</node>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="rect_right = new Rectangle(eye_right.x - eye_radius + 5, eye_right.y - eye_radius + 5, eye_radius * 2 - 15,">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="eye_radius * 2 - 15);"/>
+</node>
+</node>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="}"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="private void init_gamepan() {">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="gamePan = new JPanel() {">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="@Override"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="protected void paintComponent(Graphics g) {">
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="g.drawString(&quot;&#xb208;&#xc54c;&#xadf8;&#xb9ac;&#xae30;&quot;, 10, 60);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="g.clearRect(0, 0, MyConst.GAME_W, MyConst.GAME_H);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="g.drawImage(img, 0, 0, this);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="g.setColor(new Color(255, 255, 0));"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="// ball"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="g.fillOval(ball_x, ball_y, ballsize, ballsize);"/>
+<node CREATED="1526431527910" MODIFIED="1526431527910" TEXT="// g.drawRect(ball_x, ball_y-ballsize, ballsize, ballsize);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="// g.drawRect(ball_x, ball_y+ballsize, ballsize, ballsize);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="// g.drawRect(ball_x+ballsize, ball_y, ballsize, ballsize);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="// g.drawRect(ball_x-ballsize, ball_y, ballsize, ballsize);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="// ball_rect"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="// ballU = new Rectangle(ball_x, ball_y-ballsize, ballsize, ballsize);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="// ballD = new Rectangle(ball_x, ball_y+ballsize, ballsize, ballsize);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="// ballR = new Rectangle(ball_x+ballsize, ball_y, ballsize, ballsize);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="// ballL = new Rectangle(ball_x-ballsize, ball_y, ballsize, ballsize);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="g.setColor(new Color(255, 255, 255));"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="g.fillOval(eye_left.x - eye_radius, eye_left.y - eye_radius, eye_radius * 2, eye_radius * 2);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="g.fillOval(eye_right.x - eye_radius, eye_right.y - eye_radius, eye_radius * 2, eye_radius * 2);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="g.setColor(new Color(0, 0, 0));"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="g.fillOval(eyeball_left.x - eyeball_radius, eyeball_left.y - eyeball_radius, eyeball_radius * 2,">
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="eyeball_radius * 2);"/>
+</node>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="g.fillOval(eyeball_right.x - eyeball_radius, eyeball_right.y - eyeball_radius, eyeball_radius * 2,">
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="eyeball_radius * 2);"/>
+</node>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="//g.fillOval(eye_left.x - eye_radius, eye_left.y, 5, 5);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="//g.fillOval(eye_left.x, eye_left.y + eye_radius, 5, 5);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="int rect_xL = eye_left.x - eye_radius + 5;"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="int rect_xR = eye_right.x - eye_radius + 5;"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="int rect_yL = eye_left.y - eye_radius + 5;"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="int rect_yR = eye_right.y - eye_radius + 5;"/>
+<node CREATED="1526431527926" ID="ID_1587061706" MODIFIED="1526431527926" TEXT="g.drawRect(rect_xL, rect_yL, 5, eye_radius * 2 - 15);"/>
+<node CREATED="1526431527926" ID="ID_472037666" MODIFIED="1526431527926" TEXT="g.drawRect(rect_xL, rect_yL, eye_radius * 2 - 15, 5);"/>
+<node CREATED="1526431527926" ID="ID_1685864144" MODIFIED="1526431527926" TEXT="g.drawRect(rect_xL, rect_yL + eye_radius * 2 - 15 - 5, eye_radius * 2 - 15, 5);"/>
+<node CREATED="1526431527926" ID="ID_1937687274" MODIFIED="1526431527926" TEXT="g.drawRect(rect_xL + eye_radius * 2 - 15 - 5, rect_yL, 5, eye_radius * 2 - 15);"/>
+<node COLOR="#3333ff" CREATED="1526431527926" ID="ID_583971726" MODIFIED="1526441901034" STYLE="bubble" TEXT="rect_xL = eye_right.x - eye_radius + 5;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1526431527926" ID="ID_1441802934" MODIFIED="1526441901274" STYLE="bubble" TEXT="rect_xR = eye_right.x - eye_radius + 5;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1526431527926" ID="ID_106991398" MODIFIED="1526441901467" STYLE="bubble" TEXT="rect_yL = eye_right.y - eye_radius + 5;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1526431527926" ID="ID_1646618042" MODIFIED="1526441901653" STYLE="bubble" TEXT="rect_yR = eye_right.y - eye_radius + 5;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="g.drawRect(rect_xL, rect_yL, 5, eye_radius * 2 - 15);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="g.drawRect(rect_xL, rect_yL, eye_radius * 2 - 15, 5);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="g.drawRect(rect_xL, rect_yL + eye_radius * 2 - 15 - 5, eye_radius * 2 - 15, 5);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="g.drawRect(rect_xL + eye_radius * 2 - 15 - 5, rect_yL, 5, eye_radius * 2 - 15);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="// &#xb809;&#xd0f1;&#xae00;"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1526431527926" ID="ID_1017590467" MODIFIED="1526431607471" TEXT="//                                g.drawRect(eye_left.x - eye_radius + 5, eye_left.y - eye_radius + 5, eye_radius * 2 - 15,"/>
+<node CREATED="1526431527926" ID="ID_1892897451" MODIFIED="1526431607471" TEXT="//                                                eye_radius * 2 - 15);"/>
+<node CREATED="1526431527926" ID="ID_1976030306" MODIFIED="1526431607471" TEXT="//                                g.drawRect(eye_right.x - eye_radius + 5, eye_right.y - eye_radius + 5, eye_radius * 2 - 15,"/>
+<node CREATED="1526431527926" FOLDED="true" ID="ID_1776474114" MODIFIED="1526431607471" TEXT="//                                                eye_radius * 2 - 15);">
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="}"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="};"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="// &#xd06c;&#xae30;&#xc608;&#xc57d;"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="gamePan.setPreferredSize(new Dimension(MyConst.GAME_W, MyConst.GAME_H));"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="this.add(gamePan, &quot;Center&quot;);"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="}"/>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="public static void main(String[] args) {">
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="new Nunal();"/>
+</node>
+<node CREATED="1526431527926" MODIFIED="1526431527926" TEXT="}"/>
+</node>
+<node CREATED="1526431527926" ID="ID_1369755731" MODIFIED="1526431607471" TEXT="}"/>
+</node>
+<node COLOR="#3333ff" CREATED="1526431603224" ID="ID_506743086" MODIFIED="1526431605426" STYLE="bubble" TEXT="package myutil;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1526431603224" ID="ID_1656031753" MODIFIED="1526431605426" TEXT="import mymain.Nunal;"/>
+<node CREATED="1526431603224" ID="ID_543420577" MODIFIED="1526431605426" TEXT="public class MyConst {">
+<node CREATED="1526431603224" MODIFIED="1526431605426" TEXT="public static int GAME_W = 400;"/>
+<node CREATED="1526431603224" MODIFIED="1526431605426" TEXT="public static int GAME_H = 290;"/>
+</node>
+<node CREATED="1526431603224" ID="ID_447228723" MODIFIED="1526431605426" TEXT="}"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1526431608971" FOLDED="true" ID="ID_1493686517" MODIFIED="1526441721828" STYLE="bubble" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xcd94;&#xac00;&#xd55c;&#xac74; Rectangle&#xc744; &#xc774;&#xc6a9;&#xd55c; &#xcda9;&#xb3cc; &#xc774;&#xbca4;&#xd2b8;&#xc774;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1526441716859" MODIFIED="1526441716859">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_7814616386291686417.jpeg" />
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -22722,7 +23674,7 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526370891084" ID="ID_913652688" LINK="#ID_240146597" MODIFIED="1526370944769" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc911;&#xc694;&#xd55c;&#xc810;&#xc740; timer&#xc5d0; ActionListner&#xb97c; &#xcd94;&#xac00;&#xd574;&#xc92c;&#xb2e4;&#xb294; &#xac83;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526370911196" ID="ID_487354800" LINK="#ID_1317032338" MODIFIED="1526370953277" TEXT="&#xc624;&#xb978;&#xcabd;&#xc73c;&#xb85c; &#xac08; &#xb54c;, ballsize&#xb97c; &#xbe7c;&#xc918;&#xc57c; &#xd55c;&#xb2e4;&#xb294; &#xac83;"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1526259447638" FOLDED="true" ID="ID_437157600" MODIFIED="1526370679757" TEXT="&#xac15;&#xc0ac;&#xb2d8;_&#xcf54;&#xb4dc;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526259447638" FOLDED="true" ID="ID_437157600" MODIFIED="1526431298107" TEXT="&#xac15;&#xc0ac;&#xb2d8;_&#xcf54;&#xb4dc;">
 <node CREATED="1526259451118" ID="ID_1126739456" MODIFIED="1526259451118" TEXT="KeyListener key_listener = new KeyAdapter() {">
 <node CREATED="1526259451118" MODIFIED="1526259451118" TEXT="@Override"/>
 <node CREATED="1526259451118" ID="ID_302788917" MODIFIED="1526259451118" TEXT="public void keyPressed(KeyEvent e) {">
@@ -22759,7 +23711,7 @@
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526293991295" ID="ID_1363840671" MODIFIED="1526293992185" TEXT="&#xacb0;&#xacfc;"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1526293562166" FOLDED="true" ID="ID_1777473109" MODIFIED="1526370825386" TEXT="&#xc2e4;&#xc2b5;52">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526293562166" ID="ID_1777473109" MODIFIED="1526431299076" TEXT="&#xc2e4;&#xc2b5;52">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1526293567703" FOLDED="true" ID="ID_1169262528" MODIFIED="1526370671835" TEXT="&#xb208;&#xc54c;&#xb3cc;&#xb9ac;&#xae30;">
 <node COLOR="#3333ff" CREATED="1526293570608" ID="ID_881994377" MODIFIED="1526365747988" STYLE="bubble" TEXT="package mymain;">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -23100,18 +24052,21 @@
   <body>
     <img src="INC_8345356755467531686.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431302191" ID="ID_1598983756" MODIFIED="1526431305144" TEXT="&#xc2e4;&#xc2b5;53">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526431313967" ID="ID_811371175" MODIFIED="1526431323514" TEXT="&#xbc30;&#xacbd;&#xd654;&#xba74;&#xc744; &#xcd94;&#xac00;&#xd558;&#xace0;"/>
 </node>
 </node>
 </node>
 </node>
 </node>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1524041749386" FOLDED="true" ID="ID_1875149447" MODIFIED="1525422877294" POSITION="right" TEXT="&#xc218;&#xd559;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1524047940040" FOLDED="true" ID="ID_701958895" MODIFIED="1525165602566" TEXT="&#xb77c;&#xb514;&#xc548;&#xc774; &#xc788;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1524041749386" ID="ID_1875149447" MODIFIED="1526452977351" POSITION="right" TEXT="&#xc218;&#xd559;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526452977347" ID="ID_475271587" MODIFIED="1526452978968" TEXT="&#xb77c;&#xb514;&#xc548;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1524047940040" ID="ID_701958895" MODIFIED="1526455419404" TEXT="&#xb77c;&#xb514;&#xc548;&#xc774; &#xc788;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1524047973140" ID="ID_1493008474" MODIFIED="1524047973140">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -23161,6 +24116,8 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1524048067371" ID="ID_1758355710" MODIFIED="1524048081996" TEXT="&#xb2e4;&#xc2dc; &#xb9d0;&#xd574;&#xc11c;, &#xc790;&#xc2e0;&#xc774; &#xc6d0;&#xd558;&#xb294; &#xac01;&#xb3c4;&#xc5d0; 0.0175 &#xb77c;&#xb294; &#xac12;&#xc744; &#xacf1;&#xd574;&#xc57c; &#xd55c;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1524048116743" ID="ID_674045767" MODIFIED="1524048122597" TEXT="&#xadf8;&#xb807;&#xac8c; &#xd574;&#xc11c; &#xb77c;&#xb514;&#xc548;&#xc744; &#xad6c;&#xd560; &#xc218; &#xc788;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1524049241591" ID="ID_1750987970" MODIFIED="1524049250388" TEXT="&#xc774; &#xb77c;&#xb514;&#xc548; &#xac12;&#xc73c;&#xb85c; &#xc5b4;&#xb290; &#xbc29;&#xd5a5;&#xc73c;&#xb85c; &#xbb58; &#xd560;&#xac74;&#xc9c0; &#xb9d0;&#xd560; &#xc218; &#xc788;&#xb294; &#xac83;&#xc774;&#xace0; "/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1526452981522" ID="ID_977384195" LINK="#ID_364115984" MODIFIED="1526453001973" TEXT="&#xc0bc;&#xac01;&#xd568;&#xc218;"/>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1524190911814" FOLDED="true" ID="ID_1598465169" MODIFIED="1525422877618" POSITION="right" TEXT="&#xcd94;&#xcc9c;&#xc0ac;&#xc774;&#xd2b8;">
 <node CREATED="1524190919642" ID="ID_1979997895" LINK="https://www.draw.io/" MODIFIED="1524190919642" TEXT="https://www.draw.io/"/>
