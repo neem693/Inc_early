@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1490237377712" ID="ID_1017947823" MODIFIED="1523500989726" TEXT="&#xb370;&#xc774;&#xd130;&#xbca0;&#xc774;&#xc2a4;">
+<node CREATED="1490237377712" ID="ID_1017947823" MODIFIED="1528684512529" TEXT="&#xb370;&#xc774;&#xd130;&#xbca0;&#xc774;&#xc2a4;">
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <node CREATED="1490241619702" ID="ID_699016921" MODIFIED="1523500947434" POSITION="right" TEXT="4&#xc8fc;&#xcc28; &#xbb38;&#xc81c;(2)">
 <node CREATED="1490241898180" ID="ID_298655304" LINK="4&#xc8fc;&#xcc28;_&#xd559;&#xc2b5;&#xd65c;&#xb3d9;&#xd480;&#xc774;(ER&#xbaa8;&#xb378;).pdf" MODIFIED="1490241900113" TEXT="4&#xc8fc;&#xcc28;_&#xd559;&#xc2b5;&#xd65c;&#xb3d9;&#xd480;&#xc774;(ER&#xbaa8;&#xb378;).pdf"/>
@@ -2627,8 +2627,8 @@
 </node>
 </node>
 </node>
-<node CREATED="1496722998766" FOLDED="true" ID="ID_1534138403" MODIFIED="1497315878673" TEXT="&#xb17c;&#xb9ac;&#xc801;&#xc124;&#xacc4;">
-<node COLOR="#000000" CREATED="1496723019768" FOLDED="true" ID="ID_914301993" MODIFIED="1497313439525" TEXT="1">
+<node CREATED="1496722998766" ID="ID_1534138403" MODIFIED="1528684507797" TEXT="&#xb17c;&#xb9ac;&#xc801;&#xc124;&#xacc4;">
+<node COLOR="#000000" CREATED="1496723019768" ID="ID_914301993" MODIFIED="1528684572885" TEXT="1">
 <font NAME="Dialog" SIZE="18"/>
 <node CREATED="1496723022927" FOLDED="true" ID="ID_1589014466" MODIFIED="1497313438385" TEXT="&#xd68c;&#xc6d0;&#xc774; &#xce74;&#xd398;&#xc5d0; &#xac00;&#xc785;&#xd55c; &#xad00;&#xacc4;&#xb97c; &#xd45c;&#xd604;&#xd55c; &#xb2e4;&#xc74c; ERD&#xb97c; &#xb9ac;&#xc2a4;&#xd2b8; &#xd615;&#xd0dc;&#xc758; &#xb9b4;&#xb808;&#xc774;&#xc158; &#xc2a4;&#xd0a4;&#xb9c8;&#xb85c; &#xbcc0;&#xd658;&#xd558;&#xace0;, &#xc678;&#xb798;&#xd0a4;&#xac00; &#xc788;&#xb294; &#xacbd;&#xc6b0; (FK)&#xb85c; &#xd45c;&#xc2dc;&#xd558;&#xc2dc;&#xc624;. (5&#xbd84;)">
 <node CREATED="1496723235386" ID="ID_1736538430" MODIFIED="1496899691302">
@@ -2653,7 +2653,7 @@
 </html></richcontent>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1496723020586" FOLDED="true" ID="ID_28989631" MODIFIED="1497314571685" TEXT="2">
+<node COLOR="#000000" CREATED="1496723020586" FOLDED="true" ID="ID_28989631" MODIFIED="1528684508870" TEXT="2">
 <font NAME="Dialog" SIZE="18"/>
 <node CREATED="1496723062726" ID="ID_99268237" MODIFIED="1497314570741" TEXT="&#xc0ac;&#xc6d0;&#xacfc; &#xbd80;&#xc591;&#xac00;&#xc871; &#xac04;&#xc758; &#xad00;&#xacc4;&#xb97c; &#xd45c;&#xd604;&#xd55c; &#xb2e4;&#xc74c; ERD&#xb97c; &#xb9ac;&#xc2a4;&#xd2b8; &#xd615;&#xd0dc;&#xc758; &#xb9b4;&#xb808;&#xc774;&#xc158; &#xc2a4;&#xd0a4;&#xb9c8;&#xb85c; &#xbcc0;&#xd658;&#xd558;&#xace0;, &#xc678;&#xb798;&#xd0a4;&#xac00; &#xc788;&#xb294; &#xacbd;&#xc6b0; (FK)&#xb85c; &#xd45c;&#xc2dc;&#xd558;&#xc2dc;&#xc624;.">
 <node CREATED="1496723254942" ID="ID_1321140252" MODIFIED="1497314570743">
