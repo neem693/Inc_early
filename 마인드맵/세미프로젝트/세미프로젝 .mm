@@ -401,11 +401,32 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node CREATED="1529409412806" ID="ID_1443839559" MODIFIED="1529409419352" TEXT="&#xc11c;&#xbc84; &#xb808;&#xb514; &#xcc3d;&#xc744; &#xb9cc;&#xb4e4;&#xace0; &#xc788;&#xb2e4;.">
-<node CREATED="1529409419967" ID="ID_1351628520" MODIFIED="1529409424905" TEXT="&#xc774;&#xac83;&#xb9cc; &#xb9cc;&#xb4e4;&#xb2e4; &#xc138;&#xbbf8; &#xd504;&#xb85c;&#xc81d;&#xd2b8; &#xb044;&#xd0c4;&#xaca0;&#xb2e4;."/>
-<node COLOR="#3333ff" CREATED="1529409425078" ID="ID_1103501618" MODIFIED="1529409443338" STYLE="bubble" TEXT="&#xc5ec;&#xd2bc;&#xac04;&#xc5d0; &#xc9c0;&#xae08;&#xc740; &#xc11c;&#xbc84;&#xc5d0;&#xc11c; userin&#xc744; &#xc804;&#xc1a1;&#xd588;&#xace0;, &#xadf8;&#xac83;&#xc744; &#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xac00; &#xbc1b;&#xc744;&#xb77c;&#xace0; &#xd558;&#xb294; &#xacfc;&#xc815;&#xc774;&#xb2e4;.">
+<node COLOR="#3333ff" CREATED="1529409412806" ID="ID_1443839559" MODIFIED="1529483095382" STYLE="bubble" TEXT="&#xc11c;&#xbc84; &#xb808;&#xb514; &#xcc3d;&#xc744; &#xb9cc;&#xb4e4;&#xace0; &#xc788;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1529409419967" ID="ID_1351628520" MODIFIED="1529483096277" STYLE="bubble" TEXT="&#xc774;&#xac83;&#xb9cc; &#xb9cc;&#xb4e4;&#xb2e4; &#xc138;&#xbbf8; &#xd504;&#xb85c;&#xc81d;&#xd2b8; &#xb044;&#xd0c4;&#xaca0;&#xb2e4;.">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
+<node COLOR="#3333ff" CREATED="1529409425078" ID="ID_1103501618" MODIFIED="1529483095382" STYLE="bubble" TEXT="&#xc5ec;&#xd2bc;&#xac04;&#xc5d0; &#xc9c0;&#xae08;&#xc740; &#xc11c;&#xbc84;&#xc5d0;&#xc11c; userin&#xc744; &#xc804;&#xc1a1;&#xd588;&#xace0;, &#xadf8;&#xac83;&#xc744; &#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xac00; &#xbc1b;&#xc744;&#xb77c;&#xace0; &#xd558;&#xb294; &#xacfc;&#xc815;&#xc774;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1529483102801" ID="ID_1049745368" MODIFIED="1529490859424" STYLE="bubble" TEXT="&#xc11c;&#xbc84;&#xac00; &#xc2a4;&#xd0c0;&#xd2b8;&#xb97c; &#xb204;&#xb974;&#xba74; &#xac8c;&#xc784;&#xc774; &#xc2e4;&#xd589;&#xb41c;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1529490863372" ID="ID_1934389162" MODIFIED="1529493049376" STYLE="bubble" TEXT="&#xc2a4;&#xd0c0;&#xd2b8; &#xbc84;&#xd2bc;&#xc744; &#xb204;&#xb974;&#xba74; &#xac8c;&#xc784;&#xc774; &#xbc14;&#xb85c; &#xc2dc;&#xc791;&#xb418;&#xac8c;&#xb054; &#xd558;&#xc790;. &#xc989;, main&#xc744; &#xc5c6;&#xc560;&#xb77c;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node CREATED="1529493051974" ID="ID_888730709" MODIFIED="1529493140618" TEXT="&#xc11c;&#xbc84;&#xc5d0;&#xc11c; pan&#xacfc; ch_list, &#xbb38;&#xc81c;&#xae4c;&#xc9c0; &#xcd08;&#xae30;&#xd654; &#xd558;&#xc5ec; &#xbcf4;&#xb0b4;&#xc790;">
+<node CREATED="1529494258176" ID="ID_425446432" MODIFIED="1529494598248" TEXT="&#xcc98;&#xc74c;&#xc5d0; &#xc11c;&#xbc84;&#xc5d0;&#xc11c; &#xd310;&#xacfc; &#xb9ac;&#xc2a4;&#xd2b8;, &#xbb38;&#xc81c;&#xae4c;&#xc9c0; &#xbaa8;&#xb450; &#xb118;&#xaca8;&#xc900;&#xb2e4;.">
+<node CREATED="1529494737858" ID="ID_1781779181" MODIFIED="1529494744962" TEXT="&#xbb38;&#xc81c;&#xb294; &#xc5b4;&#xb808;&#xc774; &#xb9ac;&#xc2a4;&#xd2b8; &#xd1b5;&#xc9f8;&#xb85c; &#xb118;&#xaca8;&#xc900;&#xb2e4;."/>
+<node COLOR="#3333ff" CREATED="1529495889528" ID="ID_1391061877" MODIFIED="1529495904041" STYLE="bubble" TEXT="&#xbb38;&#xc81c;&#xb97c; &#xcd08;&#xae30;&#xd654; &#xd558;&#xb294; &#xb370; &#xae4c;&#xc9c0; &#xd588;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1529495905605" ID="ID_233791377" MODIFIED="1529495909276" STYLE="bubble" TEXT="&#xace7;&#xbc14;&#xb85c; &#xb0b4;&#xc77c; &#xc9c4;&#xd589;&#xd558;&#xc790;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1529494637199" ID="ID_1969244381" MODIFIED="1529494734838" TEXT="&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xac00; &#xadf8;&#xac78; &#xbc1b;&#xc73c;&#xba74; &#xbc14;&#xb85c; timer&#xb97c; &#xc2a4;&#xd0c0;&#xd2b8; &#xc2dc;&#xd0a8;&#xb2e4;."/>
 </node>
 </node>
 <node CREATED="1527832080531" ID="ID_1458204667" MODIFIED="1527838166509" POSITION="right" TEXT="&#xc911;&#xc694;&#xd55c;&#xc810;">
