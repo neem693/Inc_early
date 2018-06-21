@@ -416,17 +416,65 @@
 <node COLOR="#3333ff" CREATED="1529490863372" ID="ID_1934389162" MODIFIED="1529493049376" STYLE="bubble" TEXT="&#xc2a4;&#xd0c0;&#xd2b8; &#xbc84;&#xd2bc;&#xc744; &#xb204;&#xb974;&#xba74; &#xac8c;&#xc784;&#xc774; &#xbc14;&#xb85c; &#xc2dc;&#xc791;&#xb418;&#xac8c;&#xb054; &#xd558;&#xc790;. &#xc989;, main&#xc744; &#xc5c6;&#xc560;&#xb77c;.">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
-<node CREATED="1529493051974" ID="ID_888730709" MODIFIED="1529493140618" TEXT="&#xc11c;&#xbc84;&#xc5d0;&#xc11c; pan&#xacfc; ch_list, &#xbb38;&#xc81c;&#xae4c;&#xc9c0; &#xcd08;&#xae30;&#xd654; &#xd558;&#xc5ec; &#xbcf4;&#xb0b4;&#xc790;">
-<node CREATED="1529494258176" ID="ID_425446432" MODIFIED="1529494598248" TEXT="&#xcc98;&#xc74c;&#xc5d0; &#xc11c;&#xbc84;&#xc5d0;&#xc11c; &#xd310;&#xacfc; &#xb9ac;&#xc2a4;&#xd2b8;, &#xbb38;&#xc81c;&#xae4c;&#xc9c0; &#xbaa8;&#xb450; &#xb118;&#xaca8;&#xc900;&#xb2e4;.">
-<node CREATED="1529494737858" ID="ID_1781779181" MODIFIED="1529494744962" TEXT="&#xbb38;&#xc81c;&#xb294; &#xc5b4;&#xb808;&#xc774; &#xb9ac;&#xc2a4;&#xd2b8; &#xd1b5;&#xc9f8;&#xb85c; &#xb118;&#xaca8;&#xc900;&#xb2e4;."/>
-<node COLOR="#3333ff" CREATED="1529495889528" ID="ID_1391061877" MODIFIED="1529495904041" STYLE="bubble" TEXT="&#xbb38;&#xc81c;&#xb97c; &#xcd08;&#xae30;&#xd654; &#xd558;&#xb294; &#xb370; &#xae4c;&#xc9c0; &#xd588;&#xb2e4;.">
+<node CREATED="1529493051974" ID="ID_888730709" MODIFIED="1529549730252" TEXT="&#xc11c;&#xbc84;&#xc5d0;&#xc11c; pan&#xacfc; ch_list, &#xbb38;&#xc81c;&#xae4c;&#xc9c0; &#xcd08;&#xae30;&#xd654; &#xd558;&#xc5ec; &#xbcf4;&#xb0b4;&#xc790;">
+<font NAME="&#xad74;&#xb9bc;&#xccb4;" SIZE="12"/>
+<node COLOR="#3333ff" CREATED="1529494258176" ID="ID_425446432" MODIFIED="1529549730252" STYLE="bubble" TEXT="&#xcc98;&#xc74c;&#xc5d0; &#xc11c;&#xbc84;&#xc5d0;&#xc11c; &#xd310;&#xacfc; &#xb9ac;&#xc2a4;&#xd2b8;, &#xbb38;&#xc81c;&#xae4c;&#xc9c0; &#xbaa8;&#xb450; &#xb118;&#xaca8;&#xc900;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1529494737858" ID="ID_1781779181" MODIFIED="1529549730252" TEXT="&#xbb38;&#xc81c;&#xb294; &#xc5b4;&#xb808;&#xc774; &#xb9ac;&#xc2a4;&#xd2b8; &#xd1b5;&#xc9f8;&#xb85c; &#xb118;&#xaca8;&#xc900;&#xb2e4;."/>
+<node COLOR="#3333ff" CREATED="1529495889528" ID="ID_1391061877" MODIFIED="1529549730252" STYLE="bubble" TEXT="&#xbb38;&#xc81c;&#xb97c; &#xcd08;&#xae30;&#xd654; &#xd558;&#xb294; &#xb370; &#xae4c;&#xc9c0; &#xd588;&#xb2e4;.">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
-<node COLOR="#3333ff" CREATED="1529495905605" ID="ID_233791377" MODIFIED="1529495909276" STYLE="bubble" TEXT="&#xace7;&#xbc14;&#xb85c; &#xb0b4;&#xc77c; &#xc9c4;&#xd589;&#xd558;&#xc790;.">
+<node COLOR="#3333ff" CREATED="1529495905605" ID="ID_233791377" MODIFIED="1529549730252" STYLE="bubble" TEXT="&#xace7;&#xbc14;&#xb85c; &#xb0b4;&#xc77c; &#xc9c4;&#xd589;&#xd558;&#xc790;.">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node CREATED="1529494637199" ID="ID_1969244381" MODIFIED="1529494734838" TEXT="&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xac00; &#xadf8;&#xac78; &#xbc1b;&#xc73c;&#xba74; &#xbc14;&#xb85c; timer&#xb97c; &#xc2a4;&#xd0c0;&#xd2b8; &#xc2dc;&#xd0a8;&#xb2e4;."/>
+<node COLOR="#3333ff" CREATED="1529494637199" ID="ID_1969244381" MODIFIED="1529549730252" STYLE="bubble" TEXT="&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xac00; &#xadf8;&#xac78; &#xbc1b;&#xc73c;&#xba74; &#xbc14;&#xb85c; timer&#xb97c; &#xc2a4;&#xd0c0;&#xd2b8; &#xc2dc;&#xd0a8;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1529549977560" ID="ID_405537762" MODIFIED="1529550021697" TEXT="&#xacfc;&#xc815;(&#xd504;&#xb85c;&#xd1a0;&#xcf5c;)">
+<node COLOR="#3333ff" CREATED="1529549982108" ID="ID_132631386" MODIFIED="1529550053019" STYLE="bubble" TEXT="1.Game_Start(&#xc11c;&#xbc84;-&gt;&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1529549988618" ID="ID_1523679495" MODIFIED="1529550053237" STYLE="bubble" TEXT="ox_survive &#xac1d;&#xccb4; &#xc0dd;&#xc131;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1529550013508" ID="ID_210061884" MODIFIED="1529558161700" STYLE="bubble" TEXT="2.Initilize(&#xc11c;&#xbc84;-&gt;&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1529550042167" ID="ID_671848822" MODIFIED="1529558162244" STYLE="bubble" TEXT="Pan&#xacfc; ch_list &#xbb38;&#xc81c; &#xcd08;&#xae30;&#xd654;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1529558169096" ID="ID_1038527855" MODIFIED="1529569186436" STYLE="bubble" TEXT="ch_user&#xb3c4; &#xcd08;&#xae30;&#xd654; &#xd558;&#xc790;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1529569191185" ID="ID_411206430" MODIFIED="1529570800692" STYLE="bubble" TEXT="ch_user&#xb294; ai&#xac00; &#xc190;&#xb300;&#xc9c0; &#xbabb;&#xd558;&#xac8c; &#xd558;&#xc790;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1529570801206" ID="ID_1600726132" MODIFIED="1529570936236" TEXT="3.next_round(&#xc11c;&#xbc84;-&gt;&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;)">
+<node CREATED="1529571147353" ID="ID_293724380" MODIFIED="1529571175432" TEXT="ai&#xac00; &#xc6c0;&#xc9c1;&#xc77c; &#xacf3;&#xc744; &#xbc30;&#xc5f4;&#xb85c; &#xc800;&#xc7a5;&#xd574;&#xb193;&#xb294;&#xb2e4;."/>
+<node CREATED="1529571350968" ID="ID_505266838" MODIFIED="1529571371188" TEXT="ch_list &#xc21c;&#xc11c;&#xb300;&#xb85c; &#xc9c4;&#xd589;&#xd558;&#xba70;, user&#xac00; &#xc788;&#xc744; &#xacbd;&#xc6b0; null&#xb85c; &#xd55c;&#xb2e4;."/>
+<node CREATED="1529571390708" ID="ID_387648731" MODIFIED="1529571451624" TEXT="&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xac00; &#xd574;&#xb2f9;&#xd558;&#xb294; &#xbc30;&#xc5f4;&#xc744; &#xbc1b;&#xb294; &#xc989;&#xc2dc;, &#xadf8; &#xc6c0;&#xc9c1;&#xc77c; &#xac12;&#xc744; &#xae30;&#xc900;&#xc73c;&#xb85c; &#xc6c0;&#xc9c1;&#xc774;&#xb3c4;&#xb85d; &#xd55c;&#xb2e4;."/>
+<node CREATED="1529571378857" ID="ID_874049427" MODIFIED="1529571383122" TEXT="timer_start&#xb97c; &#xd55c;&#xb2e4;."/>
+<node CREATED="1529582682644" ID="ID_905574483" MODIFIED="1529582684457" TEXT="&#xace0;&#xccd0;&#xc57c;&#xd560;&#xac83;">
+<node COLOR="#3333ff" CREATED="1529582685052" ID="ID_571835147" MODIFIED="1529582711602" STYLE="bubble" TEXT="ch_m&#xc5d0;&#xc11c; &#xd655;&#xb960;&#xc744; &#xc8fc;&#xace0; &#xacb0;&#xc815;&#xc744; &#xd574;&#xc57c; &#xd558;&#xb294;&#xb370; &#xc77c;&#xbc29;&#xd5a5;&#xc801;&#xc73c;&#xb85c; &#xace0;&#xce58;&#xb2c8;&#xae4c; &#xb2e4; O&#xb85c;&#xac00;&#xb294; &#xae09;&#xc0c1;&#xc0ac;&#xac00; &#xc774;&#xc5b4;&#xc9c0;&#xace0; &#xc788;&#xb2e4;. &#xc774;&#xac83;&#xc744; &#xd574;&#xacb0;&#xd558;&#xb77c;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+</node>
+<node CREATED="1529570936768" ID="ID_1058941522" MODIFIED="1529571317405" TEXT="4.end_round(&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;-&gt;&#xc11c;&#xbc84;)">
+<node CREATED="1529580075268" ID="ID_247874573" MODIFIED="1529580381371" TEXT="&#xd574;&#xc918;&#xc57c; &#xd560; &#xac83;&#xb4e4;(&#xc11c;&#xbc84;)">
+<node CREATED="1529580106236" ID="ID_344860091" MODIFIED="1529580106236" TEXT="// isnt_value_cheating&#xc740; &#xb77c;&#xc6b4;&#xb4dc;&#xac00; &#xb05d;&#xb0ac;&#xc744;&#xc2dc;&#xc5d0; &#xbc14;&#xb85c; true&#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;!!! &#xc774;&#xac70; &#xaf2d; &#xae30;&#xc5b5;&#xd558;&#xb77c;."/>
+<node CREATED="1529580106236" ID="ID_1459686211" MODIFIED="1529580106236" TEXT="// round&#xb3c4; ++ &#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;. &#xaf2d; &#xae30;&#xc5b5;&#xd558;&#xb77c;."/>
+</node>
+<node CREATED="1529571680119" ID="ID_1756013898" MODIFIED="1529572021656" TEXT="&#xbaa8;&#xb450; &#xc815;&#xb9ac;&#xac00; &#xb418;&#xc5c8;&#xc744; &#xb54c;(&#xc2dc;&#xac04;&#xcd08;&#xac00; &#xb2e4; &#xb418;&#xc5b4; &#xce90;&#xb9ad;&#xd130;&#xb97c; &#xc8fd;&#xc774;&#xace0;, &#xc624;&#xb2f5;&#xccb4;&#xd06c;&#xac00; &#xb05d;&#xb0ac;&#xc744; &#xb54c;) &#xd574;&#xb2f9; &#xd504;&#xb85c;&#xd1a0;&#xcf5c;&#xc744; &#xb0a0;&#xb9b0;&#xb2e4;."/>
+<node CREATED="1529572091010" ID="ID_755606500" MODIFIED="1529572293521" TEXT="ch_list&#xb97c; &#xb0a0;&#xb9b0;&#xb2e4;. &#xc11c;&#xbc84;&#xb294; &#xadf8; chlist&#xb97c; &#xbc1b;&#xb294;&#xb2e4;."/>
+<node CREATED="1529572035817" ID="ID_1978451499" MODIFIED="1529572040832" TEXT="&#xace7;&#xbc14;&#xb85c; timer&#xb97c; stop &#xd55c;&#xb2e4;."/>
+<node CREATED="1529572022057" ID="ID_1548788282" MODIFIED="1529572060701" TEXT="&#xc11c;&#xbc84;&#xb294; &#xbaa8;&#xb4e0; &#xd50c;&#xb808;&#xc774;&#xc5b4;&#xd55c;&#xd14c; &#xd574;&#xb2f9; &#xd504;&#xb85c;&#xd1a0;&#xcf5c;&#xc744; &#xbc1b;&#xc558;&#xc744; &#xc2dc;&#xc5d0;"/>
+<node CREATED="1529572064527" ID="ID_1108195992" MODIFIED="1529572069246" TEXT="&#xb2e4;&#xc2dc; next_round&#xb97c; &#xb0a0;&#xb9b0;&#xb2e4;."/>
+</node>
+<node CREATED="1529570952982" ID="ID_1145023552" MODIFIED="1529571039592" TEXT="5. character_move(&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;-&gt;&#xc11c;&#xbc84;-&gt;&#xbaa8;&#xb4e0;&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;)"/>
+<node CREATED="1529572535117" ID="ID_1636031189" MODIFIED="1529572545398" TEXT="6. PlayerDie"/>
 </node>
 </node>
 <node CREATED="1527832080531" ID="ID_1458204667" MODIFIED="1527838166509" POSITION="right" TEXT="&#xc911;&#xc694;&#xd55c;&#xc810;">
