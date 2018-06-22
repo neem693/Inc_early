@@ -469,9 +469,16 @@
 </node>
 <node CREATED="1529571680119" ID="ID_1756013898" MODIFIED="1529572021656" TEXT="&#xbaa8;&#xb450; &#xc815;&#xb9ac;&#xac00; &#xb418;&#xc5c8;&#xc744; &#xb54c;(&#xc2dc;&#xac04;&#xcd08;&#xac00; &#xb2e4; &#xb418;&#xc5b4; &#xce90;&#xb9ad;&#xd130;&#xb97c; &#xc8fd;&#xc774;&#xace0;, &#xc624;&#xb2f5;&#xccb4;&#xd06c;&#xac00; &#xb05d;&#xb0ac;&#xc744; &#xb54c;) &#xd574;&#xb2f9; &#xd504;&#xb85c;&#xd1a0;&#xcf5c;&#xc744; &#xb0a0;&#xb9b0;&#xb2e4;."/>
 <node CREATED="1529572091010" ID="ID_755606500" MODIFIED="1529572293521" TEXT="ch_list&#xb97c; &#xb0a0;&#xb9b0;&#xb2e4;. &#xc11c;&#xbc84;&#xb294; &#xadf8; chlist&#xb97c; &#xbc1b;&#xb294;&#xb2e4;."/>
+<node CREATED="1529636681804" ID="ID_320954011" MODIFIED="1529636720535" TEXT="opan&#xc774;&#xb791; xpan&#xb3c4; &#xb0a0;&#xb9b0;&#xb2e4;. &#xc11c;&#xbc84;&#xb294; &#xb610; &#xbc1b;&#xb294;&#xb2e4;."/>
 <node CREATED="1529572035817" ID="ID_1978451499" MODIFIED="1529572040832" TEXT="&#xace7;&#xbc14;&#xb85c; timer&#xb97c; stop &#xd55c;&#xb2e4;."/>
 <node CREATED="1529572022057" ID="ID_1548788282" MODIFIED="1529572060701" TEXT="&#xc11c;&#xbc84;&#xb294; &#xbaa8;&#xb4e0; &#xd50c;&#xb808;&#xc774;&#xc5b4;&#xd55c;&#xd14c; &#xd574;&#xb2f9; &#xd504;&#xb85c;&#xd1a0;&#xcf5c;&#xc744; &#xbc1b;&#xc558;&#xc744; &#xc2dc;&#xc5d0;"/>
 <node CREATED="1529572064527" ID="ID_1108195992" MODIFIED="1529572069246" TEXT="&#xb2e4;&#xc2dc; next_round&#xb97c; &#xb0a0;&#xb9b0;&#xb2e4;."/>
+<node COLOR="#3333ff" CREATED="1529653995776" ID="ID_1780120186" MODIFIED="1529653997800" STYLE="bubble" TEXT="&#xbb38;&#xc81c; &#xbc1c;&#xc0dd;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1529653998183" ID="ID_843772627" MODIFIED="1529654014319" STYLE="bubble" TEXT="&#xb450; &#xbc88;&#xc9f8; &#xb77c;&#xc6b4;&#xb4dc;&#xc5d0;&#xc11c; &#xce90;&#xb9ad;&#xd130;&#xac00; &#xd574;&#xb2f9; &#xce90;&#xb9ad;&#xd130; &#xd310;&#xc5d0; &#xb2e4;&#xac00;&#xac08;&#xc2dc; &#xce90;&#xb9ad;&#xd130;&#xac00; &#xc5c6;&#xc5b4;&#xc9c4;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
 </node>
 <node CREATED="1529570952982" ID="ID_1145023552" MODIFIED="1529571039592" TEXT="5. character_move(&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;-&gt;&#xc11c;&#xbc84;-&gt;&#xbaa8;&#xb4e0;&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;)"/>
 <node CREATED="1529572535117" ID="ID_1636031189" MODIFIED="1529572545398" TEXT="6. PlayerDie"/>
