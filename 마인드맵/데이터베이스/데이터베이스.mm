@@ -2628,7 +2628,7 @@
 </node>
 </node>
 <node CREATED="1496722998766" ID="ID_1534138403" MODIFIED="1528684507797" TEXT="&#xb17c;&#xb9ac;&#xc801;&#xc124;&#xacc4;">
-<node COLOR="#000000" CREATED="1496723019768" ID="ID_914301993" MODIFIED="1528684572885" TEXT="1">
+<node COLOR="#000000" CREATED="1496723019768" FOLDED="true" ID="ID_914301993" MODIFIED="1530163332810" TEXT="1">
 <font NAME="Dialog" SIZE="18"/>
 <node CREATED="1496723022927" FOLDED="true" ID="ID_1589014466" MODIFIED="1497313438385" TEXT="&#xd68c;&#xc6d0;&#xc774; &#xce74;&#xd398;&#xc5d0; &#xac00;&#xc785;&#xd55c; &#xad00;&#xacc4;&#xb97c; &#xd45c;&#xd604;&#xd55c; &#xb2e4;&#xc74c; ERD&#xb97c; &#xb9ac;&#xc2a4;&#xd2b8; &#xd615;&#xd0dc;&#xc758; &#xb9b4;&#xb808;&#xc774;&#xc158; &#xc2a4;&#xd0a4;&#xb9c8;&#xb85c; &#xbcc0;&#xd658;&#xd558;&#xace0;, &#xc678;&#xb798;&#xd0a4;&#xac00; &#xc788;&#xb294; &#xacbd;&#xc6b0; (FK)&#xb85c; &#xd45c;&#xc2dc;&#xd558;&#xc2dc;&#xc624;. (5&#xbd84;)">
 <node CREATED="1496723235386" ID="ID_1736538430" MODIFIED="1496899691302">

@@ -529,10 +529,10 @@
 <node CREATED="1529999393742" ID="ID_220804183" LINK="../../../../../../../My_Study/java_Study/Semi_project(network_client)/src/ox_survive/MyConst.java" MODIFIED="1529999393742" TEXT="MyConst.java">
 <node CREATED="1529999435277" ID="ID_174741389" MODIFIED="1529999439936" TEXT="&#xac01;&#xc885; &#xc0c1;&#xc218;&#xbaa8;&#xc74c;"/>
 </node>
-<node COLOR="#3333ff" CREATED="1529999393742" ID="ID_1249713776" LINK="../../../../../../../My_Study/java_Study/Semi_project(network_client)/src/ox_survive/Ox_Suvive.java" MODIFIED="1529999613402" STYLE="bubble" TEXT="Ox_Suvive.java">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1529999497379" ID="ID_668393445" MODIFIED="1529999613402" TEXT="ox &#xc11c;&#xbc14;&#xc774;&#xbe0c; &#xc2e4;&#xd589;&#xd558;&#xb294; &#xba54;&#xc778;"/>
-<node CREATED="1529999620584" ID="ID_69360778" MODIFIED="1529999622147" TEXT="&#xd074;&#xb798;&#xc2a4;&#xc758; &#xd30c;&#xb9ac;"/>
+<node CREATED="1529999393742" ID="ID_1249713776" LINK="../../../../../../../My_Study/java_Study/Semi_project(network_client)/src/ox_survive/Ox_Suvive.java" MODIFIED="1530165570625" TEXT="Ox_Suvive.java">
+<font NAME="&#xad74;&#xb9bc;&#xccb4;" SIZE="12"/>
+<node CREATED="1529999497379" ID="ID_668393445" MODIFIED="1530165570625" TEXT="ox &#xc11c;&#xbc14;&#xc774;&#xbe0c; &#xc2e4;&#xd589;&#xd558;&#xb294; &#xba54;&#xc778;"/>
+<node CREATED="1529999620584" ID="ID_69360778" MODIFIED="1530165570625" TEXT="&#xd074;&#xb798;&#xc2a4;&#xc758; &#xd30c;&#xb9ac;"/>
 </node>
 </node>
 <node CREATED="1529999306700" ID="ID_1724433430" LINK="../../../../../../../My_Study/java_Study/Semi_project(network_client)/src/pv/" MODIFIED="1529999306700" TEXT="pv">
@@ -554,8 +554,9 @@
 <node CREATED="1529999418387" ID="ID_570703354" LINK="../../../../../../../My_Study/java_Study/Semi_project(network_client)/src/utill/Pan.java" MODIFIED="1529999418387" TEXT="Pan.java">
 <node CREATED="1529999559305" ID="ID_1271970309" MODIFIED="1529999563963" TEXT="O, X &#xd070; &#xd2c0;&#xc5d0;&#xc11c;&#xc758; &#xd310;"/>
 </node>
-<node CREATED="1529999418387" ID="ID_1161007866" LINK="../../../../../../../My_Study/java_Study/Semi_project(network_client)/src/utill/MunJe.java" MODIFIED="1529999418387" TEXT="MunJe.java">
-<node CREATED="1529999564922" ID="ID_1296606089" MODIFIED="1529999570325" TEXT="&#xbb38;&#xc81c; &#xcd9c;&#xb825;"/>
+<node COLOR="#3333ff" CREATED="1529999418387" ID="ID_1161007866" LINK="../../../../../../../My_Study/java_Study/Semi_project(network_client)/src/utill/MunJe.java" MODIFIED="1530165998447" STYLE="bubble" TEXT="Munje">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1529999564922" ID="ID_1296606089" MODIFIED="1530165998447" TEXT="&#xbb38;&#xc81c; &#xcd9c;&#xb825;"/>
 </node>
 <node COLOR="#3333ff" CREATED="1529999418403" ID="ID_1076174639" LINK="../../../../../../../My_Study/java_Study/Semi_project(network_client)/src/utill/Character_Manager.java" MODIFIED="1529999583829" STYLE="bubble" TEXT="Character_Manager.java">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
