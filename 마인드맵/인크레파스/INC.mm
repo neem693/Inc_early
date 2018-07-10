@@ -3,32 +3,32 @@
 <node CREATED="1520988580139" ID="ID_467252459" MODIFIED="1523436097905" TEXT="&#xc778;&#xd06c;&#xb808;&#xd30c;&#xc2a4;">
 <hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
 <hook NAME="accessories/plugins/RevisionPlugin.properties"/>
-<node CREATED="1522112333425" FOLDED="true" ID="ID_665456941" MODIFIED="1530604487778" POSITION="right" TEXT="&#xc624;&#xb77c;&#xd074;_SQL_&#xbcf8;&#xacfc;&#xc815;">
+<node CREATED="1522112333425" ID="ID_665456941" MODIFIED="1531206810240" POSITION="right" TEXT="&#xc624;&#xb77c;&#xd074;_SQL_&#xbcf8;&#xacfc;&#xc815;">
 <font NAME="SansSerif" SIZE="12"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522113334785" ID="ID_347530400" MODIFIED="1522198769239" STYLE="fork" TEXT="&#xc720;&#xc6a9;&#xd55c; &#xb370;&#xc774;&#xd130;&#xc758; &#xc9d1;&#xd569;"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522293410085" FOLDED="true" ID="ID_400290247" MODIFIED="1530596316355" TEXT="&#xb370;&#xc774;&#xd130;&#xbca0;&#xc774;&#xc2a4;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522293410085" FOLDED="true" ID="ID_400290247" MODIFIED="1531206990809" TEXT="&#xb370;&#xc774;&#xd130;&#xbca0;&#xc774;&#xc2a4;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522115079902" ID="ID_1194553046" MODIFIED="1524626938895" TEXT="&#xc815;&#xc758;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522115027108" ID="ID_565389364" MODIFIED="1522115085696" TEXT="&#xd1b5;&#xd569;&#xb41c;&#xb370;&#xc774;&#xd130;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522115032862" ID="ID_1196254089" MODIFIED="1522115085699" TEXT="&#xc800;&#xc7a5;&#xb41c;&#xb370;&#xc774;&#xd130;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522115038163" ID="ID_76289840" MODIFIED="1522115042135" TEXT="&#xc6b4;&#xc601;&#xb370;&#xc774;&#xd130;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522114912823" ID="ID_128045983" MODIFIED="1522114919151" TEXT="&#xacf5;&#xc6a9;&#xb370;&#xc774;&#xd130;"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522115093435" FOLDED="true" ID="ID_1391011234" MODIFIED="1528073658019" TEXT="&#xd2b9;&#xc9d5;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522115093435" ID="ID_1391011234" MODIFIED="1531206952272" TEXT="&#xd2b9;&#xc9d5;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522115100388" ID="ID_1641690829" MODIFIED="1522115102794" TEXT="&#xc2e4;&#xc2dc;&#xac04;&#xc811;&#xadfc;&#xc131;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522115107043" ID="ID_1668809773" MODIFIED="1522115111074" TEXT="&#xc9c0;&#xc18d;&#xc801;&#xc778;&#xbcc0;&#xd654;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522115115434" ID="ID_1458574459" MODIFIED="1522115118175" TEXT="&#xb3d9;&#xc2dc;&#xacf5;&#xc720;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522115121311" ID="ID_1377555562" MODIFIED="1522115125043" TEXT="&#xb0b4;&#xc6a9;&#xc5d0;&#xb300;&#xd55c;&#xcc38;&#xc870;"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522113349374" FOLDED="true" ID="ID_1358058654" MODIFIED="1528073659438" STYLE="fork" TEXT="&#xc774; &#xb370;&#xc774;&#xd130;&#xc5d0; &#xb300;&#xd55c; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xc791;&#xc5c5;&#xb4e4;&#xc744; &#xc27d;&#xac8c; &#xc218;&#xc815;&#xd574;&#xc900;&#xb2e4;.,">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522113349374" FOLDED="true" ID="ID_1358058654" MODIFIED="1531206989165" STYLE="fork" TEXT="&#xc774; &#xb370;&#xc774;&#xd130;&#xc5d0; &#xb300;&#xd55c; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc740; &#xc791;&#xc5c5;&#xb4e4;&#xc744; &#xc27d;&#xac8c; &#xc218;&#xc815;&#xd574;&#xc900;&#xb2e4;.,">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522113367799" ID="ID_1447863919" MODIFIED="1522113371270" TEXT="&#xac80;&#xc0c9;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522113371445" ID="ID_847375212" MODIFIED="1522113372107" TEXT="&#xc218;&#xc815;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522113372276" ID="ID_1004839450" MODIFIED="1522113372955" TEXT="&#xc0ad;&#xc81c;"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522114900538" FOLDED="true" ID="ID_1291928596" MODIFIED="1530596346305" STYLE="fork" TEXT="&#xc124;&#xce58;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522114900538" ID="ID_1291928596" MODIFIED="1531206957071" STYLE="fork" TEXT="&#xc124;&#xce58;">
 <node CREATED="1522113583367" ID="ID_929785581" LINK="http://www.oracle.com/technetwork/indexes/downloads/index.html#database" MODIFIED="1522198771383" TEXT="oracle.com &gt; Technetwork &gt; Indexes &gt; Downloads &gt; Index"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522113585781" FOLDED="true" ID="ID_1474869987" MODIFIED="1528073665467" STYLE="fork" TEXT="11g Express Edtion&amp;SQL&#xc124;&#xce58;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522141329448" ID="ID_383383059" MODIFIED="1526262813045" TEXT="&#xb2e4;&#xc6b4;&#xb85c;&#xb4dc; &#xacfc;&#xc815;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522113585781" FOLDED="true" ID="ID_1474869987" MODIFIED="1531206996253" STYLE="fork" TEXT="11g Express Edtion&amp;SQL&#xc124;&#xce58;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522141329448" FOLDED="true" ID="ID_383383059" MODIFIED="1531206995487" TEXT="&#xb2e4;&#xc6b4;&#xb85c;&#xb4dc; &#xacfc;&#xc815;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1522141313099" ID="ID_148779013" MODIFIED="1522141316082">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -60,9 +60,9 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522119303191" FOLDED="true" ID="ID_1185180581" MODIFIED="1523625744093" TEXT="&#xc554;&#xd638;&#xb294; &#xc9c0;&#xae08; &#xbc30;&#xc6b0;&#xb294; &#xc911;&#xc774;&#xb2c8;&#xae4c;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522119303191" ID="ID_1185180581" MODIFIED="1531206824871" TEXT="&#xc554;&#xd638;&#xb294; &#xc9c0;&#xae08; &#xbc30;&#xc6b0;&#xb294; &#xc911;&#xc774;&#xb2c8;&#xae4c;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522119306769" ID="ID_1807270440" MODIFIED="1522198771601" TEXT="oracle"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522114401785" FOLDED="true" ID="ID_1775443175" MODIFIED="1523625743991" TEXT="&#xb370;&#xc774;&#xd130;&#xbca0;&#xc774;&#xc2a4; C:\oraclexe">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522114401785" ID="ID_1775443175" MODIFIED="1531206826746" TEXT="&#xb370;&#xc774;&#xd130;&#xbca0;&#xc774;&#xc2a4; C:\oraclexe">
 <node CREATED="1522119740305" ID="ID_222275106" MODIFIED="1522198771601">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -93,17 +93,17 @@
   </body>
 </html></richcontent>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522120034419" FOLDED="true" ID="ID_1563483766" MODIFIED="1523625740128" TEXT="&#xb450; &#xc11c;&#xbe44;&#xc2a4;&#xac00; &#xc2e4;&#xd589;&#xc911;&#xc774;&#xb2e4;.">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522120034419" ID="ID_1563483766" MODIFIED="1531206831449" TEXT="&#xb450; &#xc11c;&#xbe44;&#xc2a4;&#xac00; &#xc2e4;&#xd589;&#xc911;&#xc774;&#xb2e4;.">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522120040935" ID="ID_170887334" MODIFIED="1522120138178" TEXT="&#xb9ac;&#xc2a4;&#xb108;&#xac00; &#xb4e3;&#xace0; XE&#xc5d0;&#xac8c; &#xc74c;&#xc2dd;&#xc744; &#xc804;&#xb2ec;&#xd574;&#xc90c;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522120168048" ID="ID_1333868116" MODIFIED="1522120173074" TEXT="&#xadf8;&#xb9ac;&#xace0; &#xb9ac;&#xc2a4;&#xb108;&#xc5d0;&#xac8c; &#xb9d0;&#xd558;&#xb294; &#xc0ac;&#xb78c;&#xc774; SQL"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522120204146" ID="ID_1844720843" MODIFIED="1522120213513" TEXT="&#xc989;, SQL&#xc740; &#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;(&#xc190;&#xb2d8;)"/>
 </node>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1522119287004" FOLDED="true" ID="ID_569586446" MODIFIED="1523625744093" STYLE="bubble" TEXT="&#xc124;&#xce58;&#xc2dc; &#xc911;&#xc694;&#xd55c;&#xc810;">
+<node COLOR="#3333ff" CREATED="1522119287004" ID="ID_569586446" MODIFIED="1531206833965" STYLE="bubble" TEXT="&#xc124;&#xce58;&#xc2dc; &#xc911;&#xc694;&#xd55c;&#xc810;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522119425670" ID="ID_478940319" MODIFIED="1522198771625" TEXT=".NET Framework &#xac00; &#xc124;&#xce58;&#xac00; &#xc548;&#xb418;&#xc5b4; &#xc788;&#xb354;&#xb77c;"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522119442571" FOLDED="true" ID="ID_336739874" MODIFIED="1523625743991">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522119442571" ID="ID_336739874" MODIFIED="1531206835168">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -134,7 +134,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522121426113" ID="ID_450847067" MODIFIED="1530596484546" STYLE="fork" TEXT="&#xac1c;&#xb150;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522121426113" FOLDED="true" ID="ID_450847067" MODIFIED="1531207010811" STYLE="fork" TEXT="&#xac1c;&#xb150;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522113413490" FOLDED="true" ID="ID_1968627327" MODIFIED="1523625759739" STYLE="fork" TEXT="RDBMS">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522113416099" ID="ID_1384990241" MODIFIED="1522198771965" TEXT="DBMS&#xc758; &#xc77c;&#xbc18;&#xc801;&#xc778; &#xd615;&#xd0dc;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522113423415" ID="ID_673423956" MODIFIED="1522198772153" STYLE="fork" TEXT="&#xad00;&#xacc4;&#xd615; &#xb370;&#xc774;&#xd130;&#xbca0;&#xc774;&#xc2a4;"/>
@@ -600,34 +600,34 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522203133984" FOLDED="true" ID="ID_528580653" MODIFIED="1528073674202" TEXT="&#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;_&#xc624;&#xb77c;&#xd074;_&#xc9c8;&#xc758;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522203133984" FOLDED="true" ID="ID_528580653" MODIFIED="1531207007128" TEXT="&#xc778;&#xd130;&#xd398;&#xc774;&#xc2a4;_&#xc624;&#xb77c;&#xd074;_&#xc9c8;&#xc758;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522205985311" ID="ID_650463211" MODIFIED="1522206003105" TEXT="select * from emp &#xb85c; &#xb300;&#xcda9; &#xc9c8;&#xc758; &#xd558;&#xace0; ctrl + enter &#xb97c; &#xce58;&#xac8c;&#xb418;&#xba74;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522206011655" ID="ID_1671502987" MODIFIED="1522206016717" TEXT="&#xc9c8;&#xc758;&#xacb0;&#xacfc; &#xc804;&#xc6a9;&#xc5d0; &#xd45c;&#xac00; &#xb098;&#xc628;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522206016975" ID="ID_652367805" MODIFIED="1522206033772" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xd45c; &#xceec;&#xb7fc;(&#xc18d;&#xc131;)&#xc606; &#xc544;&#xc774;&#xcf58;&#xc744; &#xb20c;&#xb7ec;&#xc11c; &#xac04;&#xb2e8;&#xd558;&#xac8c; &#xc870;&#xd68c;&#xb97c; &#xd560;&#xc218;&#xac00; &#xc788;&#xb2e4;."/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522221598844" FOLDED="true" ID="ID_280830404" MODIFIED="1523625744095" TEXT="&#xceec;&#xb7fc;&#xc744; &#xb354;&#xbe14; &#xd074;&#xb9ad;&#xd560;&#xc2dc; &#xc815;&#xb82c; &#xc2e4;&#xc2dc;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522221598844" ID="ID_280830404" MODIFIED="1531207006177" TEXT="&#xceec;&#xb7fc;&#xc744; &#xb354;&#xbe14; &#xd074;&#xb9ad;&#xd560;&#xc2dc; &#xc815;&#xb82c; &#xc2e4;&#xc2dc;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522221605667" ID="ID_407582243" MODIFIED="1522221608219" TEXT="&#xc624;&#xb984;&#xcc28;&#xc21c;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522221608422" ID="ID_1729292859" MODIFIED="1522221609825" TEXT="&#xb0b4;&#xb9bc;&#xcc28;&#xc21c;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522221610218" ID="ID_782326185" MODIFIED="1522221613226" TEXT="&#xc6d0;&#xb798;&#xb300;&#xb85c;"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522208541612" FOLDED="true" ID="ID_94154758" MODIFIED="1528168557864" TEXT="&#xceec;&#xb7fc; &#xc774;&#xb984;&#xc740; &#xb300;&#xc18c;&#xbb38;&#xc790;&#xb97c; &#xad6c;&#xbd84; &#xd558;&#xc9c0; &#xc54a;&#xb294;&#xac00;?">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522208541612" FOLDED="true" ID="ID_94154758" MODIFIED="1531207003104" TEXT="&#xceec;&#xb7fc; &#xc774;&#xb984;&#xc740; &#xb300;&#xc18c;&#xbb38;&#xc790;&#xb97c; &#xad6c;&#xbd84; &#xd558;&#xc9c0; &#xc54a;&#xb294;&#xac00;?">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522227360116" ID="ID_1163282047" MODIFIED="1522227385526" TEXT="&#xceec;&#xb7fc;&#xba85;&#xc740; &#xc560;&#xcd08;&#xc5d0; &#xd14c;&#xc774;&#xbe14;&#xc744; &#xb9cc;&#xb4e4; &#xb54c; &#xbd80;&#xd130; &#xc5b4;&#xb5bb;&#xac8c; &#xc785;&#xb825;&#xd558;&#xb4e0;&#xac00;&#xc5d0; &#xb370;&#xc774;&#xd130;&#xbca0;&#xc774;&#xc2a4; &#xb0b4;&#xbd80;&#xc5d0;&#xc11c;&#xb294; &#xbaa8;&#xb450; &#xb300;&#xbb38;&#xc790;&#xb85c; &#xbcc0;&#xd55c;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522227385695" ID="ID_1182940616" MODIFIED="1522227405286" TEXT="&#xc989;, &#xb4e4;&#xc5b4;&#xac00;&#xb294; &#xc21c;&#xac04; &#xc720;&#xb2c8;&#xd06c;&#xd55c; &#xb300;&#xc18c;&#xbb38;&#xc790;&#xc5d0; &#xb300;&#xd55c; &#xad6c;&#xbcc4;&#xc774; &#xc5c6;&#xc5b4;&#xc9c0;&#xae30;&#xc5d0; &#xc774;&#xc5d0; &#xb300;&#xd55c; &#xad6c;&#xbcc4; &#xb610;&#xd55c; &#xc0c1;&#xad00;&#xc774; &#xc5c6;&#xb2e4;."/>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522295135409" ID="ID_496758733" MODIFIED="1528078252425" TEXT="SUBSTR&#xacfc; LIKE&#xc5d0;&#xc11c; &#xc778;&#xb371;&#xc2a4;&#xac00; &#xc788;&#xc744;&#xacbd;&#xc6b0;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522295197125" ID="ID_1128288096" MODIFIED="1522295200220" TEXT="LIKE&#xb97c; &#xc4f0;&#xc790;"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522890505082" FOLDED="true" ID="ID_148438164" MODIFIED="1528073671490" TEXT="&#xd14c;&#xc774;&#xbe14;&#xc758; &#xc2dd;&#xbcc4;&#xc790;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522890505082" FOLDED="true" ID="ID_148438164" MODIFIED="1531207009197" TEXT="&#xd14c;&#xc774;&#xbe14;&#xc758; &#xc2dd;&#xbcc4;&#xc790;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522890509145" ID="ID_739530075" MODIFIED="1522890522864" TEXT="&#xc2dd;&#xbcc4;&#xc790;&#xac00; &#xcf54;&#xb4dc;&#xc77c; &#xacbd;&#xc6b0; &#xd574;&#xb2f9; &#xd558;&#xb294; &#xb370;&#xc774;&#xd130; &#xc720;&#xd615;&#xc740; &#xbb38;&#xc790;&#xd615;&#xc778; &#xacbd;&#xc6b0;&#xac00; &#xb9ce;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522890523040" ID="ID_414865018" MODIFIED="1522890577017" TEXT="&#xadf8;&#xb7ec;&#xb098; &#xd574;&#xb2f9; &#xc2dd;&#xbcc4;&#xc790;&#xac00; &#xcf54;&#xb4dc;&#xac00; &#xc544;&#xb2c8;&#xb77c; &#xbc88;&#xd638;&#xc77c; &#xacbd;&#xc6b0;&#xc5d0;&#xb294; &#xb370;&#xc774;&#xd130; &#xc720;&#xd615;&#xc774; &#xc22b;&#xc790;&#xc778; &#xacbd;&#xc6b0;&#xac00; &#xb9ce;&#xc740; &#xac83;&#xc774;&#xb2e4;."/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1523239039893" FOLDED="true" ID="ID_695152220" MODIFIED="1528073672235" TEXT="&#xb2e8;&#xc5b4;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1523239039893" FOLDED="true" ID="ID_695152220" MODIFIED="1531207010506" TEXT="&#xb2e8;&#xc5b4;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523239108912" ID="ID_769256893" MODIFIED="1523239115428" TEXT="&#xb2e8;&#xc5b4;&#xb97c; &#xc54c;&#xc5b4; &#xba39;&#xb294;&#xac8c; &#xc911;&#xc694;&#xd558;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523239101835" ID="ID_1821268093" MODIFIED="1523239125554" TEXT="&#xd589; = row = entity"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523239128329" ID="ID_1351270348" MODIFIED="1523239130110" TEXT="&#xb77c;&#xace0; &#xd55c;&#xb2e4;."/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522132452032" FOLDED="true" ID="ID_1485304410" MODIFIED="1530596347552" STYLE="fork" TEXT="&#xb2e8;&#xcd95;&#xd0a4;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522132452032" FOLDED="true" ID="ID_1485304410" MODIFIED="1531207012444" STYLE="fork" TEXT="&#xb2e8;&#xcd95;&#xd0a4;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522129460273" ID="ID_1849733740" MODIFIED="1523625740390" STYLE="fork" TEXT="&#xc2e4;&#xd589;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522129462586" FOLDED="true" ID="ID_996231853" MODIFIED="1523625744095" STYLE="fork" TEXT="CTRL+Enter">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522134938907" ID="ID_1668150240" MODIFIED="1522198782149" STYLE="fork" TEXT="&#xc9c8;&#xc758;&#xd560;&#xc2dc; &#xd45c;&#xb85c; &#xd45c;&#xc2dc;"/>
@@ -696,7 +696,7 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523502838394" ID="ID_1150411356" MODIFIED="1523502842972" TEXT="&#xc790;&#xb3d9; &#xc8fc;&#xc11d;&#xcc98;&#xb9ac;&#xb41c;&#xb2e4;."/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522807481100" ID="ID_97010911" MODIFIED="1530599435673" TEXT="&#xd14c;&#xc774;&#xbe14; &#xad6c;&#xc870;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522807481100" FOLDED="true" ID="ID_97010911" MODIFIED="1531206811088" TEXT="&#xd14c;&#xc774;&#xbe14; &#xad6c;&#xc870;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522807531922" ID="ID_852267855" MODIFIED="1522807535772" TEXT="&#xc989;, &#xd14c;&#xc774;&#xbe14;&#xc5d0;&#xc11c;&#xb294; &#xceec;&#xb7fc;&#xc774; &#xc911;&#xc694;&#xd558;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522807490527" FOLDED="true" ID="ID_1167406175" MODIFIED="1527817019284" TEXT="&#xceec;&#xb7fc;&#xc758; &#xc790;&#xb8cc;&#xd615;: &#xc989;, &#xb370;&#xc774;&#xd130; &#xc720;&#xd615;&#xc744; &#xb9d0;&#xd55c;&#xb2e4;.">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522807697436" FOLDED="true" ID="ID_1332620990" MODIFIED="1523625744096" TEXT="CHAR(size)">
@@ -957,7 +957,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522129004196" ID="ID_860803065" MODIFIED="1530596392999" STYLE="fork" TEXT="&#xba85;&#xb839;&#xbb38;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522129004196" FOLDED="true" ID="ID_860803065" MODIFIED="1531206811088" STYLE="fork" TEXT="&#xba85;&#xb839;&#xbb38;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522129011980" ID="ID_807765677" MODIFIED="1522650322113" STYLE="fork" TEXT="&#xba85;&#xb839;&#xc5b4; &#xb2e8;&#xc5b4;&#xb4e4; + &#xb370;&#xc774;&#xd130;&#xba85;&#xb4e4;&#xc744; &#xbb38;&#xbc95;&#xb300;&#xb85c; &#xbc30;&#xce58;&#xd558;&#xc5ec; &#xc0ac;&#xc6a9;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522132448798" FOLDED="true" ID="ID_1588251711" MODIFIED="1527821175780" STYLE="fork" TEXT="&#xb2e8;&#xc5b4;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522129225036" FOLDED="true" ID="ID_722679403" MODIFIED="1523625744098" STYLE="fork" TEXT="tablespace">
@@ -5232,7 +5232,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1522999614661" ID="ID_1718929539" MODIFIED="1530602996185" TEXT="&#xbb34;&#xacb0;&#xc131;&#xc81c;&#xc57d;&#xc870;&#xac74;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1522999614661" FOLDED="true" ID="ID_1718929539" MODIFIED="1531206811088" TEXT="&#xbb34;&#xacb0;&#xc131;&#xc81c;&#xc57d;&#xc870;&#xac74;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522999860868" FOLDED="true" ID="ID_1558989279" MODIFIED="1530596381072" TEXT="NOT NULL">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1522999877145" ID="ID_1718639608" MODIFIED="1522999885833" TEXT="&#xd14c;&#xc774;&#xbe14;&#xc744; &#xc0dd;&#xc131;&#xd560; &#xb54c;, &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; &#xc785;&#xb825;&#xd55c;&#xb2e4;."/>
 <node CREATED="1522999872252" ID="ID_1126044500" MODIFIED="1522999872252" TEXT="CREATE TABLE EMP02("/>
@@ -7603,7 +7603,7 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523839446522" ID="ID_652281039" MODIFIED="1523839449929" TEXT="&#xd06c;&#xac8c; &#xc774; 4&#xac00;&#xc9c0; &#xacfc;&#xc815;&#xc774;&#xb2e4;."/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1523843295867" ID="ID_261558250" MODIFIED="1530604490672" POSITION="right" TEXT="&#xc778;&#xd06c;&#xb808;&#xd30c;&#xc2a4;_&#xc790;&#xbc14;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1523843295867" ID="ID_261558250" MODIFIED="1531206856864" POSITION="right" TEXT="&#xc778;&#xd06c;&#xb808;&#xd30c;&#xc2a4;_&#xc790;&#xbc14;">
 <node BACKGROUND_COLOR="#ffff00" COLOR="#ff3333" CREATED="1523844383813" ID="ID_886213825" MODIFIED="1523844399562" STYLE="bubble" TEXT="&#xc608;&#xbe44;&#xc640; &#xc774; &#xbcf8;&#xacfc;&#xc815; &#xb0b4;&#xc6a9;&#xc744; &#xd569;&#xce58;&#xb294; &#xac78;&#xb85c; &#xd558;&#xaca0;&#xb2e4;. &#xc65c;&#xb0d0;&#xd558;&#xba74; &#xc11c;&#xb85c; &#xc911;&#xbcf5;&#xc774; &#xb41c;&#xb2e4;.">
 <font BOLD="true" NAME="Dialog" SIZE="24"/>
 </node>
@@ -8634,7 +8634,7 @@
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523856282799" ID="ID_21852434" MODIFIED="1524536080463" TEXT="&#xc815;&#xc11d;&#xb0b4;&#xc6a9;"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1524536102386" ID="ID_119275955" MODIFIED="1530599427376" TEXT="&#xc815;&#xc11d;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1524536102386" FOLDED="true" ID="ID_119275955" MODIFIED="1531206862755" TEXT="&#xc815;&#xc11d;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1523931639572" FOLDED="true" ID="ID_1393136366" MODIFIED="1530147100269" TEXT="&#xc790;&#xbc14; &#xae30;&#xbcf8;&#xac1c;&#xb150;">
 <node COLOR="#3333ff" CREATED="1523849805759" FOLDED="true" ID="ID_1278593167" MODIFIED="1523960746307" STYLE="bubble" TEXT="ANSI">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;&#xccb4;" SIZE="16"/>
@@ -31502,7 +31502,7 @@
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1527829665038" ID="ID_986298174" MODIFIED="1527829671077" TEXT="&#xc77c;&#xbc18;&#xc801;&#xc73c;&#xb85c; &#xbe14;&#xb85d;&#xc744; &#xd1b5;&#xd574;&#xc11c; &#xc2e4;&#xd589;&#xd558;&#xb294;&#xac8c; &#xb9de;&#xb2e4;."/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1527814991735" FOLDED="true" ID="ID_1453640790" MODIFIED="1530602454938" TEXT="&#xb370;&#xc774;&#xd130;&#xbca0;&#xc774;&#xc2a4; &#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1527814991735" FOLDED="true" ID="ID_1453640790" MODIFIED="1531206877889" TEXT="&#xb370;&#xc774;&#xd130;&#xbca0;&#xc774;&#xc2a4; &#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1527815016247" ID="ID_243791520" MODIFIED="1527815016247">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -31514,7 +31514,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1527815017893" FOLDED="true" ID="ID_1388800526" MODIFIED="1530602455685" TEXT="&#xc811;&#xc18d;&#xbc29;&#xbc95;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1527815017893" FOLDED="true" ID="ID_1388800526" MODIFIED="1531206878860" TEXT="&#xc811;&#xc18d;&#xbc29;&#xbc95;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1527815040342" ID="ID_1519820040" MODIFIED="1527815040342">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -31526,13 +31526,13 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1527821073625" FOLDED="true" ID="ID_101938529" MODIFIED="1530602456383" STYLE="bubble" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc911;&#xc694;&#xd55c; &#xac74; &#xc0ac;&#xc6a9;&#xc790;&#xb9c8;&#xb2e4; &#xc790;&#xc2e0;&#xc758; &#xacf5;&#xac04;&#xc774; &#xc874;&#xc7ac;&#xd55c;&#xb2e4;&#xb294; &#xac83;">
+<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1527821073625" FOLDED="true" ID="ID_101938529" MODIFIED="1531206881249" STYLE="bubble" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc911;&#xc694;&#xd55c; &#xac74; &#xc0ac;&#xc6a9;&#xc790;&#xb9c8;&#xb2e4; &#xc790;&#xc2e0;&#xc758; &#xacf5;&#xac04;&#xc774; &#xc874;&#xc7ac;&#xd55c;&#xb2e4;&#xb294; &#xac83;">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1527821156739" ID="ID_1545353259" MODIFIED="1527821165161" TEXT="&#xadf8; &#xacf5;&#xac04;&#xc740; tab&#xd14c;&#xc774;&#xbe14;&#xc5d0;&#xc11c; &#xbcfc; &#xc218; &#xc788;&#xb2e4;."/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1527816270411" FOLDED="true" ID="ID_1284156848" MODIFIED="1531131994746" TEXT="&#xacc4;&#xc815;&#xb9cc;&#xb4e4;&#xace0; &#xad8c;&#xd55c;&#xbd80;&#xc5ec;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1527816270411" ID="ID_1284156848" MODIFIED="1531206894162" TEXT="&#xacc4;&#xc815;&#xb9cc;&#xb4e4;&#xace0; &#xad8c;&#xd55c;&#xbd80;&#xc5ec;">
 <node CREATED="1527816330307" MODIFIED="1527816330307" TEXT="[&#xacc4;&#xc815;&#xc0dd;&#xc131;&#xd558;&#xae30;]"/>
-<node CREATED="1527816330308" MODIFIED="1527816330308" TEXT="1.&#xad00;&#xb9ac;&#xc790;&#xacc4;&#xc815;(system)&#xb9cc; &#xb2e4;&#xb978;&#xacc4;&#xc815;&#xc744; &#xc0dd;&#xc131;/&#xad8c;&#xd55c;&#xbd80;&#xc5ec;"/>
+<node CREATED="1527816330308" ID="ID_1782564229" MODIFIED="1527816330308" TEXT="1.&#xad00;&#xb9ac;&#xc790;&#xacc4;&#xc815;(system)&#xb9cc; &#xb2e4;&#xb978;&#xacc4;&#xc815;&#xc744; &#xc0dd;&#xc131;/&#xad8c;&#xd55c;&#xbd80;&#xc5ec;"/>
 <node CREATED="1527816330308" ID="ID_1500997590" MODIFIED="1527816330308" TEXT="2.&#xc811;&#xc18d; : cmd&#xcc3d;=&gt; sqlplus system/oracle"/>
 <node CREATED="1527816330309" ID="ID_864766650" MODIFIED="1527816330309" TEXT="3.&#xacc4;&#xc815;&#xc0dd;&#xc131;&#xba85;&#xb839;(DDL: Data Define Language)">
 <node CREATED="1527816330310" ID="ID_1028077537" MODIFIED="1527816330310" TEXT="(&#xacc4;&#xc815;)              (&#xc554;&#xd638;)"/>
@@ -31544,18 +31544,18 @@
 <node CREATED="1527816330313" MODIFIED="1527816330313" TEXT="show user"/>
 </node>
 </node>
-<node CREATED="1527816330313" MODIFIED="1527816330313" TEXT="5.&#xb2e4;&#xb978;&#xacc4;&#xc815;&#xc73c;&#xb85c; &#xc811;&#xc18d;&#xd558;&#xae30;">
+<node CREATED="1527816330313" ID="ID_555345828" MODIFIED="1527816330313" TEXT="5.&#xb2e4;&#xb978;&#xacc4;&#xc815;&#xc73c;&#xb85c; &#xc811;&#xc18d;&#xd558;&#xae30;">
 <node CREATED="1527816330313" MODIFIED="1527816330313" TEXT="connect scott/tiger"/>
 <node CREATED="1527816330313" MODIFIED="1527816330313" TEXT="conn    scott/tiger"/>
 </node>
-<node CREATED="1527816330314" MODIFIED="1527816330314" TEXT="[ scott&#xacc4;&#xc815;&#xc758; Sample Data&#xc0dd;&#xc131;&#xd558;&#xae30; ]"/>
-<node CREATED="1527816330314" MODIFIED="1527816330314" TEXT="1.Oracle 10g =&gt;C:\oraclexe\app\oracle\product\10.2.0\server\RDBMS\ADMIN">
+<node CREATED="1527816330314" ID="ID_1929800525" MODIFIED="1527816330314" TEXT="[ scott&#xacc4;&#xc815;&#xc758; Sample Data&#xc0dd;&#xc131;&#xd558;&#xae30; ]"/>
+<node CREATED="1527816330314" ID="ID_871772748" MODIFIED="1527816330314" TEXT="1.Oracle 10g =&gt;C:\oraclexe\app\oracle\product\10.2.0\server\RDBMS\ADMIN">
 <node CREATED="1527816330314" MODIFIED="1527816330314" TEXT="=&gt; scott.sql"/>
 </node>
 <node CREATED="1527816330314" MODIFIED="1527816330314" TEXT="2.sqlplus scott/tiger &#xc5f0;&#xacb0;"/>
 <node CREATED="1527816330315" MODIFIED="1527816330315" TEXT="3.SQL&gt; @scott &lt;= &#xb370;&#xc774;&#xd130; &#xc0dd;&#xc131;&#xb41c;&#xb2e4;"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1527816352776" FOLDED="true" ID="ID_599752974" MODIFIED="1531131993817" TEXT="&#xad8c;&#xd55c;&#xbd80;&#xc5ec; &#xc548;&#xd560;&#xc2dc; &#xbb38;&#xc81c;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1527816352776" FOLDED="true" ID="ID_599752974" MODIFIED="1531206884955" TEXT="&#xad8c;&#xd55c;&#xbd80;&#xc5ec; &#xc548;&#xd560;&#xc2dc; &#xbb38;&#xc81c;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1527816361943" ID="ID_792842031" MODIFIED="1527816361943">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -31570,7 +31570,7 @@
 <node COLOR="#3333ff" CREATED="1527816447955" ID="ID_221982243" MODIFIED="1527816473810" STYLE="bubble" TEXT="&#xd55c;&#xbc88; &#xc774;&#xc9c0;&#xb784; &#xb098;&#xba74; &#xb85c;&#xadf8;&#xc778;&#xc774; &#xd574;&#xc81c;&#xb418;&#xb294; &#xb300; &#xcc38;&#xc0ac;&#xac00; &#xbc8c;&#xc5b4;&#xc9c4;&#xb2e4;.">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1527816457270" FOLDED="true" ID="ID_71608999" MODIFIED="1530602459557" TEXT="&#xb530;&#xb77c;&#xc11c; &#xb2e4;&#xc2dc; &#xb85c;&#xadf8;&#xc778;&#xc744; &#xd574;&#xc57c; &#xd55c;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1527816457270" FOLDED="true" ID="ID_71608999" MODIFIED="1531206886555" TEXT="&#xb530;&#xb77c;&#xc11c; &#xb2e4;&#xc2dc; &#xb85c;&#xadf8;&#xc778;&#xc744; &#xd574;&#xc57c; &#xd55c;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1527816471558" ID="ID_774038800" MODIFIED="1527816471558">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -31582,7 +31582,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1527816537743" FOLDED="true" ID="ID_163400431" MODIFIED="1530602460322" TEXT="&#xb2e4;&#xc2dc; &#xad8c;&#xd55c; &#xbd80;&#xc5ec;&#xb97c; &#xd574;&#xbcf4;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1527816537743" FOLDED="true" ID="ID_163400431" MODIFIED="1531206887314" TEXT="&#xb2e4;&#xc2dc; &#xad8c;&#xd55c; &#xbd80;&#xc5ec;&#xb97c; &#xd574;&#xbcf4;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1527816551741" ID="ID_1466912628" MODIFIED="1527816551741">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -31594,7 +31594,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1527816564993" FOLDED="true" ID="ID_889798004" MODIFIED="1530602461044" TEXT="&#xb2e4;&#xc2dc; &#xb85c;&#xadf8;&#xc778;&#xc744; &#xd574;&#xbcf4;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1527816564993" FOLDED="true" ID="ID_889798004" MODIFIED="1531206888085" TEXT="&#xb2e4;&#xc2dc; &#xb85c;&#xadf8;&#xc778;&#xc744; &#xd574;&#xbcf4;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1527816569719" ID="ID_252783338" MODIFIED="1527816569719">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -31606,8 +31606,8 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1527817134667" FOLDED="true" ID="ID_1833146796" MODIFIED="1530602462978" TEXT="jdbc &#xc62e;&#xae30;&#xc790;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1527817141921" FOLDED="true" ID="ID_1887120975" MODIFIED="1530602462694" TEXT="jdbc&#xac00; &#xc788;&#xb294; &#xc704;&#xce58;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1527817134667" FOLDED="true" ID="ID_1833146796" MODIFIED="1531206891959" TEXT="jdbc &#xc62e;&#xae30;&#xc790;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1527817141921" ID="ID_1887120975" MODIFIED="1531206889163" TEXT="jdbc&#xac00; &#xc788;&#xb294; &#xc704;&#xce58;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1527817157526" ID="ID_499355765" MODIFIED="1527817157526">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -31619,8 +31619,8 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1527817195331" FOLDED="true" ID="ID_1807450519" MODIFIED="1530602462694" TEXT="&#xc774;&#xac78; &#xc790;&#xbc14; &#xd504;&#xb85c;&#xc81d;&#xd2b8; &#xd30c;&#xc77c;&#xb85c; &#xc62e;&#xae30;&#xba74; &#xc88b;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1527823458537" MODIFIED="1527823458537">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1527817195331" ID="ID_1807450519" MODIFIED="1531206890117" TEXT="&#xc774;&#xac78; &#xc790;&#xbc14; &#xd504;&#xb85c;&#xc81d;&#xd2b8; &#xd30c;&#xc77c;&#xb85c; &#xc62e;&#xae30;&#xba74; &#xc88b;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1527823458537" ID="ID_452612722" MODIFIED="1527823458537">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -35611,7 +35611,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1528334677331" FOLDED="true" ID="ID_263258265" MODIFIED="1529371519106" TEXT="&#xc2e4;&#xc2b5;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1528334677331" FOLDED="true" ID="ID_263258265" MODIFIED="1531208514194" TEXT="&#xc2e4;&#xc2b5;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1528688605393" ID="ID_517723068" MODIFIED="1528688608637" TEXT="&#xc2e4;&#xc2a4;1">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1528688620699" FOLDED="true" ID="ID_1079892457" MODIFIED="1528771045278" TEXT="&#xc774;&#xb300;&#xb85c;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1528688623911" ID="ID_1641810067" MODIFIED="1528688623911">
@@ -35654,8 +35654,8 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1529028536991" ID="ID_145163178" LINK="#ID_1420493984" MODIFIED="1529028550364" TEXT="&#xb7ad;&#xd06c;"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1529887953504" ID="ID_152545328" MODIFIED="1531117806742" POSITION="right" TEXT="&#xc778;&#xd06c;&#xb808;&#xd30c;&#xc2a4;_&#xc6f9;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1529887970133" FOLDED="true" ID="ID_1764795536" MODIFIED="1530518913157" TEXT="&#xc11c;&#xbc84;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1529887953504" ID="ID_152545328" MODIFIED="1531208520458" POSITION="right" TEXT="&#xc778;&#xd06c;&#xb808;&#xd30c;&#xc2a4;_&#xc6f9;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1529887970133" FOLDED="true" ID="ID_1764795536" MODIFIED="1531218236779" TEXT="&#xc11c;&#xbc84;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1529887986017" FOLDED="true" ID="ID_349688007" MODIFIED="1529903688373" TEXT="&#xc6f9; &#xc5b4;&#xd50c;&#xb9ac;&#xcf00;&#xc774;&#xc158; &#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1529893408146" MODIFIED="1529893408146">
 <richcontent TYPE="NODE"><html>
@@ -35668,7 +35668,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1529888496460" FOLDED="true" ID="ID_882721780" MODIFIED="1529903688373" TEXT="&#xb450;&#xac00;&#xc9c0; &#xc11c;&#xbc84;&#xac00; &#xc788;&#xb2e4;.">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1529888496460" FOLDED="true" ID="ID_882721780" MODIFIED="1531209214094" TEXT="&#xb450;&#xac00;&#xc9c0; &#xc11c;&#xbc84;&#xac00; &#xc788;&#xb2e4;.">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1529888501199" ID="ID_1705767385" MODIFIED="1529888504793" TEXT="http Server">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1529889027299" ID="ID_720338608" MODIFIED="1529889039913" TEXT="&#xd558;&#xb294; &#xc5ed;&#xd560;&#xc740; &#xae30;&#xc874;&#xc758; &#xc815;&#xc801; content&#xb97c; &#xc804;&#xb2ec;&#xd574;&#xc8fc;&#xae30;&#xb9cc; &#xd558;&#xb294; &#xc11c;&#xbc84;&#xc774;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1529888666475" ID="ID_755891933" MODIFIED="1529888672635" TEXT="&#xc5f0;&#xc0b0;&#xd558;&#xb294; &#xc11c;&#xbc84;&#xac00; &#xc544;&#xb2c8;&#xb77c; &#xd544;&#xd130;&#xb9c1; &#xd558;&#xb294; &#xc5ed;&#xd560;&#xc744; &#xd55c;&#xb2e4;."/>
@@ -35705,7 +35705,7 @@
 </html></richcontent>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1529889825922" FOLDED="true" ID="ID_126788594" MODIFIED="1530234077082" TEXT="&#xd1b0;&#xcf13;&#xc744; &#xc124;&#xce58;&#xd574;&#xbcf4;&#xc790;.">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1529889825922" ID="ID_126788594" MODIFIED="1531186240119" TEXT="&#xd1b0;&#xcf13;&#xc744; &#xc124;&#xce58;&#xd574;&#xbcf4;&#xc790;.">
 <node CREATED="1529889835685" ID="ID_1409999974" LINK="https://www.apache.org/" MODIFIED="1529889835685" TEXT="https://www.apache.org/"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1529889836318" ID="ID_1907359082" MODIFIED="1529889839161" TEXT="&#xb2e4;&#xc74c;&#xc73c;&#xb85c; &#xac00;&#xbcf4;&#xc790;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1529889908155" FOLDED="true" ID="ID_1477210764" MODIFIED="1529893417565" TEXT="&#xc54c;&#xace0;&#xac00;&#xc790;">
@@ -36013,7 +36013,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530234106005" FOLDED="true" ID="ID_1850347989" MODIFIED="1530782547889" TEXT="html">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530234106005" FOLDED="true" ID="ID_1850347989" MODIFIED="1531218236779" TEXT="html">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1529905968221" ID="ID_1208281580" MODIFIED="1530509679371" TEXT="HTML">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1529905972364" FOLDED="true" ID="ID_759660923" MODIFIED="1530509709158" TEXT="HTML &#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1529905984370" ID="ID_598075480" MODIFIED="1529905984370">
@@ -37103,117 +37103,8 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1529908926315" ID="ID_1013213014" MODIFIED="1529908928801" TEXT="&#xc8fc;&#xc11d;&#xd574;&#xc81c;"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530153744544" FOLDED="true" ID="ID_282400520" MODIFIED="1530502051231" TEXT="&#xc2e4;&#xc2b5;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530153745834" ID="ID_1199759563" MODIFIED="1530153746756" TEXT="&#xc2e4;&#xc2b5;1">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530153747378" ID="ID_1055628085" MODIFIED="1530153748893" TEXT="&#xc774;&#xac70;&#xd55c;&#xbc88; &#xd574;&#xbcf4;&#xc790;"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530153749392" FOLDED="true" ID="ID_1860116299" MODIFIED="1530163103079" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
-<node CREATED="1530153778030" ID="ID_1065043326" MODIFIED="1530153778030">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_5877392353296348507.jpeg" />
-  </body>
-</html></richcontent>
 </node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530154436561" FOLDED="true" ID="ID_1686966645" MODIFIED="1530155618588" TEXT="html">
-<node CREATED="1530154487997" MODIFIED="1530154487997" TEXT="&lt;!DOCTYPE html&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012">
-<richcontent TYPE="NODE"><html>
-  
-
-  <head>
-
-  </head>
-  <body>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;head&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;link rel=&quot;stylesheet&quot; href=&quot;../css/layout4.css&quot;&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;/head&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;body&gt;">
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id=&quot;main_box&quot;&gt;">
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id=&quot;header&quot;&gt;header&lt;/div&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id=&quot;aside&quot;&gt;aside&lt;/div&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id = &quot;small_content&quot;&gt;[&#xacf5;&#xc9c0;&#xc0ac;&#xd56d;]&lt;/div&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id = &quot;small_content&quot; style = &quot;background-color: #ffcccc&quot;&gt;[&#xcd5c;&#xadfc;&#xac8c;&#xc2dc;&#xbb3c;]&lt;/div&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id = &quot;small_content&quot; style = &quot;background-color: #ffcccc&quot;&gt;[&#xc720;&#xc6a9;&#xd55c; &#xc0ac;&#xc774;&#xd2b8;]&lt;/div&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id = &quot;small_content&quot; style = &quot;background-color: #ffcccc&quot;&gt;[&#xcd5c;&#xadfc;&#xb313;&#xae00;]&lt;/div&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div style=&quot;clear: both;&quot; id=&quot;footer&quot;&gt;footer&lt;/div&gt;"/>
-</node>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;/div&gt;"/>
-</node>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;/body&gt;"/>
-<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;/html&gt;"/>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530154492124" FOLDED="true" ID="ID_1626021214" MODIFIED="1530155617715" TEXT="css">
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="@charset &quot;UTF-8&quot;;"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="body{">
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="margin: 0px;"/>
-</node>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="}"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#main_box {">
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="width: 800px;"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="height: 600px;"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="background-color: #cccccc;"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="margin: 0 auto;"/>
-</node>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="}"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#header{">
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="background-color: #ffcccc;"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="width: 100%;"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="height:100px;"/>
-</node>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="}"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#aside{">
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="background-color: #ffffcc;"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="width: 30%;"/>
-<node CREATED="1530154492945" ID="ID_1483612709" MODIFIED="1530154492945" TEXT="float: left;"/>
-<node CREATED="1530154492945" ID="ID_1093643578" MODIFIED="1530154492945" TEXT="min-height: 400px;"/>
-<node CREATED="1530154492945" ID="ID_657702442" MODIFIED="1530154492945" TEXT="height: auto;"/>
-</node>
-<node CREATED="1530154492945" ID="ID_1813451249" MODIFIED="1530154492945" TEXT="}"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#content{">
-<node CREATED="1530154492945" ID="ID_1434377121" MODIFIED="1530154492945" TEXT="background-color: #ccffcc;"/>
-<node COLOR="#3333ff" CREATED="1530154492945" ID="ID_1081693659" MODIFIED="1530154512047" STYLE="bubble" TEXT="min-height: 400px;">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#3333ff" CREATED="1530154492945" ID="ID_378668182" MODIFIED="1530154511866" STYLE="bubble" TEXT="height: auto;">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node CREATED="1530154492945" ID="ID_1010965441" MODIFIED="1530154492945" TEXT="width: 70%;"/>
-<node CREATED="1530154492945" ID="ID_938853981" MODIFIED="1530154492945" TEXT="float: left;"/>
-</node>
-<node CREATED="1530154492945" ID="ID_1932818166" MODIFIED="1530154492945" TEXT="}"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#small_content{">
-<node CREATED="1530154492945" ID="ID_1350610144" MODIFIED="1530154492945" TEXT="background-color: #8a8aff;"/>
-<node CREATED="1530154492945" ID="ID_508129534" MODIFIED="1530154492945" TEXT="border: 1px solid black;"/>
-<node CREATED="1530154492945" ID="ID_335986969" MODIFIED="1530154492945" TEXT="box-sizing:  border-box;"/>
-<node CREATED="1530154492945" ID="ID_1768226252" MODIFIED="1530154492945" TEXT="width: 35%;"/>
-<node COLOR="#3333ff" CREATED="1530154492945" ID="ID_508512293" MODIFIED="1530154509245" STYLE="bubble" TEXT="min-height: 200px;">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#3333ff" CREATED="1530154492945" ID="ID_205212821" MODIFIED="1530154509457" STYLE="bubble" TEXT="height:auto;">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node CREATED="1530154492945" ID="ID_918106426" MODIFIED="1530154492945" TEXT="float: left;"/>
-</node>
-<node CREATED="1530154492945" ID="ID_1122872948" MODIFIED="1530154492945" TEXT="}"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#footer{">
-<node CREATED="1530154492945" ID="ID_1331347333" MODIFIED="1530154492945" TEXT="background-color: #ccccff;"/>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="height:100px;"/>
-</node>
-<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="}"/>
-</node>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530234113029" FOLDED="true" ID="ID_1140819448" MODIFIED="1531117805082" TEXT="&#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530234113029" FOLDED="true" ID="ID_1140819448" MODIFIED="1531218236780" TEXT="&#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530234116485" FOLDED="true" ID="ID_1914440123" MODIFIED="1530870002285" TEXT="&#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1530234380331" ID="ID_1788778393" MODIFIED="1530234380331">
 <richcontent TYPE="NODE"><html>
@@ -37286,7 +37177,7 @@
 <node CREATED="1530235423332" ID="ID_1045351986" MODIFIED="1530235423332" TEXT="&lt;/body&gt;"/>
 <node CREATED="1530235423340" MODIFIED="1530235423340" TEXT="&lt;/html&gt;"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530235834448" FOLDED="true" ID="ID_1360191843" MODIFIED="1530782540462" TEXT="&#xbb38;&#xbc95;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530235834448" FOLDED="true" ID="ID_1360191843" MODIFIED="1531218232275" TEXT="&#xbb38;&#xbc95;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530235836866" FOLDED="true" ID="ID_14720982" MODIFIED="1530262340539" TEXT="&#xb3c4;&#xd050;&#xba3c;&#xd2b8;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1530235840283" ID="ID_540945507" MODIFIED="1530235840283">
 <richcontent TYPE="NODE"><html>
@@ -37328,15 +37219,15 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530240854215" FOLDED="true" ID="ID_1282343053" MODIFIED="1530262346789" TEXT="&#xc5f0;&#xc0b0;&#xc790; &amp; prompt">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530240854215" FOLDED="true" ID="ID_1282343053" MODIFIED="1531209218456" TEXT="&#xc5f0;&#xc0b0;&#xc790; &amp; prompt">
 <node CREATED="1530240857082" MODIFIED="1530240857082" TEXT="var a = 10,b=3;"/>
-<node CREATED="1530240857082" MODIFIED="1530240857082" TEXT="document.write(&quot;--&#xc0b0;&#xc220;&#xc5f0;&#xc0b0;&#xc790;--&lt;br&gt;&quot;);"/>
+<node CREATED="1530240857082" ID="ID_512308956" MODIFIED="1530240857082" TEXT="document.write(&quot;--&#xc0b0;&#xc220;&#xc5f0;&#xc0b0;&#xc790;--&lt;br&gt;&quot;);"/>
 <node CREATED="1530240857082" MODIFIED="1530240857082" TEXT="document.write( a + &quot; + &quot; + b + &quot; = &quot; + (a + b) +&quot;&lt;br&gt;&quot;);"/>
 <node CREATED="1530240857082" MODIFIED="1530240857082" TEXT="document.write( a + &quot; - &quot; + b + &quot; = &quot; + (a - b) +&quot;&lt;br&gt;&quot;);"/>
 <node CREATED="1530240857082" MODIFIED="1530240857082" TEXT="document.write( a + &quot; * &quot; + b + &quot; = &quot; + (a * b) +&quot;&lt;br&gt;&quot;);"/>
 <node CREATED="1530240857082" MODIFIED="1530240857082" TEXT="document.write( a + &quot; / &quot; + b + &quot; = &quot; + (a / b) +&quot;&lt;br&gt;&quot;);"/>
 <node CREATED="1530240857082" MODIFIED="1530240857082" TEXT="document.write( a + &quot; % &quot; + b + &quot; = &quot; + (a % b) +&quot;&lt;br&gt;&quot;);"/>
-<node CREATED="1530240857082" MODIFIED="1530240857082" TEXT="document.write(&quot;--&#xad00;&#xacc4;(&#xbe44;&#xad50;)&#xc5f0;&#xc0b0;&#xc790;--&lt;br&gt;&quot;);"/>
+<node CREATED="1530240857082" ID="ID_1367381202" MODIFIED="1530240857082" TEXT="document.write(&quot;--&#xad00;&#xacc4;(&#xbe44;&#xad50;)&#xc5f0;&#xc0b0;&#xc790;--&lt;br&gt;&quot;);"/>
 <node CREATED="1530240857082" MODIFIED="1530240857082" TEXT="document.write( a + &quot; == &quot; + b + &quot; =&gt; &quot; + (a == b) +&quot;&lt;br&gt;&quot;);"/>
 <node CREATED="1530240857082" MODIFIED="1530240857082" TEXT="document.write( a + &quot; &gt; &quot; + b + &quot; =&gt; &quot; + (a &gt; b) +&quot;&lt;br&gt;&quot;);"/>
 <node CREATED="1530240857082" ID="ID_1290464285" MODIFIED="1530240857082" TEXT="document.write( a + &quot; &gt;= &quot; + b + &quot; =&gt; &quot; + (a &gt;= b) +&quot;&lt;br&gt;&quot;);"/>
@@ -37457,7 +37348,7 @@
 <node COLOR="#3333ff" CREATED="1530509378048" ID="ID_355789569" MODIFIED="1530517564051" STYLE="bubble" TEXT="&#xd3fc;&#xccb4;&#xd06c;">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530509631025" ID="ID_189663321" MODIFIED="1530509641873" TEXT="&#xac12;&#xc744; &#xc11c;&#xbc84;&#xce21;&#xc5d0;&#xac8c; &#xb118;&#xae30;&#xae30; &#xc804;&#xc5d0; &#xac00;&#xacf5;&#xd558;&#xb294;&#xac83;"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530509658595" FOLDED="true" ID="ID_329064839" MODIFIED="1530521907851" TEXT="&#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530509658595" ID="ID_329064839" MODIFIED="1531190801515" TEXT="&#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1530509660999" ID="ID_877918993" MODIFIED="1530509660999">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -37470,8 +37361,8 @@
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530513461084" ID="ID_1219461627" MODIFIED="1530513468975" TEXT="&#xd3fc;&#xc740; &#xb0b4;&#xbd80;&#xc801;&#xc73c;&#xb85c; &#xbc30;&#xc5f4;&#xc744; &#xb450;&#xac00;&#xc9c0; &#xac00;&#xc9c0;&#xace0; &#xc788;&#xb2e4;."/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530513469257" FOLDED="true" ID="ID_1703930100" MODIFIED="1530521908665" TEXT="&#xbc30;&#xc5f4;?">
-<node CREATED="1530513483373" MODIFIED="1530513483373" TEXT="&lt;script&gt;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530513469257" ID="ID_1703930100" MODIFIED="1531190813336" TEXT="&#xbc30;&#xc5f4;?">
+<node CREATED="1530513483373" ID="ID_694047582" MODIFIED="1530513483373" TEXT="&lt;script&gt;">
 <node CREATED="1530513483373" MODIFIED="1530513483373" TEXT="var sido_array = [ &apos;&#xc11c;&#xc6b8;&apos;, &apos;&#xacbd;&#xae30;&apos;, &apos;&#xc778;&#xcc9c;&apos;, &apos;&#xb300;&#xc804;&apos; ];"/>
 <node CREATED="1530513483373" MODIFIED="1530513483373" TEXT="document.write(&quot;sido_array&apos;s length=&quot; + sido_array.length + &quot;&lt;br&gt;&quot;);"/>
 <node CREATED="1530513483373" MODIFIED="1530513483373" TEXT="document.write(&quot;sido_array[0]=&quot; + sido_array[0] + &quot;&lt;br&gt;&quot;);"/>
@@ -37513,7 +37404,7 @@
 </node>
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530509662527" ID="ID_349332436" MODIFIED="1530509663746" TEXT="&#xd55c;&#xbc88;&#xd574;&#xbcf4;&#xc790;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530517564051" FOLDED="true" ID="ID_1811706357" MODIFIED="1530521899842" TEXT="&#xccab;&#xbc88;&#xca30; &#xccb4;&#xd06c;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530517564051" ID="ID_1811706357" MODIFIED="1531190831486" TEXT="&#xccab;&#xbc88;&#xca30; &#xccb4;&#xd06c;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530513939956" ID="ID_1976730930" MODIFIED="1530517574143" TEXT="&#xd3fc; &#xb0b4;&#xbd80;&#xc5d0; &#xc788;&#xb294; &#xc785;&#xb825; &#xb370;&#xc774;&#xd130; &#xac12;&#xc744; &#xc77d;&#xc5b4;&#xc628;&#xb2e4;.">
 <node COLOR="#3333ff" CREATED="1530513996709" ID="ID_1762308982" MODIFIED="1530513998018" STYLE="bubble" TEXT="var f = document.froms[0];">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -37601,7 +37492,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530517550790" FOLDED="true" ID="ID_354245791" MODIFIED="1530521899842" TEXT="&#xb450;&#xbc88;&#xc9f8; &#xccb4;&#xd06c;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530517550790" FOLDED="true" ID="ID_354245791" MODIFIED="1531190895469" TEXT="&#xb450;&#xbc88;&#xc9f8; &#xccb4;&#xd06c;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530517691945" ID="ID_1584295423" MODIFIED="1530517718599" TEXT="form&#xc5d0; name&#xc744; f&#xb85c; &#xc900;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530517718797" ID="ID_198261503" MODIFIED="1530517732154" TEXT="&#xadf8;&#xb7ec;&#xba74; 1&#xbc88; &#xcf54;&#xb4dc;&#xb97c; &#xadf8;&#xb300;&#xb85c; &#xc4f8; &#xc218; &#xc788;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530517748020" ID="ID_1471344120" MODIFIED="1530517875343" TEXT="&#xadf8;&#xb7ec;&#xb2c8;&#xae4c; &#xc774;&#xb7f0; &#xbc29;&#xc2dd;&#xc73c;&#xb85c; &#xb9d0;&#xc774;&#xb2e4;."/>
@@ -37628,9 +37519,9 @@
 <node CREATED="1530517890897" MODIFIED="1530517890897" TEXT="f.submit();"/>
 <node CREATED="1530517890897" MODIFIED="1530517890897" TEXT="}"/>
 </node>
-<node COLOR="#3333ff" CREATED="1530517904804" ID="ID_798624883" MODIFIED="1530517905953" STYLE="bubble" TEXT="&lt;form name=&quot;f&quot;&gt;">
+<node COLOR="#3333ff" CREATED="1530517904804" FOLDED="true" ID="ID_798624883" MODIFIED="1531190894160" STYLE="bubble" TEXT="&lt;form name=&quot;f&quot;&gt;">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1530517904805" ID="ID_209483459" MODIFIED="1530517905933" TEXT="&lt;table border=&quot;1&quot;&gt;">
+<node CREATED="1530517904805" FOLDED="true" ID="ID_209483459" MODIFIED="1531190893702" TEXT="&lt;table border=&quot;1&quot;&gt;">
 <node CREATED="1530517904805" MODIFIED="1530517905933" TEXT="&lt;tr&gt;">
 <node CREATED="1530517904806" MODIFIED="1530517905934" TEXT="&lt;th&gt;&#xc544;&#xc774;&#xb514;&lt;/th&gt;"/>
 <node CREATED="1530517904806" MODIFIED="1530517905951" TEXT="&lt;td&gt;&lt;input name=&quot;id&quot; id=&quot;id&quot;&gt;&lt;/td&gt;"/>
@@ -37640,17 +37531,17 @@
 <node CREATED="1530517904807" MODIFIED="1530517905951" TEXT="&lt;th&gt;&#xbe44;&#xbc00;&#xbc88;&#xd638;&lt;/th&gt;"/>
 <node CREATED="1530517904807" MODIFIED="1530517905951" TEXT="&lt;td&gt;&lt;input type=&quot;password&quot; name=&quot;pwd&quot;&gt;&lt;/td&gt;"/>
 </node>
-<node CREATED="1530517904807" MODIFIED="1530517905951" TEXT="&lt;/tr&gt;"/>
-<node CREATED="1530517904808" MODIFIED="1530517905951" TEXT="&lt;tr&gt;">
-<node CREATED="1530517904808" MODIFIED="1530517905952" TEXT="&lt;td colspan=&quot;3&quot; align=&quot;center&quot;&gt;&lt;input type=&quot;button&quot;">
+<node CREATED="1530517904807" ID="ID_1954885770" MODIFIED="1530517905951" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1530517904808" FOLDED="true" ID="ID_1331609390" MODIFIED="1531190893348" TEXT="&lt;tr&gt;">
+<node CREATED="1530517904808" ID="ID_1516236534" MODIFIED="1530517905952" TEXT="&lt;td colspan=&quot;3&quot; align=&quot;center&quot;&gt;&lt;input type=&quot;button&quot;">
 <node CREATED="1530517904809" MODIFIED="1530517905952" TEXT="value=&quot;&#xd3fc;&#xccb4;&#xd06c;1&quot; onclick=&quot;send1();&quot;&gt; &lt;input type=&quot;button&quot;"/>
-<node CREATED="1530517904809" MODIFIED="1530517905952" TEXT="value=&quot;&#xd3fc;&#xccb4;&#xd06c;2&quot; onclick=&quot;send2();&quot;&gt; &lt;input type=&quot;button&quot;"/>
+<node CREATED="1530517904809" ID="ID_568321596" MODIFIED="1530517905952" TEXT="value=&quot;&#xd3fc;&#xccb4;&#xd06c;2&quot; onclick=&quot;send2();&quot;&gt; &lt;input type=&quot;button&quot;"/>
 <node CREATED="1530517904809" MODIFIED="1530517905952" TEXT="value=&quot;&#xd3fc;&#xccb4;&#xd06c;3&quot; onclick=&quot;send3(this);&quot;&gt;&lt;/td&gt;"/>
 </node>
 </node>
-<node CREATED="1530517904809" MODIFIED="1530517905952" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1530517904809" ID="ID_1695894377" MODIFIED="1530517905952" TEXT="&lt;/tr&gt;"/>
 </node>
-<node CREATED="1530517904809" MODIFIED="1530517905952" TEXT="&lt;/table&gt;"/>
+<node CREATED="1530517904809" ID="ID_915432727" MODIFIED="1530517905952" TEXT="&lt;/table&gt;"/>
 <node CREATED="1530517904810" MODIFIED="1530517905952" TEXT="&lt;/form&gt;"/>
 </node>
 </node>
@@ -37660,7 +37551,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530517753275" FOLDED="true" ID="ID_990138272" MODIFIED="1530521899842" TEXT="&#xc138;&#xbc88;&#xc9f8; &#xccb4;&#xd06c;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530517753275" FOLDED="true" ID="ID_990138272" MODIFIED="1531190898524" TEXT="&#xc138;&#xbc88;&#xc9f8; &#xccb4;&#xd06c;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530517946045" ID="ID_561325385" MODIFIED="1530517958694" TEXT="&#xb9e4;&#xac1c;&#xbcc0;&#xc218;&#xb85c; &#xd574;&#xb2f9; form&#xc744; &#xb118;&#xaca8;&#xc900;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530517984447" FOLDED="true" ID="ID_1078227221" MODIFIED="1530520884724" TEXT="&#xcf54;&#xb4dc;">
 <node CREATED="1530517923627" ID="ID_1787766346" MODIFIED="1530517987383" TEXT="function send3(f) {">
@@ -37721,13 +37612,13 @@
 <font BOLD="true" NAME="&#xad74;&#xb9bc;&#xccb4;" SIZE="24"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530518631463" FOLDED="true" ID="ID_1944750510" MODIFIED="1530521915072" TEXT="&#xb124;&#xbc88;&#xc9f8; &#xccb4;&#xd06c;(&#xc798;&#xbabb;&#xb41c;&#xac83;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530518631463" FOLDED="true" ID="ID_1944750510" MODIFIED="1531190927903" TEXT="&#xb124;&#xbc88;&#xc9f8; &#xccb4;&#xd06c;(&#xc798;&#xbabb;&#xb41c;&#xac83;)">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530520429031" ID="ID_189661315" MODIFIED="1530520443140" TEXT="&#xc138;&#xbc88;&#xc9f8; &#xccb4;&#xd06c;&#xc640; &#xac19;&#xc774; &#xd55c;&#xb2e4;&#xace0; &#xd560; &#xb54c;, &#xc774;&#xbbf8;&#xc9c0; &#xbc84;&#xd2bc;&#xc744; &#xc0ac;&#xc6a9;&#xd55c;&#xb2e4;&#xace0; &#xac00;&#xc815; &#xd574;&#xbcf4;&#xc790;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530518643832" ID="ID_1088627561" MODIFIED="1530520451718" TEXT="&#xb9c8;&#xcc2c;&#xac00;&#xc9c0;&#xb85c; this.form&#xc73c;&#xb85c; &#xb118;&#xaca8;&#xc8fc;&#xba74;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530518656655" ID="ID_1577181014" MODIFIED="1530518665088" TEXT="f&#xac00; &#xacc4;&#xc18d; undifined &#xb42c;&#xb2e4;&#xace0; &#xb098;&#xc628;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530518668620" ID="ID_235274426" MODIFIED="1530518678308" TEXT="&#xc774;&#xb294; img &#xd0dc;&#xadf8;&#xac00; form&#xc758; &#xad6c;&#xc131;&#xc694;&#xc18c;&#xac00; &#xc544;&#xb2c8;&#xae30; &#xb54c;&#xbb38;&#xc774;&#xb2e4;."/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530518695384" ID="ID_1182061023" MODIFIED="1530518703286" TEXT="form&#xc758; &#xad6c;&#xc131;&#xc694;&#xc18c;&#xac00; &#xbb34;&#xc5c7;&#xc77c;&#xae4c;?"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530518798984" FOLDED="true" ID="ID_947194233" MODIFIED="1530521696935" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530518798984" FOLDED="true" ID="ID_947194233" MODIFIED="1531190905073" TEXT="&#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
 <node CREATED="1530520084228" ID="ID_1377546554" MODIFIED="1530520084228">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -37786,7 +37677,7 @@
 </node>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530519736898" FOLDED="true" ID="ID_315205056" MODIFIED="1530521915851" TEXT="&#xb2e4;&#xc12f;&#xbc88;&#xc9f8; &#xccb4;&#xd06c;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530519736898" FOLDED="true" ID="ID_315205056" MODIFIED="1531190930990" TEXT="&#xb2e4;&#xc12f;&#xbc88;&#xc9f8; &#xccb4;&#xd06c;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530521366668" ID="ID_1229772358" MODIFIED="1530521389169" TEXT="&#xb124;&#xbc88; &#xc9f8;&#xc640; &#xb3d9;&#xc77c;&#xd558;&#xac8c; &#xbc84;&#xd2bc; &#xd0dc;&#xadf8;&#xb97c; &#xc774;&#xc6a9;&#xd574;&#xc11c; &#xb9cc;&#xb4e0;&#xb2e4;&#xace0; &#xd55c;&#xb2e4;&#xba74;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530519715764" ID="ID_772787607" MODIFIED="1530521198269" TEXT="&#xcf54;&#xb4dc;">
 <node CREATED="1530519716817" ID="ID_1649970469" MODIFIED="1530519716817" TEXT="&lt;input type=&quot;button&quot; value=&quot;&#xd3fc;&#xccb4;&#xd06c;1&quot; onclick=&quot;send1();&quot;&gt;"/>
@@ -37803,6 +37694,45 @@
 </node>
 <node COLOR="#3333ff" CREATED="1530521554135" ID="ID_1964346391" MODIFIED="1530521562444" STYLE="bubble" TEXT="&#xc774;&#xac83;&#xb3c4; return false&#xb97c; &#xd1b5;&#xd574;&#xc11c; &#xd574;&#xacb0; &#xac00;&#xb2a5;&#xd558;&#xb2e4;">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531190789109" ID="ID_1597506112" MODIFIED="1531190967340" STYLE="bubble" TEXT="&#xac1c;&#xb150;&#xc740; &#xc9da;&#xace0;&#xac00;&#xc790;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531189704999" FOLDED="true" ID="ID_548740542" MODIFIED="1531190938700" TEXT="&#xc778;&#xd48b;&#xc740; &#xd3fc;&#xc744; &#xac00;&#xc9c0;&#xace0; &#xc788;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531189711594" MODIFIED="1531189711594">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_1397338785160207291.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531189904934" FOLDED="true" ID="ID_1466739709" MODIFIED="1531190938700" TEXT="&#xc774; &#xd3fc; &#xc548;&#xc5d0;&#xb294; &#xba54;&#xc18c;&#xb4dc; &#xbcc0;&#xc218;&#xac00; &#xc788;&#xace0;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531189922153" MODIFIED="1531189922153">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_1817061955382481169.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531189926738" FOLDED="true" ID="ID_945658057" MODIFIED="1531190938700" TEXT="&#xd3fc; &#xc548;&#xc5d0;&#xb294; submit &#xc18d;&#xc131;&#xc774; &#xc788;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531190034095" MODIFIED="1531190034095">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_1903477865903034098.jpeg" />
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -37985,7 +37915,7 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530666999887" FOLDED="true" ID="ID_1502950302" MODIFIED="1530838156803" TEXT="&#xce94;&#xbc84;&#xc2a4;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530666999887" FOLDED="true" ID="ID_1502950302" MODIFIED="1531218232275" TEXT="&#xce94;&#xbc84;&#xc2a4;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530667003899" ID="ID_1322406078" MODIFIED="1530667013914" TEXT="&#xd604;&#xc7ac; html &#xbb38;&#xc11c;&#xac00; &#xb85c;&#xb4dc;&#xac00; &#xc644;&#xb8cc;&#xb418;&#xba74; &#xd638;&#xcd9c;&#xb418;&#xb294; &#xc774;&#xbca4;&#xd2b8;"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530667026318" ID="ID_688924182" MODIFIED="1530782501369" TEXT="&#xcf54;&#xb4dc;">
 <node COLOR="#3333ff" CREATED="1530667014827" ID="ID_1998130027" MODIFIED="1530667153495" STYLE="bubble" TEXT="window.onload = init;">
@@ -38350,7 +38280,7 @@
 <node CREATED="1530684489409" ID="ID_1803435125" MODIFIED="1530684489409" TEXT="&lt;/html&gt;"/>
 </node>
 </node>
-<node COLOR="#000000" CREATED="1530838163055" ID="ID_283465668" MODIFIED="1531117374012" TEXT="&#xc81c;&#xc774;&#xcffc;&#xb9ac;(Jquery)">
+<node COLOR="#000000" CREATED="1530838163055" FOLDED="true" ID="ID_283465668" MODIFIED="1531201303348" TEXT="&#xc81c;&#xc774;&#xcffc;&#xb9ac;(Jquery)">
 <edge STYLE="bezier"/>
 <font BOLD="true" NAME="&#xad74;&#xb9bc;&#xccb4;" SIZE="18"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530870017766" FOLDED="true" ID="ID_1953499965" MODIFIED="1531117580361" TEXT="&#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
@@ -41013,7 +40943,7 @@
 <node BACKGROUND_COLOR="#ffff00" CREATED="1531115530395" ID="ID_603512133" MODIFIED="1531115541062" TEXT="AQuery : Android Query"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531099333680" ID="ID_643967688" MODIFIED="1531099344497" STYLE="bubble" TEXT="&#xc81c;&#xc774;&#xc2a8;">
+<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531099333680" FOLDED="true" ID="ID_643967688" MODIFIED="1531201303348" STYLE="bubble" TEXT="&#xc81c;&#xc774;&#xc2a8;">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1531099344921" ID="ID_1186786368" MODIFIED="1531099346452" TEXT="&#xc81c;&#xc774;&#xc2a8;&#xac1c;&#xc694;">
 <node COLOR="#3333ff" CREATED="1531099419331" ID="ID_1953571791" MODIFIED="1531099422625" STYLE="bubble" TEXT="JSON(Javascript Object Notation)">
@@ -41033,7 +40963,7 @@
 </node>
 </node>
 </node>
-<node COLOR="#3333ff" CREATED="1531101899656" ID="ID_1140787164" MODIFIED="1531101902410" STYLE="bubble" TEXT="&#xc0c9;&#xac08; &#xbcf5;&#xc2b5;&#xd558;&#xc790;">
+<node COLOR="#3333ff" CREATED="1531101899656" FOLDED="true" ID="ID_1140787164" MODIFIED="1531201303348" STYLE="bubble" TEXT="&#xc0c9;&#xac08; &#xbcf5;&#xc2b5;&#xd558;&#xc790;">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1531101902761" ID="ID_1260372868" MODIFIED="1531101917768" STYLE="bubble" TEXT="&#xc0c9;&#xc740; &#xae30;&#xbcf8;&#xc801;&#xc73c;&#xb85c; rgb&#xc774;&#xb2e4;. red green blue &#xc774;&#xb807;&#xac8c; 3&#xac1c;&#xc774;&#xb2e4;.">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -41047,7 +40977,1467 @@
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530502053697" FOLDED="true" ID="ID_887808521" MODIFIED="1531101730503" TEXT="&#xc2e4;&#xc2b5;">
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530579169429" FOLDED="true" ID="ID_1862420684" MODIFIED="1531218236780" TEXT="JSP">
+<node COLOR="#3333ff" CREATED="1530579368699" FOLDED="true" ID="ID_680652646" MODIFIED="1531117823850" STYLE="bubble" TEXT="html4 --&gt; html5">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1530579375582" ID="ID_1128897421" MODIFIED="1530579375582" TEXT="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;">
+<node CREATED="1530579375582" ID="ID_1122814608" MODIFIED="1530579375582" TEXT="pageEncoding=&quot;UTF-8&quot;%&gt;"/>
+</node>
+<node COLOR="#3333ff" CREATED="1530579375582" ID="ID_219184411" MODIFIED="1530580485253" STYLE="bubble" TEXT="&lt;!DOCTYPE html&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node CREATED="1530579375582" ID="ID_590990965" MODIFIED="1530579375582">
+<richcontent TYPE="NODE"><html>
+  
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1530579375598" ID="ID_772884156" MODIFIED="1530579375598" TEXT="&lt;head&gt;"/>
+<node COLOR="#3333ff" CREATED="1530579375598" ID="ID_477278174" MODIFIED="1530580486673" STYLE="bubble" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node CREATED="1530579375598" ID="ID_495075766" MODIFIED="1530579375598" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
+<node CREATED="1530579375598" ID="ID_421177258" MODIFIED="1530579375598" TEXT="&lt;/head&gt;"/>
+<node CREATED="1530579375598" ID="ID_1940964435" MODIFIED="1530579375598" TEXT="&lt;body&gt;"/>
+<node CREATED="1530579375598" ID="ID_1631517267" MODIFIED="1530579375598" TEXT="&#xd68c;&#xc0ac;&#xc18c;&#xac1c; &#xba54;&#xc778; &#xd398;&#xc774;&#xc9c0;"/>
+<node CREATED="1530579375598" ID="ID_679723701" MODIFIED="1530579375598" TEXT="&lt;/body&gt;"/>
+<node CREATED="1530579375598" ID="ID_1651897765" MODIFIED="1530579375598" TEXT="&lt;/html&gt;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530580491765" ID="ID_917868665" MODIFIED="1530580506868" TEXT="&#xd45c;&#xc2dc;&#xd55c; &#xb450;&#xacf3;&#xc744; &#xc800;&#xb807;&#xac8c; &#xbc14;&#xafd4;&#xc57c;&#xc9c0;&#xb9cc; html 5 &#xbaa8;&#xb4dc;&#xac00; &#xc801;&#xc6a9;&#xb41c;&#xb2e4;."/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530581104485" FOLDED="true" ID="ID_217279073" MODIFIED="1531117822149" TEXT="&#xba54;&#xc778; &#xb808;&#xc774;&#xc544;&#xc6c3;&#xc744; &#xb9cc;&#xb4e4;&#xace0;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530581114179" ID="ID_1406189006" MODIFIED="1530581296272" TEXT="html">
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;">
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="pageEncoding=&quot;UTF-8&quot;%&gt;"/>
+</node>
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;!DOCTYPE html&gt;"/>
+<node CREATED="1530581143846" MODIFIED="1530581143846">
+<richcontent TYPE="NODE"><html>
+  
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;head&gt;"/>
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;link rel=&quot;stylesheet&quot; href=&quot;css/main.css&quot;&gt;"/>
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;/head&gt;"/>
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;body&gt;">
+<node CREATED="1530581143846" ID="ID_714552782" MODIFIED="1530581143846" TEXT="&lt;div id=&quot;main_box&quot;&gt;">
+<node COLOR="#3333ff" CREATED="1530581143846" ID="ID_1588738259" MODIFIED="1530588754521" STYLE="bubble">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;div id=&quot;header&quot;&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+  </body>
+</html></richcontent>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1530584626970" ID="ID_572556708" MODIFIED="1530588467488" STYLE="bubble">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&lt;%@ include file = &quot;header/header.jsp&quot;%&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_572556708" ENDARROW="Default" ENDINCLINATION="1151;0;" ID="Arrow_ID_219096262" SOURCE="ID_74503801" STARTARROW="None" STARTINCLINATION="1151;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530584614741" ID="ID_315112443" MODIFIED="1530584614756">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&lt;/div&gt;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;div id=&quot;aside&quot;&gt;&lt;/div&gt;"/>
+<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;div id=&quot;content&quot;&gt;&lt;/div&gt;"/>
+<node CREATED="1530581143862" ID="ID_589744606" MODIFIED="1530581143862" TEXT="&lt;div id=&quot;footer&quot;&gt;">
+<node COLOR="#3333ff" CREATED="1530581143862" ID="ID_1586249761" LINK="mailto:%@include" MODIFIED="1530581310669" STYLE="bubble" TEXT="&lt;%@include file = &quot;footer/footer.jsp&quot; %&gt;">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1586249761" ENDARROW="Default" ENDINCLINATION="786;0;" ID="Arrow_ID_99527353" SOURCE="ID_74287963" STARTARROW="None" STARTINCLINATION="786;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1530581143862" ID="ID_396915846" MODIFIED="1530581143862" TEXT="&lt;/div&gt;"/>
+</node>
+<node CREATED="1530581143862" MODIFIED="1530581143862" TEXT="&lt;/div&gt;"/>
+</node>
+<node CREATED="1530581143862" MODIFIED="1530581143862" TEXT="&lt;/body&gt;"/>
+<node CREATED="1530581143862" MODIFIED="1530581143862" TEXT="&lt;/html&gt;"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530581120912" FOLDED="true" ID="ID_1451005054" MODIFIED="1530581145249" TEXT="css">
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="@charset &quot;UTF-8&quot;;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="*{">
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="margin: 0;"/>
+</node>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="}"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="#main_box{">
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="margin: 0 auto;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="width: 800px;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="height: 600px;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="background-color: #ffcccc;"/>
+</node>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="}"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="#header{">
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="height: 120px;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="background-color:aqua;"/>
+</node>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="}"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="#aside{">
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="float: left;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="box-sizing: border-box;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="width: 30%;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="background-color: #ffff3c;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="min-height: 380px;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="height: auto;"/>
+</node>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="}"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="#content{">
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="float: left;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="box-sizing: border-box;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="background-color: #a2ffa2;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="width:70%;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="min-height: 380px;"/>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="height: auto;"/>
+</node>
+<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="}"/>
+<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="#footer{">
+<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="clear: both;"/>
+<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="width: 100%;"/>
+<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="height: 100px;"/>
+<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="background-color: olive;"/>
+</node>
+<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="}"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530581146701" FOLDED="true" ID="ID_1820297088" MODIFIED="1530594434569" TEXT="&#xd478;&#xd130; jsp&#xb97c; &#xb9cc;&#xb4e4;&#xc790;">
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;">
+<node CREATED="1530581278426" ID="ID_1366983358" MODIFIED="1530581278426" TEXT="pageEncoding=&quot;UTF-8&quot;%&gt;"/>
+</node>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;!DOCTYPE html&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426">
+<richcontent TYPE="NODE"><html>
+  
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;head&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;/head&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;body&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;div id = &quot;footer_content&quot;&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="(&#xc8fc;)&#xc778;&#xd06c;&#xb808;&#xd30c;&#xc2a4; A&#xac15;&#xc758;&#xc2e4;&lt;br&gt; &lt;a href = &quot;&quot;&gt;&#xac1c;&#xc778;&#xc815;&#xbcf4;&#xad00;&#xb9ac;&#xc815;&#xcc45;&lt;/a&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&#xb300;&#xd45c;&#xc790; : &#xd64d;&#xb300;&#xd45c;&lt;br&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&#xc8fc;&#xc18c;   : &#xc11c;&#xc6b8;&#xc2dc; &#xad6c;&#xb85c;&#xad6c; &#xad6c;&#xb85c;3&#xb3d9;&lt;br&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&#xad00;&#xb9ac;&#xc790; : &#xd64d;&#xad00;&#xb9ac; &#xc804;&#xd654;)010-111-2345"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;/div&gt;"/>
+<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;/body&gt;"/>
+<node CREATED="1530581278441" MODIFIED="1530581278441" TEXT="&lt;/html&gt;"/>
+<node COLOR="#3333ff" CREATED="1530581279507" ID="ID_74287963" MODIFIED="1530581310042" STYLE="bubble" TEXT="jsp &#xc778;&#xd074;&#xb8e8;&#xb4dc;">
+<arrowlink DESTINATION="ID_1586249761" ENDARROW="Default" ENDINCLINATION="786;0;" ID="Arrow_ID_99527353" STARTARROW="None" STARTINCLINATION="786;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530584561922" FOLDED="true" ID="ID_444653346" MODIFIED="1530594434569" TEXT="&#xb9c8;&#xcc2c;&#xac00;&#xc9c0;&#xb85c; header&#xb3c4; &#xb9cc;&#xb4e4;&#xace0; &#xc778;&#xd074;&#xb8e8;&#xb4dc;">
+<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;">
+<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="pageEncoding=&quot;UTF-8&quot;%&gt;"/>
+</node>
+<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;!DOCTYPE html&gt;"/>
+<node CREATED="1530584580003" MODIFIED="1530584580003">
+<richcontent TYPE="NODE"><html>
+  
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;head&gt;"/>
+<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
+<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
+<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;/head&gt;"/>
+<node CREATED="1530584580003" ID="ID_238221606" MODIFIED="1530584580003" TEXT="&lt;body&gt;">
+<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;h1 id=&quot;title&quot;&gt;:::A&#xac15;&#xc758;&#xc2e4; &#xc1fc;&#xd551;&#xbab0;:::&lt;/h1&gt;"/>
+<node COLOR="#3333ff" CREATED="1530584580003" ID="ID_1167721846" LINK="mailto:%@include" MODIFIED="1530588767258" STYLE="bubble" TEXT="&lt;%@include file=&quot;../menu/main_menu.jsp&quot;%&gt;">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1167721846" ENDARROW="Default" ENDINCLINATION="555;0;" ID="Arrow_ID_794849572" SOURCE="ID_1606306087" STARTARROW="None" STARTINCLINATION="555;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1530584580003" ID="ID_828754605" MODIFIED="1530584580003" TEXT="&lt;/body&gt;"/>
+<node CREATED="1530584580003" ID="ID_1403495741" MODIFIED="1530584580003" TEXT="&lt;/html&gt;"/>
+<node COLOR="#3333ff" CREATED="1530584586944" ID="ID_74503801" MODIFIED="1530584634849" STYLE="bubble" TEXT="header &#xc778;&#xd074;&#xb8e8;&#xb4dc;">
+<arrowlink DESTINATION="ID_572556708" ENDARROW="Default" ENDINCLINATION="1151;0;" ID="Arrow_ID_219096262" STARTARROW="None" STARTINCLINATION="1151;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530588395635" FOLDED="true" ID="ID_63815895" MODIFIED="1531117813511" TEXT="&#xba54;&#xc778;&#xba54;&#xb274;&#xb3c4; &#xb9cc;&#xb4e4;&#xc5b4;&#xc11c; &#xc778;&#xd074;&#xb8e8;&#xb4dc;">
+<node CREATED="1530588444129" FOLDED="true" ID="ID_1219149742" MODIFIED="1530594436470" TEXT="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;">
+<node CREATED="1530588444129" MODIFIED="1530588444129" TEXT="pageEncoding=&quot;UTF-8&quot;%&gt;"/>
+</node>
+<node CREATED="1530588444129" ID="ID_205145769" LINK="http://www.w3.org/TR/html4/loose.dtd" MODIFIED="1530588444129" TEXT="&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;"/>
+<node CREATED="1530588444129" ID="ID_256022079" MODIFIED="1530588444129">
+<richcontent TYPE="NODE"><html>
+  
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1530588444129" ID="ID_1322003855" MODIFIED="1530588444129" TEXT="&lt;head&gt;"/>
+<node CREATED="1530588444129" ID="ID_1014795670" MODIFIED="1530588444129" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
+<node CREATED="1530588444129" ID="ID_1134881467" MODIFIED="1530588444129" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
+<node CREATED="1530588444129" ID="ID_109972296" MODIFIED="1530588444129" TEXT="&lt;/head&gt;"/>
+<node CREATED="1530588444129" FOLDED="true" ID="ID_27327864" MODIFIED="1530594436470" TEXT="&lt;body&gt;">
+<node CREATED="1530588444145" MODIFIED="1530588444145" TEXT="&lt;ul id=&quot;main_menu&quot;&gt;">
+<node CREATED="1530588444145" MODIFIED="1530588444145" TEXT="&lt;li&gt;&lt;a href=&quot;main_company.jsp&quot;&gt;&#xd68c;&#xc0ac;&#xc18c;&#xac1c;&lt;/a&gt;&lt;/li&gt;"/>
+<node CREATED="1530588444145" MODIFIED="1530588444145" TEXT="&lt;li&gt;&lt;a href=&quot;main_product.jsp&quot;&gt;&#xc0c1;&#xd488;&#xc18c;&#xac1c;&lt;/a&gt;&lt;/li&gt;"/>
+<node CREATED="1530588444145" MODIFIED="1530588444145" TEXT="&lt;li&gt;&lt;a href=&quot;main_customer.jsp&quot;&gt;&#xace0;&#xac1d;&#xc13c;&#xd130;&lt;/a&gt;&lt;/li&gt;"/>
+</node>
+<node CREATED="1530588444145" MODIFIED="1530588444145" TEXT="&lt;/ul&gt;"/>
+</node>
+<node CREATED="1530588444145" ID="ID_1527074911" MODIFIED="1530588444145" TEXT="&lt;/body&gt;"/>
+<node CREATED="1530588444145" ID="ID_570526328" MODIFIED="1530588444145" TEXT="&lt;/html&gt;"/>
+<node COLOR="#3333ff" CREATED="1530588447164" FOLDED="true" ID="ID_1606306087" MODIFIED="1530594436470" STYLE="bubble" TEXT="&#xba54;&#xc778;&#xba54;&#xb274; &#xc778;&#xd074;&#xb8e8;&#xb4dc;">
+<arrowlink DESTINATION="ID_1167721846" ENDARROW="Default" ENDINCLINATION="555;0;" ID="Arrow_ID_794849572" STARTARROW="None" STARTINCLINATION="555;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1530588472401" ID="ID_724720175" MODIFIED="1530588773201" STYLE="bubble" TEXT="&#xd5e4;&#xb354;&#xc5d0; &#xc778;&#xd074;&#xb8e8;&#xb4dc; &#xd574;&#xc900;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530667041673" ID="ID_68071350" MODIFIED="1530667044720" TEXT="&#xc11c;&#xbe0c; &#xba54;&#xb274; &#xc778;&#xd074;&#xb8e8;&#xb4dc;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530667045200" ID="ID_31705324" MODIFIED="1530667057013" TEXT="&#xc774;&#xb7ec;&#xd55c; &#xba54;&#xc778; &#xb808;&#xc774;&#xc544;&#xc6c3;&#xc744; 3&#xac1c; &#xb9cc;&#xb4e4;&#xae30;"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531117906355" FOLDED="true" ID="ID_182841287" MODIFIED="1531218236780" TEXT="&#xc11c;&#xbe14;&#xb9bf;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531118279982" FOLDED="true" ID="ID_1433073061" MODIFIED="1531125856608" TEXT="&#xd1b0;&#xcea3; -&gt; &#xc11c;&#xbe14;&#xb9bf;(&#xc774;&#xbbf8;&#xc9c0;)">
+<font NAME="&#xad74;&#xb9bc;&#xccb4;" SIZE="12"/>
+<node CREATED="1531118288503" MODIFIED="1531118288503">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_6553129673300345755.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531120646037" FOLDED="true" ID="ID_1729808958" MODIFIED="1531125855112" TEXT="&#xd574;&#xbcf4;&#xc790;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531118383499" ID="ID_1010244336" MODIFIED="1531118387581" TEXT="&#xd504;&#xb85c;&#xc81d;&#xd2b8;&#xb97c; &#xb9cc;&#xb4e4;&#xc790;.">
+<node COLOR="#3333ff" CREATED="1531118353698" ID="ID_649724359" MODIFIED="1531118354965" STYLE="bubble" TEXT="2018_0709_ServletEx_25">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531118355674" ID="ID_499994668" MODIFIED="1531118381994" TEXT="&#xc774; &#xb9d0;&#xc740; &#xc11c;&#xbe14;&#xb9bf; &#xbaa8;&#xb4c8; &#xbc84;&#xc83c; 2.5&#xbc84;&#xc83c;&#xc73c;&#xb85c; &#xd558;&#xaca0;&#xb2e4;&#xb294; &#xac83;&#xc744; &#xc758;&#xbbf8;&#xd55c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531118537989" FOLDED="true" ID="ID_99559676" MODIFIED="1531120652431" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1531118540449" MODIFIED="1531118540449">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_5565799166528603483.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531120683435" ID="ID_149131245" MODIFIED="1531120687154" TEXT="&#xc11c;&#xbe14;&#xb9bf;&#xc744; &#xb9cc;&#xb4e4;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531120687648" MODIFIED="1531120687648">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_1925041994237971975.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531120744568" ID="ID_748950158" MODIFIED="1531120750209" TEXT="&#xd328;&#xd0a4;&#xc9c0;&#xc640; &#xc774;&#xb984;&#xc744; &#xc785;&#xb825;&#xd558;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531120750489" MODIFIED="1531120750489">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_5349887684770195665.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531120792155" ID="ID_1948106495" MODIFIED="1531120813524" TEXT="&#xd574;&#xb2f9; &#xd074;&#xb798;&#xc2a4; &#xb124;&#xc784; &#xc120;&#xd0dd;&#xd558;&#xace0; edit(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531120799376" ID="ID_1793847817" MODIFIED="1531120799376">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_6367430675555422241.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531120824102" ID="ID_604422152" MODIFIED="1531120888118" STYLE="bubble" TEXT="&#xc815;&#xd655;&#xd55c; url &#xba65;&#xd551;&#xc744; &#xc785;&#xb825;&#xd558;&#xb77c;. &#xc544;&#xbb34;&#xb807;&#xac8c;&#xb098; &#xc785;&#xb825;&#xd574;&#xb3c4; &#xadf8;&#xac83;&#xc740; &#xc0c1;&#xc9d5;&#xc801; &#xc758;&#xbbf8;&#xc774;&#xc9c0; &#xc5b4;&#xb5a4; &#xae30;&#xc220;&#xc774; &#xc791;&#xb3d9;&#xd55c;&#xb2e4;&#xb294; &#xac83;&#xc774; &#xc544;&#xb2d8;&#xc744; &#xc54c;&#xc544;&#xb77c;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531120864254" ID="ID_1595252543" MODIFIED="1531120883626">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_2141608513693601012.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531121005355" ID="ID_1494401238" MODIFIED="1531121011543" TEXT="&#xc790;&#xc2e0;&#xc774; &#xd558;&#xace0;&#xc790; &#xd558;&#xb294; &#xbc14;&#xb9cc; &#xccb4;&#xd06c; &#xd574;&#xb77c;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531121011786" MODIFIED="1531121011786">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_684271941315679929.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531118660577" FOLDED="true" ID="ID_974428119" MODIFIED="1531132478397" TEXT="&#xc2dc;&#xc791;&#xcf54;&#xb529;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531118548995" FOLDED="true" ID="ID_1601950665" MODIFIED="1531120670880" TEXT="&#xcf54;&#xb529;&#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531118582337" ID="ID_631916191" MODIFIED="1531118582337">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_3856424794487118424.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531118653757" FOLDED="true" ID="ID_855092035" MODIFIED="1531119391651" STYLE="bubble" TEXT="&#xc989;, &#xb2e4;&#xc74c;&#xc744; &#xc758;&#xbbf8;&#xd55c;&#xb2e4;. src&#xc5d0;&#xc11c; Servlet&#xc744; &#xb9cc;&#xb4e4;&#xae30;(&#xc774;&#xbbf8;&#xc9c0;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531118666430" MODIFIED="1531118683264">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_7046091223543442480.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531119403577" FOLDED="true" ID="ID_320717307" MODIFIED="1531125853593" TEXT="&#xc608;&#xc81c;1">
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="package action;"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="import java.io.IOException;"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="/**">
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="* Servlet implementation class HelloAction"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="*/"/>
+</node>
+<node CREATED="1531119409417" ID="ID_1749074723" MODIFIED="1531119409417" TEXT="public class HelloAction extends HttpServlet {">
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="/**">
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="*/"/>
+</node>
+<node CREATED="1531119409417" ID="ID_552122356" MODIFIED="1531119409417" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="String ip = request.getRemoteAddr();"/>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="System.out.println(ip + &quot;--HelloAction service call&quot;);"/>
+</node>
+<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="}"/>
+</node>
+<node CREATED="1531119409417" ID="ID_903622318" MODIFIED="1531119409417" TEXT="}"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531121028533" ID="ID_1034141925" MODIFIED="1531121030737" TEXT="&#xc2e4;&#xd589;&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531121031015" MODIFIED="1531121031015">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_9161759834886985486.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531119480264" FOLDED="true" ID="ID_1163796157" MODIFIED="1531184882874" TEXT="&#xac1c;&#xb150;&#xc740; &#xc7a1;&#xace0;&#xac00;&#xc790;">
+<node COLOR="#3333ff" CREATED="1531119483312" FOLDED="true" ID="ID_580795457" MODIFIED="1531184875392" STYLE="bubble" TEXT="HttpServletRequest request ">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1531119498487" ID="ID_1023856189" MODIFIED="1531119528985" STYLE="bubble" TEXT="&#xc774;&#xac74;&#xbc14;&#xb85c; &#xc694;&#xccad;&#xcc98;&#xb9ac;&#xac1d;&#xccb4;&#xc774;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531119512104" FOLDED="true" ID="ID_760481279" MODIFIED="1531184878419" STYLE="bubble" TEXT="HttpServletResponse response">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1531119525578" ID="ID_678154162" MODIFIED="1531119528516" STYLE="bubble" TEXT="&#xc751;&#xb2f5;&#xcc98;&#xb9ac;&#xac1d;&#xccb4;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531121076319" FOLDED="true" ID="ID_977793032" MODIFIED="1531184877550" STYLE="bubble" TEXT="&#xc11c;&#xbe14;&#xb9bf;&#xc744; &#xd638;&#xcd9c;&#xd560; &#xc815;&#xbcf4;&#xac00; web.xml&#xc5d0; &#xb4e4;&#xc5b4;&#xac00;&#xc788;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531121489762" ID="ID_63139525" MODIFIED="1531121502517" STYLE="bubble" TEXT="&#xc11c;&#xbe14;&#xb9bf; &#xc774;&#xb984;&#xc744; &#xd655;&#xc2e4;&#xd788; &#xc9c0;&#xc815;&#xc744; &#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531121684907" ID="ID_1246906290" MODIFIED="1531121688344" TEXT="&#xc774;&#xac74; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531121688661" MODIFIED="1531121688661">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_3184000482865189147.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531121502797" FOLDED="true" ID="ID_141380918" MODIFIED="1531121877265" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1531121538098" MODIFIED="1531121538098">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_2188195654685372388.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531121878591" FOLDED="true" ID="ID_1381637564" MODIFIED="1531184876830" STYLE="bubble" TEXT="&#xadf8;&#xb7ec;&#xb098; 3.0 &#xb118;&#xc5b4;&#xc11c;&#xac00;&#xba74;&#xc11c; &#xc774;&#xac8c; &#xc5c6;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531121887206" ID="ID_1326437207" MODIFIED="1531121887206">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_2957633905062322241.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531122475720" FOLDED="true" ID="ID_1415232204" MODIFIED="1531184882687" TEXT="&#xc544;&#xb2c8; &#xadf8;&#xb7ec;&#xba74;, 3.0&#xc740; &#xc5b4;&#xb5bb;&#xac8c; &#xd558;&#xb0d0;?">
+<node COLOR="#3333ff" CREATED="1531122467981" ID="ID_345838356" MODIFIED="1531122562521" STYLE="bubble" TEXT="@WebServlet(&quot;/hello.do&quot;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531122610994" ID="ID_4237580" MODIFIED="1531184881717" STYLE="bubble" TEXT="&#xc774;&#xac8c; &#xbc14;&#xb85c; &#xc5b4;&#xb178;&#xd14c;&#xc774;&#xc158; &#xbc29;&#xc2dd; !!!(&#xc774;&#xbbf8;&#xc9c0;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531122802417" MODIFIED="1531122802417">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_1646741462808355339.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531122526451" ID="ID_667838443" LINK="#ID_1154848961" MODIFIED="1531122532787" TEXT="&#xc694;&#xac8c; &#xc788;&#xb2e4;.">
+<arrowlink DESTINATION="ID_1154848961" ENDARROW="Default" ENDINCLINATION="283;0;" ID="Arrow_ID_1747543745" STARTARROW="None" STARTINCLINATION="283;0;"/>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531119788560" FOLDED="true" ID="ID_1406009234" MODIFIED="1531184871604" TEXT="&#xc608;&#xc81c;2">
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="package action;"/>
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="import java.io.IOException;"/>
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531119793955" ID="ID_421354637" MODIFIED="1531119793955" TEXT="/**">
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="* Servlet implementation class HelloAction"/>
+<node CREATED="1531119793955" ID="ID_1614298327" MODIFIED="1531119793955" TEXT="*/"/>
+</node>
+<node CREATED="1531119793955" ID="ID_423735295" MODIFIED="1531119793955" TEXT="public class HelloAction extends HttpServlet {">
+<node CREATED="1531119793955" ID="ID_1647100291" MODIFIED="1531119793955" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531119793955" ID="ID_827128516" MODIFIED="1531119793955" TEXT="/**">
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="*/"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531119793955" ID="ID_154178499" MODIFIED="1531119800790" STYLE="bubble" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531119793955" MODIFIED="1531119800790" TEXT="// TODO Auto-generated method stub"/>
+<node COLOR="#3333ff" CREATED="1531119793955" ID="ID_170748705" MODIFIED="1531119800790" STYLE="bubble" TEXT="String ip = request.getRemoteAddr();">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531119793955" ID="ID_99825500" MODIFIED="1531119800790" STYLE="bubble" TEXT="System.out.println(ip + &quot;--HelloAction service call&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531119793955" ID="ID_659790970" MODIFIED="1531119800790" STYLE="bubble" TEXT="response.setContentType(&quot;text/html; charset=utf-8;&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node CREATED="1531119793955" ID="ID_1085714130" MODIFIED="1531119800790" TEXT="//&#xc751;&#xb2f5;&#xcc98;&#xb9ac;"/>
+<node COLOR="#3333ff" CREATED="1531119793955" ID="ID_196952566" MODIFIED="1531119800790" STYLE="bubble" TEXT="response.getWriter().println(ip+&quot;&#xc548;&#xb155;&#xd558;&#xc138;&#xc694;&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="}"/>
+</node>
+<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="}"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531122455889" FOLDED="true" ID="ID_429131888" MODIFIED="1531184870963" STYLE="bubble" TEXT="&#xc608;&#xc81c;3(3.0 &#xbc84;&#xc804;&#xc6a9;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531122467981" ID="ID_1169658881" MODIFIED="1531122467981" TEXT="package action;"/>
+<node CREATED="1531122467981" ID="ID_546305433" MODIFIED="1531122467981" TEXT="import java.io.IOException;"/>
+<node CREATED="1531122467981" ID="ID_1707229214" MODIFIED="1531122467981" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531122467981" ID="ID_1505447490" MODIFIED="1531122467981" TEXT="import javax.servlet.annotation.WebServlet;"/>
+<node CREATED="1531122467981" ID="ID_646247545" MODIFIED="1531122467981" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531122467981" ID="ID_275033799" MODIFIED="1531122467981" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531122467981" ID="ID_1215231011" MODIFIED="1531122467981" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="/**">
+<node CREATED="1531122467981" ID="ID_1867589524" MODIFIED="1531122467981" TEXT="* Servlet implementation class HelloAction"/>
+<node CREATED="1531122467981" ID="ID_1482390260" MODIFIED="1531122467981" TEXT="*/"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531122467981" ID="ID_1154848961" MODIFIED="1531122543378" STYLE="bubble" TEXT="@WebServlet(&quot;/hello.do&quot;)">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1154848961" ENDARROW="Default" ENDINCLINATION="283;0;" ID="Arrow_ID_1747543745" SOURCE="ID_667838443" STARTARROW="None" STARTINCLINATION="283;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="public class HelloAction extends HttpServlet {">
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="/**">
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="*/"/>
+</node>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="String ip = request.getRemoteAddr();"/>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="System.out.println(ip + &quot;&#xb2d8; &#xc548;&#xb155;&#xd558;&#xc138;&#xc694; &#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#x3157;&#xd653;&#xd638;&#x3157;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&quot;);"/>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="response.setContentType(&quot;text/html; charset=utf-8&quot;);"/>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="response.getWriter().println(ip + &quot;[&#xb2d8;]&#xc548;&#xb155;&#xd558;&#xc138;&#xc694;. &#xd5c8;&#xd5c8;&#xd5c8;&#xd5c8;&lt;br&gt;&#xd638;&#x3157;&#xd638;&#x3157;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd653;&quot;);"/>
+</node>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="}"/>
+</node>
+<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="}"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531123215015" FOLDED="true" ID="ID_704268633" MODIFIED="1531184870199" TEXT="&#xc608;&#xc81c;4(&#xbcf8;&#xaca9;&#xc801;&#xc778; &#xb2e4;&#xc774;&#xb098;&#xbbf9; &#xc6f9; &#xd504;&#xb85c;&#xadf8;&#xb7a8;)">
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="package action;"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import java.io.IOException;"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import javax.servlet.annotation.WebServlet;"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="/**">
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="* Servlet implementation class HelloAction"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="*/"/>
+</node>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="@WebServlet(&quot;/hello.do&quot;)"/>
+<node CREATED="1531123879221" ID="ID_1743362141" MODIFIED="1531123879221" TEXT="public class HelloAction extends HttpServlet {">
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="/**">
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="*/"/>
+</node>
+<node CREATED="1531123879221" ID="ID_614040574" MODIFIED="1531123879221" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="String ip = request.getRemoteAddr();"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="System.out.println(ip + &quot;&#xb2d8; &#xc548;&#xb155;&#xd558;&#xc138;&#xc694; &#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#x3157;&#xd653;&#xd638;&#x3157;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&quot;);"/>
+<node COLOR="#3333ff" CREATED="1531123879221" ID="ID_140069240" MODIFIED="1531125461799" STYLE="bubble" TEXT="request.setCharacterEncoding(&quot;utf-8&quot;);">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_140069240" ENDARROW="Default" ENDINCLINATION="1133;0;" ID="Arrow_ID_1287046630" SOURCE="ID_502474962" STARTARROW="None" STARTINCLINATION="1133;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node CREATED="1531123879221" ID="ID_216507233" MODIFIED="1531123879221" TEXT="String color = request.getParameter(&quot;color&quot;);"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="if(color == null)">
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="color = &quot;red&quot;;"/>
+</node>
+<node CREATED="1531123879221" ID="ID_1526791256" MODIFIED="1531123879221" TEXT="response.setContentType(&quot;text/html; charset=utf-8&quot;);"/>
+<node CREATED="1531123879221" ID="ID_1009893024" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;html&gt;&quot;);"/>
+<node CREATED="1531123879221" ID="ID_240408792" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;head&gt;&lt;title&gt;&#xc548;&#xb155;&lt;/title&gt;&lt;/head&gt;&quot;);"/>
+<node CREATED="1531123879221" ID="ID_109691581" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;body bgcolor = &quot;+ color + &quot;&gt;&quot;);"/>
+<node CREATED="1531123879221" ID="ID_1639553704" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;h1&gt;&quot;+ip + &quot;[&#xb2d8;]&#xc548;&#xb155;&#xd558;&#xc138;&#xc694;. &#xd5c8;&#xd5c8;&#xd5c8;&#xd5c8;&lt;br&gt;&#xd638;&#x3157;&#xd638;&#x3157;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd653;&lt;/h1&gt;&quot;);"/>
+<node CREATED="1531123879221" ID="ID_1687948308" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;/body&gt;&quot;);"/>
+<node CREATED="1531123879221" ID="ID_869720751" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;/html&gt;&quot;);"/>
+<node CREATED="1531123879221" ID="ID_177577304" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
+<node CREATED="1531123879221" ID="ID_1116153860" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
+<node CREATED="1531123879221" ID="ID_184227350" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
+</node>
+<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="}"/>
+</node>
+<node CREATED="1531123879221" ID="ID_1054073747" MODIFIED="1531123879221" TEXT="}"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531123897300" FOLDED="true" ID="ID_1799397997" MODIFIED="1531184869387" STYLE="bubble" TEXT="&#xc2e4;&#xd589;&#xacb0;&#xacfc;: &#xc8fc;&#xc18c;&#xd45c;&#xc2dc;&#xc904;&#xc5d0; &#xc788;&#xb294; yellow&#xb97c; &#xc798; &#xbd10;&#xb77c;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531123900255" ID="ID_285081181" MODIFIED="1531124333397">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_8388307862096925253.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531126127521" FOLDED="true" ID="ID_1615313228" MODIFIED="1531184867499" STYLE="bubble" TEXT="&#xd30c;&#xb77c;&#xbbf8;&#xd130; &#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531126132708" ID="ID_1694291054" MODIFIED="1531126133826">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_1677933888680287871.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531125286646" ID="ID_502474962" LINK="#ID_140069240" MODIFIED="1531125462699" STYLE="bubble" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xd574;&#xb2f9; &#xbcc0;&#xc218;(color)&#xc5d0; &#xd55c;&#xae00;&#xc774;&#xb098; &#xd2b9;&#xc218;&#xbb38;&#xc790;&#xb97c; &#xc785;&#xb825;&#xd558;&#xb824;&#xba74; &#xc774;&#xc640;&#xac19;&#xc774; &#xc804;&#xc1a1;&#xb418;&#xc5b4;&#xc9c0;&#xb294; &#xac12;&#xc5d0; &#xb300;&#xd574;&#xc11c; &#xc778;&#xcf54;&#xb529;&#xc744; &#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;. &#xadf8; &#xc5ed;&#xd560;&#xc744; &#xd558;&#xb294; &#xbd80;&#xbd84;&#xc774; &#xbc14;&#xb85c; &#xc774; &#xbd80;&#xbd84;&#xc774;&#xb2e4;.">
+<arrowlink DESTINATION="ID_140069240" ENDARROW="Default" ENDINCLINATION="1133;0;" ID="Arrow_ID_1287046630" STARTARROW="None" STARTINCLINATION="1133;0;"/>
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531125471407" ID="ID_1929441477" MODIFIED="1531125497773" STYLE="bubble" TEXT="&#xadf8;&#xb7fc; &#xd55c;&#xae00;&#xc744; &#xc785;&#xb825;&#xd574;&#xb3c4;(&#xc608;: color = &#xbe68;&#xac15; ) &#xb41c;&#xb2e4;&#xb294; &#xac83;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531123246759" FOLDED="true" ID="ID_1600670356" MODIFIED="1531184863686" STYLE="bubble" TEXT="&#xc774;&#xb7ec;&#xd55c; &#xb2e4;&#xc774;&#xb098;&#xbbf9; &#xc6f9; &#xd504;&#xb85c;&#xadf8;&#xb798;&#xbc0d;&#xc740; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)&#xadf8;&#xb798; &#xbc14;&#xb85c; &#xc774;&#xac70; &#xb3d9;&#xc801; html">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531123860686" ID="ID_623442722" MODIFIED="1531123864759">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_7462170612368017102.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531123794559" FOLDED="true" ID="ID_267359113" MODIFIED="1531184864859" STYLE="bubble" TEXT="&#xadf8;&#xb798;&#xc11c; &#xc11c;&#xbe14;&#xb9bf;&#xc774; &#xbb50;&#xb0d0;?">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1531123798755" ID="ID_183700762" MODIFIED="1531123803622" STYLE="bubble" TEXT="&#xc11c;&#xbe44;&#xc2a4;&#xb97c; &#xcc98;&#xb9ac;&#xd558;&#xb294; &#xac1d;&#xccb4;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531132531805" FOLDED="true" ID="ID_1606296030" MODIFIED="1531184861775" TEXT="&#xc608;&#xc81c;5(&#xc778;&#xc0bf;&#xb9d0;)">
+<node CREATED="1531184079860" MODIFIED="1531184079860" TEXT="package action;"/>
+<node CREATED="1531184079860" MODIFIED="1531184079860" TEXT="import java.io.IOException;"/>
+<node CREATED="1531184079860" MODIFIED="1531184079860" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531184079860" MODIFIED="1531184079860" TEXT="import javax.servlet.annotation.WebServlet;"/>
+<node CREATED="1531184079860" MODIFIED="1531184079860" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531184079860" MODIFIED="1531184079860" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="/**">
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="* Servlet implementation class Hi"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="*/"/>
+</node>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="@WebServlet(&quot;/hi.do&quot;)"/>
+<node CREATED="1531184079876" ID="ID_1582406345" MODIFIED="1531184079876" TEXT="public class Hi extends HttpServlet {">
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="/**">
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="*/"/>
+</node>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="String greet_msg = &quot;&#xc548;&#xb155;&#xd558;&#xc138;&#xc694;&quot;;"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="request.setCharacterEncoding(&quot;utf-8&quot;);"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="String nation = request.getParameter(&quot;nation&quot;);"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="if(nation ==null) {">
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="nation = &quot;kor&quot;;"/>
+</node>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="}"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="if(nation.equals(&quot;&#xc77c;&#xbcf8;&quot;)) {">
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="greet_msg = &quot;&#xc624;&#xaca1;&#xb07c;&#xb370;&#xc2a4;&#xae4c;&quot;;"/>
+</node>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="}else if(nation.equals(&quot;&#xc911;&#xad6d;&quot;)) {">
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="greet_msg = &quot;&#xb2c8;&#xd558;&#xc624;(&#xb9c8;)&quot;;"/>
+</node>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="}else if(nation.equals(&quot;&#xbbf8;&#xad6d;&quot;)) {">
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="greet_msg = &quot;Hi funcking good day ya ha!&quot;;"/>
+</node>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="}"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="response.setContentType(&quot;text/html; charset = utf-8&quot;);"/>
+<node CREATED="1531184079876" MODIFIED="1531184079876" TEXT="response.getWriter().println(&quot;&lt;!DOCTYPE html&gt;\r\n&quot; +">
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;&lt;html&gt;\r\n&quot; +"/>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;&lt;head&gt;\r\n&quot; +"/>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\r\n&quot; +"/>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;&lt;title&gt;&quot;+ greet_msg + &quot;&lt;/title&gt;\r\n&quot; +"/>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;&lt;/head&gt;\r\n&quot; +"/>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;&lt;body&gt;\r\n&quot; +"/>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;&lt;/body&gt;\r\n&quot; +"/>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="&quot;&lt;/html&gt;&quot;);"/>
+</node>
+</node>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="}"/>
+</node>
+<node CREATED="1531184079891" MODIFIED="1531184079891" TEXT="}"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531184885270" ID="ID_1778079871" MODIFIED="1531184902713" TEXT="&#xc608;&#xc81c;6(html &amp; &#xc11c;&#xbe14;&#xb9bf; &#xac00;&#xc7a5; &#xac04;&#xb2e8;&#xd55c; &#xc5f0;&#xb3d9;)">
+<node COLOR="#3333ff" CREATED="1531185033418" FOLDED="true" ID="ID_1558836982" MODIFIED="1531185197955" STYLE="bubble" TEXT="html">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531185031469" ID="ID_779741040" MODIFIED="1531185039834" TEXT="&lt;!DOCTYPE html&gt;"/>
+<node CREATED="1531185031469" ID="ID_1324276795" MODIFIED="1531185039834">
+<richcontent TYPE="NODE"><html>
+  
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1531185031469" ID="ID_530123978" MODIFIED="1531185039834" TEXT="&lt;head&gt;"/>
+<node CREATED="1531185031469" ID="ID_1884153302" MODIFIED="1531185039834" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
+<node CREATED="1531185031469" ID="ID_636451382" MODIFIED="1531185039834" TEXT="&lt;meta name=&quot;viewport&quot;">
+<node CREATED="1531185031469" MODIFIED="1531185031469" TEXT="content=&quot;width=device-width,initial-scale = 1.0&quot; /&gt;"/>
+</node>
+<node CREATED="1531185031469" ID="ID_93970715" MODIFIED="1531185039818" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
+<node CREATED="1531185031469" ID="ID_1217595200" MODIFIED="1531185039818" TEXT="&lt;/head&gt;"/>
+<node CREATED="1531185031469" ID="ID_1465580400" MODIFIED="1531185039818" TEXT="&lt;body&gt;"/>
+<node CREATED="1531185031469" ID="ID_531079718" MODIFIED="1531185039818" TEXT="&lt;h2&gt;Javascript Object Constructors&lt;/h2&gt;"/>
+<node CREATED="1531185031469" ID="ID_1046101787" MODIFIED="1531185039818" TEXT="&lt;p id = &quot;demo&quot;&gt;&lt;/p&gt;"/>
+<node CREATED="1531185031469" ID="ID_409743867" MODIFIED="1531185039818" TEXT="&lt;script&gt;"/>
+<node CREATED="1531185031469" ID="ID_292674448" MODIFIED="1531185039818" TEXT="function person(first,last,age,eye){">
+<node CREATED="1531185031469" MODIFIED="1531185031469" TEXT="this.firstName = first;"/>
+<node CREATED="1531185031469" MODIFIED="1531185031469" TEXT="this.lastName = last;"/>
+<node CREATED="1531185031469" MODIFIED="1531185031469" TEXT="this.age = age;"/>
+<node CREATED="1531185031469" MODIFIED="1531185031469" TEXT="this.eyeColor = eye;"/>
+</node>
+<node CREATED="1531185031469" ID="ID_1308706980" MODIFIED="1531185039818" TEXT="}"/>
+<node CREATED="1531185031469" ID="ID_528691436" MODIFIED="1531185039818" TEXT="var myFather = new person(&quot;John&quot;,&quot;Doe&quot;,50,&quot;blue&quot;);"/>
+<node CREATED="1531185031469" ID="ID_315571244" MODIFIED="1531185039818" TEXT="document.getElementById(&quot;demo&quot;).innerHTML = &quot;My father is &quot; + myFather.age + &quot;.&quot;;"/>
+<node CREATED="1531185031485" ID="ID_164357015" MODIFIED="1531185039818" TEXT="&lt;/script&gt;"/>
+<node CREATED="1531185031485" ID="ID_281739052" MODIFIED="1531185039818" TEXT="&lt;/body&gt;"/>
+<node CREATED="1531185031485" ID="ID_20997085" MODIFIED="1531185039818" TEXT="&lt;/html&gt;"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531185169856" FOLDED="true" ID="ID_1398969387" MODIFIED="1531185196668" STYLE="bubble" TEXT="&#xc11c;&#xbe14;&#xb9bf;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531185193662" MODIFIED="1531185193662" TEXT="package action;"/>
+<node CREATED="1531185193663" MODIFIED="1531185193663" TEXT="import java.io.IOException;"/>
+<node CREATED="1531185193663" MODIFIED="1531185193663" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531185193664" MODIFIED="1531185193664" TEXT="import javax.servlet.annotation.WebServlet;"/>
+<node CREATED="1531185193664" MODIFIED="1531185193664" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531185193664" MODIFIED="1531185193664" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531185193665" MODIFIED="1531185193665" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531185193665" MODIFIED="1531185193665" TEXT="/**">
+<node CREATED="1531185193665" MODIFIED="1531185193665" TEXT="* Servlet implementation class Hi"/>
+<node CREATED="1531185193666" MODIFIED="1531185193666" TEXT="*/"/>
+</node>
+<node CREATED="1531185193666" MODIFIED="1531185193666" TEXT="@WebServlet(&quot;/hi.do&quot;)"/>
+<node CREATED="1531185193666" MODIFIED="1531185193666" TEXT="public class Hi extends HttpServlet {">
+<node CREATED="1531185193666" MODIFIED="1531185193666" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531185193666" MODIFIED="1531185193666" TEXT="/**">
+<node CREATED="1531185193667" MODIFIED="1531185193667" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531185193667" MODIFIED="1531185193667" TEXT="*/"/>
+</node>
+<node CREATED="1531185193667" MODIFIED="1531185193667" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531185193669" MODIFIED="1531185193669" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531185193671" MODIFIED="1531185193671" TEXT="String greet_msg = &quot;&#xc548;&#xb155;&#xd558;&#xc138;&#xc694;&quot;;"/>
+<node CREATED="1531185193671" MODIFIED="1531185193671" TEXT="request.setCharacterEncoding(&quot;utf-8&quot;);"/>
+<node CREATED="1531185193672" MODIFIED="1531185193672" TEXT="String nation = request.getParameter(&quot;nation&quot;);"/>
+<node CREATED="1531185193672" MODIFIED="1531185193672" TEXT="if(nation ==null) {">
+<node CREATED="1531185193673" MODIFIED="1531185193673" TEXT="nation = &quot;kor&quot;;"/>
+</node>
+<node CREATED="1531185193673" MODIFIED="1531185193673" TEXT="}"/>
+<node CREATED="1531185193673" MODIFIED="1531185193673" TEXT="if(nation.equals(&quot;&#xc77c;&#xbcf8;&quot;)) {">
+<node CREATED="1531185193673" MODIFIED="1531185193673" TEXT="greet_msg = &quot;&#xc624;&#xaca1;&#xb07c;&#xb370;&#xc2a4;&#xae4c;&quot;;"/>
+</node>
+<node CREATED="1531185193674" MODIFIED="1531185193674" TEXT="}else if(nation.equals(&quot;&#xc911;&#xad6d;&quot;)) {">
+<node CREATED="1531185193674" MODIFIED="1531185193674" TEXT="greet_msg = &quot;&#xb2c8;&#xd558;&#xc624;(&#xb9c8;)&quot;;"/>
+</node>
+<node CREATED="1531185193674" MODIFIED="1531185193674" TEXT="}else if(nation.equals(&quot;&#xbbf8;&#xad6d;&quot;)) {">
+<node CREATED="1531185193675" MODIFIED="1531185193675" TEXT="greet_msg = &quot;Hi funcking good day ya ha!&quot;;"/>
+</node>
+<node CREATED="1531185193675" MODIFIED="1531185193675" TEXT="}"/>
+<node CREATED="1531185193675" MODIFIED="1531185193675" TEXT="response.setContentType(&quot;text/html; charset = utf-8&quot;);"/>
+<node CREATED="1531185193675" MODIFIED="1531185193675" TEXT="response.getWriter().println(&quot;&lt;!DOCTYPE html&gt;\r\n&quot; +">
+<node CREATED="1531185193675" MODIFIED="1531185193675" TEXT="&quot;&lt;html&gt;\r\n&quot; +"/>
+<node CREATED="1531185193676" MODIFIED="1531185193676" TEXT="&quot;&lt;head&gt;\r\n&quot; +"/>
+<node CREATED="1531185193676" MODIFIED="1531185193676" TEXT="&quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\r\n&quot; +"/>
+<node CREATED="1531185193676" MODIFIED="1531185193676" TEXT="&quot;&lt;title&gt;&quot;+ greet_msg + &quot;&lt;/title&gt;\r\n&quot; +"/>
+<node CREATED="1531185193676" MODIFIED="1531185193676" TEXT="&quot;&lt;/head&gt;\r\n&quot; +"/>
+<node CREATED="1531185193677" MODIFIED="1531185193677" TEXT="&quot;&lt;body&gt;&lt;h1&gt;\r\n&quot; + greet_msg +"/>
+<node CREATED="1531185193677" MODIFIED="1531185193677" TEXT="&quot;&lt;/h1&gt;\r\n&quot; +"/>
+<node CREATED="1531185193677" MODIFIED="1531185193677" TEXT="&quot;&lt;a href = &apos;hi.html&apos;&gt;&#xb2e4;&#xc2dc;&#xd558;&#xae30;&lt;/a&gt;&quot; +"/>
+<node CREATED="1531185193678" MODIFIED="1531185193678" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531185193678" MODIFIED="1531185193678" TEXT="&quot;&lt;/body&gt;\r\n&quot; +"/>
+<node CREATED="1531185193678" MODIFIED="1531185193678" TEXT="&quot;&lt;/html&gt;&quot;);"/>
+</node>
+</node>
+<node CREATED="1531185193679" MODIFIED="1531185193679" TEXT="}"/>
+</node>
+<node CREATED="1531185193679" MODIFIED="1531185193679" TEXT="}"/>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531185199332" FOLDED="true" ID="ID_1078090362" MODIFIED="1531218221385" STYLE="bubble" TEXT="html &amp; &#xc11c;&#xbe14;&#xb9bf; &#xacbd;&#xb85c; &#xac1c;&#xb150;(&#xc774;&#xbbf8;&#xc9c0;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531185215238" MODIFIED="1531185215238">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_5196071687111140328.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531185218775" FOLDED="true" ID="ID_1642155399" MODIFIED="1531218221013" STYLE="bubble" TEXT="&#xc11c;&#xbe14;&#xb9bf; &#xb77c;&#xc774;&#xd504; &#xc0ac;&#xc774;&#xd074; &#xac1c;&#xb150;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531185971456" ID="ID_1148545909" MODIFIED="1531185979503" TEXT="&#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8;&#xac00; &#xb4e4;&#xc5b4;&#xc654;&#xc744; &#xb54c;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531186127946" ID="ID_178811447" MODIFIED="1531186130586" TEXT="&#xc4f0;&#xb808;&#xb4dc;&#xb97c; &#xb9cc;&#xb4e0;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531186131446" ID="ID_1554390977" MODIFIED="1531186133477" TEXT="10&#xba85; &#xb4e4;&#xc5b4;&#xc624;&#xba74;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531186133656" ID="ID_1823341112" MODIFIED="1531186135156" TEXT="10&#xac1c; &#xb9cc;&#xb4e0;&#xb2e4;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531186135620" ID="ID_687741850" MODIFIED="1531186138167" TEXT="&#xcc98;&#xc74c;&#xc5d0; &#xc4f0;&#xb808;&#xb4dc;&#xac00; &#xc5c6;&#xc73c;&#xba74;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531186139704" ID="ID_1338645633" MODIFIED="1531186140922" TEXT="&#xc0dd;&#xc131;&#xd55c;&#xb2e4;"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531185968315" ID="ID_504662433" MODIFIED="1531185970904" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1531185781957" ID="ID_1248989942" MODIFIED="1531185781957">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_2550668716575609254.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531186261453" FOLDED="true" ID="ID_1584497436" MODIFIED="1531218220119" STYLE="bubble" TEXT="&#xb9ac;&#xb85c;&#xb4dc;&#xc5d0; &#xb300;&#xd55c; &#xac1c;&#xb150;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1531186266263" ID="ID_1127870902" LINK="#ID_545300875" MODIFIED="1531186298825" STYLE="bubble" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xc124;&#xc815;&#xd55c;&#xac83;&#xc744; &#xbc14;&#xafb8;&#xc9c0;&#xb9cc; &#xc54a;&#xc558;&#xb2e4;&#xba74;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531186273980" ID="ID_1463677312" MODIFIED="1531186298825" STYLE="bubble" TEXT="&#xc11c;&#xbc84;&#xb97c; &#xb044;&#xace0; &#xd0ac; &#xd544;&#xc694;&#xac00; &#xc5c6;&#xb2e4;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531186293112" ID="ID_956189093" MODIFIED="1531186298825" STYLE="bubble" TEXT="&#xc790;&#xb3d9;&#xc73c;&#xb85c; &#xb85c;&#xb4dc; &#xb41c;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531187549031" FOLDED="true" ID="ID_1331635029" MODIFIED="1531187758213" TEXT="3.0 &#xbc84;&#xc83c;&#xc5d0;&#xc11c; web.xml &#xbcf4;&#xb294; &#xbc95;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531187585039" MODIFIED="1531187585039">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_8527907820431918508.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531186348251" FOLDED="true" ID="ID_281856187" MODIFIED="1531218219373" TEXT="&#xb450; &#xac2f; &#xbc29;&#xc2dd;&#xacfc; &#xb450; &#xd3ec;&#xc2a4;&#xd2b8; &#xbc29;&#xc2dd;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531186355074" ID="ID_840011154" MODIFIED="1531187538124" TEXT="&#xc694;&#xc998;&#xc740; get &#xbc29;&#xc2dd;&#xacfc; post &#xbc29;&#xc2dd;&#xc744; &#xc0ac;&#xc6a9;&#xd558;&#xc9c0; &#xc54a;&#xace0;, &#xc11c;&#xbe44;&#xc2a4;&#xc5d0;&#xc11c; &#xbaa8;&#xb450; &#xb2e4; &#xcc98;&#xb9ac;&#xd55c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531187542765" ID="ID_27156577" MODIFIED="1531187548464" TEXT="&#xac1c;&#xb150;&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1531187635059" ID="ID_473385767" MODIFIED="1531187635059">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_1910815582768048003.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531187758456" FOLDED="true" ID="ID_815833234" MODIFIED="1531218218418" TEXT="&#xbaa8;&#xb2c8;&#xd130;&#xb9c1; &#xc11c;&#xbe14;&#xb9bf;&#xc744; &#xd55c;&#xbc88; &#xb9cc;&#xb4e4;&#xc5b4;&#xbcf4;&#xc790;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531187775770" ID="ID_1842679041" MODIFIED="1531187779536" TEXT="&#xc635;&#xc158; &#xc124;&#xc815;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531187779848" ID="ID_1226393690" MODIFIED="1531187779848">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_8932636725709024570.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531187837127" FOLDED="true" ID="ID_1724504272" MODIFIED="1531188163852" TEXT="&#xc635;&#xc158; &#xd6c4; &#xcf54;&#xb4dc;(&#xbb50;&#xac00; &#xac81;&#xb098;&#xac8c; &#xb9ce;&#xb2e4;.)">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="package action;"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="import java.io.IOException;"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="import javax.servlet.ServletConfig;"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="import javax.servlet.annotation.WebServlet;"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="/**">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="* Servlet implementation class LifeCycleAction"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="*/"/>
+</node>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="@WebServlet(&quot;/LifeCycleAction&quot;)"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="public class LifeCycleAction extends HttpServlet {">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="/**">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="* @see HttpServlet#HttpServlet()"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="*/"/>
+</node>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="public LifeCycleAction() {">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="super();"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="// TODO Auto-generated constructor stub"/>
+</node>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="}">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="/**">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="* @see Servlet#init(ServletConfig)"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="*/"/>
+</node>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="public void init(ServletConfig config) throws ServletException {">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="// TODO Auto-generated method stub"/>
+</node>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="}"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="/**">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="* @see Servlet#destroy()"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="*/"/>
+</node>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="public void destroy() {">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="// TODO Auto-generated method stub"/>
+</node>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="}"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="/**">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="*/"/>
+</node>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="// TODO Auto-generated method stub"/>
+</node>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="}"/>
+<node CREATED="1531187843665" MODIFIED="1531187843665" TEXT="/**">
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="* @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="*/"/>
+</node>
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="response.getWriter().append(&quot;Served at: &quot;).append(request.getContextPath());"/>
+</node>
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="}"/>
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="/**">
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="* @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="*/"/>
+</node>
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="doGet(request, response);"/>
+</node>
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="}"/>
+</node>
+</node>
+<node CREATED="1531187843681" MODIFIED="1531187843681" TEXT="}"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531188185343" FOLDED="true" ID="ID_1956352638" MODIFIED="1531188698266" TEXT="&#xbaa8;&#xb2c8;&#xd130;&#xb9c1; &#xcf54;&#xb4dc;">
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="package action;"/>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="import java.io.IOException;"/>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="import javax.servlet.ServletConfig;"/>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="import javax.servlet.annotation.WebServlet;"/>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="/**">
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="* Servlet implementation class LifeCycleAction"/>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="*/"/>
+</node>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="@WebServlet(&quot;/lifecycle.do&quot;)"/>
+<node CREATED="1531188201402" ID="ID_173339962" MODIFIED="1531188201402" TEXT="public class LifeCycleAction extends HttpServlet {">
+<node CREATED="1531188201402" ID="ID_1328956442" MODIFIED="1531188201402" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="/**">
+<node CREATED="1531188201402" ID="ID_252000097" MODIFIED="1531188201402" TEXT="* @see HttpServlet#HttpServlet()"/>
+<node CREATED="1531188201402" ID="ID_1441510875" MODIFIED="1531188201402" TEXT="*/"/>
+</node>
+<node CREATED="1531188201402" MODIFIED="1531188201402" TEXT="public LifeCycleAction() {">
+<node CREATED="1531188201402" ID="ID_247326093" MODIFIED="1531188201402" TEXT="super();"/>
+<node CREATED="1531188201402" ID="ID_244732893" MODIFIED="1531188201402" TEXT="// TODO Auto-generated constructor stub"/>
+<node COLOR="#3333ff" CREATED="1531188201402" ID="ID_803528207" MODIFIED="1531188210117" STYLE="bubble" TEXT="System.out.println(&quot;--1.LifeCycleAction()--&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1531188201410" MODIFIED="1531188201410" TEXT="}">
+<node CREATED="1531188201410" ID="ID_1975364382" MODIFIED="1531188201410" TEXT="/**">
+<node CREATED="1531188201410" ID="ID_1228662121" MODIFIED="1531188201410" TEXT="* @see Servlet#init(ServletConfig)"/>
+<node CREATED="1531188201410" ID="ID_1929799659" MODIFIED="1531188201410" TEXT="*/"/>
+</node>
+<node CREATED="1531188201410" ID="ID_1429756109" MODIFIED="1531188201410" TEXT="public void init(ServletConfig config) throws ServletException {">
+<node CREATED="1531188201410" ID="ID_1416865476" MODIFIED="1531188201410" TEXT="// TODO Auto-generated method stub"/>
+<node COLOR="#3333ff" CREATED="1531188201410" ID="ID_289212510" MODIFIED="1531188209115" STYLE="bubble" TEXT="System.out.println(&quot;--2.init()--&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1531188201410" ID="ID_83036192" MODIFIED="1531188201410" TEXT="}"/>
+<node CREATED="1531188201410" ID="ID_421205453" MODIFIED="1531188201410" TEXT="/**">
+<node CREATED="1531188201410" ID="ID_218423485" MODIFIED="1531188201410" TEXT="* @see Servlet#destroy()"/>
+<node CREATED="1531188201410" ID="ID_697785737" MODIFIED="1531188201410" TEXT="*/"/>
+</node>
+<node CREATED="1531188201410" ID="ID_1070154166" MODIFIED="1531188201410" TEXT="public void destroy() {">
+<node CREATED="1531188201410" ID="ID_142891814" MODIFIED="1531188201410" TEXT="// TODO Auto-generated method stub"/>
+<node COLOR="#3333ff" CREATED="1531188201410" ID="ID_1964218819" MODIFIED="1531188205093" STYLE="bubble" TEXT="System.out.println(&quot;--4.destroy()--&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1531188201410" ID="ID_345359749" MODIFIED="1531188201410" TEXT="}"/>
+<node CREATED="1531188201410" ID="ID_166346695" MODIFIED="1531188201410" TEXT="/**">
+<node CREATED="1531188201410" ID="ID_1072290467" MODIFIED="1531188201410" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531188201410" ID="ID_1294162532" MODIFIED="1531188201410" TEXT="*/"/>
+</node>
+<node CREATED="1531188201410" ID="ID_837797158" MODIFIED="1531188201410" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531188201410" ID="ID_536949739" MODIFIED="1531188201410" TEXT="// TODO Auto-generated method stub"/>
+<node COLOR="#3333ff" CREATED="1531188201410" ID="ID_430288104" MODIFIED="1531188212170" STYLE="bubble" TEXT="System.out.println(&quot;--3.service()--&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1531188201410" ID="ID_836679482" MODIFIED="1531188201410" TEXT="}"/>
+<node CREATED="1531188201410" ID="ID_815701280" MODIFIED="1531188201410" TEXT="/**">
+<node CREATED="1531188201410" ID="ID_89719816" MODIFIED="1531188201410" TEXT="* @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531188201410" ID="ID_1976447453" MODIFIED="1531188201410" TEXT="*/"/>
+</node>
+<node CREATED="1531188201410" ID="ID_1673711019" MODIFIED="1531188201410" TEXT="protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531188201418" ID="ID_1416403648" MODIFIED="1531188201418" TEXT="// TODO Auto-generated method stub"/>
+<node COLOR="#3333ff" CREATED="1531188201418" ID="ID_1088350377" MODIFIED="1531188213527" STYLE="bubble" TEXT="System.out.println(&quot;--3-1.doGet()--&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1531188201418" ID="ID_413054665" MODIFIED="1531188201418" TEXT="}"/>
+<node CREATED="1531188201418" ID="ID_1617267138" MODIFIED="1531188201418" TEXT="/**">
+<node CREATED="1531188201418" ID="ID_1219052210" MODIFIED="1531188201418" TEXT="* @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531188201418" ID="ID_1291001267" MODIFIED="1531188201418" TEXT="*/"/>
+</node>
+<node CREATED="1531188201418" ID="ID_1988738596" MODIFIED="1531188201418" TEXT="protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531188201418" ID="ID_297988047" MODIFIED="1531188201418" TEXT="// TODO Auto-generated method stub"/>
+<node COLOR="#3333ff" CREATED="1531188201418" ID="ID_1922707001" MODIFIED="1531188214829" STYLE="bubble" TEXT="System.out.println(&quot;--3-2.doPost()--&quot;);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1531188201418" MODIFIED="1531188201418" TEXT="}"/>
+</node>
+</node>
+<node CREATED="1531188201418" ID="ID_1654759144" MODIFIED="1531188201418" TEXT="}"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531188712722" FOLDED="true" ID="ID_526164043" MODIFIED="1531190163176" TEXT="&#xacb0;&#xacfc;(&#xb77c;&#xc774;&#xd504; &#xc0ac;&#xc774;&#xd074; &#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531188723352" MODIFIED="1531188723352">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_2056468254422317949.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531190172637" ID="ID_1797081739" MODIFIED="1531190211039" TEXT="hi.html&#xb85c; &#xc774; &#xc11c;&#xbe14;&#xb9bf;&#xc744; get &#xd558;&#xba74; doGet &#xd568;&#xc218;&#xac00; &#xd638;&#xcd9c;&#xb41c;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531190240510" ID="ID_1231357653" MODIFIED="1531190252307" TEXT="&#xadf8;&#xb7f0;&#xb370; &#xc774; &#xacbd;&#xb85c;&#xac00; service&#xb97c; &#xbb34;&#xc870;&#xac74; &#xac70;&#xccd0;&#xc11c; &#xac04;&#xb2e4;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531190252726" FOLDED="true" ID="ID_230986001" MODIFIED="1531190276137" TEXT="&#xcf54;&#xb4dc;">
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="package action;"/>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="import java.io.IOException;"/>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="import javax.servlet.ServletConfig;"/>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="import javax.servlet.annotation.WebServlet;"/>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="/**">
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="* Servlet implementation class LifeCycleAction"/>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="*/"/>
+</node>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="@WebServlet(&quot;/lifecycle.do&quot;)"/>
+<node CREATED="1531190264004" FOLDED="true" ID="ID_1763782845" MODIFIED="1531190274091" TEXT="public class LifeCycleAction extends HttpServlet {">
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531190264004" MODIFIED="1531190264004" TEXT="/**">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="* @see HttpServlet#HttpServlet()"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="*/"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="public LifeCycleAction() {">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="super();"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="// TODO Auto-generated constructor stub"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="System.out.println(&quot;--1.LifeCycleAction()--&quot;);"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="}"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="/**">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="* @see Servlet#init(ServletConfig)"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="*/"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="public void init(ServletConfig config) throws ServletException {">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="System.out.println(&quot;--2.init()--&quot;);"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="}"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="/**">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="* @see Servlet#destroy()"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="*/"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="public void destroy() {">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="System.out.println(&quot;--4.destroy()--&quot;);"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="}"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="/**">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="*      response)"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="*/"/>
+</node>
+<node CREATED="1531190264020" ID="ID_1155299020" MODIFIED="1531190264020" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response)">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="throws ServletException, IOException {"/>
+<node CREATED="1531190264020" ID="ID_24911317" MODIFIED="1531190264020" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531190264020" ID="ID_1878276742" MODIFIED="1531190264020" TEXT="System.out.println(&quot;--3.service()--&quot;);"/>
+<node CREATED="1531190264020" ID="ID_1830760653" MODIFIED="1531190264020" TEXT="// &#xd074;&#xb77c;&#xc774;&#xc5b8;&#xd2b8; &#xce21;&#xc5d0;&#xc11c; &#xc694;&#xccad;&#xd55c; &#xbc29;&#xc2dd;"/>
+<node COLOR="#3333ff" CREATED="1531190264020" ID="ID_1947490211" MODIFIED="1531190269758" STYLE="bubble" TEXT="String method = request.getMethod();">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531190264020" ID="ID_1800249927" MODIFIED="1531190271220" STYLE="bubble" TEXT="if (method.equals(&quot;GET&quot;))">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1531190264020" ID="ID_1299642452" MODIFIED="1531190271777" STYLE="bubble" TEXT="doGet(request, response);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531190264020" ID="ID_170050832" MODIFIED="1531190270737" STYLE="bubble" TEXT="else if (method.equals(&quot;POST&quot;))">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1531190264020" ID="ID_1598425544" MODIFIED="1531190272081" STYLE="bubble" TEXT="doPost(request, response);">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="}"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="/**">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="* @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="*      response)"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="*/"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="protected void doGet(HttpServletRequest request, HttpServletResponse response)">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="throws ServletException, IOException {"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="System.out.println(&quot;--3-1.doGet()--&quot;);"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="}"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="/**">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="* @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="*      response)"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="*/"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="protected void doPost(HttpServletRequest request, HttpServletResponse response)">
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="throws ServletException, IOException {"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="System.out.println(&quot;--3-2.doPost()--&quot;);"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="}"/>
+</node>
+<node CREATED="1531190264020" MODIFIED="1531190264020" TEXT="}"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531190217464" ID="ID_1656581501" MODIFIED="1531190236223" TEXT="service &#xac1d;&#xccb4;&#xac00; &#xc5c6;&#xc744; &#xacbd;&#xc6b0; &#xae30;&#xbcf8;&#xac12;&#xc73c;&#xb85c; doGet&#xc774; &#xc2e4;&#xd589;&#xb41c;&#xb2e4;."/>
+</node>
+<node COLOR="#3333ff" CREATED="1531188816934" FOLDED="true" ID="ID_474585518" MODIFIED="1531192411636" STYLE="bubble" TEXT="Get vs Post">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531188831113" FOLDED="true" ID="ID_1839358186" MODIFIED="1531190457510" TEXT="&#xac1c;&#xb150; &#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1531188866009" ID="ID_1541922607" MODIFIED="1531188866009">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_984264411388334226.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531190282723" ID="ID_697021499" MODIFIED="1531190454760" TEXT="&#xbcf8;&#xaca9;&#xc801;&#xc73c;&#xb85c; get&#xacfc; post&#xc758; &#xb2e4;&#xb978;&#xc810;&#xc744; &#xbe44;&#xad50;&#xd574;&#xbcf4;&#xc790;."/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531190651944" ID="ID_1258138933" MODIFIED="1531190654475" TEXT="html &#xcf54;&#xb4dc;">
+<node CREATED="1531190664706" MODIFIED="1531190664706" TEXT="&lt;!DOCTYPE html&gt;"/>
+<node CREATED="1531190664706" MODIFIED="1531190664706">
+<richcontent TYPE="NODE"><html>
+  
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1531190664722" MODIFIED="1531190664722" TEXT="&lt;head&gt;"/>
+<node CREATED="1531190664722" MODIFIED="1531190664722" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
+<node CREATED="1531190664722" MODIFIED="1531190664722" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
+<node CREATED="1531190664722" ID="ID_1696099057" MODIFIED="1531190664722" TEXT="&lt;script type=&quot;text/javascript&quot;&gt;">
+<node COLOR="#3333ff" CREATED="1531190664722" ID="ID_813244819" MODIFIED="1531190717813" STYLE="bubble" TEXT="function send_get(f) {">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1531190664722" ID="ID_798647239" MODIFIED="1531190717813" STYLE="bubble" TEXT="f.method = &quot;get&quot;;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531190664722" ID="ID_1106755992" MODIFIED="1531190717813" STYLE="bubble" TEXT="f.submit();">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1531190664722" ID="ID_1825745089" MODIFIED="1531190664722" TEXT="}"/>
+<node COLOR="#3333ff" CREATED="1531190664722" ID="ID_124889417" MODIFIED="1531190718343" STYLE="bubble" TEXT="function send_post(f) {">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node COLOR="#3333ff" CREATED="1531190664722" ID="ID_1708335037" MODIFIED="1531190718343" STYLE="bubble" TEXT="f.method = &quot;post&quot;;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531190664722" ID="ID_1730086780" MODIFIED="1531190718343" STYLE="bubble" TEXT="f.submit();">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1531190664722" ID="ID_1807797114" MODIFIED="1531190664722" TEXT="}"/>
+</node>
+<node CREATED="1531190664722" ID="ID_228744416" MODIFIED="1531190664722" TEXT="&lt;/script&gt;"/>
+<node CREATED="1531190664722" ID="ID_1523978401" MODIFIED="1531190664722" TEXT="&lt;/head&gt;"/>
+<node CREATED="1531190664722" ID="ID_1498010118" MODIFIED="1531190664722" TEXT="&lt;body&gt;">
+<node CREATED="1531190664722" ID="ID_1512396640" MODIFIED="1531190664722" TEXT="&lt;form action=&quot;lifecycle.do&quot;&gt;">
+<node COLOR="#3333ff" CREATED="1531190705547" ID="ID_1357540416" MODIFIED="1531190713586" STYLE="bubble" TEXT="&#xc544;&#xc774;&#xb514;&lt;input name=&quot;id&quot;&gt;&lt;br&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531190705547" ID="ID_1596283240" MODIFIED="1531190713810" STYLE="bubble" TEXT="&#xbe44;&#xbc00;&#xbc88;&#xd638;&lt;input type=&quot;password&quot; name=&quot;pwd&quot;&gt;&lt;br&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531190705547" ID="ID_1837058205" MODIFIED="1531190713998" STYLE="bubble" TEXT="&lt;input type=&quot;button&quot; value=&quot;GET&#xc73c;&#xb85c; &#xc694;&#xccad;&#xd558;&#xae30;&quot; onclick=&quot;send_get(this.form)&quot;&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531190705547" ID="ID_100830630" MODIFIED="1531190714191" STYLE="bubble" TEXT="&lt;input type=&quot;button&quot; value=&quot;POST&#xc73c;&#xb85c; &#xc694;&#xccad;&#xd558;&#xae30;&quot; onclick=&quot;send_post(this.form)&quot;&gt;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node CREATED="1531190664722" ID="ID_724419527" MODIFIED="1531190664722" TEXT="&lt;/form&gt;"/>
+</node>
+<node CREATED="1531190664722" ID="ID_531026626" MODIFIED="1531190664722" TEXT="&lt;/body&gt;"/>
+<node CREATED="1531190664722" MODIFIED="1531190664722" TEXT="&lt;/html&gt;"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531190726800" ID="ID_1971528958" LINK="#ID_1597506112" MODIFIED="1531190967340" TEXT="&#xc5ec;&#xae30;&#xc5d0; &#xb300;&#xd55c; &#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8;&#xc5d0; &#xb300;&#xd55c; &#xb0b4;&#xc6a9;&#xc740; &#xc774;&#xacf3;&#xc744; &#xcc38;&#xc870;&#xd558;&#xb77c;"/>
+<node COLOR="#3333ff" CREATED="1531190602785" ID="ID_1230710985" MODIFIED="1531190615228" STYLE="bubble" TEXT="get(&#xc774;&#xbbf8;&#xc9c0;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531190608742" ID="ID_711081973" MODIFIED="1531190615213">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_9025700179165205909.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531190974491" ID="ID_952290948" MODIFIED="1531190981138" STYLE="bubble" TEXT="post(&#xc774;&#xbbf8;&#xc9c0;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531191043596" ID="ID_1272803324" MODIFIED="1531191043596">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_2904944351290987872.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node COLOR="#3333ff" CREATED="1531191059523" ID="ID_694453369" MODIFIED="1531191087354" STYLE="bubble" TEXT="&#xc11c;&#xbc84;&#xbc18;&#xc751;(&#xc774;&#xbbf8;&#xc9c0;)">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531191086490" ID="ID_1150937252" MODIFIED="1531191087354">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_8970818007034034224.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531200255157" FOLDED="true" ID="ID_1558316754" MODIFIED="1531218217043" TEXT="&#xc778;&#xcf54;&#xb529;">
+<node COLOR="#3333ff" CREATED="1531200256743" ID="ID_109709957" MODIFIED="1531200290238" STYLE="bubble" TEXT="get&#xc740; &#xc778;&#xcf54;&#xb529;&#xc774; html &#xc124;&#xc815;&#xc5d0; &#xb530;&#xb77c; &#xb2ec;&#xb77c;&#xc9c0;&#xc9c0;&#xb9cc;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531200266343" ID="ID_1605930605" MODIFIED="1531200289990" STYLE="bubble" TEXT="post&#xb294; &#xc778;&#xcf54;&#xb529;&#xc774; &#xc815;&#xd574;&#xc838; &#xc788;&#xae30;&#xc5d0;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531200272003" ID="ID_1287158484" MODIFIED="1531200289790" STYLE="bubble" TEXT="&#xc11c;&#xbe14;&#xb9bf;&#xc5d0;&#xc11c; &#xbc1b;&#xc744; &#xb54c; &#xbb34;&#xc870;&#xac74;&#xc801;&#xc73c;&#xb85c; &#xc778;&#xcf54;&#xb529;&#xc744; &#xc124;&#xc815;&#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531200282910" ID="ID_123049249" MODIFIED="1531200289197" STYLE="bubble" TEXT="&#xc774;&#xb7f0; &#xbc29;&#xc2dd;&#xc740; &#xacb0;&#xad6d; 0&#xc21c;&#xc704;&#xc5d0; &#xd574;&#xb2f9;&#xd55c;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#000000" CREATED="1531200378904" ID="ID_384967892" MODIFIED="1531200517692" STYLE="bubble" TEXT="request.setCharacterEncoding(&quot;utf-8&quot;);">
+<edge STYLE="bezier"/>
+<font BOLD="true" NAME="Arial" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531200441565" ID="ID_243294567" MODIFIED="1531200468579" STYLE="bubble" TEXT="&#xac12;&#xc744; &#xc904; &#xb54c;&#xb3c4; &#xb9c8;&#xcc2c;&#xac00;&#xc9c0;&#xc774;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531200445941" ID="ID_1256489511" MODIFIED="1531200468398" STYLE="bubble" TEXT="&#xadf8;&#xb0e5; characterEncoding&#xc73c;&#xb85c;&#xb3c4; &#xac12;&#xc744; &#xc904; &#xc218; &#xc788;&#xc9c0;&#xb9cc;,">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531200454298" ID="ID_1441293357" MODIFIED="1531200467552" STYLE="bubble" TEXT="&#xc774;&#xb97c; html&#xd30c;&#xc77c;&#xacfc; &#xc5ee;&#xc5b4;&#xc57c; &#xd55c;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1531200510306" ID="ID_105670682" MODIFIED="1531200521706" STYLE="bubble" TEXT="&#xb530;&#xb77c;&#xc11c; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xc774; &#xc785;&#xb825;&#xd55c;&#xb2e4;.">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531200244201" FOLDED="true" ID="ID_1173752214" MODIFIED="1531218225708" TEXT="&#xd68c;&#xc6d0;&#xac00;&#xc785;&#xc608;&#xc81c;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531192412022" ID="ID_7087965" MODIFIED="1531192419288" TEXT="&#xb2e4;&#xc74c;&#xc73c;&#xb85c; &#xc608;&#xc81c;&#xb97c; &#xc9c4;&#xd589;&#xd574;&#xbcf4;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
+<node CREATED="1531192430777" ID="ID_1718004806" MODIFIED="1531192430777">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_6222326280066310996.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530153744544" FOLDED="true" ID="ID_282400520" MODIFIED="1531218236780" TEXT="&#xc2e4;&#xc2b5;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530153745834" ID="ID_1199759563" MODIFIED="1530153746756" TEXT="&#xc2e4;&#xc2b5;1">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530153747378" ID="ID_1055628085" MODIFIED="1530153748893" TEXT="&#xc774;&#xac70;&#xd55c;&#xbc88; &#xd574;&#xbcf4;&#xc790;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530153749392" FOLDED="true" ID="ID_1860116299" MODIFIED="1530163103079" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1530153778030" ID="ID_1065043326" MODIFIED="1530153778030">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_5877392353296348507.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530154436561" FOLDED="true" ID="ID_1686966645" MODIFIED="1530155618588" TEXT="html">
+<node CREATED="1530154487997" MODIFIED="1530154487997" TEXT="&lt;!DOCTYPE html&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012">
+<richcontent TYPE="NODE"><html>
+  
+
+  <head>
+
+  </head>
+  <body>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;head&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;link rel=&quot;stylesheet&quot; href=&quot;../css/layout4.css&quot;&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;/head&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;body&gt;">
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id=&quot;main_box&quot;&gt;">
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id=&quot;header&quot;&gt;header&lt;/div&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id=&quot;aside&quot;&gt;aside&lt;/div&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id = &quot;small_content&quot;&gt;[&#xacf5;&#xc9c0;&#xc0ac;&#xd56d;]&lt;/div&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id = &quot;small_content&quot; style = &quot;background-color: #ffcccc&quot;&gt;[&#xcd5c;&#xadfc;&#xac8c;&#xc2dc;&#xbb3c;]&lt;/div&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id = &quot;small_content&quot; style = &quot;background-color: #ffcccc&quot;&gt;[&#xc720;&#xc6a9;&#xd55c; &#xc0ac;&#xc774;&#xd2b8;]&lt;/div&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div id = &quot;small_content&quot; style = &quot;background-color: #ffcccc&quot;&gt;[&#xcd5c;&#xadfc;&#xb313;&#xae00;]&lt;/div&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;div style=&quot;clear: both;&quot; id=&quot;footer&quot;&gt;footer&lt;/div&gt;"/>
+</node>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;/div&gt;"/>
+</node>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;/body&gt;"/>
+<node CREATED="1530154488012" MODIFIED="1530154488012" TEXT="&lt;/html&gt;"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530154492124" FOLDED="true" ID="ID_1626021214" MODIFIED="1530155617715" TEXT="css">
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="@charset &quot;UTF-8&quot;;"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="body{">
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="margin: 0px;"/>
+</node>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="}"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#main_box {">
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="width: 800px;"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="height: 600px;"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="background-color: #cccccc;"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="margin: 0 auto;"/>
+</node>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="}"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#header{">
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="background-color: #ffcccc;"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="width: 100%;"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="height:100px;"/>
+</node>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="}"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#aside{">
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="background-color: #ffffcc;"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="width: 30%;"/>
+<node CREATED="1530154492945" ID="ID_1483612709" MODIFIED="1530154492945" TEXT="float: left;"/>
+<node CREATED="1530154492945" ID="ID_1093643578" MODIFIED="1530154492945" TEXT="min-height: 400px;"/>
+<node CREATED="1530154492945" ID="ID_657702442" MODIFIED="1530154492945" TEXT="height: auto;"/>
+</node>
+<node CREATED="1530154492945" ID="ID_1813451249" MODIFIED="1530154492945" TEXT="}"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#content{">
+<node CREATED="1530154492945" ID="ID_1434377121" MODIFIED="1530154492945" TEXT="background-color: #ccffcc;"/>
+<node COLOR="#3333ff" CREATED="1530154492945" ID="ID_1081693659" MODIFIED="1530154512047" STYLE="bubble" TEXT="min-height: 400px;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1530154492945" ID="ID_378668182" MODIFIED="1530154511866" STYLE="bubble" TEXT="height: auto;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node CREATED="1530154492945" ID="ID_1010965441" MODIFIED="1530154492945" TEXT="width: 70%;"/>
+<node CREATED="1530154492945" ID="ID_938853981" MODIFIED="1530154492945" TEXT="float: left;"/>
+</node>
+<node CREATED="1530154492945" ID="ID_1932818166" MODIFIED="1530154492945" TEXT="}"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#small_content{">
+<node CREATED="1530154492945" ID="ID_1350610144" MODIFIED="1530154492945" TEXT="background-color: #8a8aff;"/>
+<node CREATED="1530154492945" ID="ID_508129534" MODIFIED="1530154492945" TEXT="border: 1px solid black;"/>
+<node CREATED="1530154492945" ID="ID_335986969" MODIFIED="1530154492945" TEXT="box-sizing:  border-box;"/>
+<node CREATED="1530154492945" ID="ID_1768226252" MODIFIED="1530154492945" TEXT="width: 35%;"/>
+<node COLOR="#3333ff" CREATED="1530154492945" ID="ID_508512293" MODIFIED="1530154509245" STYLE="bubble" TEXT="min-height: 200px;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#3333ff" CREATED="1530154492945" ID="ID_205212821" MODIFIED="1530154509457" STYLE="bubble" TEXT="height:auto;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node CREATED="1530154492945" ID="ID_918106426" MODIFIED="1530154492945" TEXT="float: left;"/>
+</node>
+<node CREATED="1530154492945" ID="ID_1122872948" MODIFIED="1530154492945" TEXT="}"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="div#footer{">
+<node CREATED="1530154492945" ID="ID_1331347333" MODIFIED="1530154492945" TEXT="background-color: #ccccff;"/>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="height:100px;"/>
+</node>
+<node CREATED="1530154492945" MODIFIED="1530154492945" TEXT="}"/>
+</node>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530502053697" FOLDED="true" ID="ID_887808521" MODIFIED="1531218236780" TEXT="&#xc790;&#xbc14;&#xc2a4;&#xd06c;&#xb9bd;&#xd2b8; &#xc2e4;&#xc2b5;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530502950595" FOLDED="true" ID="ID_1296079271" MODIFIED="1530845629987" TEXT="&#xbb38;&#xc81c; 1">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530502960485" FOLDED="true" ID="ID_717969627" MODIFIED="1530751735296" TEXT="&#xacb0;&#xacfc;">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530502974654" ID="ID_976771754" MODIFIED="1530502975576" TEXT="&#xc815;&#xaddc;&#xc2dd;">
@@ -41628,7 +43018,7 @@
 </node>
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530845631179" ID="ID_519150972" MODIFIED="1530845632831" TEXT="&#xbb38;&#xc81c;3">
 <node BACKGROUND_COLOR="#ffff00" CREATED="1530845633713" ID="ID_1437740791" MODIFIED="1530845642682" TEXT="&#xc81c;&#xc774;&#xcffc;&#xb9ac; test 03&#xc5d0; &#xd569; &#xcc28; &#xacf1; &#xb098;&#xb204;&#xae30; &#xb3c4; &#xcd94;&#xac00;&#xd574;&#xbcf4;&#xb77c;"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530846798997" FOLDED="true" ID="ID_1162534360" MODIFIED="1530857288574" TEXT="&#xcf54;&#xb4dc;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1530846798997" ID="ID_1162534360" MODIFIED="1531209218456" TEXT="&#xcf54;&#xb4dc;">
 <node CREATED="1530846799822" MODIFIED="1530846799822" TEXT="&lt;!DOCTYPE html&gt;"/>
 <node CREATED="1530846799822" MODIFIED="1530846799822">
 <richcontent TYPE="NODE"><html>
@@ -41709,7 +43099,7 @@
 <node CREATED="1530846799838" MODIFIED="1530846799838" TEXT="&lt;/script&gt;"/>
 <node CREATED="1530846799838" MODIFIED="1530846799838" TEXT="&lt;/head&gt;"/>
 <node CREATED="1530846799838" MODIFIED="1530846799838" TEXT="&lt;body&gt;">
-<node CREATED="1530846799838" MODIFIED="1530846799838" TEXT="&lt;input type=&quot;text&quot; id=&quot;num1&quot; size=&quot;5&quot; /&gt; (&#xc0b0;&#xc220;&#xc5f0;&#xc0b0;)"/>
+<node CREATED="1530846799838" ID="ID_683971963" MODIFIED="1530846799838" TEXT="&lt;input type=&quot;text&quot; id=&quot;num1&quot; size=&quot;5&quot; /&gt; (&#xc0b0;&#xc220;&#xc5f0;&#xc0b0;)"/>
 <node CREATED="1530846799838" MODIFIED="1530846799838" TEXT="&lt;input type=&quot;text&quot; id=&quot;num2&quot; size=&quot;5&quot; /&gt; ="/>
 <node CREATED="1530846799838" MODIFIED="1530846799838" TEXT="&lt;input type=&quot;text&quot; id=&quot;result&quot; size=&quot;7&quot; /&gt;"/>
 <node CREATED="1530846799838" MODIFIED="1530846799838" TEXT="&lt;br&gt;"/>
@@ -41804,17 +43194,24 @@
 </node>
 </node>
 </node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208596526" ID="ID_1932472458" MODIFIED="1531218262089" TEXT="&#xc11c;&#xbe14;&#xb9bf; &#xc2e4;&#xc2b5;">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208600071" ID="ID_619658197" MODIFIED="1531208692022" TEXT="&#xc2e4;&#xc2b5;1">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208697599" ID="ID_1469084537" MODIFIED="1531208700895" TEXT="&#xb2e4;&#xc74c;&#xc744; &#xc644;&#xc131;&#xd558;&#xb77c;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208691870" FOLDED="true" ID="ID_1231948491" MODIFIED="1531217872497" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1531208689733" ID="ID_1971710125" MODIFIED="1531208689733">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_3108794309517746407.jpeg" />
+  </body>
+</html></richcontent>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530579169429" FOLDED="true" ID="ID_1862420684" MODIFIED="1531117825447" TEXT="JSP">
-<node COLOR="#3333ff" CREATED="1530579368699" FOLDED="true" ID="ID_680652646" MODIFIED="1531117823850" STYLE="bubble" TEXT="html4 --&gt; html5">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1530579375582" ID="ID_1128897421" MODIFIED="1530579375582" TEXT="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;">
-<node CREATED="1530579375582" ID="ID_1122814608" MODIFIED="1530579375582" TEXT="pageEncoding=&quot;UTF-8&quot;%&gt;"/>
 </node>
-<node COLOR="#3333ff" CREATED="1530579375582" ID="ID_219184411" MODIFIED="1530580485253" STYLE="bubble" TEXT="&lt;!DOCTYPE html&gt;">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node CREATED="1530579375582" ID="ID_590990965" MODIFIED="1530579375582">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208735983" FOLDED="true" ID="ID_1046096666" MODIFIED="1531208780248" TEXT="html">
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="&lt;!DOCTYPE html&gt;"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005">
 <richcontent TYPE="NODE"><html>
   
 
@@ -41823,27 +43220,321 @@
   </head>
   <body>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1530579375598" ID="ID_772884156" MODIFIED="1530579375598" TEXT="&lt;head&gt;"/>
-<node COLOR="#3333ff" CREATED="1530579375598" ID="ID_477278174" MODIFIED="1530580486673" STYLE="bubble" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="&lt;head&gt;"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="&lt;script type=&quot;text/javascript&quot;&gt;"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="function send(f){">
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="var name = f.name.value;"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="var id = f.id.value;"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="var pwd = f.pwd.value;"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="if(name ==&apos;&apos;){">
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="alert(&apos;&#xc774;&#xb984;&#xc744; &#xc785;&#xb825;&#xd558;&#xc138;&#xc694;&apos;);"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="f.name.focus();"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="return;"/>
 </node>
-<node CREATED="1530579375598" ID="ID_495075766" MODIFIED="1530579375598" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
-<node CREATED="1530579375598" ID="ID_421177258" MODIFIED="1530579375598" TEXT="&lt;/head&gt;"/>
-<node CREATED="1530579375598" ID="ID_1940964435" MODIFIED="1530579375598" TEXT="&lt;body&gt;"/>
-<node CREATED="1530579375598" ID="ID_1631517267" MODIFIED="1530579375598" TEXT="&#xd68c;&#xc0ac;&#xc18c;&#xac1c; &#xba54;&#xc778; &#xd398;&#xc774;&#xc9c0;"/>
-<node CREATED="1530579375598" ID="ID_679723701" MODIFIED="1530579375598" TEXT="&lt;/body&gt;"/>
-<node CREATED="1530579375598" ID="ID_1651897765" MODIFIED="1530579375598" TEXT="&lt;/html&gt;"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530580491765" ID="ID_917868665" MODIFIED="1530580506868" TEXT="&#xd45c;&#xc2dc;&#xd55c; &#xb450;&#xacf3;&#xc744; &#xc800;&#xb807;&#xac8c; &#xbc14;&#xafd4;&#xc57c;&#xc9c0;&#xb9cc; html 5 &#xbaa8;&#xb4dc;&#xac00; &#xc801;&#xc6a9;&#xb41c;&#xb2e4;."/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="}"/>
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="if(id==&apos;&apos;){">
+<node CREATED="1531208739005" MODIFIED="1531208739005" TEXT="alert(&apos;&#xc544;&#xc774;&#xb514;&#xb97c; &#xc785;&#xb825;&#xd558;&#xc138;&#xc694;&apos;);"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="f.id.focus();"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="return;"/>
 </node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530581104485" FOLDED="true" ID="ID_217279073" MODIFIED="1531117822149" TEXT="&#xba54;&#xc778; &#xb808;&#xc774;&#xc544;&#xc6c3;&#xc744; &#xb9cc;&#xb4e4;&#xace0;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530581114179" ID="ID_1406189006" MODIFIED="1530581296272" TEXT="html">
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;">
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="pageEncoding=&quot;UTF-8&quot;%&gt;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="}"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="if(pwd==&apos;&apos;){">
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="alert(&quot;&#xbe44;&#xbc00;&#xbc88;&#xd638;&#xb97c; &#xb2e4;&#xc2dc; &#xc785;&#xb825;&#xd558;&#xc138;&#xc694;&quot;);"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="f.pwd.focus();"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="return;"/>
 </node>
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;!DOCTYPE html&gt;"/>
-<node CREATED="1530581143846" MODIFIED="1530581143846">
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="}"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="f.method = &quot;GET&quot;;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="f.submit();"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="//&#xc9c0;&#xc815;&#xb41c; action form data &#xc804;&#xc1a1;"/>
+</node>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="}"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="&lt;/script&gt;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="&lt;style&gt;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="label {">
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="color: blue;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="background-color: yellow;"/>
+</node>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="}"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="input#submit22 {">
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="border: 1px solid blue;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="background-color: red;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="color: yellow;"/>
+</node>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="}"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="input[type=&apos;submit&apos;]:hover {">
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="color: white;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="background-color: black;"/>
+</node>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="}"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="table{"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="border-collapse: collapse;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="}"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="td{"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="border: 1px solid black;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="padding: 10px;"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="}"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="input[type = &apos;text&apos;],input[type= &apos;password&apos;]{"/>
+<node CREATED="1531208739013" MODIFIED="1531208739013" TEXT="width: 100%;"/>
+<node CREATED="1531208739037" MODIFIED="1531208739037" TEXT="}"/>
+<node CREATED="1531208739045" MODIFIED="1531208739045" TEXT="&lt;/style&gt;"/>
+<node CREATED="1531208739045" MODIFIED="1531208739045" TEXT="&lt;/head&gt;"/>
+<node CREATED="1531208739045" MODIFIED="1531208739045" TEXT="&lt;body&gt;">
+<node CREATED="1531208739045" MODIFIED="1531208739045" TEXT="&lt;form action=&quot;member_reg.do&quot;&gt;">
+<node CREATED="1531208739045" MODIFIED="1531208739045" TEXT="&lt;table&gt;">
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;td&gt;&lt;label&gt;&#xc774;&#xb984;:&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;&lt;/td&gt;"/>
+</node>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;td&gt;&lt;label&gt;&#xc544;&#xc774;&#xb514;:&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;td&gt;&lt;input type=&quot;text&quot; name=&quot;id&quot; placeholder=&quot;&#xc544;&#xc774;&#xb514;&#xb97c; &#xc785;&#xb825;&#xd558;&#xc138;&#xc694;&quot; &gt;&lt;/td&gt;"/>
+</node>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;td&gt;&lt;label&gt;&#xbe44;&#xbc00;&#xbc88;&#xd638;:&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;td&gt;&lt;input type=&quot;password&quot; name=&quot;pwd&quot;">
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="placeholder=&quot;4&#xc790;&#xb9ac;&#xc774;&#xc0c1; &#xc601;&#xbb38;&#xc790;&#xc22b;&#xc790;&#xc870;&#xd569;&quot;&gt;&lt;/td&gt;"/>
+</node>
+</node>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;td&gt;&lt;label&gt;&#xc131;&#xbcc4;:&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;sex&quot; value=&quot;&#xb0a8;&#xc790;&quot; checked=&quot;checked&quot;&gt;&#xb0a8;&#xc790;">
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;input type=&quot;radio&quot; name=&quot;sex&quot; value=&quot;&#xc5ec;&#xc790;&quot;&gt;&#xc5ec;&#xc790;&lt;/td&gt;"/>
+</node>
+</node>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;td&gt;&lt;label&gt;&#xcde8;&#xbbf8;&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739069" MODIFIED="1531208739069" TEXT="&lt;td&gt;&lt;input type=&quot;checkbox&quot; name=&quot;hobby&quot; value=&quot;&#xb3c5;&#xc11c;&quot;&gt;&#xb3c5;&#xc11c; &lt;input">
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="type=&quot;checkbox&quot; name=&quot;hobby&quot; value=&quot;&#xac8c;&#xc784;&quot;&gt;&#xac8c;&#xc784; &lt;input"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="type=&quot;checkbox&quot; name=&quot;hobby&quot; value=&quot;&#xc601;&#xd654;&#xac10;&#xc0c1;&quot;&gt;&#xc601;&#xd654;&#xac10;&#xc0c1; &lt;input"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="type=&quot;checkbox&quot; name=&quot;hobby&quot; value=&quot;&#xb09a;&#xc2dc;&quot;&gt;&#xb09a;&#xc2dc;&lt;/td&gt;"/>
+</node>
+</node>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;label&gt;&#xce5c;&#xad6c;1&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;input name=&quot;friend&quot;&gt;&lt;/td&gt;"/>
+</node>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;label&gt;&#xce5c;&#xad6c;1&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;input name=&quot;friend&quot;&gt;&lt;/td&gt;"/>
+</node>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;label&gt;&#xce5c;&#xad6c;1&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;input name=&quot;friend&quot;&gt;&lt;/td&gt;"/>
+</node>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;label&gt;&#xd608;&#xc561;&#xd615;&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;select name=&quot;blood&quot;&gt;">
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;option value=&quot;A&quot;&gt;A&lt;/option&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;option value=&quot;B&quot;&gt;B&lt;/option&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;option value=&quot;O&quot;&gt;O&lt;/option&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;option value=&quot;AB&quot;&gt;AB&lt;/option&gt;"/>
+</node>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;/select&gt;&lt;/td&gt;"/>
+</node>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;label&gt;&#xc790;&#xae30;&#xc18c;&#xac1c;&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;textarea rows=&quot;5&quot; cols=&quot;40&quot; name=&quot;profile&quot;&gt;&lt;/textarea&gt;&lt;/td&gt;"/>
+</node>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;label&gt;&#xb108;&#xc758; &#xc0ac;&#xc9c4;&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;input type=&quot;file&quot; name=&quot;photo&quot;&gt;&lt;/td&gt;"/>
+</node>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;label&gt;&#xc0dd;&#xb144;&#xc6d4;&#xc77c;:&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;input type=&quot;date&quot; name=&quot;birth&quot;&gt;&lt;/td&gt;"/>
+</node>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;label&gt;&#xbc30;&#xacbd;&#xc0c9;&#xc0c1;:&lt;/label&gt;&lt;/td&gt;"/>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;td&gt;&lt;input type=&quot;color&quot; name=&quot;back_color&quot;&gt;&lt;/td&gt;"/>
+</node>
+<node CREATED="1531208739077" MODIFIED="1531208739077" TEXT="&lt;/tr&gt;"/>
+<node CREATED="1531208739085" MODIFIED="1531208739085" TEXT="&lt;tr&gt;">
+<node CREATED="1531208739085" MODIFIED="1531208739085" TEXT="&lt;td colspan=&quot;2&quot; style=&quot;text-align: center;&quot;&gt;&lt;input id =&quot;submit22&quot; type=&quot;button&quot; value=&quot;&#xc804;&#xc1a1;&#xd558;&#xae30;&quot; onclick=&quot;send(this.form)&quot;&gt;&lt;input">
+<node CREATED="1531208739109" MODIFIED="1531208739109" TEXT="type=&quot;reset&quot; value=&quot;&#xcde8;&#xc18c;&#xd558;&#xae30;&quot;&gt;&lt;/td&gt;"/>
+</node>
+</node>
+<node CREATED="1531208739109" MODIFIED="1531208739109" TEXT="&lt;/tr&gt;"/>
+</node>
+<node CREATED="1531208739109" MODIFIED="1531208739109" TEXT="&lt;/table&gt;"/>
+</node>
+<node CREATED="1531208739109" MODIFIED="1531208739109" TEXT="&lt;/form&gt;"/>
+</node>
+<node CREATED="1531208739109" MODIFIED="1531208739109" TEXT="&lt;/body&gt;"/>
+<node CREATED="1531208739109" MODIFIED="1531208739109" TEXT="&lt;/html&gt;"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208739747" FOLDED="true" ID="ID_1111296245" MODIFIED="1531208779273" TEXT="&#xc11c;&#xbe14;&#xb9bf;">
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="package action;"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="import java.io.IOException;"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="import javax.servlet.annotation.WebServlet;"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="/**">
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="* Servlet implementation class MemberRegisterActionServlet"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="*/"/>
+</node>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="@WebServlet(&quot;/member_reg.do&quot;)"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="public class MemberRegisterActionServlet extends HttpServlet {">
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="/**">
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="*/"/>
+</node>
+<node CREATED="1531208778369" MODIFIED="1531208778369" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="request.setCharacterEncoding(&quot;utf-8&quot;);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="response.setContentType(&quot;text/html; charset = utf-8&quot;);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="String name = request.getParameter(&quot;name&quot;);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="String id = request.getParameter(&quot;id&quot;);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="String pwd = request.getParameter(&quot;pwd&quot;);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="String sex = request.getParameter(&quot;sex&quot;);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="String blood = request.getParameter(&quot;blood&quot;);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="String profile = request.getParameter(&quot;profile&quot;);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="String[] hobby_array = request.getParameterValues(&quot;hobby&quot;);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="String hobby_str = &quot;&#xcde8;&#xbbf8;&#xc5c6;&#xc74c;&quot;;"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="if(hobby_array != null) {">
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="StringBuffer sb = new StringBuffer();"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="for(String hobby : hobby_array) {">
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="sb.append(hobby);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="sb.append(&quot; &quot;);"/>
+</node>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="}"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="hobby_str = sb.toString();"/>
+</node>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="}"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="String [] friend_array = request.getParameterValues(&quot;friend&quot;);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="String friend_str = &quot;&quot;;"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="StringBuffer sb1 = new StringBuffer();"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="for(String friend : friend_array) {">
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="sb1.append(friend);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="sb1.append(&quot; &quot;);"/>
+</node>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="}"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="friend_str = sb1.toString().trim();"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="if(friend_str.isEmpty())">
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="friend_str = &quot;&#xce5c;&#xad6c;&#xc5c6;&#xc74c;&quot;;"/>
+</node>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="System.out.println(name);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="System.out.println(id);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="System.out.println(pwd);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="System.out.println(sex);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="System.out.println(hobby_str);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="System.out.println(friend_str);"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="response.getWriter().println(&quot;&lt;!DOCTYPE html&gt;\r\n&quot; +">
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="&quot;&lt;html&gt;\r\n&quot; +"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="&quot;&lt;head&gt;\r\n&quot; +"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="&quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\r\n&quot; +"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="&quot;&lt;style&gt;\r\n&quot; +"/>
+<node CREATED="1531208778377" MODIFIED="1531208778377" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;table {\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;        border-collapse: collapse;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;        width: 30%;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;        margin: 0 auto;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;        border: 3px solid black;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;}\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;tr, td {\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;        border: 1px solid black;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;}\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;td{\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;text-align: center;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;}\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;&lt;/style&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;&lt;script&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;window.onload = function(){\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;        var td = document.getElementsByTagName(\&quot;td\&quot;);\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;        td = td[1];\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;        td.style.width = \&quot;45%\&quot;;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;        \r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;};\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;&lt;/script&gt;&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;&lt;title&gt;Insert title here&lt;/title&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;&lt;/head&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;&lt;body&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;        &lt;table&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                &lt;tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                        &lt;td colspan=\&quot;2\&quot;&gt;&#xc785;&#xb825;&#xb41c; &#xd56d;&#xbaa9;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                &lt;/tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                &lt;tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                        &lt;td width=\&quot;20%\&quot;&gt;&#xc774;&#xb984;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                        &lt;td width=\&quot;80%\&quot;&gt;&quot; + name + &quot;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                &lt;/tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                &lt;tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                        &lt;td width=\&quot;20%\&quot;&gt;&#xc544;&#xc774;&#xb514;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                        &lt;td width=\&quot;80%\&quot;&gt;&quot; + id + &quot;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                &lt;/tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                &lt;tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                        &lt;td width=\&quot;20%\&quot;&gt;&#xbe44;&#xbc00;&#xbc88;&#xd638;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                        &lt;td width=\&quot;80%\&quot;&gt;&quot; + pwd + &quot;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                &lt;/tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778385" MODIFIED="1531208778385" TEXT="&quot;                &lt;tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                        &lt;td width=\&quot;20%\&quot;&gt;&#xc131;&#xbcc4;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                        &lt;td width=\&quot;80%\&quot;&gt;&quot; + sex + &quot;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                &lt;/tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                &lt;tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                        &lt;td width=\&quot;20%\&quot;&gt;&#xcde8;&#xbbf8;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                        &lt;td width=\&quot;80%\&quot;&gt;&quot;+ hobby_str + &quot;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                &lt;/tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                &lt;tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                        &lt;td width=\&quot;20%\&quot;&gt;&#xce5c;&#xad6c;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                        &lt;td width=\&quot;80%\&quot;&gt;&quot;+ friend_str + &quot;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                &lt;/tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                &lt;tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                        &lt;td width=\&quot;20%\&quot;&gt;&#xd608;&#xc561;&#xd615;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                        &lt;td width=\&quot;80%\&quot;&gt;&quot; + blood + &quot;&#xd615;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                &lt;/tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                &lt;tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                        &lt;td width=\&quot;20%\&quot;&gt;&#xc790;&#xae30;&#xc18c;&#xac1c;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                        &lt;td width=\&quot;80%\&quot;&gt;&quot; + profile + &quot;&lt;/td&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;                &lt;/tr&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;        &lt;/table&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;&lt;/body&gt;\r\n&quot; +"/>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="&quot;&lt;/html&gt;&quot;);"/>
+</node>
+</node>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="}"/>
+</node>
+<node CREATED="1531208778393" MODIFIED="1531208778393" TEXT="}"/>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208603327" ID="ID_1255541949" MODIFIED="1531208605119" TEXT="&#xc2e4;&#xc2b5;2">
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208606199" ID="ID_989400621" MODIFIED="1531208608671" TEXT="&#xb2e4;&#xc74c;&#xc744; &#xc644;&#xc131;&#xd558;&#xb77c;"/>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208610116" FOLDED="true" ID="ID_1161109035" MODIFIED="1531217870026" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1531208624138" ID="ID_918406598" MODIFIED="1531208624138">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="INC_2302981937154504012.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208782375" FOLDED="true" ID="ID_1390341780" MODIFIED="1531218265401" TEXT="html">
+<node CREATED="1531217864805" MODIFIED="1531217864805" TEXT="&lt;!DOCTYPE html&gt;"/>
+<node CREATED="1531217864817" MODIFIED="1531217864817">
 <richcontent TYPE="NODE"><html>
   
 
@@ -41852,680 +43543,108 @@
   </head>
   <body>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+<node CREATED="1531217864819" MODIFIED="1531217864819" TEXT="&lt;head&gt;"/>
+<node CREATED="1531217864819" MODIFIED="1531217864819" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
+<node CREATED="1531217864819" MODIFIED="1531217864819" TEXT="&lt;script src=&quot;js/reg_exp.js&quot;&gt;&lt;/script&gt;"/>
+<node CREATED="1531217864819" MODIFIED="1531217864819" TEXT="&lt;script&gt;">
+<node CREATED="1531217864820" MODIFIED="1531217864820" TEXT="function send(f) {">
+<node CREATED="1531217864820" MODIFIED="1531217864820" TEXT="var su1 = document.getElementById(&quot;su1&quot;).value;"/>
+<node CREATED="1531217864821" MODIFIED="1531217864821" TEXT="var su2 = document.getElementById(&quot;su2&quot;).value;"/>
+<node CREATED="1531217864821" MODIFIED="1531217864821" TEXT="var pro1 = document.getElementById(&quot;wtf1&quot;);"/>
+<node CREATED="1531217864821" MODIFIED="1531217864821" TEXT="var pro2 = document.getElementById(&quot;wtf2&quot;);"/>
+<node CREATED="1531217864821" MODIFIED="1531217864821" TEXT="if (reg_su.test(su1) == false) {">
+<node CREATED="1531217864821" MODIFIED="1531217864821" TEXT="pro1.innerHTML = &quot;&#xd5c8;&#xd5c8;&#xd5c8;&#xd5c8; &#xc22b;&#xc790;&#xb97c; &#xc785;&#xb825;&#xd558;&#xb77c;. 4&#xc790;&#xb9ac;&#xb85c; &#xd5c8;&#xd5c8;&#xd5c8;&quot;;"/>
+<node CREATED="1531217864822" MODIFIED="1531217864822" TEXT="return;"/>
+</node>
+<node CREATED="1531217864822" MODIFIED="1531217864822" TEXT="}else{">
+<node CREATED="1531217864822" MODIFIED="1531217864822" TEXT="pro1.innerHTML = &quot;&quot;;"/>
+</node>
+<node CREATED="1531217864822" MODIFIED="1531217864822" TEXT="}"/>
+<node CREATED="1531217864822" MODIFIED="1531217864822" TEXT="if (reg_su.test(su2) == false) {">
+<node CREATED="1531217864823" MODIFIED="1531217864823" TEXT="pro2.innerHTML = &quot;&#xd5c8;&#xd5c8;&#xd5c8;&#xd5c8; &#xc22b;&#xc790;&#xb97c; &#xc785;&#xb825;&#xd558;&#xb77c;. 4&#xc790;&#xb9ac;&#xb85c; &#xd5c8;&#xd5c8;&#xd5c8;&quot;;"/>
+<node CREATED="1531217864823" MODIFIED="1531217864823" TEXT="return;"/>
+</node>
+<node CREATED="1531217864823" MODIFIED="1531217864823" TEXT="}else{">
+<node CREATED="1531217864824" MODIFIED="1531217864824" TEXT="pro2.innerHTML = &quot;&quot;;"/>
+</node>
+<node CREATED="1531217864824" MODIFIED="1531217864824" TEXT="}"/>
+<node CREATED="1531217864824" MODIFIED="1531217864824" TEXT="f.method = &quot;GET&quot;;"/>
+<node CREATED="1531217864824" MODIFIED="1531217864824" TEXT="f.action = &quot;calc.do&quot;;"/>
+<node CREATED="1531217864824" MODIFIED="1531217864824" TEXT="f.submit();"/>
+</node>
+<node CREATED="1531217864825" MODIFIED="1531217864825" TEXT="}"/>
+</node>
+<node CREATED="1531217864825" MODIFIED="1531217864825" TEXT="&lt;/script&gt;"/>
+<node CREATED="1531217864825" MODIFIED="1531217864825" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
+<node CREATED="1531217864826" MODIFIED="1531217864826" TEXT="&lt;/head&gt;"/>
+<node CREATED="1531217864826" MODIFIED="1531217864826" TEXT="&lt;body&gt;">
+<node CREATED="1531217864826" MODIFIED="1531217864826" TEXT="&lt;form&gt;">
+<node CREATED="1531217864826" MODIFIED="1531217864826" TEXT="&lt;label&gt;&#xc218;1&lt;/label&gt;&lt;input id=&quot;su1&quot; name=&quot;su1&quot;&gt;&lt;span id=&quot;wtf1&quot;&gt;&lt;/span&gt;&lt;br&gt;"/>
+<node CREATED="1531217864826" MODIFIED="1531217864826" TEXT="&lt;label&gt;&#xc218;2&lt;/label&gt;&lt;input id=&quot;su2&quot; name=&quot;su2&quot;&gt;&lt;span id=&quot;wtf2&quot;&gt;&lt;/span&gt;&lt;br&gt;"/>
+<node CREATED="1531217864827" MODIFIED="1531217864827" TEXT="&lt;input type=&quot;button&quot; onclick=&quot;send(this.form)&quot; value=&quot;&#xacc4;&#xc0b0;&#xd574;&#xc918;&quot;&gt;"/>
+</node>
+<node CREATED="1531217864827" MODIFIED="1531217864827" TEXT="&lt;/form&gt;"/>
+</node>
+<node CREATED="1531217864827" MODIFIED="1531217864827" TEXT="&lt;/body&gt;"/>
+<node CREATED="1531217864829" MODIFIED="1531217864829" TEXT="&lt;/html&gt;"/>
+</node>
+<node BACKGROUND_COLOR="#ffff00" CREATED="1531208783877" FOLDED="true" ID="ID_298082809" MODIFIED="1531217867946" TEXT="&#xc11c;&#xbe14;&#xb9bf;">
+<node CREATED="1531217859364" MODIFIED="1531217859364" TEXT="package action;"/>
+<node CREATED="1531217859366" MODIFIED="1531217859366" TEXT="import java.io.IOException;"/>
+<node CREATED="1531217859367" MODIFIED="1531217859367" TEXT="import java.io.PrintWriter;"/>
+<node CREATED="1531217859367" MODIFIED="1531217859367" TEXT="import javax.servlet.ServletException;"/>
+<node CREATED="1531217859367" MODIFIED="1531217859367" TEXT="import javax.servlet.annotation.WebServlet;"/>
+<node CREATED="1531217859368" MODIFIED="1531217859368" TEXT="import javax.servlet.http.HttpServlet;"/>
+<node CREATED="1531217859368" MODIFIED="1531217859368" TEXT="import javax.servlet.http.HttpServletRequest;"/>
+<node CREATED="1531217859368" MODIFIED="1531217859368" TEXT="import javax.servlet.http.HttpServletResponse;"/>
+<node CREATED="1531217859368" MODIFIED="1531217859368" TEXT="/**">
+<node CREATED="1531217859368" MODIFIED="1531217859368" TEXT="* Servlet implementation class CalcAction"/>
+<node CREATED="1531217859369" MODIFIED="1531217859369" TEXT="*/"/>
+</node>
+<node CREATED="1531217859369" MODIFIED="1531217859369" TEXT="@WebServlet(&quot;/calc.do&quot;)"/>
+<node CREATED="1531217859369" MODIFIED="1531217859369" TEXT="public class CalcAction extends HttpServlet {">
+<node CREATED="1531217859369" MODIFIED="1531217859369" TEXT="private static final long serialVersionUID = 1L;"/>
+<node CREATED="1531217859369" MODIFIED="1531217859369" TEXT="/**">
+<node CREATED="1531217859370" MODIFIED="1531217859370" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
+<node CREATED="1531217859370" MODIFIED="1531217859370" TEXT="*/"/>
+</node>
+<node CREATED="1531217859370" MODIFIED="1531217859370" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
+<node CREATED="1531217859371" MODIFIED="1531217859371" TEXT="// TODO Auto-generated method stub"/>
+<node CREATED="1531217859371" MODIFIED="1531217859371" TEXT="request.setCharacterEncoding(&quot;utf-8&quot;);"/>
+<node CREATED="1531217859371" MODIFIED="1531217859371" TEXT="response.setContentType(&quot;text/html; charset=utf-8&quot;);"/>
+<node CREATED="1531217859371" MODIFIED="1531217859371" TEXT="int su1 = Integer.parseInt(request.getParameter(&quot;su1&quot;));"/>
+<node CREATED="1531217859372" MODIFIED="1531217859372" TEXT="int su2 = Integer.parseInt(request.getParameter(&quot;su2&quot;));"/>
+<node CREATED="1531217859372" MODIFIED="1531217859372" TEXT="String str = &quot;&lt;!DOCTYPE html&gt;\r\n&quot; +">
+<node CREATED="1531217859372" MODIFIED="1531217859372" TEXT="&quot;&lt;html&gt;\r\n&quot; +"/>
+<node CREATED="1531217859372" MODIFIED="1531217859372" TEXT="&quot;&lt;head&gt;\r\n&quot; +"/>
+<node CREATED="1531217859372" MODIFIED="1531217859372" TEXT="&quot;&lt;meta charset=\&quot;UTF-8\&quot;&gt;\r\n&quot; +"/>
+<node CREATED="1531217859373" MODIFIED="1531217859373" TEXT="&quot;&lt;title&gt;Insert title here&lt;/title&gt;\r\n&quot; +"/>
+<node CREATED="1531217859373" MODIFIED="1531217859373" TEXT="&quot;&lt;/head&gt;\r\n&quot; +"/>
+<node CREATED="1531217859373" MODIFIED="1531217859373" TEXT="&quot;&lt;body&gt;\r\n&quot; +"/>
+<node CREATED="1531217859373" MODIFIED="1531217859373" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531217859373" MODIFIED="1531217859373" TEXT="&quot;        &lt;p&gt;\r\n&quot; +"/>
+<node CREATED="1531217859373" MODIFIED="1531217859373" TEXT="&quot;                ::::&#xacc4;&#xc0b0;&#xacb0;&#xacfc;::::&lt;br&gt; cal1&lt;br&gt; cal2&lt;br&gt; cal3&lt;br&gt; cal4&lt;br&gt;\r\n&quot; +"/>
+<node CREATED="1531217859374" MODIFIED="1531217859374" TEXT="&quot;                cal5&lt;br&gt; &lt;a href=\&quot;6_cacul.html\&quot;&gt;&#xb2e4;&#xc2dc;&#xd558;&#xae30;&lt;/a&gt;\r\n&quot; +"/>
+<node CREATED="1531217859374" MODIFIED="1531217859374" TEXT="&quot;        &lt;/p&gt;\r\n&quot; +"/>
+<node CREATED="1531217859374" MODIFIED="1531217859374" TEXT="&quot;\r\n&quot; +"/>
+<node CREATED="1531217859374" MODIFIED="1531217859374" TEXT="&quot;&lt;/body&gt;\r\n&quot; +"/>
+<node CREATED="1531217859374" MODIFIED="1531217859374" TEXT="&quot;&lt;/html&gt;&quot;;"/>
+</node>
+<node CREATED="1531217859374" MODIFIED="1531217859374" TEXT="str = str.replace(&quot;cal1&quot;, su1 + &quot;+&quot; +su2 + &quot;=&quot; + (su1+su2));"/>
+<node CREATED="1531217859375" MODIFIED="1531217859375" TEXT="str = str.replace(&quot;cal2&quot;, su1 + &quot;-&quot; +su2 + &quot;=&quot; + (su1-su2));"/>
+<node CREATED="1531217859375" MODIFIED="1531217859375" TEXT="str = str.replace(&quot;cal3&quot;, su1 + &quot;*&quot; +su2 + &quot;=&quot; + (su1*su2));"/>
+<node CREATED="1531217859375" MODIFIED="1531217859375" TEXT="str = str.replace(&quot;cal4&quot;, su1 + &quot;/&quot; +su2 + &quot;=&quot; + (su1/su2));"/>
+<node CREATED="1531217859375" MODIFIED="1531217859375" TEXT="str = str.replace(&quot;cal5&quot;, su1 + &quot;%&quot; +su2 + &quot;=&quot; + (su1%su2));"/>
+<node CREATED="1531217859375" MODIFIED="1531217859375" TEXT="PrintWriter out = response.getWriter();"/>
+<node CREATED="1531217859375" MODIFIED="1531217859375" TEXT="out.println(str);"/>
+</node>
+<node CREATED="1531217859376" MODIFIED="1531217859376" TEXT="}"/>
+</node>
+<node CREATED="1531217859376" MODIFIED="1531217859376" TEXT="}"/>
 </node>
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;head&gt;"/>
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;link rel=&quot;stylesheet&quot; href=&quot;css/main.css&quot;&gt;"/>
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;/head&gt;"/>
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;body&gt;">
-<node CREATED="1530581143846" ID="ID_714552782" MODIFIED="1530581143846" TEXT="&lt;div id=&quot;main_box&quot;&gt;">
-<node COLOR="#3333ff" CREATED="1530581143846" ID="ID_1588738259" MODIFIED="1530588754521" STYLE="bubble">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &lt;div id=&quot;header&quot;&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-    </p>
-  </body>
-</html></richcontent>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#3333ff" CREATED="1530584626970" ID="ID_572556708" MODIFIED="1530588467488" STYLE="bubble">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&lt;%@ include file = &quot;header/header.jsp&quot;%&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-    </p>
-  </body>
-</html></richcontent>
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_572556708" ENDARROW="Default" ENDINCLINATION="1151;0;" ID="Arrow_ID_219096262" SOURCE="ID_74503801" STARTARROW="None" STARTINCLINATION="1151;0;"/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530584614741" ID="ID_315112443" MODIFIED="1530584614756">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#160;&lt;/div&gt;
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;div id=&quot;aside&quot;&gt;&lt;/div&gt;"/>
-<node CREATED="1530581143846" MODIFIED="1530581143846" TEXT="&lt;div id=&quot;content&quot;&gt;&lt;/div&gt;"/>
-<node CREATED="1530581143862" ID="ID_589744606" MODIFIED="1530581143862" TEXT="&lt;div id=&quot;footer&quot;&gt;">
-<node COLOR="#3333ff" CREATED="1530581143862" ID="ID_1586249761" LINK="mailto:%@include" MODIFIED="1530581310669" STYLE="bubble" TEXT="&lt;%@include file = &quot;footer/footer.jsp&quot; %&gt;">
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_1586249761" ENDARROW="Default" ENDINCLINATION="786;0;" ID="Arrow_ID_99527353" SOURCE="ID_74287963" STARTARROW="None" STARTINCLINATION="786;0;"/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node CREATED="1530581143862" ID="ID_396915846" MODIFIED="1530581143862" TEXT="&lt;/div&gt;"/>
-</node>
-<node CREATED="1530581143862" MODIFIED="1530581143862" TEXT="&lt;/div&gt;"/>
-</node>
-<node CREATED="1530581143862" MODIFIED="1530581143862" TEXT="&lt;/body&gt;"/>
-<node CREATED="1530581143862" MODIFIED="1530581143862" TEXT="&lt;/html&gt;"/>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530581120912" FOLDED="true" ID="ID_1451005054" MODIFIED="1530581145249" TEXT="css">
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="@charset &quot;UTF-8&quot;;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="*{">
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="margin: 0;"/>
-</node>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="}"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="#main_box{">
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="margin: 0 auto;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="width: 800px;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="height: 600px;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="background-color: #ffcccc;"/>
-</node>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="}"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="#header{">
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="height: 120px;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="background-color:aqua;"/>
-</node>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="}"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="#aside{">
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="float: left;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="box-sizing: border-box;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="width: 30%;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="background-color: #ffff3c;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="min-height: 380px;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="height: auto;"/>
-</node>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="}"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="#content{">
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="float: left;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="box-sizing: border-box;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="background-color: #a2ffa2;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="width:70%;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="min-height: 380px;"/>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="height: auto;"/>
-</node>
-<node CREATED="1530581130409" MODIFIED="1530581130409" TEXT="}"/>
-<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="#footer{">
-<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="clear: both;"/>
-<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="width: 100%;"/>
-<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="height: 100px;"/>
-<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="background-color: olive;"/>
-</node>
-<node CREATED="1530581130425" MODIFIED="1530581130425" TEXT="}"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530581146701" FOLDED="true" ID="ID_1820297088" MODIFIED="1530594434569" TEXT="&#xd478;&#xd130; jsp&#xb97c; &#xb9cc;&#xb4e4;&#xc790;">
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;">
-<node CREATED="1530581278426" ID="ID_1366983358" MODIFIED="1530581278426" TEXT="pageEncoding=&quot;UTF-8&quot;%&gt;"/>
-</node>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;!DOCTYPE html&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426">
-<richcontent TYPE="NODE"><html>
-  
-
-  <head>
-
-  </head>
-  <body>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;head&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;/head&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;body&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;div id = &quot;footer_content&quot;&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="(&#xc8fc;)&#xc778;&#xd06c;&#xb808;&#xd30c;&#xc2a4; A&#xac15;&#xc758;&#xc2e4;&lt;br&gt; &lt;a href = &quot;&quot;&gt;&#xac1c;&#xc778;&#xc815;&#xbcf4;&#xad00;&#xb9ac;&#xc815;&#xcc45;&lt;/a&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&#xb300;&#xd45c;&#xc790; : &#xd64d;&#xb300;&#xd45c;&lt;br&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&#xc8fc;&#xc18c;   : &#xc11c;&#xc6b8;&#xc2dc; &#xad6c;&#xb85c;&#xad6c; &#xad6c;&#xb85c;3&#xb3d9;&lt;br&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&#xad00;&#xb9ac;&#xc790; : &#xd64d;&#xad00;&#xb9ac; &#xc804;&#xd654;)010-111-2345"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;/div&gt;"/>
-<node CREATED="1530581278426" MODIFIED="1530581278426" TEXT="&lt;/body&gt;"/>
-<node CREATED="1530581278441" MODIFIED="1530581278441" TEXT="&lt;/html&gt;"/>
-<node COLOR="#3333ff" CREATED="1530581279507" ID="ID_74287963" MODIFIED="1530581310042" STYLE="bubble" TEXT="jsp &#xc778;&#xd074;&#xb8e8;&#xb4dc;">
-<arrowlink DESTINATION="ID_1586249761" ENDARROW="Default" ENDINCLINATION="786;0;" ID="Arrow_ID_99527353" STARTARROW="None" STARTINCLINATION="786;0;"/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530584561922" FOLDED="true" ID="ID_444653346" MODIFIED="1530594434569" TEXT="&#xb9c8;&#xcc2c;&#xac00;&#xc9c0;&#xb85c; header&#xb3c4; &#xb9cc;&#xb4e4;&#xace0; &#xc778;&#xd074;&#xb8e8;&#xb4dc;">
-<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;">
-<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="pageEncoding=&quot;UTF-8&quot;%&gt;"/>
-</node>
-<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;!DOCTYPE html&gt;"/>
-<node CREATED="1530584580003" MODIFIED="1530584580003">
-<richcontent TYPE="NODE"><html>
-  
-
-  <head>
-
-  </head>
-  <body>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;head&gt;"/>
-<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
-<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
-<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;/head&gt;"/>
-<node CREATED="1530584580003" ID="ID_238221606" MODIFIED="1530584580003" TEXT="&lt;body&gt;">
-<node CREATED="1530584580003" MODIFIED="1530584580003" TEXT="&lt;h1 id=&quot;title&quot;&gt;:::A&#xac15;&#xc758;&#xc2e4; &#xc1fc;&#xd551;&#xbab0;:::&lt;/h1&gt;"/>
-<node COLOR="#3333ff" CREATED="1530584580003" ID="ID_1167721846" LINK="mailto:%@include" MODIFIED="1530588767258" STYLE="bubble" TEXT="&lt;%@include file=&quot;../menu/main_menu.jsp&quot;%&gt;">
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_1167721846" ENDARROW="Default" ENDINCLINATION="555;0;" ID="Arrow_ID_794849572" SOURCE="ID_1606306087" STARTARROW="None" STARTINCLINATION="555;0;"/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node CREATED="1530584580003" ID="ID_828754605" MODIFIED="1530584580003" TEXT="&lt;/body&gt;"/>
-<node CREATED="1530584580003" ID="ID_1403495741" MODIFIED="1530584580003" TEXT="&lt;/html&gt;"/>
-<node COLOR="#3333ff" CREATED="1530584586944" ID="ID_74503801" MODIFIED="1530584634849" STYLE="bubble" TEXT="header &#xc778;&#xd074;&#xb8e8;&#xb4dc;">
-<arrowlink DESTINATION="ID_572556708" ENDARROW="Default" ENDINCLINATION="1151;0;" ID="Arrow_ID_219096262" STARTARROW="None" STARTINCLINATION="1151;0;"/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530588395635" FOLDED="true" ID="ID_63815895" MODIFIED="1531117813511" TEXT="&#xba54;&#xc778;&#xba54;&#xb274;&#xb3c4; &#xb9cc;&#xb4e4;&#xc5b4;&#xc11c; &#xc778;&#xd074;&#xb8e8;&#xb4dc;">
-<node CREATED="1530588444129" FOLDED="true" ID="ID_1219149742" MODIFIED="1530594436470" TEXT="&lt;%@ page language=&quot;java&quot; contentType=&quot;text/html; charset=UTF-8&quot;">
-<node CREATED="1530588444129" MODIFIED="1530588444129" TEXT="pageEncoding=&quot;UTF-8&quot;%&gt;"/>
-</node>
-<node CREATED="1530588444129" ID="ID_205145769" LINK="http://www.w3.org/TR/html4/loose.dtd" MODIFIED="1530588444129" TEXT="&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD HTML 4.01 Transitional//EN&quot; &quot;http://www.w3.org/TR/html4/loose.dtd&quot;&gt;"/>
-<node CREATED="1530588444129" ID="ID_256022079" MODIFIED="1530588444129">
-<richcontent TYPE="NODE"><html>
-  
-
-  <head>
-
-  </head>
-  <body>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1530588444129" ID="ID_1322003855" MODIFIED="1530588444129" TEXT="&lt;head&gt;"/>
-<node CREATED="1530588444129" ID="ID_1014795670" MODIFIED="1530588444129" TEXT="&lt;meta charset=&quot;UTF-8&quot;&gt;"/>
-<node CREATED="1530588444129" ID="ID_1134881467" MODIFIED="1530588444129" TEXT="&lt;title&gt;Insert title here&lt;/title&gt;"/>
-<node CREATED="1530588444129" ID="ID_109972296" MODIFIED="1530588444129" TEXT="&lt;/head&gt;"/>
-<node CREATED="1530588444129" FOLDED="true" ID="ID_27327864" MODIFIED="1530594436470" TEXT="&lt;body&gt;">
-<node CREATED="1530588444145" MODIFIED="1530588444145" TEXT="&lt;ul id=&quot;main_menu&quot;&gt;">
-<node CREATED="1530588444145" MODIFIED="1530588444145" TEXT="&lt;li&gt;&lt;a href=&quot;main_company.jsp&quot;&gt;&#xd68c;&#xc0ac;&#xc18c;&#xac1c;&lt;/a&gt;&lt;/li&gt;"/>
-<node CREATED="1530588444145" MODIFIED="1530588444145" TEXT="&lt;li&gt;&lt;a href=&quot;main_product.jsp&quot;&gt;&#xc0c1;&#xd488;&#xc18c;&#xac1c;&lt;/a&gt;&lt;/li&gt;"/>
-<node CREATED="1530588444145" MODIFIED="1530588444145" TEXT="&lt;li&gt;&lt;a href=&quot;main_customer.jsp&quot;&gt;&#xace0;&#xac1d;&#xc13c;&#xd130;&lt;/a&gt;&lt;/li&gt;"/>
-</node>
-<node CREATED="1530588444145" MODIFIED="1530588444145" TEXT="&lt;/ul&gt;"/>
-</node>
-<node CREATED="1530588444145" ID="ID_1527074911" MODIFIED="1530588444145" TEXT="&lt;/body&gt;"/>
-<node CREATED="1530588444145" ID="ID_570526328" MODIFIED="1530588444145" TEXT="&lt;/html&gt;"/>
-<node COLOR="#3333ff" CREATED="1530588447164" FOLDED="true" ID="ID_1606306087" MODIFIED="1530594436470" STYLE="bubble" TEXT="&#xba54;&#xc778;&#xba54;&#xb274; &#xc778;&#xd074;&#xb8e8;&#xb4dc;">
-<arrowlink DESTINATION="ID_1167721846" ENDARROW="Default" ENDINCLINATION="555;0;" ID="Arrow_ID_794849572" STARTARROW="None" STARTINCLINATION="555;0;"/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1530588472401" ID="ID_724720175" MODIFIED="1530588773201" STYLE="bubble" TEXT="&#xd5e4;&#xb354;&#xc5d0; &#xc778;&#xd074;&#xb8e8;&#xb4dc; &#xd574;&#xc900;&#xb2e4;.">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530667041673" ID="ID_68071350" MODIFIED="1530667044720" TEXT="&#xc11c;&#xbe0c; &#xba54;&#xb274; &#xc778;&#xd074;&#xb8e8;&#xb4dc;"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1530667045200" ID="ID_31705324" MODIFIED="1530667057013" TEXT="&#xc774;&#xb7ec;&#xd55c; &#xba54;&#xc778; &#xb808;&#xc774;&#xc544;&#xc6c3;&#xc744; 3&#xac1c; &#xb9cc;&#xb4e4;&#xae30;"/>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531117906355" ID="ID_182841287" MODIFIED="1531132528553" TEXT="&#xc11c;&#xbe14;&#xb9bf;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531118279982" FOLDED="true" ID="ID_1433073061" MODIFIED="1531125856608" TEXT="&#xd1b0;&#xcea3; -&gt; &#xc11c;&#xbe14;&#xb9bf;(&#xc774;&#xbbf8;&#xc9c0;)">
-<font NAME="&#xad74;&#xb9bc;&#xccb4;" SIZE="12"/>
-<node CREATED="1531118288503" MODIFIED="1531118288503">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_6553129673300345755.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531120646037" FOLDED="true" ID="ID_1729808958" MODIFIED="1531125855112" TEXT="&#xd574;&#xbcf4;&#xc790;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531118383499" ID="ID_1010244336" MODIFIED="1531118387581" TEXT="&#xd504;&#xb85c;&#xc81d;&#xd2b8;&#xb97c; &#xb9cc;&#xb4e4;&#xc790;.">
-<node COLOR="#3333ff" CREATED="1531118353698" ID="ID_649724359" MODIFIED="1531118354965" STYLE="bubble" TEXT="2018_0709_ServletEx_25">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531118355674" ID="ID_499994668" MODIFIED="1531118381994" TEXT="&#xc774; &#xb9d0;&#xc740; &#xc11c;&#xbe14;&#xb9bf; &#xbaa8;&#xb4c8; &#xbc84;&#xc83c; 2.5&#xbc84;&#xc83c;&#xc73c;&#xb85c; &#xd558;&#xaca0;&#xb2e4;&#xb294; &#xac83;&#xc744; &#xc758;&#xbbf8;&#xd55c;&#xb2e4;."/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531118537989" FOLDED="true" ID="ID_99559676" MODIFIED="1531120652431" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
-<node CREATED="1531118540449" MODIFIED="1531118540449">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_5565799166528603483.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531120683435" ID="ID_149131245" MODIFIED="1531120687154" TEXT="&#xc11c;&#xbe14;&#xb9bf;&#xc744; &#xb9cc;&#xb4e4;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1531120687648" MODIFIED="1531120687648">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_1925041994237971975.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531120744568" ID="ID_748950158" MODIFIED="1531120750209" TEXT="&#xd328;&#xd0a4;&#xc9c0;&#xc640; &#xc774;&#xb984;&#xc744; &#xc785;&#xb825;&#xd558;&#xc790;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1531120750489" MODIFIED="1531120750489">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_5349887684770195665.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531120792155" ID="ID_1948106495" MODIFIED="1531120813524" TEXT="&#xd574;&#xb2f9; &#xd074;&#xb798;&#xc2a4; &#xb124;&#xc784; &#xc120;&#xd0dd;&#xd558;&#xace0; edit(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1531120799376" ID="ID_1793847817" MODIFIED="1531120799376">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_6367430675555422241.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531120824102" ID="ID_604422152" MODIFIED="1531120888118" STYLE="bubble" TEXT="&#xc815;&#xd655;&#xd55c; url &#xba65;&#xd551;&#xc744; &#xc785;&#xb825;&#xd558;&#xb77c;. &#xc544;&#xbb34;&#xb807;&#xac8c;&#xb098; &#xc785;&#xb825;&#xd574;&#xb3c4; &#xadf8;&#xac83;&#xc740; &#xc0c1;&#xc9d5;&#xc801; &#xc758;&#xbbf8;&#xc774;&#xc9c0; &#xc5b4;&#xb5a4; &#xae30;&#xc220;&#xc774; &#xc791;&#xb3d9;&#xd55c;&#xb2e4;&#xb294; &#xac83;&#xc774; &#xc544;&#xb2d8;&#xc744; &#xc54c;&#xc544;&#xb77c;.(&#xc774;&#xbbf8;&#xc9c0;)">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1531120864254" ID="ID_1595252543" MODIFIED="1531120883626">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_2141608513693601012.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531121005355" ID="ID_1494401238" MODIFIED="1531121011543" TEXT="&#xc790;&#xc2e0;&#xc774; &#xd558;&#xace0;&#xc790; &#xd558;&#xb294; &#xbc14;&#xb9cc; &#xccb4;&#xd06c; &#xd574;&#xb77c;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1531121011786" MODIFIED="1531121011786">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_684271941315679929.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531118660577" FOLDED="true" ID="ID_974428119" MODIFIED="1531132478397" TEXT="&#xc2dc;&#xc791;&#xcf54;&#xb529;">
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531118548995" FOLDED="true" ID="ID_1601950665" MODIFIED="1531120670880" TEXT="&#xcf54;&#xb529;&#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1531118582337" ID="ID_631916191" MODIFIED="1531118582337">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_3856424794487118424.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#3333ff" CREATED="1531118653757" FOLDED="true" ID="ID_855092035" MODIFIED="1531119391651" STYLE="bubble" TEXT="&#xc989;, &#xb2e4;&#xc74c;&#xc744; &#xc758;&#xbbf8;&#xd55c;&#xb2e4;. src&#xc5d0;&#xc11c; Servlet&#xc744; &#xb9cc;&#xb4e4;&#xae30;(&#xc774;&#xbbf8;&#xc9c0;)">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1531118666430" MODIFIED="1531118683264">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_7046091223543442480.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531119403577" FOLDED="true" ID="ID_320717307" MODIFIED="1531125853593" TEXT="&#xc608;&#xc81c;1">
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="package action;"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="import java.io.IOException;"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="import javax.servlet.ServletException;"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="import javax.servlet.http.HttpServlet;"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="import javax.servlet.http.HttpServletRequest;"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="import javax.servlet.http.HttpServletResponse;"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="/**">
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="* Servlet implementation class HelloAction"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="*/"/>
-</node>
-<node CREATED="1531119409417" ID="ID_1749074723" MODIFIED="1531119409417" TEXT="public class HelloAction extends HttpServlet {">
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="private static final long serialVersionUID = 1L;"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="/**">
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="*/"/>
-</node>
-<node CREATED="1531119409417" ID="ID_552122356" MODIFIED="1531119409417" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="// TODO Auto-generated method stub"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="String ip = request.getRemoteAddr();"/>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="System.out.println(ip + &quot;--HelloAction service call&quot;);"/>
-</node>
-<node CREATED="1531119409417" MODIFIED="1531119409417" TEXT="}"/>
-</node>
-<node CREATED="1531119409417" ID="ID_903622318" MODIFIED="1531119409417" TEXT="}"/>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531121028533" ID="ID_1034141925" MODIFIED="1531121030737" TEXT="&#xc2e4;&#xd589;&#xacb0;&#xacfc;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1531121031015" MODIFIED="1531121031015">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_9161759834886985486.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531119480264" FOLDED="true" ID="ID_1163796157" MODIFIED="1531125852533" TEXT="&#xac1c;&#xb150;&#xc740; &#xc7a1;&#xace0;&#xac00;&#xc790;">
-<node COLOR="#3333ff" CREATED="1531119483312" ID="ID_580795457" MODIFIED="1531119498216" STYLE="bubble" TEXT="HttpServletRequest request ">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#3333ff" CREATED="1531119498487" ID="ID_1023856189" MODIFIED="1531119528985" STYLE="bubble" TEXT="&#xc774;&#xac74;&#xbc14;&#xb85c; &#xc694;&#xccad;&#xcc98;&#xb9ac;&#xac1d;&#xccb4;&#xc774;&#xb2e4;.">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#3333ff" CREATED="1531119512104" ID="ID_760481279" MODIFIED="1531119525039" STYLE="bubble" TEXT="HttpServletResponse response">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#3333ff" CREATED="1531119525578" ID="ID_678154162" MODIFIED="1531119528516" STYLE="bubble" TEXT="&#xc751;&#xb2f5;&#xcc98;&#xb9ac;&#xac1d;&#xccb4;">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node COLOR="#3333ff" CREATED="1531121076319" ID="ID_977793032" MODIFIED="1531121682976" STYLE="bubble" TEXT="&#xc11c;&#xbe14;&#xb9bf;&#xc744; &#xd638;&#xcd9c;&#xd560; &#xc815;&#xbcf4;&#xac00; web.xml&#xc5d0; &#xb4e4;&#xc5b4;&#xac00;&#xc788;&#xb2e4;.">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531121489762" ID="ID_63139525" MODIFIED="1531121502517" STYLE="bubble" TEXT="&#xc11c;&#xbe14;&#xb9bf; &#xc774;&#xb984;&#xc744; &#xd655;&#xc2e4;&#xd788; &#xc9c0;&#xc815;&#xc744; &#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;.">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531121684907" ID="ID_1246906290" MODIFIED="1531121688344" TEXT="&#xc774;&#xac74; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1531121688661" MODIFIED="1531121688661">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_3184000482865189147.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531121502797" FOLDED="true" ID="ID_141380918" MODIFIED="1531121877265" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
-<node CREATED="1531121538098" MODIFIED="1531121538098">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_2188195654685372388.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531121878591" ID="ID_1381637564" MODIFIED="1531121889486" STYLE="bubble" TEXT="&#xadf8;&#xb7ec;&#xb098; 3.0 &#xb118;&#xc5b4;&#xc11c;&#xac00;&#xba74;&#xc11c; &#xc774;&#xac8c; &#xc5c6;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1531121887206" ID="ID_1326437207" MODIFIED="1531121887206">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_2957633905062322241.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531122475720" ID="ID_1415232204" MODIFIED="1531122487408" TEXT="&#xc544;&#xb2c8; &#xadf8;&#xb7ec;&#xba74;, 3.0&#xc740; &#xc5b4;&#xb5bb;&#xac8c; &#xd558;&#xb0d0;?">
-<node COLOR="#3333ff" CREATED="1531122467981" ID="ID_345838356" MODIFIED="1531122562521" STYLE="bubble" TEXT="@WebServlet(&quot;/hello.do&quot;)">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#3333ff" CREATED="1531122610994" FOLDED="true" ID="ID_4237580" MODIFIED="1531122803964" STYLE="bubble" TEXT="&#xc774;&#xac8c; &#xbc14;&#xb85c; &#xc5b4;&#xb178;&#xd14c;&#xc774;&#xc158; &#xbc29;&#xc2dd; !!!(&#xc774;&#xbbf8;&#xc9c0;)">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1531122802417" MODIFIED="1531122802417">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_1646741462808355339.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531122526451" ID="ID_667838443" LINK="#ID_1154848961" MODIFIED="1531122532787" TEXT="&#xc694;&#xac8c; &#xc788;&#xb2e4;.">
-<arrowlink DESTINATION="ID_1154848961" ENDARROW="Default" ENDINCLINATION="283;0;" ID="Arrow_ID_1747543745" STARTARROW="None" STARTINCLINATION="283;0;"/>
-</node>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531119788560" FOLDED="true" ID="ID_1406009234" MODIFIED="1531122469866" TEXT="&#xc608;&#xc81c;2">
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="package action;"/>
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="import java.io.IOException;"/>
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="import javax.servlet.ServletException;"/>
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="import javax.servlet.http.HttpServlet;"/>
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="import javax.servlet.http.HttpServletRequest;"/>
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="import javax.servlet.http.HttpServletResponse;"/>
-<node CREATED="1531119793955" ID="ID_421354637" MODIFIED="1531119793955" TEXT="/**">
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="* Servlet implementation class HelloAction"/>
-<node CREATED="1531119793955" ID="ID_1614298327" MODIFIED="1531119793955" TEXT="*/"/>
-</node>
-<node CREATED="1531119793955" ID="ID_423735295" MODIFIED="1531119793955" TEXT="public class HelloAction extends HttpServlet {">
-<node CREATED="1531119793955" ID="ID_1647100291" MODIFIED="1531119793955" TEXT="private static final long serialVersionUID = 1L;"/>
-<node CREATED="1531119793955" ID="ID_827128516" MODIFIED="1531119793955" TEXT="/**">
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="*/"/>
-</node>
-<node COLOR="#3333ff" CREATED="1531119793955" ID="ID_154178499" MODIFIED="1531119800790" STYLE="bubble" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1531119793955" MODIFIED="1531119800790" TEXT="// TODO Auto-generated method stub"/>
-<node COLOR="#3333ff" CREATED="1531119793955" ID="ID_170748705" MODIFIED="1531119800790" STYLE="bubble" TEXT="String ip = request.getRemoteAddr();">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#3333ff" CREATED="1531119793955" ID="ID_99825500" MODIFIED="1531119800790" STYLE="bubble" TEXT="System.out.println(ip + &quot;--HelloAction service call&quot;);">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#3333ff" CREATED="1531119793955" ID="ID_659790970" MODIFIED="1531119800790" STYLE="bubble" TEXT="response.setContentType(&quot;text/html; charset=utf-8;&quot;);">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node CREATED="1531119793955" ID="ID_1085714130" MODIFIED="1531119800790" TEXT="//&#xc751;&#xb2f5;&#xcc98;&#xb9ac;"/>
-<node COLOR="#3333ff" CREATED="1531119793955" ID="ID_196952566" MODIFIED="1531119800790" STYLE="bubble" TEXT="response.getWriter().println(ip+&quot;&#xc548;&#xb155;&#xd558;&#xc138;&#xc694;&quot;);">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="}"/>
-</node>
-<node CREATED="1531119793955" MODIFIED="1531119793955" TEXT="}"/>
-</node>
-<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531122455889" FOLDED="true" ID="ID_429131888" MODIFIED="1531125850523" STYLE="bubble" TEXT="&#xc608;&#xc81c;3(3.0 &#xbc84;&#xc804;&#xc6a9;)">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1531122467981" ID="ID_1169658881" MODIFIED="1531122467981" TEXT="package action;"/>
-<node CREATED="1531122467981" ID="ID_546305433" MODIFIED="1531122467981" TEXT="import java.io.IOException;"/>
-<node CREATED="1531122467981" ID="ID_1707229214" MODIFIED="1531122467981" TEXT="import javax.servlet.ServletException;"/>
-<node CREATED="1531122467981" ID="ID_1505447490" MODIFIED="1531122467981" TEXT="import javax.servlet.annotation.WebServlet;"/>
-<node CREATED="1531122467981" ID="ID_646247545" MODIFIED="1531122467981" TEXT="import javax.servlet.http.HttpServlet;"/>
-<node CREATED="1531122467981" ID="ID_275033799" MODIFIED="1531122467981" TEXT="import javax.servlet.http.HttpServletRequest;"/>
-<node CREATED="1531122467981" ID="ID_1215231011" MODIFIED="1531122467981" TEXT="import javax.servlet.http.HttpServletResponse;"/>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="/**">
-<node CREATED="1531122467981" ID="ID_1867589524" MODIFIED="1531122467981" TEXT="* Servlet implementation class HelloAction"/>
-<node CREATED="1531122467981" ID="ID_1482390260" MODIFIED="1531122467981" TEXT="*/"/>
-</node>
-<node COLOR="#3333ff" CREATED="1531122467981" ID="ID_1154848961" MODIFIED="1531122543378" STYLE="bubble" TEXT="@WebServlet(&quot;/hello.do&quot;)">
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_1154848961" ENDARROW="Default" ENDINCLINATION="283;0;" ID="Arrow_ID_1747543745" SOURCE="ID_667838443" STARTARROW="None" STARTINCLINATION="283;0;"/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="public class HelloAction extends HttpServlet {">
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="private static final long serialVersionUID = 1L;"/>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="/**">
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="*/"/>
-</node>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="// TODO Auto-generated method stub"/>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="String ip = request.getRemoteAddr();"/>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="System.out.println(ip + &quot;&#xb2d8; &#xc548;&#xb155;&#xd558;&#xc138;&#xc694; &#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#x3157;&#xd653;&#xd638;&#x3157;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&quot;);"/>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="response.setContentType(&quot;text/html; charset=utf-8&quot;);"/>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="response.getWriter().println(ip + &quot;[&#xb2d8;]&#xc548;&#xb155;&#xd558;&#xc138;&#xc694;. &#xd5c8;&#xd5c8;&#xd5c8;&#xd5c8;&lt;br&gt;&#xd638;&#x3157;&#xd638;&#x3157;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd653;&quot;);"/>
-</node>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="}"/>
-</node>
-<node CREATED="1531122467981" MODIFIED="1531122467981" TEXT="}"/>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531123215015" FOLDED="true" ID="ID_704268633" MODIFIED="1531125850815" TEXT="&#xc608;&#xc81c;4(&#xbcf8;&#xaca9;&#xc801;&#xc778; &#xb2e4;&#xc774;&#xb098;&#xbbf9; &#xc6f9; &#xd504;&#xb85c;&#xadf8;&#xb7a8;)">
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="package action;"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import java.io.IOException;"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import javax.servlet.ServletException;"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import javax.servlet.annotation.WebServlet;"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import javax.servlet.http.HttpServlet;"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import javax.servlet.http.HttpServletRequest;"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="import javax.servlet.http.HttpServletResponse;"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="/**">
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="* Servlet implementation class HelloAction"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="*/"/>
-</node>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="@WebServlet(&quot;/hello.do&quot;)"/>
-<node CREATED="1531123879221" ID="ID_1743362141" MODIFIED="1531123879221" TEXT="public class HelloAction extends HttpServlet {">
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="private static final long serialVersionUID = 1L;"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="/**">
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="*/"/>
-</node>
-<node CREATED="1531123879221" ID="ID_614040574" MODIFIED="1531123879221" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="// TODO Auto-generated method stub"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="String ip = request.getRemoteAddr();"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="System.out.println(ip + &quot;&#xb2d8; &#xc548;&#xb155;&#xd558;&#xc138;&#xc694; &#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#x3157;&#xd653;&#xd638;&#x3157;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&quot;);"/>
-<node COLOR="#3333ff" CREATED="1531123879221" ID="ID_140069240" MODIFIED="1531125461799" STYLE="bubble" TEXT="request.setCharacterEncoding(&quot;utf-8&quot;);">
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_140069240" ENDARROW="Default" ENDINCLINATION="1133;0;" ID="Arrow_ID_1287046630" SOURCE="ID_502474962" STARTARROW="None" STARTINCLINATION="1133;0;"/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node CREATED="1531123879221" ID="ID_216507233" MODIFIED="1531123879221" TEXT="String color = request.getParameter(&quot;color&quot;);"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="if(color == null)">
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="color = &quot;red&quot;;"/>
-</node>
-<node CREATED="1531123879221" ID="ID_1526791256" MODIFIED="1531123879221" TEXT="response.setContentType(&quot;text/html; charset=utf-8&quot;);"/>
-<node CREATED="1531123879221" ID="ID_1009893024" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;html&gt;&quot;);"/>
-<node CREATED="1531123879221" ID="ID_240408792" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;head&gt;&lt;title&gt;&#xc548;&#xb155;&lt;/title&gt;&lt;/head&gt;&quot;);"/>
-<node CREATED="1531123879221" ID="ID_109691581" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;body bgcolor = &quot;+ color + &quot;&gt;&quot;);"/>
-<node CREATED="1531123879221" ID="ID_1639553704" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;h1&gt;&quot;+ip + &quot;[&#xb2d8;]&#xc548;&#xb155;&#xd558;&#xc138;&#xc694;. &#xd5c8;&#xd5c8;&#xd5c8;&#xd5c8;&lt;br&gt;&#xd638;&#x3157;&#xd638;&#x3157;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd638;&#xd653;&lt;/h1&gt;&quot;);"/>
-<node CREATED="1531123879221" ID="ID_1687948308" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;/body&gt;&quot;);"/>
-<node CREATED="1531123879221" ID="ID_869720751" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&lt;/html&gt;&quot;);"/>
-<node CREATED="1531123879221" ID="ID_177577304" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
-<node CREATED="1531123879221" ID="ID_1116153860" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
-<node CREATED="1531123879221" ID="ID_184227350" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="response.getWriter().println(&quot;&quot;);"/>
-</node>
-<node CREATED="1531123879221" MODIFIED="1531123879221" TEXT="}"/>
-</node>
-<node CREATED="1531123879221" ID="ID_1054073747" MODIFIED="1531123879221" TEXT="}"/>
-</node>
-<node COLOR="#3333ff" CREATED="1531123897300" FOLDED="true" ID="ID_1799397997" MODIFIED="1531132480184" STYLE="bubble" TEXT="&#xc2e4;&#xd589;&#xacb0;&#xacfc;: &#xc8fc;&#xc18c;&#xd45c;&#xc2dc;&#xc904;&#xc5d0; &#xc788;&#xb294; yellow&#xb97c; &#xc798; &#xbd10;&#xb77c;">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1531123900255" ID="ID_285081181" MODIFIED="1531124333397">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_8388307862096925253.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" COLOR="#3333ff" CREATED="1531126127521" FOLDED="true" ID="ID_1615313228" MODIFIED="1531126152872" STYLE="bubble" TEXT="&#xd30c;&#xb77c;&#xbbf8;&#xd130; &#xac1c;&#xc694;(&#xc774;&#xbbf8;&#xc9c0;)">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1531126132708" ID="ID_1694291054" MODIFIED="1531126133826">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_1677933888680287871.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#3333ff" CREATED="1531125286646" ID="ID_502474962" LINK="#ID_140069240" MODIFIED="1531125462699" STYLE="bubble" TEXT="&#xc5ec;&#xae30;&#xc11c; &#xd574;&#xb2f9; &#xbcc0;&#xc218;(color)&#xc5d0; &#xd55c;&#xae00;&#xc774;&#xb098; &#xd2b9;&#xc218;&#xbb38;&#xc790;&#xb97c; &#xc785;&#xb825;&#xd558;&#xb824;&#xba74; &#xc774;&#xc640;&#xac19;&#xc774; &#xc804;&#xc1a1;&#xb418;&#xc5b4;&#xc9c0;&#xb294; &#xac12;&#xc5d0; &#xb300;&#xd574;&#xc11c; &#xc778;&#xcf54;&#xb529;&#xc744; &#xd574;&#xc918;&#xc57c; &#xd55c;&#xb2e4;. &#xadf8; &#xc5ed;&#xd560;&#xc744; &#xd558;&#xb294; &#xbd80;&#xbd84;&#xc774; &#xbc14;&#xb85c; &#xc774; &#xbd80;&#xbd84;&#xc774;&#xb2e4;.">
-<arrowlink DESTINATION="ID_140069240" ENDARROW="Default" ENDINCLINATION="1133;0;" ID="Arrow_ID_1287046630" STARTARROW="None" STARTINCLINATION="1133;0;"/>
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#3333ff" CREATED="1531125471407" ID="ID_1929441477" MODIFIED="1531125497773" STYLE="bubble" TEXT="&#xadf8;&#xb7fc; &#xd55c;&#xae00;&#xc744; &#xc785;&#xb825;&#xd574;&#xb3c4;(&#xc608;: color = &#xbe68;&#xac15; ) &#xb41c;&#xb2e4;&#xb294; &#xac83;">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-<node COLOR="#3333ff" CREATED="1531123246759" FOLDED="true" ID="ID_1600670356" MODIFIED="1531126157644" STYLE="bubble" TEXT="&#xc774;&#xb7ec;&#xd55c; &#xb2e4;&#xc774;&#xb098;&#xbbf9; &#xc6f9; &#xd504;&#xb85c;&#xadf8;&#xb798;&#xbc0d;&#xc740; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;.(&#xc774;&#xbbf8;&#xc9c0;)&#xadf8;&#xb798; &#xbc14;&#xb85c; &#xc774;&#xac70; &#xb3d9;&#xc801; html">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1531123860686" ID="ID_623442722" MODIFIED="1531123864759">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="INC_7462170612368017102.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node COLOR="#3333ff" CREATED="1531123794559" FOLDED="true" ID="ID_267359113" MODIFIED="1531126158981" STYLE="bubble" TEXT="&#xadf8;&#xb798;&#xc11c; &#xc11c;&#xbe14;&#xb9bf;&#xc774; &#xbb50;&#xb0d0;?">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node COLOR="#3333ff" CREATED="1531123798755" ID="ID_183700762" MODIFIED="1531123803622" STYLE="bubble" TEXT="&#xc11c;&#xbe44;&#xc2a4;&#xb97c; &#xcc98;&#xb9ac;&#xd558;&#xb294; &#xac1d;&#xccb4;">
-<font BOLD="true" NAME="SansSerif" SIZE="16"/>
-</node>
-</node>
-<node BACKGROUND_COLOR="#ffff00" CREATED="1531132531805" FOLDED="true" ID="ID_1606296030" MODIFIED="1531132549258" TEXT="&#xc608;&#xc81c;5">
-<node CREATED="1531132546630" MODIFIED="1531132546630" TEXT="package action;"/>
-<node CREATED="1531132546632" MODIFIED="1531132546632" TEXT="import java.io.IOException;"/>
-<node CREATED="1531132546633" MODIFIED="1531132546633" TEXT="import javax.servlet.ServletException;"/>
-<node CREATED="1531132546633" MODIFIED="1531132546633" TEXT="import javax.servlet.annotation.WebServlet;"/>
-<node CREATED="1531132546634" MODIFIED="1531132546634" TEXT="import javax.servlet.http.HttpServlet;"/>
-<node CREATED="1531132546635" MODIFIED="1531132546635" TEXT="import javax.servlet.http.HttpServletRequest;"/>
-<node CREATED="1531132546635" MODIFIED="1531132546635" TEXT="import javax.servlet.http.HttpServletResponse;"/>
-<node CREATED="1531132546635" MODIFIED="1531132546635" TEXT="/**">
-<node CREATED="1531132546636" MODIFIED="1531132546636" TEXT="* Servlet implementation class Hi"/>
-<node CREATED="1531132546636" MODIFIED="1531132546636" TEXT="*/"/>
-</node>
-<node CREATED="1531132546637" MODIFIED="1531132546637" TEXT="@WebServlet(&quot;/hi.do&quot;)"/>
-<node CREATED="1531132546637" MODIFIED="1531132546637" TEXT="public class Hi extends HttpServlet {&#x3137;&#x3139;">
-<node CREATED="1531132546638" MODIFIED="1531132546638" TEXT="private static final long serialVersionUID = 1L;"/>
-<node CREATED="1531132546639" MODIFIED="1531132546639" TEXT="/**">
-<node CREATED="1531132546640" MODIFIED="1531132546640" TEXT="* @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)"/>
-<node CREATED="1531132546641" MODIFIED="1531132546641" TEXT="*/"/>
-</node>
-<node CREATED="1531132546641" MODIFIED="1531132546641" TEXT="protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {">
-<node CREATED="1531132546643" MODIFIED="1531132546643" TEXT="// TODO Auto-generated method stub"/>
-<node CREATED="1531132546644" MODIFIED="1531132546644" TEXT="String greet_msg = &quot;&#xc548;&#xb155;&#xd558;&#xc138;&#xc694;&quot;;"/>
-<node CREATED="1531132546645" MODIFIED="1531132546645" TEXT="request.setCharacterEncoding(&quot;utf-8&quot;);"/>
-<node CREATED="1531132546645" MODIFIED="1531132546645" TEXT="String nation = request.getParameter(&quot;nation&quot;);"/>
-<node CREATED="1531132546645" MODIFIED="1531132546645" TEXT="if(nation ==null) {">
-<node CREATED="1531132546646" MODIFIED="1531132546646" TEXT="nation = &quot;kor&quot;;"/>
-</node>
-<node CREATED="1531132546646" MODIFIED="1531132546646" TEXT="}"/>
-<node CREATED="1531132546647" MODIFIED="1531132546647" TEXT="if(nation.equals(&quot;&#xc77c;&#xbcf8;&quot;)) {">
-<node CREATED="1531132546647" MODIFIED="1531132546647" TEXT="greet_msg = &quot;&#xc624;&#xaca1;&#xb07c;&#xb370;&#xc2a4;&#xae4c;&quot;;"/>
-</node>
-<node CREATED="1531132546648" MODIFIED="1531132546648" TEXT="}else if(nation.equals(&quot;&#xc911;&#xad6d;&quot;)) {">
-<node CREATED="1531132546648" MODIFIED="1531132546648" TEXT="greet_msg = &quot;&#xb2c8;&#xd558;&#xc624;(&#xb9c8;)&quot;;"/>
-</node>
-<node CREATED="1531132546649" MODIFIED="1531132546649" TEXT="}else if(nation.equals(&quot;&#xbbf8;&#xad6d;&quot;)) {">
-<node CREATED="1531132546649" MODIFIED="1531132546649" TEXT="greet_msg = &quot;Hi funcking good day ya ha!&quot;;"/>
-</node>
-<node CREATED="1531132546650" MODIFIED="1531132546650" TEXT="}"/>
-<node CREATED="1531132546650" MODIFIED="1531132546650" TEXT="response.setContentType(&quot;text/html; charset = utf-8&quot;);"/>
-<node CREATED="1531132546651" MODIFIED="1531132546651" TEXT="response.getWriter().println(greet_msg);"/>
-</node>
-<node CREATED="1531132546651" MODIFIED="1531132546651" TEXT="}"/>
-</node>
-<node CREATED="1531132546652" MODIFIED="1531132546652" TEXT="}"/>
 </node>
 </node>
 </node>
