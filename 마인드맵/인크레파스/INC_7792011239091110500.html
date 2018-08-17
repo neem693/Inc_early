@@ -1,0 +1,533 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>&#50696;&#51228;(BEAN)</title>
+<style type="text/css">
+    li { list-style: none;  margin: 0; }
+    p { margin: 0; }
+    span.foldopened { color: white; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: visible;
+    cursor:pointer; }
+
+
+    span.foldclosed { color: #666666; font-size: xx-small;
+    border-width: 1; font-family: monospace; padding: 0em 0.25em 0em 0.25em; background: #e0e0e0;
+    VISIBILITY: hidden;
+    cursor:pointer; }
+
+    span.foldspecial { color: #666666; font-size: xx-small; border-style: none solid solid none;
+    border-color: #CCCCCC; border-width: 1; font-family: sans-serif; padding: 0em 0.1em 0em 0.1em; background: #e0e0e0;
+    cursor:pointer; }
+
+    span.l { color: red; font-weight: bold; }
+
+    a.mapnode:link {text-decoration: none; color: black; }
+    a.mapnode:visited {text-decoration: none; color: black; }
+    a.mapnode:active {text-decoration: none; color: black; }
+    a.mapnode:hover {text-decoration: none; color: black; background: #eeeee0; }
+
+</style>
+<!-- ^ Position is not set to relative / absolute here because of Mozilla -->
+</head>
+<body>
+
+<script type="text/javascript">
+   // Here we implement folding. It works fine with MSIE5.5, MSIE6.0 and
+   // Mozilla 0.9.6.
+
+   if (document.layers) {
+      //Netscape 4 specific code
+      pre = 'document.';
+      post = ''; }
+   if (document.getElementById) {
+      //Netscape 6 specific code
+      pre = 'document.getElementById("';
+      post = '").style'; }
+   if (document.all) {
+      //IE4+ specific code
+      pre = 'document.all.';
+      post = '.style'; }
+
+function layer_exists(layer) {
+   try {
+      eval(pre + layer + post);
+      return true; }
+   catch (error) {
+      return false; }}
+
+function show_layer(layer) {
+   eval(pre + layer + post).position = 'relative'; 
+   eval(pre + layer + post).visibility = 'visible'; }
+
+function hide_layer(layer) {
+   eval(pre + layer + post).visibility = 'hidden';
+   eval(pre + layer + post).position = 'absolute'; }
+
+function hide_folder(folder) {
+    hide_folding_layer(folder)
+    show_layer('show'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function show_folder(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_layer('show'+folder+'_'+i); }
+}
+function show_folder_completely(folder) {
+    // Precondition: all subfolders are folded
+
+    show_layer('hide'+folder);
+    hide_layer('show'+folder);
+    show_layer('fold'+folder);
+
+    scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+
+    var i;
+    for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+
+
+function hide_folding_layer(folder) {
+   var i;
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folding_layer(folder+'_'+i); }
+
+   hide_layer('hide'+folder);
+   hide_layer('show'+folder);
+   hide_layer('fold'+folder);
+
+   scrollBy(0,0); // This is a work around to make it work in Browsers (Explorer, Mozilla)
+}
+
+function fold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       hide_folder(folder+'_'+i); }
+}
+
+function unfold_document() {
+   var i;
+   var folder = '1';
+   for (i=1; layer_exists('fold'+folder+'_'+i); ++i) {
+       show_folder_completely(folder+'_'+i); }
+}
+
+</script>
+<SPAN class="foldspecial" onclick="fold_document()">All +</SPAN>
+<SPAN class="foldspecial" onclick="unfold_document()">All -</SPAN>
+<p>&#50696;&#51228;(BEAN)
+<ul><li><span id="show1_1" class="foldclosed" onClick="show_folder('1_1')" style="POSITION: absolute">+</span> <span id="hide1_1" class="foldopened" onClick="hide_folder('1_1')">-</span>
+html
+<ul id="fold1_1" style="POSITION: relative; VISIBILITY: visible;"><li>&lt;!DOCTYPE html&gt;
+
+</li>
+<li>&#xd;&#xa;  
+
+</li>
+<li>&lt;head&gt;
+
+</li>
+<li>&lt;meta charset="UTF-8" content="width=device-width, initial-scale=1"&gt;
+
+</li>
+<li>&lt;title&gt;Insert title here&lt;/title&gt;
+
+</li>
+<li>&lt;script type="text/javascript"&gt;
+
+</li>
+<li>function send_original(f){
+<ul><li>//&#44050;&#51032; &#50976;&#54952;&#49457;&nbsp;&#52404;&#53356;
+
+</li>
+<li>//&#49436;&#48260;&#47196; &#51204;&#49569;(&#45824;&#49345;)
+
+</li>
+<li>f.action = "insert_person.jsp";
+
+</li>
+<li>//&#51648;&#51221;&#46108; action&#51004;&#47196; &#51204;&#49569;
+
+</li>
+<li>f.submit();
+
+</li>
+
+</ul>
+</li>
+<li>}
+
+</li>
+<li>function send(f){
+<ul><li>//&#44050;&#51032; &#50976;&#54952;&#49457;&nbsp;&#52404;&#53356;
+
+</li>
+<li>//&#49436;&#48260;&#47196; &#51204;&#49569;(&#45824;&#49345;)
+
+</li>
+<li>f.action = "Test_bean.jsp";
+
+</li>
+<li>//&#51648;&#51221;&#46108; action&#51004;&#47196; &#51204;&#49569;
+
+</li>
+<li>f.submit();
+
+</li>
+
+</ul>
+</li>
+<li>}
+
+</li>
+<li>function send2(f){
+<ul><li>//&#44050;&#51032; &#50976;&#54952;&#49457;&nbsp;&#52404;&#53356;
+
+</li>
+<li>//&#49436;&#48260;&#47196; &#51204;&#49569;(&#45824;&#49345;)
+
+</li>
+<li>f.action = "insert_person2.jsp";
+
+</li>
+<li>//&#51648;&#51221;&#46108; action&#51004;&#47196; &#51204;&#49569;
+
+</li>
+<li>f.submit();
+
+</li>
+
+</ul>
+</li>
+<li>}
+
+</li>
+<li>&lt;/script&gt;
+
+</li>
+<li>&lt;/head&gt;
+
+</li>
+<li>&lt;body&gt;
+<ul><li><span id="show1_1_1" class="foldclosed" onClick="show_folder('1_1_1')" style="POSITION: absolute">+</span> <span id="hide1_1_1" class="foldopened" onClick="hide_folder('1_1_1')">-</span>
+&lt;form&gt;
+<ul id="fold1_1_1" style="POSITION: relative; VISIBILITY: visible;"><li>&#51060;&#47492;:&lt;input name="name" value = "&#54861;&#44600;&#46041;"&gt;&lt;br&gt; &#45208;&#51060;:&lt;input name="age" value= "20"&gt;&lt;br&gt;
+
+</li>
+<li>&#51204;&#54868;:&lt;input name="tel" value = "010-1111-1111"&gt;&lt;br&gt;
+
+</li>
+<li>&lt;input type="button"
+<ul><li>value="&#51204;&#49569;&#54616;&#44592;" onclick="send_original(this.form);" &gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;input type="button"
+<ul><li>value="&#51204;&#49569;&#54616;&#44592;(&#45233;&#44060;&#47196;&#48155;&#44592;)" onclick="send(this.form);" &gt;
+
+</li>
+<li>&lt;input type = "button" value = "&#51204;&#49569;&#54616;&#44592;(&#44061;&#52404;&#47196;&#48155;&#44592;)" onclick="send2(this.form);"&gt;
+
+</li>
+
+</ul>
+</li>
+
+</ul>
+</li>
+<li>&lt;/form&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/body&gt;
+
+</li>
+<li>&lt;/html&gt;
+
+</li>
+
+</ul>
+</li>
+<li>insert_person(&#50900;&#47000;&#45716; &#51060;&#47111;&#44172;, &#50724;&#47532;&#51648;&#45216;)
+<ul><li><p><a href="mailto:%@page" target="_blank"><span class=l>~</span>&nbsp;&lt;%@page import="javafx.beans.property.SetProperty"%&gt;
+</a>
+<p><a href="mailto:%@page" target="_blank"><span class=l>~</span>&nbsp;&lt;%@page import="vo.PersonVo"%&gt;
+</a>
+<p>&lt;%@ page language="java" contentType="text/html; charset=UTF-8"
+<ul><li>pageEncoding="UTF-8"%&gt;
+
+</li>
+
+</ul><p>&lt;%
+<ul><li>//JSP &#45236;&#51109;(&#49704;&#44200;&#51256; &#51080;&#45716;&nbsp;)&#44061;&#52404;
+
+</li>
+<li>//_jspService(request,response)
+
+</li>
+<li>//pageContext, request, session, application
+
+</li>
+<li>//out
+
+</li>
+<li>request.setCharacterEncoding("utf-8");
+
+</li>
+<li>String name = request.getParameter("name");
+
+</li>
+<li>String str_age = request.getParameter("age");
+
+</li>
+<li>int age = Integer.parseInt(str_age);
+
+</li>
+<li>String tel = request.getParameter("tel");
+
+</li>
+<li>//vo &#54252;&#51109;
+
+</li>
+<li>PersonVo vo = new PersonVo(name, age, tel);
+
+</li>
+
+</ul><p>%&gt;
+<p><a href="http://www.w3.org/TR/html4/loose.dtd" target="_blank"><span class=l>~</span>&nbsp;&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
+</a>
+&#xd;&#xa;  
+<p>&lt;head&gt;
+<p>&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+<p>&lt;title&gt;Insert title here&lt;/title&gt;
+<p>&lt;/head&gt;
+<p>&lt;body&gt;
+<ul><li>&lt;table border="1"&gt;
+<ul><li>&lt;caption&gt;::::&#51077;&#47141;&#46108; &#51221;&#48372;::::&lt;/caption&gt;
+
+</li>
+<li>&lt;tr&gt;
+<ul><li>&lt;th&gt;&#51060;&#47492;&lt;/th&gt;
+
+</li>
+<li>&lt;td&gt;&lt;%=name %&gt;&lt;/td&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/tr&gt;
+
+</li>
+<li>&lt;tr&gt;
+<ul><li>&lt;th&gt;&#45208;&#51060;&lt;/th&gt;
+
+</li>
+<li>&lt;td&gt;&lt;%=str_age%&gt;&lt;/td&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/tr&gt;
+
+</li>
+<li>&lt;tr&gt;
+<ul><li>&lt;th&gt;&#51204;&#54868;&lt;/th&gt;
+
+</li>
+<li>&lt;td&gt;&lt;%=tel%&gt;&lt;/td&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/tr&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/table&gt;
+
+</li>
+
+</ul><p>&lt;/body&gt;
+<p>&lt;/html&gt;
+</li>
+</ul>
+</li>
+<li><span id="show1_2" class="foldclosed" onClick="show_folder('1_2')" style="POSITION: absolute">+</span> <span id="hide1_2" class="foldopened" onClick="hide_folder('1_2')">-</span>
+Test_Bean(bean&#51060;&#50857;)
+<ul id="fold1_2" style="POSITION: relative; VISIBILITY: visible;"><li><p>&lt;%@ page language="java" contentType="text/html; charset=UTF-8"
+<ul><li>pageEncoding="UTF-8"%&gt;
+
+</li>
+
+</ul><p>&lt;jsp:useBean id="p" class="vo.PersonVo"&gt;&lt;/jsp:useBean&gt;
+<p>&lt;%-- PersonVo p = new PersonVo();--%&gt;
+<p>&lt;jsp:setProperty property="name" name="p" value="&#51068;&#44600;&#46041;"&gt;&lt;/jsp:setProperty&gt;
+<p>&lt;jsp:setProperty property="age" name="p" value="20"&gt;&lt;/jsp:setProperty&gt;
+<p>&lt;jsp:setProperty property="tel" name="p" value="010-1111-1111"&gt;&lt;/jsp:setProperty&gt;
+<p><a href="http://www.w3.org/TR/html4/loose.dtd" target="_blank"><span class=l>~</span>&nbsp;&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
+</a>
+&#xd;&#xa;  
+<p>&lt;head&gt;
+<p>&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+<p>&lt;title&gt;Insert title here&lt;/title&gt;
+<p>&lt;/head&gt;
+<p>&lt;body&gt;
+<p>&lt;table border="1"&gt;
+<ul><li>&lt;caption&gt;::::&#51077;&#47141;&#46108; &#51221;&#48372;::::&lt;/caption&gt;
+
+</li>
+<li>&lt;tr&gt;
+<ul><li>&lt;th&gt;&#51060;&#47492;&lt;/th&gt;
+
+</li>
+<li>&lt;td&gt;&lt;jsp:getProperty property="name" name="p"/&gt;&lt;/td&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/tr&gt;
+
+</li>
+<li>&lt;tr&gt;
+<ul><li>&lt;th&gt;&#45208;&#51060;&lt;/th&gt;
+
+</li>
+<li>&lt;td&gt;&lt;%=p.getAge()%&gt;&lt;/td&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/tr&gt;
+
+</li>
+<li>&lt;tr&gt;
+<ul><li>&lt;th&gt;&#51204;&#54868;&lt;/th&gt;
+
+</li>
+<li>&lt;td&gt;&lt;%=p.getTel()%&gt;&lt;/td&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/tr&gt;
+
+</li>
+<li>&lt;/table&gt;
+
+</li>
+
+</ul><p>&lt;/body&gt;
+<p>&lt;/html&gt;
+</li>
+</ul>
+</li>
+<li><span id="show1_3" class="foldclosed" onClick="show_folder('1_3')" style="POSITION: absolute">+</span> <span id="hide1_3" class="foldopened" onClick="hide_folder('1_3')">-</span>
+insert_pserson2(&#44061;&#52404;)
+<ul id="fold1_3" style="POSITION: relative; VISIBILITY: visible;"><li><p>&lt;%@ page language="java" contentType="text/html; charset=UTF-8"
+<ul><li>pageEncoding="UTF-8"%&gt;
+
+</li>
+
+</ul><p>&lt;%
+<ul><li>request.setCharacterEncoding("utf-8");
+
+</li>
+
+</ul><p>%&gt;
+<p>&lt;jsp:useBean id="p" class="vo.PersonVo" /&gt;
+<p>&lt;jsp:setProperty name="p" property="*" /&gt;
+<p><a href="http://www.w3.org/TR/html4/loose.dtd" target="_blank"><span class=l>~</span>&nbsp;&lt;!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"&gt;
+</a>
+&#xd;&#xa;  
+<p>&lt;head&gt;
+<p>&lt;meta http-equiv="Content-Type" content="text/html; charset=UTF-8"&gt;
+<p>&lt;title&gt;Insert title here&lt;/title&gt;
+<p>&lt;/head&gt;
+<p>&lt;body&gt;
+<ul><li>&lt;table border="1"&gt;
+<ul><li>&lt;caption&gt;::::&#44061;&#52404;&#47196; &#49688;&#49888;&#46108;&nbsp;&#51221;&#48372;::::&lt;/caption&gt;
+
+</li>
+<li>&lt;tr&gt;
+<ul><li>&lt;th&gt;&#51060;&#47492;&lt;/th&gt;
+
+</li>
+<li>&lt;td&gt;&lt;jsp:getProperty property="name" name="p" /&gt;&lt;/td&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/tr&gt;
+
+</li>
+<li>&lt;tr&gt;
+<ul><li>&lt;th&gt;&#45208;&#51060;&lt;/th&gt;
+
+</li>
+<li>&lt;td&gt;&lt;%=p.getAge()%&gt;&lt;/td&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/tr&gt;
+
+</li>
+<li>&lt;tr&gt;
+<ul><li>&lt;th&gt;&#51204;&#54868;&lt;/th&gt;
+
+</li>
+<li>&lt;td&gt;&lt;%=p.getTel()%&gt;&lt;/td&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/tr&gt;
+
+</li>
+
+</ul>
+</li>
+<li>&lt;/table&gt;
+
+</li>
+
+</ul><p>&lt;/body&gt;
+<p>&lt;/html&gt;
+</li>
+</ul>
+</li>
+
+</ul><SCRIPT type="text/javascript">
+fold_document();
+</SCRIPT>
+</body>
+</html>
