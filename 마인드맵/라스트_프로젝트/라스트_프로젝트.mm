@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1531298187059" ID="ID_1443236941" MODIFIED="1531298238464" TEXT="&#xd504;&#xb85c;&#xc81d;&#xd2b8;">
-<node COLOR="#3333ff" CREATED="1531298259442" ID="ID_151626292" MODIFIED="1531298269127" POSITION="right" STYLE="bubble" TEXT="&#xc77c;&#xb2e8; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xb294;&#xac78; &#xb4e4;&#xace0; &#xc654;&#xb2e4;.">
+<node COLOR="#3333ff" CREATED="1531298259442" FOLDED="true" ID="ID_151626292" MODIFIED="1534816578393" POSITION="right" STYLE="bubble" TEXT="&#xc77c;&#xb2e8; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xb294;&#xac78; &#xb4e4;&#xace0; &#xc654;&#xb2e4;.">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1531298267611" ID="ID_617534247" LINK="https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm#" MODIFIED="1531298269127" TEXT="https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm#"/>
 </node>
