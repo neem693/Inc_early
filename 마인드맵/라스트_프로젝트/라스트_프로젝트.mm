@@ -1,7 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1531298187059" ID="ID_1443236941" MODIFIED="1531298238464" TEXT="&#xd504;&#xb85c;&#xc81d;&#xd2b8;">
-<node COLOR="#3333ff" CREATED="1531298259442" FOLDED="true" ID="ID_151626292" MODIFIED="1534816578393" POSITION="right" STYLE="bubble" TEXT="&#xc77c;&#xb2e8; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xb294;&#xac78; &#xb4e4;&#xace0; &#xc654;&#xb2e4;.">
+<node COLOR="#3333ff" CREATED="1531298259442" FOLDED="true" ID="ID_151626292" MODIFIED="1535358534262" POSITION="right" STYLE="bubble" TEXT="&#xc77c;&#xb2e8; &#xc5ec;&#xae30;&#xc5d0; &#xc788;&#xb294;&#xac78; &#xb4e4;&#xace0; &#xc654;&#xb2e4;.">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node CREATED="1531298267611" ID="ID_617534247" LINK="https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm#" MODIFIED="1531298269127" TEXT="https://www.w3schools.com/w3css/tryw3css_templates_dark_portfolio.htm#"/>
 </node>
@@ -22,6 +22,10 @@
 <node CREATED="1531469872550" ID="ID_543601834" MODIFIED="1531469879410" POSITION="right" TEXT="&#xd558;&#xc704; &#xba54;&#xb274;&#xb4e4;&#xc740; &#xb2e4;&#xc74c;&#xacfc; &#xac19;&#xb2e4;.">
 <node CREATED="1531469891250" ID="ID_484700921" MODIFIED="1531469892625" TEXT="&#xb3d9;&#xd589;"/>
 <node CREATED="1531470706707" ID="ID_611269985" MODIFIED="1531470707254" TEXT="&#xd6c4;&#xae30;"/>
+</node>
+<node CREATED="1535358538210" ID="ID_1136192588" MODIFIED="1535358540604" POSITION="right" TEXT="&#xcee8;&#xd150;&#xce20;">
+<node CREATED="1535358541166" ID="ID_1758662549" MODIFIED="1535358542114" TEXT="&#xd30c;&#xd2f0;&#xbaa8;&#xc9d1;"/>
+<node CREATED="1535358542390" ID="ID_943247850" MODIFIED="1535358547473" TEXT="&#xc911;&#xace0;&#xd488; &#xd310;&#xb9e4;"/>
 </node>
 </node>
 </map>

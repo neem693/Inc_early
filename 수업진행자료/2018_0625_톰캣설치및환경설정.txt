@@ -1,0 +1,37 @@
+apache.org
+[다운로드]
+   apache-tomcat-8.0.52.zip
+
+[설치]
+ 1. 압축풀기
+ 2. c:\ 밑으로 옮겨놓는다
+    위치=>   C:\apache-tomcat-8.0.52
+
+ 3. 실행 
+    C:\apache-tomcat-8.0.52\bin\startup.bat 
+    접속확인 : http://localhost:9090
+               http://inca001:9090
+               http://192.168.0.247:9090
+ 4. 톰캣환경설정
+    1) 인코딩 및 포트설정
+      C:\apache-tomcat-8.0.52\conf\server.xml
+       <Connector URIEncoding="utf-8"   <= 인코딩설정 
+                  port="9090"           <= 포트설정
+                  protocol="HTTP/1.1"
+    
+    2) 권한 및 갱신설정
+      C:\apache-tomcat-8.0.52\conf\context.xml  
+      <Context privileged="true" reloadable="true">
+           
+             privileged="true" : ROOT/(확장컨텐츠허용)
+             reloadable="true" : 서블릿 or JSP갱신되면 서버를 
+                                 자동으로 refresh
+      </Context> 
+
+ 5. 외부환경설정(내컴퓨터->고급속성->환경변수)
+     설정환경 설정(CATALINA_HOME)
+     CATALINA_HOME=C:\apache-tomcat-8.0.52
+    
+
+ 
+     
