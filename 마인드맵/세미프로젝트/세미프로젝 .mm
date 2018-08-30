@@ -1,6 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1526290398389" ID="ID_912271020" MODIFIED="1526290404342" TEXT="&#xc138;&#xbbf8;&#xd504;&#xb85c;&#xc81d; ">
+<node CREATED="1526290398389" ID="ID_912271020" MODIFIED="1535615153220" TEXT="&#xc138;&#xbbf8;&#xd504;&#xb85c;&#xc81d; ">
+<hook NAME="accessories/plugins/CreationModificationPlugin_new.properties"/>
+<hook NAME="accessories/plugins/RevisionPlugin.properties"/>
 <node CREATED="1526345513855" ID="ID_1824651022" MODIFIED="1526557089551" POSITION="right" TEXT="0,x &#xc11c;&#xbc14;&#xc774;&#xbc8c;">
 <node CREATED="1526345522224" ID="ID_1002223085" MODIFIED="1526345527942" TEXT="Character"/>
 <node CREATED="1527831488381" ID="ID_1150788519" MODIFIED="1527831494989" TEXT="Character_Manager">
@@ -261,7 +263,7 @@
 <node CREATED="1528780827412" ID="ID_1442640527" MODIFIED="1528780827412" TEXT="if (opan.ch_lo[i][j].getCh() != null)">
 <node COLOR="#3333ff" CREATED="1528780827412" ID="ID_847269015" MODIFIED="1528780835001" STYLE="bubble" TEXT="if (opan.ch_lo[i][j].isIs_hear()&amp;&amp;!opan.ch_lo[i][j].getCh().isMoving()) {">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
-<node CREATED="1528780827412" MODIFIED="1528780835001" TEXT="opan.ch_lo[i][j].getCh().draw(g);"/>
+<node CREATED="1528780827412" ID="ID_1937157253" MODIFIED="1528780835001" TEXT="opan.ch_lo[i][j].getCh().draw(g);"/>
 </node>
 <node CREATED="1528780827412" ID="ID_947614869" MODIFIED="1528780827412" TEXT="}"/>
 </node>
@@ -620,7 +622,7 @@
 </node>
 </node>
 <node CREATED="1530176730145" ID="ID_1410275664" MODIFIED="1530176734036" TEXT="&#xbc30;&#xd3ec;(&#xc774;&#xbbf8;&#xc9c0;)">
-<node CREATED="1530176734806" MODIFIED="1530176734806">
+<node CREATED="1530176734806" ID="ID_1388630452" MODIFIED="1530176734806">
 <richcontent TYPE="NODE"><html>
   <head>
     
@@ -628,8 +630,7 @@
   <body>
     <img src="&#xc138;&#xbbf8;&#xd504;&#xb85c;&#xc81d; _6947595582824635911.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
