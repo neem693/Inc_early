@@ -85,6 +85,96 @@
 <node CREATED="1535621200554" ID="ID_1627252926" MODIFIED="1535621201241" TEXT="&#xbc29;&#xbb38;"/>
 </node>
 </node>
+<node CREATED="1535874750068" ID="ID_1646803195" MODIFIED="1535874752849" POSITION="right" TEXT="&#xc54c;&#xc544;&#xc57c; &#xd560; &#xc810;">
+<node COLOR="#3333ff" CREATED="1535874753603" ID="ID_1571705730" MODIFIED="1535874787436" STYLE="bubble" TEXT="&#xac8c;&#xc2dc;&#xbb3c;&#xc740; &#xc5ec;&#xb7ec;&#xac00;&#xc9c0; &#xc544;&#xc774;&#xd15c;&#xc744; &#xac00;&#xc9c8; &#xc218; &#xc788;&#xc73c;&#xbbc0;&#xb85c; &#xc911;&#xace0;&#xd488; &#xc804;&#xc6a9; &#xd14c;&#xc774;&#xbe14;&#xc744; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd560; &#xac83;">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+<node CREATED="1535874798228" ID="ID_1049483126" MODIFIED="1535881355677" TEXT="&lt;&#xacbd;&#xae30;&#xc7a5;&gt;&#xc740; &#xc624;&#xb85c;&#xc9c0; 12&#xac1c;">
+<node CREATED="1535874900227" FOLDED="true" ID="ID_551606231" MODIFIED="1535875305205" TEXT="&#xc77c;&#xbc18; &#xd648;&#xad6c;&#xc7a5;">
+<node CREATED="1535874868462" ID="ID_31406345" MODIFIED="1535874906689" TEXT="#         &#xba85;&#xce6d;         &#xc0ac;&#xc9c4;         &#xc88c;&#xc11d;&#xc218;         &#xc218;&#xc6a9;&#xc778;&#xc6d0;         &#xc8fc;&#xcc28;&#xba74;&#xc801;         &#xc18c;&#xc7ac;&#xc9c0;         &#xd648; &#xad6c;&#xb2e8;         &#xac1c;&#xc7a5; &#xc5f0;&#xb3c4;         &#xc8fc;&#xc11d; &#xbc0f; &#xae30;&#xd0c0;"/>
+<node CREATED="1535874868463" ID="ID_1331129428" MODIFIED="1535874906688" TEXT="1         &#xb300;&#xad6c; &#xc0bc;&#xc131; &#xb77c;&#xc774;&#xc628;&#xc988; &#xd30c;&#xd06c;         DAEGU.PNG         24,331         29,178         1,116         &#xb300;&#xad6c;         Samsung Lions insignia.svg &#xc0bc;&#xc131; &#xb77c;&#xc774;&#xc628;&#xc988;         2016         2016&#xb144; &#xcd08; &#xc900;&#xacf5;.">
+<node CREATED="1535874868464" ID="ID_551357543" MODIFIED="1535874868464" TEXT="&#xad6d;&#xb0b4; &#xcd5c;&#xcd08; &#xd314;&#xac01;&#xd615; &#xad6c;&#xc7a5;."/>
+<node CREATED="1535874868465" ID="ID_933559953" MODIFIED="1535874868465" TEXT="&#xcc9c;&#xc5f0; &#xc794;&#xb514; &#xad6c;&#xc7a5;."/>
+<node CREATED="1535874868465" ID="ID_327763212" MODIFIED="1535874868465" TEXT="&#xc678;&#xc57c; &#xd30c;&#xc6b8; &#xc874; &#xbd80;&#xadfc; &#xbd84;&#xb9ac;&#xd615; &#xbd88;&#xd39c;."/>
+<node CREATED="1535874868465" ID="ID_1479552084" MODIFIED="1535874868465" TEXT="&#xd648; &#xd300; 3&#xb8e8; &#xb355;&#xc544;&#xc6c3; &#xc0ac;&#xc6a9;."/>
+</node>
+<node CREATED="1535874868465" ID="ID_1983255727" MODIFIED="1535874906686" TEXT="2         &#xad11;&#xc8fc;-&#xae30;&#xc544; &#xcc54;&#xd53c;&#xc5b8;&#xc2a4; &#xd544;&#xb4dc;         Gwangju Kia Champions Field View 02.jpg         20,500         27,000         1,106         &#xad11;&#xc8fc;         Kia Tigers insignia.svg KIA &#xd0c0;&#xc774;&#xac70;&#xc988;         2014         &#xcc9c;&#xc5f0; &#xc794;&#xb514; &#xad6c;&#xc7a5;.">
+<node CREATED="1535874868466" ID="ID_1613002184" MODIFIED="1535874868466" TEXT="&#xad6d;&#xb0b4; &#xcd5c;&#xcd08;&#xc758; &#xac1c;&#xbc29;&#xd615; &#xad6c;&#xc7a5;."/>
+<node CREATED="1535874868467" ID="ID_357136456" MODIFIED="1535874868467" TEXT="&#xc678;&#xc57c; &#xd39c;&#xc2a4; &#xbd80;&#xadfc; &#xbd84;&#xb9ac;&#xd615; &#xbd88;&#xd39c;."/>
+<node CREATED="1535874868467" ID="ID_570174000" MODIFIED="1535874868467" TEXT="&#xd648; &#xd300; 3&#xb8e8; &#xb355;&#xc544;&#xc6c3; &#xc0ac;&#xc6a9;."/>
+</node>
+<node CREATED="1535874868467" ID="ID_410983322" MODIFIED="1535874906683" TEXT="3         &#xc778;&#xcc9c; SK &#xd589;&#xbcf5;&#xb4dc;&#xb9bc;&#xad6c;&#xc7a5;         Munhak baseball stadium 2012.png         26,000                 4,002         &#xc778;&#xcc9c;         SK Wyverns insignia.svg SK &#xc640;&#xc774;&#xbc88;&#xc2a4;         2002         &#xcc9c;&#xc5f0; &#xc794;&#xb514; &#xad6c;&#xc7a5;.">
+<node CREATED="1535874868468" ID="ID_766132821" MODIFIED="1535874868468" TEXT="&#xc678;&#xc57c; &#xd39c;&#xc2a4; &#xbd80;&#xadfc; &#xbd84;&#xb9ac;&#xd615; &#xbd88;&#xd39c;."/>
+<node CREATED="1535874868469" ID="ID_1017911242" MODIFIED="1535874868469" TEXT="[1][2][3][4][5]"/>
+<node CREATED="1535874868469" ID="ID_427077388" MODIFIED="1535874868469" TEXT="&#xd648; &#xd300; 1&#xb8e8; &#xb355;&#xc544;&#xc6c3; &#xc0ac;&#xc6a9;."/>
+</node>
+<node CREATED="1535874868469" ID="ID_1552335335" MODIFIED="1535874906681" TEXT="4         &#xc218;&#xc6d0; kt &#xc704;&#xc988; &#xd30c;&#xd06c;         20150531 KT Wiz vs Doosan Bears (2).jpg         22,067         25,000         1,318         &#xc218;&#xc6d0;         KT Wiz insignia.svg kt &#xc704;&#xc988;         1989         2014&#xb144; &#xb9ac;&#xbaa8;&#xb378;&#xb9c1;.">
+<node CREATED="1535874868470" ID="ID_682167313" MODIFIED="1535874868470" TEXT="&#xcc9c;&#xc5f0; &#xc794;&#xb514; &#xad6c;&#xc7a5;."/>
+<node CREATED="1535874868471" ID="ID_713840244" MODIFIED="1535874868471" TEXT="&#xc678;&#xc57c; &#xd30c;&#xc6b8; &#xc874; &#xbd80;&#xadfc; &#xbd84;&#xb9ac;&#xd615; &#xbd88;&#xd39c;.[6]"/>
+<node CREATED="1535874868471" ID="ID_421328913" MODIFIED="1535874868471" TEXT="&#xd648; &#xd300; 1&#xb8e8; &#xb355;&#xc544;&#xc6c3; &#xc0ac;&#xc6a9;."/>
+</node>
+<node CREATED="1535874868471" ID="ID_1203516195" MODIFIED="1535874906679" TEXT="5         &#xc0ac;&#xc9c1; &#xc57c;&#xad6c;&#xc7a5;         Busan Sajik Stadium 20080706.JPG         26,800                         &#xbd80;&#xc0b0;         Lotte Giants insignia.svg &#xb86f;&#xb370; &#xc790;&#xc774;&#xc5b8;&#xce20;         1985         &#xcc9c;&#xc5f0; &#xc794;&#xb514; &#xad6c;&#xc7a5;.">
+<node CREATED="1535874868472" ID="ID_1536714387" MODIFIED="1535874868472" TEXT="&#xc678;&#xc57c; &#xd30c;&#xc6b8; &#xc874; &#xbd80;&#xadfc; &#xbd84;&#xb9ac;&#xd615; &#xbd88;&#xd39c;."/>
+<node CREATED="1535874868473" ID="ID_1581380869" MODIFIED="1535874868473" TEXT="[3][4][7][8][9]"/>
+<node CREATED="1535874868473" ID="ID_1089095875" MODIFIED="1535874868473" TEXT="&#xd648; &#xd300; 1&#xb8e8; &#xb355;&#xc544;&#xc6c3; &#xc0ac;&#xc6a9;."/>
+</node>
+<node CREATED="1535874868473" ID="ID_1916251615" MODIFIED="1535874906677" TEXT="6         &#xc7a0;&#xc2e4; &#xc57c;&#xad6c;&#xc7a5;         Jamsil Baseball Stadium.jpg         25,553         26,000         1,279         &#xc11c;&#xc6b8;         LG Twins insignia.svg LG &#xd2b8;&#xc708;&#xc2a4;">
+<node CREATED="1535874868474" ID="ID_1353702348" MODIFIED="1535874868474" TEXT="Doosan Bears insignia.svg &#xb450;&#xc0b0; &#xbca0;&#xc5b4;&#xc2a4;         1982         &#xcc9c;&#xc5f0; &#xc794;&#xb514; &#xad6c;&#xc7a5;."/>
+<node CREATED="1535874868474" ID="ID_719389809" MODIFIED="1535874868474" TEXT="&#xb0b4;&#xc57c; &#xd30c;&#xc6b8; &#xc874; &#xbd80;&#xadfc; &#xbd84;&#xb9ac;&#xd615; &#xbd88;&#xd39c;."/>
+<node CREATED="1535874868474" ID="ID_717833730" MODIFIED="1535874868474" TEXT="&#xd648; &#xd300; 1&#xb8e8; &#xb355;&#xc544;&#xc6c3; &#xc0ac;&#xc6a9;."/>
+</node>
+<node CREATED="1535874868475" ID="ID_366766518" MODIFIED="1535874906674" TEXT="7         &#xace0;&#xcc99;&#xc2a4;&#xce74;&#xc774;&#xb3d4;         Gocheok Sky Dome interior.jpg         17,000         22,258[10]         492         &#xc11c;&#xc6b8;         Nexen Heroes insignia.svg &#xb125;&#xc13c; &#xd788;&#xc5b4;&#xb85c;&#xc988;         2015         &#xc778;&#xc870; &#xc794;&#xb514; &#xad6c;&#xc7a5;.">
+<node CREATED="1535874868475" ID="ID_1315411897" MODIFIED="1535874868475" TEXT="&#xd3d0;&#xc1c4;&#xd615; &#xc9c0;&#xd558;&#xbd88;&#xd39c;."/>
+<node CREATED="1535874868476" ID="ID_801382419" MODIFIED="1535874868476" TEXT="&#xd648; &#xd300; 1&#xb8e8; &#xb355;&#xc544;&#xc6c3; &#xc0ac;&#xc6a9;."/>
+</node>
+<node CREATED="1535874868476" ID="ID_1876535640" MODIFIED="1535874906672" TEXT="8         &#xd55c;&#xd654;&#xc0dd;&#xba85; &#xc774;&#xae00;&#xc2a4; &#xd30c;&#xd06c;         &#xb300;&#xc804; &#xd55c;&#xbc2d; &#xad6c;&#xc7a5;.JPG         13,000                         &#xb300;&#xc804;         &#xd55c;&#xd654; &#xc774;&#xae00;&#xc2a4;         1964         &#xcc9c;&#xc5f0; &#xc794;&#xb514; &#xad6c;&#xc7a5;. [11]">
+<node CREATED="1535874868477" ID="ID_1611688398" MODIFIED="1535874868477" TEXT="&#xc678;&#xc57c; &#xd39c;&#xc2a4; &#xbd80;&#xadfc; &#xbd84;&#xb9ac;&#xd615; &#xbd88;&#xd39c;.[12][13][14]"/>
+<node CREATED="1535874868477" ID="ID_364238274" MODIFIED="1535874868477" TEXT="&#xd648; &#xd300; 1&#xb8e8; &#xb355;&#xc544;&#xc6c3; &#xc0ac;&#xc6a9;."/>
+</node>
+<node CREATED="1535874868477" ID="ID_1676335358" MODIFIED="1535874906669" TEXT="9         &#xb9c8;&#xc0b0; &#xc57c;&#xad6c;&#xc7a5;         Changwon Masan Ballpark.jpg         11,000                         &#xcc3d;&#xc6d0;         NC Dinos insignia 2.svg NC &#xb2e4;&#xc774;&#xb178;&#xc2a4;         1982         &#xcc9c;&#xc5f0; &#xc794;&#xb514; &#xad6c;&#xc7a5;.[15][16]">
+<node CREATED="1535874868478" ID="ID_1604689633" MODIFIED="1535874868478" TEXT="&#xb0b4;&#xc57c; &#xd30c;&#xc6b8; &#xc874; &#xbd80;&#xadfc; &#xbd84;&#xb9ac;&#xd615; &#xbd88;&#xd39c;."/>
+<node CREATED="1535874868479" ID="ID_845657470" MODIFIED="1535874868479" TEXT="&#xd648; &#xd300; 1&#xb8e8; &#xb355;&#xc544;&#xc6c3; &#xc0ac;&#xc6a9;."/>
+</node>
+</node>
+<node CREATED="1535874909355" ID="ID_367025748" MODIFIED="1535874927746" TEXT="&#xcd94;&#xac00; &#xad6c;&#xc7a5;">
+<node CREATED="1535874925796" MODIFIED="1535874925796" TEXT="&#xc81c; 2&#xad6c;&#xc7a5;&#xc774; &#xc788;&#xb294;&#xd300;&#xb4e4;&#xb3c4; &#xc788;&#xc2b5;&#xb2c8;&#xb2e4;..."/>
+<node CREATED="1535874925797" ID="ID_1088077672" MODIFIED="1535874925797" TEXT="&#xd55c;&#xd654; - &#xccad;&#xc8fc;"/>
+<node CREATED="1535874925798" ID="ID_464649145" MODIFIED="1535874925798" TEXT="&#xb86f;&#xb370; - &#xc6b8;&#xc0b0;"/>
+<node CREATED="1535874925799" ID="ID_1384493193" MODIFIED="1535874925799" TEXT="&#xc0bc;&#xc131; - &#xd3ec;&#xd56d;"/>
+<node CREATED="1535875264820" ID="ID_63402323" MODIFIED="1535875266512" TEXT="&#xae30;&#xc544;-&#xc6d4;&#xba85;"/>
+<node CREATED="1535875280931" ID="ID_37782601" MODIFIED="1535875310396" TEXT="&#xc774;&#xbbf8;&#xc9c0;">
+<node CREATED="1535875282212" ID="ID_1498624296" MODIFIED="1535875282212">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="&#xb77c;&#xc2a4;&#xd2b8;_&#xd504;&#xb85c;&#xc81d;&#xd2b8;_256440238022102203.jpeg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1535880442945" ID="ID_969972162" MODIFIED="1535881346918" TEXT="&lt;&#xd30c;&#xd2f0;&#xc608;&#xc57d;&gt;&#xc720;&#xd615;">
+<node CREATED="1535880452875" ID="ID_801916727" MODIFIED="1535880468198" TEXT="&#xad6c;&#xc7a5; &#xb0b4; &#xd2b9;&#xc218;&#xc2dc;&#xc124;&#xc774;&#xc6a9;"/>
+<node CREATED="1535880468672" ID="ID_847038420" MODIFIED="1535880555462" TEXT="&#xc2e0;&#xb098;&#xb294; &#xc751;&#xc6d0;"/>
+<node CREATED="1535880555778" ID="ID_32915115" MODIFIED="1535880558374" TEXT="&#xc77c;&#xb2e8; &#xbaa8;&#xc5ec;&#xb77c;!"/>
+</node>
+<node CREATED="1535880617177" ID="ID_135993035" MODIFIED="1535881350813" TEXT="&lt;&#xd30c;&#xd2f0;&#xc608;&#xc57d;&gt;&#xc0c1;&#xd0dc;">
+<node CREATED="1535880647833" ID="ID_1161397570" MODIFIED="1535880674005" TEXT="&#xc784;&#xbc15;(3&#xc77c;&#xc804;)"/>
+<node CREATED="1535880649210" ID="ID_1375319678" MODIFIED="1535880663558" TEXT="&#xb9c8;&#xac10;(&#xbcf4;&#xd1b5; 1&#xc77c;&#xc804;)"/>
+<node CREATED="1535880674786" ID="ID_1508353064" MODIFIED="1535880679502" TEXT="&#xbaa8;&#xc9d1;&#xc911;"/>
+</node>
+<node CREATED="1535881337665" ID="ID_1967878235" MODIFIED="1535881366349" TEXT="&lt;&#xd1a0;&#xd1a0;&gt;&#xc0c1;&#xd0dc;">
+<node CREATED="1535881367216" ID="ID_621000989" MODIFIED="1535881372574" TEXT="&#xc885;&#xb8cc;"/>
+<node CREATED="1535881375033" ID="ID_935852492" MODIFIED="1535881375597" TEXT="&#xb9c8;&#xac10;"/>
+</node>
+<node COLOR="#3333ff" CREATED="1535882661474" ID="ID_250013698" MODIFIED="1535882677967" STYLE="bubble" TEXT="&#xb313;&#xae00;_&#xb2ec;&#xb2e4;&#xc758; &#xc678;&#xb798;&#xd0a4;&#xb294; &#xd574;&#xb2f9; &#xc5c6;&#xc73c;&#xba74; NULL&#xc774; &#xb4e4;&#xc5b4;&#xac00;&#xac8c; &#xb429;&#xb2c8;&#xb2e4;.">
+<font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
+</node>
+</node>
 <node COLOR="#3333ff" CREATED="1535623726493" ID="ID_905456540" MODIFIED="1535623730718" POSITION="right" STYLE="bubble" TEXT="&#xd30c;&#xc2f1;&#xd558;&#xb294; &#xcf54;&#xb4dc;">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 </node>
