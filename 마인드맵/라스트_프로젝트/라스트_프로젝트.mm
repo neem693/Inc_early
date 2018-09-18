@@ -28,7 +28,7 @@
 <node CREATED="1535358542390" ID="ID_943247850" MODIFIED="1535358547473" TEXT="&#xc911;&#xace0;&#xd488; &#xd310;&#xb9e4;"/>
 <node CREATED="1535619404002" ID="ID_1976171729" MODIFIED="1535619404966" TEXT="&#xd1a0;&#xd1a0;"/>
 </node>
-<node COLOR="#3333ff" CREATED="1535619410264" FOLDED="true" ID="ID_1551499918" MODIFIED="1536048277275" POSITION="right" STYLE="bubble" TEXT="&#xb370;&#xbca0;&#xb97c; &#xc9dc;&#xc57c;&#xd55c;&#xb2e4;. &#xc989; ERD&#xb97c; &#xc9dc;&#xc57c;&#xd55c;&#xb2e4;">
+<node COLOR="#3333ff" CREATED="1535619410264" FOLDED="true" ID="ID_1551499918" MODIFIED="1537262478020" POSITION="right" STYLE="bubble" TEXT="&#xb370;&#xbca0;&#xb97c; &#xc9dc;&#xc57c;&#xd55c;&#xb2e4;. &#xc989; ERD&#xb97c; &#xc9dc;&#xc57c;&#xd55c;&#xb2e4;">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
 <node COLOR="#3333ff" CREATED="1535622052585" ID="ID_930914702" MODIFIED="1535622057997" STYLE="bubble" TEXT="&#xacb0;&#xacfc; &#xac80;&#xc0c9;&#xc740; &#xc5b4;&#xcc28;&#xd53c; &#xc870;&#xc778;&#xc744; &#xd574;&#xc57c; &#xd55c;&#xb2e4;.">
 <font BOLD="true" NAME="SansSerif" SIZE="16"/>
@@ -89,7 +89,7 @@
 <node COLOR="#3333ff" CREATED="1535874753603" ID="ID_1571705730" MODIFIED="1535874787436" STYLE="bubble" TEXT="&#xac8c;&#xc2dc;&#xbb3c;&#xc740; &#xc5ec;&#xb7ec;&#xac00;&#xc9c0; &#xc544;&#xc774;&#xd15c;&#xc744; &#xac00;&#xc9c8; &#xc218; &#xc788;&#xc73c;&#xbbc0;&#xb85c; &#xc911;&#xace0;&#xd488; &#xc804;&#xc6a9; &#xd14c;&#xc774;&#xbe14;&#xc744; &#xb9cc;&#xb4e4;&#xc5b4;&#xc57c; &#xd560; &#xac83;">
 <font BOLD="true" NAME="&#xad74;&#xb9bc;" SIZE="16"/>
 </node>
-<node CREATED="1535874798228" FOLDED="true" ID="ID_1049483126" MODIFIED="1536749427813" TEXT="&lt;&#xacbd;&#xae30;&#xc7a5;&gt;&#xc740; &#xc624;&#xb85c;&#xc9c0; 12&#xac1c;">
+<node CREATED="1535874798228" FOLDED="true" ID="ID_1049483126" MODIFIED="1537262475361" TEXT="&lt;&#xacbd;&#xae30;&#xc7a5;&gt;&#xc740; &#xc624;&#xb85c;&#xc9c0; 12&#xac1c;">
 <node CREATED="1535874900227" ID="ID_551606231" MODIFIED="1536137510713" TEXT="&#xc77c;&#xbc18; &#xd648;&#xad6c;&#xc7a5;">
 <node CREATED="1535874868462" ID="ID_31406345" MODIFIED="1535874906689" TEXT="#         &#xba85;&#xce6d;         &#xc0ac;&#xc9c4;         &#xc88c;&#xc11d;&#xc218;         &#xc218;&#xc6a9;&#xc778;&#xc6d0;         &#xc8fc;&#xcc28;&#xba74;&#xc801;         &#xc18c;&#xc7ac;&#xc9c0;         &#xd648; &#xad6c;&#xb2e8;         &#xac1c;&#xc7a5; &#xc5f0;&#xb3c4;         &#xc8fc;&#xc11d; &#xbc0f; &#xae30;&#xd0c0;"/>
 <node CREATED="1535874868463" FOLDED="true" ID="ID_1331129428" MODIFIED="1536048634988" TEXT="1         &#xb300;&#xad6c; &#xc0bc;&#xc131; &#xb77c;&#xc774;&#xc628;&#xc988; &#xd30c;&#xd06c;         DAEGU.PNG         24,331         29,178         1,116         &#xb300;&#xad6c;         Samsung Lions insignia.svg &#xc0bc;&#xc131; &#xb77c;&#xc774;&#xc628;&#xc988;         2016         2016&#xb144; &#xcd08; &#xc900;&#xacf5;.">
@@ -162,11 +162,13 @@
 <node CREATED="1535880555778" ID="ID_32915115" MODIFIED="1535880558374" TEXT="&#xc77c;&#xb2e8; &#xbaa8;&#xc5ec;&#xb77c;!"/>
 </node>
 <node CREATED="1535880617177" ID="ID_135993035" MODIFIED="1536747872864" TEXT="&lt;&#xd30c;&#xd2f0;&#xc608;&#xc57d;&gt;&#xc0c1;&#xd0dc;">
-<node CREATED="1535880647833" ID="ID_1161397570" MODIFIED="1535880674005" TEXT="&#xc784;&#xbc15;(3&#xc77c;&#xc804;)"/>
-<node CREATED="1535880649210" ID="ID_1375319678" MODIFIED="1535880663558" TEXT="&#xb9c8;&#xac10;(&#xbcf4;&#xd1b5; 1&#xc77c;&#xc804;)"/>
+<node COLOR="#3333ff" CREATED="1537262698119" ID="ID_1455916302" MODIFIED="1537262708468" STYLE="bubble" TEXT="&#xbaa8;&#xb4e0; &#xd30c;&#xd2f0;&#xc6d0; &#xb2e4;&#xcc38;">
+<font BOLD="true" NAME="SansSerif" SIZE="16"/>
+</node>
+<node CREATED="1535880647833" ID="ID_1161397570" MODIFIED="1537262675332" TEXT="&#xc784;&#xbc15;(1&#xc77c;&#xc804;)"/>
 <node CREATED="1535880674786" ID="ID_1508353064" MODIFIED="1535880679502" TEXT="&#xbaa8;&#xc9d1;&#xc911;"/>
 </node>
-<node CREATED="1535881337665" FOLDED="true" ID="ID_1967878235" MODIFIED="1536137464971" TEXT="&lt;&#xd1a0;&#xd1a0;&gt;&#xc0c1;&#xd0dc;">
+<node CREATED="1535881337665" ID="ID_1967878235" MODIFIED="1537262471862" TEXT="&lt;&#xd1a0;&#xd1a0;&gt;&#xc0c1;&#xd0dc;">
 <node CREATED="1535881367216" ID="ID_621000989" MODIFIED="1535881372574" TEXT="&#xc885;&#xb8cc;"/>
 <node CREATED="1535881375033" ID="ID_935852492" MODIFIED="1535881375597" TEXT="&#xb9c8;&#xac10;"/>
 </node>
