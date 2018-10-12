@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anylogic.iot.api.app.mapper.AppMapper">
+
+
+
+
+<!-- 로그인 -->
+	<select id="loginReq" parameterType="Map" resultType="Map">
+		SELECT id, 
+		PASSWD, 
+		NM, 
+		MEMBER_ID
+		from saehan.tb_member  
+		WHERE id = #{ID}
+		AND PASSWD = #{PASSWD}
+	
+	</select>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<insert id="insertRuleSeq" parameterType="Map">
+		insert into
+		"RULE_BAS"
+		(
+		sequence,
+		"targetSequence",
+		"ruleSeq",
+		"cretDt",
+		"ruleType"
+		)
+		VALUES
+		(
+		#{sequence},		
+		#{targetSequence},
+		#{ruleSeq},
+		now(),
+		#{ruleType}
+
+		)
+	</insert>
+	
+	<delete id="deleteRuleSeq" parameterType="Map">
+		DELETE FROM "RULE_BAS"
+		where sequence = #{sequence}
+	and "targetSequence" = #{targetSequence}
+	</delete>
+	
+	<select id="getRuleSeq" parameterType="Map" resultType="Map">
+	select * from "RULE_BAS"
+	where sequence = #{sequence}
+	and "targetSequence" = #{targetSequence}
+	<if test="ruleType != null and !ruleType.isEmpty()">
+			and "ruleType" = #{ruleType}
+		</if>
+	</select>
+	
+	<select id="checkStealList" parameterType="Map" resultType="Map">
+		select 
+		distinct a.svc_tgt_seq as "targetSequence",
+		 a.spot_dev_seq as "sequence",
+		  b.device_seq,
+		  b.steal_seq as "stealSeq"
+		from sbike."BIKE_DEVICE_BAS" a, sbike."STEAL_LIST" b
+		where a.device_seq = b.device_seq
+		and b.end_time is null
+	</select>
+
+
+	<update id="updateMember" parameterType="Map">
+		UPDATE
+		"BIKE_MEMBER"
+		SET
+
+		mem_pw = #{pwd},
+		mem_name = #{nm},
+		mem_addr = #{addr},
+		mem_emphone = #{empPhone}
+		
+		WHERE
+		mem_id = #{id}
+	</update>
+
+
+	<delete id="deleteStealDevice" parameterType="Map">
+		DELETE FROM "STEAL_LIST"
+		WHERE device_seq = cast(#{deviceseq} as numeric)
+		AND device_idnum = #{deviceIdNum}
+	</delete>
+	
+	<delete id="deleteDevice" parameterType="Map">
+		DELETE FROM "BIKE_DEVICE_BAS"
+		WHERE device_seq = cast(#{deviceseq} as numeric)
+		AND svc_tgt_seq = cast( #{targetSequence} as numeric)
+		AND spot_dev_seq = cast( #{sequence} as numeric)
+	</delete>
+
+	<!-- 아이디 가입 확인 -->
+	<select id="confirmId" parameterType="Map" resultType="Map">
+		SELECT mem_id as id
+		FROM "BIKE_MEMBER"
+		WHERE mem_id = #{id}
+
+	</select>
+
+	<update id="setInitStatus" parameterType="Map">
+		UPDATE
+		"BIKE_DEVICE_BAS"
+		SET
+
+		device_status = #{value}
+
+		WHERE
+		spot_dev_seq = CAST (#{sequence} AS bigint)
+		and svc_tgt_seq = CAST (#{targetSequence} AS bigint)
+	</update>
+
+	<update id="setTrackingEnd" parameterType="Map">
+
+		update "STEAL_LIST"
+		set
+		end_time =  <![CDATA[ to_char(now(), 'YYYY-MM-DD') || '<br>' || to_char(now(), 'HH24:MI:SS') ]]>
+		where
+		start_time = (
+		select
+		max(start_time)
+		from "STEAL_LIST"
+		where
+		mem_id = #{memId}
+		and device_seq = cast(#{deviceSeq} as integer)
+		and end_time is null
+		)
+
+	</update>
+
+
+	<select id="selectBikeMemberDevice" parameterType="Map"
+		resultType="Map">
+		select
+		*
+		from "BIKE_DEVICE_BAS"
+		where
+		mem_id= #{id}
+	</select>
+	<select id="selectDevStatus" parameterType="Map" resultType="Map">
+		select
+		a.lock_mem as id,
+		a.lock_date as date,
+		a.lock_status as stauts,
+		a.lock_service_no,
+		b.device_nm
+		
+		from "LOCK_LOG" a, "BIKE_DEVICE_BAS" b
+		where
+		a.lock_mem = #{id}
+		and b.mem_id = #{id}
+		and a.lock_status  in ('DISARM','ARM')
+		and a.lock_service_no = b.service_no
+		<!-- and to_char(a.lock_date, 'YYYY-MM-DD') <![CDATA[  >= ]]> #{starttime}
+		and to_char(a.lock_date, 'YYYY-MM-DD') <![CDATA[ <= ]]> #{endtime} -->
+		and to_char(a.lock_date, 'YYYY-MM-DD') <![CDATA[  >= ]]> to_char(to_date(#{starttime}, 'YYYY-MM-DD') , 'YYYY-MM-DD')
+		and to_char(a.lock_date, 'YYYY-MM-DD') <![CDATA[ <= ]]>  to_char(to_date(#{endtime}, 'YYYY-MM-DD') , 'YYYY-MM-DD')
+		<if test="serviceno != null and !serviceno.isEmpty()">
+			and b.service_no = #{serviceno}
+		</if>
+		order by date desc
+
+
+	</select>  
+
+	<insert id="saveDevStatus" parameterType="Map">
+		insert into
+		"LOCK_LOG"
+		(
+		lock_mem,
+		lock_date,
+		lock_status,
+		lock_service_no
+		)
+		VALUES
+		(
+		#{memId},
+		now(),
+		#{value},
+		#{serviceNo}
+
+		)
+	</insert>
+	<select id="selectAlarmLog" parameterType="Map" resultType="Map">
+		select
+		alram_mem as id,
+		alram_date as date,
+		alram_status as status,
+		alram_device as device
+		from "ALRAM_LOG"
+		where
+		alram_mem = #{id}
+
+	</select>
+	<insert id="saveAlarmLog" parameterType="Map">
+		insert into "ALRAM_LOG"
+		(
+		alram_mem ,
+		alram_date ,
+		alram_device ,
+		alram_status
+		)
+		VALUES
+		(
+		#{memId},
+		now(),
+		#{deviceId},
+		#{value}
+		)
+	</insert>
+
+	<update id="setStatus" parameterType="Map">
+		UPDATE "BIKE_DEVICE_BAS"
+		SET
+
+		device_status = #{value}
+
+		WHERE mem_id = #{memId}
+		and device_idnum = #{deviceIdNum}
+	</update>
+
+	<update id="updateConfig" parameterType="Map">
+		UPDATE "BIKE_DEVICE_BAS"
+		SET
+
+		sensor_val = #{sensor},
+		report_cycle = #{cycle}
+
+		WHERE mem_id = #{id}
+		and device_idnum = #{idnum}
+	</update>
+
+	<select id="getSvcContNumber" parameterType="Map" resultType="Map">
+		select
+		service_no as "serviceNo"
+		from "DEVICE_ID"
+		where
+		device_sireal = #{serialNo}
+
+	</select>
+
+	<select id="getStealList" parameterType="Map" resultType="Map">
+		select
+		a.steal_seq as "stealSeq",
+		a.device_nm as "deviceNm",
+		a.device_color as "deviceColor",
+		a.device_idnum as "deviceIdNum",
+		a.steal_day || ' ' ||steal_time as "stealDay",
+		a.steal_addr as "addr",
+		a.steal_place as "place",
+		a.steal_etc as "etc",
+		substring(a.start_time from 1 for 23) as "startTime",
+		substring(a.end_time from 1 for 23) as "endTime",
+		a.end_type as "endType",
+		b.device_status as "deviceStatus",
+		b.spot_dev_seq as "spotDevSeq",
+		b.device_seq as "deviceSeq"
+		from "STEAL_LIST" a ,"BIKE_DEVICE_BAS" b
+		where
+		a.mem_id = b.mem_id
+		and a.device_seq = b.device_seq
+		and a.mem_id = #{userId}
+		<if test="deviceSeq != null and !deviceSeq.isEmpty()">
+			and b.device_seq = #{deviceSeq}
+		</if>
+		<if test="startTime != null and !startTime.isEmpty()">
+			and a.start_time LIKE #{startTime} || '%'
+		</if>
+		order by steal_seq desc
+	</select>
+	
+	<select id="getStealInfo" parameterType="Map" resultType="Map">
+		select
+		a.steal_seq as "stealSeq",
+		a.device_nm as "deviceNm",
+		a.device_color as "deviceColor",
+		a.device_idnum as "deviceIdNum",
+		a.steal_day || ' ' ||steal_time as "stealDay",
+		a.steal_addr as "addr",
+		a.steal_place as "place",
+		a.steal_etc as "etc",
+		substring(a.start_time from 1 for 23) as "startTime",
+		substring(a.end_time from 1 for 23) as "endTime",
+		a.end_type as "endType",
+		b.device_status as "deviceStatus",
+		b.spot_dev_seq as "spotDevSeq",
+		b.device_seq as "deviceSeq"
+		from "STEAL_LIST" a ,"BIKE_DEVICE_BAS" b
+		where
+		a.mem_id = b.mem_id
+		and a.device_seq = b.device_seq
+		and a.mem_id = #{userId}
+		<if test="deviceSeq != null and !deviceSeq.isEmpty()">
+			and b.device_seq = #{deviceSeq}
+		</if>
+		<if test="startTime != null and !startTime.isEmpty()">
+			and a.start_time LIKE #{startTime} || '%'
+		</if>
+		order by a.end_time desc
+	</select>
+	
+	<update id="setStealInfo" parameterType="Map">
+		UPDATE "STEAL_LIST"
+		SET
+		end_time = <![CDATA[ to_char(now(), 'YYYY-MM-DD') || '<br>' || to_char(now(), 'HH24:MI:SS') ]]>
+		WHERE steal_seq = cast(#{seq} as integer)
+	</update>
+	
+
+	<select id="stealDetails" parameterType="Map" resultType="Map">
+		select
+		mem_id as "memId",
+		device_nm as "deviceNm",
+		device_color as "deviceColor",
+		device_idnum as "deviceIdnum",
+		steal_day as "stealDay",
+		steal_time as "stealTime",
+		steal_addr as "stealAddr",
+		steal_place as "stealPlace",
+		steal_etc as "stealEtc",
+		start_time as "startTime"
+		from "STEAL_LIST"
+		where steal_seq=cast(#{stealSeq} as
+		integer)
+	</select>
+
+	<!-- 등록전 중복 체크 -->
+	<select id="insertStealDup" parameterType="Map" resultType="Map">
+		<!-- SELECT COUNT(*) AS CNT FROM "BIKE_DEVICE_BAS" where device_seq = #{deviceSeq} 
+			and device_idnum = #{deviceIdNum} and device_status != 'ARM' -->
+		SELECT device_status AS devStatus FROM "BIKE_DEVICE_BAS" where
+		device_seq = #{deviceSeq} and device_idnum = #{deviceIdNum}
+	</select>
+
+	<insert id="insertSteal" parameterType="Map">
+		insert into "STEAL_LIST"
+		(
+		mem_id,
+		device_nm,
+		device_color,
+		device_idnum,
+		steal_day,
+		steal_time,
+		steal_addr,
+		steal_place,
+		steal_etc,
+		start_time,
+		end_Type,
+		device_seq
+		)
+		VALUES
+		(
+		#{memId},
+		#{deviceNm},
+		#{deviceColor},
+		#{deviceIdNum},
+		#{stealDay},
+		#{stealTime},
+		#{addr},
+		#{place},
+		#{etc},
+			<![CDATA[ to_char(now(), 'YYYY-MM-DD') || '<br>' || to_char(now(), 'HH24:MI:SS') ]]>,
+		'0001',
+		#{deviceSeq}
+		)
+	</insert>
+
+	<update id="clearSteal" parameterType="int">
+		UPDATE "STEAL_LIST"
+		SET
+		end_time = <![CDATA[ to_char(now(), 'YYYY-MM-DD') || '<br>' || to_char(now(), 'HH24:MI:SS') ]]>,
+		end_type = '0001'
+		WHERE steal_seq = #{stealSeq}
+	</update>
+	<!-- 내 자전거 정보 조회 -->
+	<!-- <select id="getMyBike" parameterType="Map" resultType="Map"> select 
+		a.maker_nm as makerNm, b.store_foldr_nm as fileNm, b.file_path_sbst as urlpath, 
+		c.device_idnum as deviceIdNum, c.device_nm as deviceNm, c.device_color as 
+		deviceColor, d.mem_addr as memAddr, c.sensor_val as sensor, c.report_cycle 
+		as cycle, c.device_status as status, c.device_sireal as devicesireal, c.service_no 
+		as serviceno, c.spot_dev_seq as deviceSequence, c.svc_tgt_seq as targetSequence, 
+		c.activation_yn as deviceActivation from "MAKER_BAS" a, "DEVICE_IMAGE_BAS" 
+		b, "BIKE_DEVICE_BAS" c, "BIKE_MEMBER" d where c."DEVICE_NO" = b.device_no 
+		and c.maker_id = a.maker_id and c.mem_id = #{userId} and c.mem_id = d.mem_id 
+		</select> -->
+
+	<!-- 내 자전거 정보 조회 -->
+	<select id="getMyBike" parameterType="Map" resultType="Map">
+		select
+		a.maker_nm as makerNm,
+		COALESCE(b.store_foldr_nm,'') as fileNm,
+		COALESCE(b.file_path_sbst ,'upload\20161026105426861_Tulips.jpg') as
+		urlpath,
+		c.device_idnum as deviceIdNum,
+		c.device_nm as deviceNm,
+		c.device_color as deviceColor,
+		d.mem_addr as memAddr,
+		c.sensor_val as
+		sensor,
+		c.report_cycle as cycle,
+		c.device_status as status,
+		c.device_serial as devicesireal,
+		c.service_no as serviceno,
+		c.device_seq as deviceseq,
+		c.spot_dev_seq as deviceSequence,
+		c.svc_tgt_seq as targetSequence,
+		c.activation_yn as deviceActivation,
+		c.activation_dt as deviceActivationDt,
+		c.device_seq as deviceSeq,
+		c.buy_date as buyDate
+		from "MAKER_BAS" a, "BIKE_MEMBER" d, "BIKE_DEVICE_BAS" c
+		left outer join "DEVICE_IMAGE_BAS" b
+		on c.device_seq = b.device_no
+		where
+		c.maker_id = a.maker_id
+		and c.mem_id = #{userId}
+		and c.mem_id = d.mem_id
+		order by deviceseq
+
+	</select>
+	<!-- 디바이스 Max 값 조회 -->
+	<select id="getMaxDev" parameterType="Map" resultType="Map">
+		select
+		nextval('"BIKE_DEVICE_BAS_DEVICE_NO_seq"')
+	</select>
+	<!-- 디바이스 등록 -->
+	<insert id="insertDevice" parameterType="Map" useGeneratedKeys="true" keyProperty="device_seq">
+		insert into
+		"BIKE_DEVICE_BAS"
+		(
+		mem_no,
+		mem_id,
+		svc_tgt_seq,
+		device_serial,
+		service_no,
+		activation_yn,
+		maker_id,
+		device_nm,
+		device_color,
+		device_idnum,
+		buy_date,
+		sensor_val,
+		report_cycle,
+		device_status,
+		spot_dev_seq
+		)
+		VALUES
+		(
+		#{memNo},
+		#{memId},
+		#{svcTgtSeq},
+		#{deviceSerial},
+		#{serviceNo},
+		#{activationYn},
+		#{makerId},
+		#{deviceNm},
+		#{deviceColor},
+		#{deviceIdnum},
+		to_date(#{buyDate}, 'YYYY-MM-DD'),
+		#{sensorVal},
+		#{reportCycle},
+		#{deviceStatus},
+		#{spotDevSeq}
+		)
+	</insert>
+
+
+	<insert id="fileSave" parameterType="com.anylogic.iot.api.common.vo.FileVO">
+		insert into
+		"DEVICE_IMAGE_BAS"
+		(
+		device_no,
+		store_foldr_nm,
+		img_nm,
+		img_file_nm,
+		file_id,
+		file_path_sbst,
+		cret_dt
+		)
+		VALUES
+		(
+		cast(#{deviceNo} as Numeric),
+		#{atcFilePathSbst},
+		#{fileNm},
+		#{fileNm},
+		#{atcFileId},
+		#{upldPathSbst},
+		now()
+
+		)
+	</insert>
+	
+	<insert id="profileSaveFile" parameterType="com.anylogic.iot.api.common.vo.FileVO">
+		insert into
+		"BIKE_MEMBER_IMAGE"
+		(
+		mem_id,
+		store_foldr_nm,
+		img_nm,
+		img_file_nm,
+		file_id,
+		file_path_sbst,
+		cret_dt
+		)
+		VALUES
+		(
+		#{memId},
+		<!-- #{atcFilePathSbst}, -->
+		#{atcFilePathSbst},
+		#{fileNm},
+		#{fileNm},
+		#{atcFileId},
+		#{upldPathSbst},
+		now()
+
+		)
+	</insert>
+	
+
+	<!-- 자전거 이미지 등록 -->
+	<insert id="insertImg" parameterType="Map">
+		insert into
+		"DEVICE_IMAGE_BAS"
+		(
+		device_no,
+		store_foldr_nm,
+		img_nm,
+		img_file_nm,
+		file_id,
+		cret_dt
+		)
+		VALUES
+		(
+		#{deviceNo},
+		#{atcFileDir},
+		#{imgNm},
+		#{atcFileNm},
+		#{atcFileId},
+		now()
+
+		)
+	</insert>
+	
+	<select id="getMyProfile" parameterType="Map" resultType="Map">
+		select
+		* from "BIKE_MEMBER_IMAGE"
+		where mem_id = #{userId}
+		
+	</select>
+
+	<delete id="profileDelete" parameterType="Map">
+	delete from "BIKE_MEMBER_IMAGE"
+	where mem_id = #{memId}
+
+	</delete>
+
+	<!-- 비밀번호 수정 -->
+	<update id="changePwd" parameterType="Map">
+		UPDATE "BIKE_MEMBER"
+		SET
+		mem_pw = #{pwd}
+
+		WHERE mem_id = #{id}
+	</update>
+
+	<!-- 아이디 찾기 -->
+	<select id="confirmHint" parameterType="Map" resultType="Map">
+		SELECT mem_id as id
+		FROM "BIKE_MEMBER"
+		WHERE passwd_hint = #{hint}
+
+	</select>
+	<!-- 공지사항 조회 -->
+	<select id="noticegetList" parameterType="Map" resultType="Map">
+		SELECT notice_seq as seq,
+		notice_nm as nm,
+		notice_content as content,
+		cret_dt as cretdt
+		from "NOTICE_BAS"
+
+	</select>
+
+	<!-- FAQ 조회 -->
+	<select id="faqInitList" parameterType="Map" resultType="Map">
+		SELECT faq_seq as faqseq,
+		faq_nm as faqnm,
+		faq_content as faqcontent,
+		cret_dt as cretdt,
+		faq_type as faqtype
+		from "FAQ_BAS"
+		where 1=1
+		<if test="faqType != null and !faqType.isEmpty()">
+			and faq_type = #{faqType}
+		</if>
+	</select>
+
+	<!-- 디바이스 시리얼 번호 조회 -->
+	<select id="confirmDevSerial" parameterType="Map" resultType="Map">
+		select device_sireal as serialno,
+		spot_dev_seq as spotdevseq
+		from "DEVICE_ID"
+		WHERE device_sireal = #{serialno}
+	</select>
+	<!-- 제조사 목록 조회 -->
+	<select id="getMakerList" parameterType="Map" resultType="Map">
+		SELECT maker_id as makerId,
+		maker_nm as makerNm
+		from "MAKER_BAS"
+	</select>
+	<!-- 디바이스 등록 확인 -->
+	<select id="isBikeRegist" parameterType="Map" resultType="Map">
+		select device_seq as "DEVICE_NO"
+		from "BIKE_DEVICE_BAS"
+		WHERE mem_id = #{userId}
+	</select>
+	<!-- 중복 확인 -->
+	<select id="dupCheck" parameterType="Map" resultType="Map">
+		SELECT count(*) as cnt
+		FROM "BIKE_MEMBER"
+		WHERE mem_id = #{dupId}
+
+	</select>
+
+	
+
+	<select id="loginPushId" parameterType="Map" resultType="Map">
+		select svc_tgt_seq as svctgtseq from "BIKE_DEVICE_BAS" where mem_id =
+		#{userId}
+
+	</select>
+
+
+	<insert id="addTempData" parameterType="Map">
+		INSERT INTO temp_bas
+		VALUES (#{id});
+	</insert>
+
+	<select id="selectTempdata" parameterType="Map" resultType="Map">
+		SELECT id
+		FROM temp_bas
+
+	</select>
+
+	<delete id="deleteTempdata" parameterType="Map">
+		delete from temp_bas
+	</delete>
+	<!-- 자전거 등록 -->
+	<insert id="bikeInfoReg" parameterType="Map">
+		INSERT INTO "BIKE_PRODUCT_MEM"
+		VALUES (#{bicName},#{bicNum},'경기도 수원시 영통구 매탄3동',now(),
+		'NO IMAGE','1');
+	</insert>
+
+	<!-- 회원 가입 -->
+	<!-- 회원 가입 -->
+	<insert id="joinMember" parameterType="Map">
+		INSERT INTO
+		"BIKE_MEMBER"
+		(
+		mem_no,
+		mem_id,
+		mem_pw,
+		mem_name,
+		mem_addr,
+		im_member_seq,
+		mem_emphone
+		)
+		VALUES (
+		(select max(mem_no)+1 from "BIKE_MEMBER"),
+		#{id},
+		#{pwd},
+		#{nm},
+		#{addr},
+		cast(#{im_member_seq} as Numeric),
+		#{empPhone}
+		)
+	</insert>
+
+	<select id="getSidoList" parameterType="Map" resultType="Map">
+		SELECT distinct sido
+		FROM "ADDR_NEW_BAS"
+		ORDER BY sido asc
+
+	</select>
+
+	<select id="changeSido" parameterType="Map" resultType="Map">
+		SELECT distinct gugun
+		FROM "ADDR_NEW_BAS"
+		where sido = #{sido}
+		and gugun is not null
+		ORDER BY gugun asc
+	</select>
+
+	<select id="changeGugun" parameterType="Map" resultType="Map">
+		SELECT distinct dong, cd
+		FROM "ADDR_NEW_BAS"
+		where sido = #{sido}
+		and gugun = #{gugun}
+		and dong is not null
+		ORDER BY dong asc
+	</select>
+
+	<select id="activatedbikeQuantity" parameterType="Map"
+		resultType="int">
+		select count(*) from "BIKE_DEVICE_BAS"
+		where mem_id =
+		#{memId}
+	</select>
+
+	<select id="reportBikeQuantity" parameterType="Map" resultType="int">
+		select count(*)
+		from(
+		select device_idnum,
+		mem_id,max(steal_seq) as steal_seq
+		from "STEAL_LIST"
+		where mem_id = #{memId} and end_time IS NULL group by device_idnum, mem_id)
+		a left outer join "BIKE_DEVICE_BAS" b on a.mem_id = b.mem_id and
+		a.device_idnum = b.device_idnum
+	</select>
+	
+	<select id="getBikeInfo" parameterType="Map" resultType="Map">
+		select *
+		from "BIKE_DEVICE_BAS"
+		where 
+		device_seq = cast(#{deviceseq} as bigint)
+		AND svc_tgt_seq = cast( #{targetSequence} as bigint)
+		AND spot_dev_seq = cast( #{sequence} as bigint)
+	</select>
+	
+	<update id="bikeUpdate" parameterType="Map">
+		UPDATE
+		"BIKE_DEVICE_BAS"
+		SET
+
+		maker_id = #{makerId},
+		device_nm = #{deviceNm},
+		device_color = #{deviceColor},
+		device_idnum = #{deviceIdNum},
+		buy_date = to_date(#{buyDate}, 'YYYY-MM-DD')
+		
+		WHERE
+		device_seq  = cast(#{deviceseq} as bigint)
+		AND spot_dev_seq  =cast( #{sequence} as bigint)
+		AND svc_tgt_seq  = cast( #{targetSequence} as bigint)
+	</update>
+
+</mapper>

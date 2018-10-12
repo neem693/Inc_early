@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+    namespace="com.anylogic.iot.api.admin.systemconfig.mapper.DoorMapper">
+
+
+    <!--  출입문 검색 -->
+    <select id="getDoor" parameterType="Map" resultType="Map">
+        <!--  페이징 SQL Header -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+
+        SELECT
+            door_num
+            , door_name
+            , type
+            , facility_id
+            , ip
+            , control_num
+            , open_type
+            , state
+            , created_date
+            , del_yn
+            , ROW_NUMBER() OVER( order by door_id ) as RNUM 
+        FROM saehan.tb_door
+        WHERE 1 = 1
+        <if
+            test="searchType != null and (searchType eq 'branch'.toString()) and searchText != null and searchText"> 
+            and door_id = #{searchText}::int
+        </if>
+
+        <!--  페이징 SQL Footer -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+    </select>
+
+</mapper>

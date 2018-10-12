@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+    namespace="com.anylogic.iot.api.admin.anpro.mapper.UserMapper">
+
+
+    <!--  사용자 - logout -->
+    <update id="logout" parameterType="Map">
+        UPDATE sdp.tb_user
+        SET
+            id = #{id}
+            , passwd = #{passwd}
+            , user_name = #{user_name}
+            , email = #{email}
+            , tel = #{tel}
+            , del_yn = #{del_yn}
+        WHERE user_id = #{user_id}::int
+    </update>
+
+</mapper>

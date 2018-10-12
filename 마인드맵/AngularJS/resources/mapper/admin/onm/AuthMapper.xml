@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+    namespace="com.anylogic.iot.api.admin.onm.mapper.AuthMapper">
+
+
+    <!--  권한 검색 -->
+    <select id="myRole" parameterType="Map" resultType="Map">
+
+        SELECT
+            auth_id
+            , auth_name
+            , etc
+            , del_yn
+            , ROW_NUMBER() OVER( order by auth_id ) as RNUM 
+        FROM sdp.tb_auth
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+            and auth_id = #{searchText}::int
+        </if>
+
+    </select>
+
+
+    <!--  권한 등록 -->
+    <insert id="insertAuth" parameterType="Map">
+        INSERT INTO
+        sdp.tb_auth(
+            auth_name
+            , etc
+            , del_yn
+        )
+        VALUES(
+            #{auth_name}
+            , #{etc}
+            , #{del_yn}
+        )
+    </insert>
+
+
+    <!--  권한 검색 -->
+    <select id="selectAuth" parameterType="Map" resultType="Map">
+        <!--  페이징 SQL Header -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+
+        SELECT
+            auth_id
+            , auth_name
+            , etc
+            , del_yn
+            , ROW_NUMBER() OVER( order by auth_id ) as RNUM 
+        FROM sdp.tb_auth
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+            and auth_id = #{searchText}::int
+        </if>
+
+        <!--  페이징 SQL Footer -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+    </select>
+
+
+    <!--  권한 변경 -->
+    <update id="updateAuth" parameterType="Map">
+        UPDATE sdp.tb_auth
+        SET
+            auth_name = #{auth_name}
+            , etc = #{etc}
+            , del_yn = #{del_yn}
+        WHERE auth_id = #{auth_id}::int
+    </update>
+
+
+    <!--  권한 삭제 -->
+    <delete id="deleteAuth" parameterType="Map">
+        UPDATE sdp.tb_auth
+        SET
+            del_yn = 'Y' 
+        WHERE auth_id = #{auth_id}::int
+    </delete>
+
+
+    <!--  권한 검색 -->
+    <select id="viewAuth" parameterType="Map" resultType="Map">
+
+        SELECT
+            auth_id
+            , auth_name
+            , etc
+            , del_yn
+            , ROW_NUMBER() OVER( order by auth_id ) as RNUM 
+        FROM sdp.tb_auth
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+            and auth_id = #{searchText}::int
+        </if>
+
+    </select>
+
+</mapper>

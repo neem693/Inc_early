@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anylogic.iot.api.admin.tenant.mapper.TenantMapper"> 
+	
+	
+<delete id="deleteContractInfo" parameterType="Map">
+	delete from saehan.tb_contract
+	where office_rent_id = #{office_rent_id}::int
+</delete>
+
+<insert id="insertContractInfo" parameterType="Map">
+	INSERT INTO 
+		saehan.tb_contract(             
+            office_rent_id, 
+            primary_member_nm, 
+            primary_member_phone, 
+            primary_member_email, 
+            primary_member_addr, 
+            auth_member_nm, 
+            auth_member_title, 
+            auth_member_phone, 
+            auth_member_email, 
+            auth_member_addr, 
+            bill_member_nm, 
+            bill_member_title, 
+            bill_member_phone, 
+            bill_member_email, 
+            bill_member_addr,             
+            company_name, 
+            signature, 
+            name, 
+            sign_date, 
+            cret_date, 
+            seal)
+    VALUES (
+    		#{office_rent_id}::int, 
+            #{primary_member_nm}, 
+            #{primary_member_phone}, 
+            #{primary_member_email}, 
+            #{primary_member_addr}, 
+            #{auth_member_nm}, 
+            #{auth_member_title}, 
+            #{auth_member_phone}, 
+            #{auth_member_email}, 
+            #{auth_member_addr}, 
+            #{bill_member_nm}, 
+            #{bill_member_title}, 
+            #{bill_member_phone}, 
+            #{bill_member_email}, 
+            #{bill_member_addr},             
+            #{company_name}, 
+            #{signature}, 
+            #{name}, 
+            now(), 
+            now(), 
+            #{seal}
+            )
+
+	
+	</insert>
+	
+	<update id="updateContractInfo" parameterType="Map">
+	UPDATE saehan.tb_contract
+   		SET office_rent_id=#{office_rent_id}::int, primary_member_nm = #{primary_member_nm}, primary_member_phone=#{primary_member_phone}, 
+		       primary_member_email=#{primary_member_email}, primary_member_addr=#{primary_member_addr}, auth_member_nm=#{auth_member_nm}, 
+		       auth_member_title=#{auth_member_title}, auth_member_phone=#{auth_member_phone}, auth_member_email=#{auth_member_email}, 
+		       auth_member_addr=#{auth_member_addr}, bill_member_nm=#{bill_member_nm}, bill_member_title=#{bill_member_title}, 
+		       bill_member_phone=#{bill_member_phone}, 
+		       bill_member_email=#{bill_member_email}, bill_member_addr=#{bill_member_addr},  
+		       company_name=#{company_name}, signature=#{signature}, name=#{name}, seal=#{seal}
+ 		WHERE contract_id = #{contract_id}::int;
+	</update>
+	
+	
+	<update id="addTime" parameterType="Map" >
+		update saehan.tb_office_rent
+		SET
+		default_offer_time = default_offer_time + #{add_time}::int		
+		,default_time = default_time + #{add_time}::int
+		where office_rent_id = #{office_rent_id}::int
+	</update>
+	
+	<select id="getContract" parameterType="Map" resultType="Map">
+	select
+	contract_id, office_rent_id, primary_member_nm, primary_member_phone, 
+       primary_member_email, primary_member_addr, auth_member_nm, auth_member_title, 
+       auth_member_phone, auth_member_email, auth_member_addr, bill_member_nm, 
+       bill_member_title, bill_member_phone, bill_member_email, bill_member_addr, 
+       company_signature, company_name, signature, name, to_char(sign_date,'YYYY-MM-DD') as sign_date, 
+       to_char(cret_date,'YYYY-MM-DD') as cret_date, seal
+	from saehan.tb_contract
+	where
+	office_rent_id = #{id}::int
+
+</select>
+
+	<select id="getGuestListExcel" parameterType="Map" resultType="com.anylogic.iot.api.admin.tenant.vo.guestListVO">
+		
+		SELECT
+		a.participant_name,
+		(select company_name from saehan.tb_office_rent where office_rent_id = 
+			(select office_rent_id from saehan.tb_member where member_id = a.member_id)) as company_name,
+		a.phone_number, 
+		to_char(a.created_date,'YYYY-MM-DD hh24:mi:ss') as created_date,
+		to_char(a.invite_date,'YYYY-MM-DD hh24:mi:ss') as invite_date,
+		ROW_NUMBER() OVER(ORDER BY a.booking_participant_id desc ) as RNUM
+		FROM saehan.tb_booking_participant a
+		where a.status is not null
+		and a.send_prof_num > 500000
+		<if test="stDt != null and !stDt.isEmpty()">
+			and to_char(a.invite_date::date, 'YYYY-MM-DD') <![CDATA[  >= ]]>
+			to_char(to_date(#{stDt}, 'YYYY-MM-DD') , 'YYYY-MM-DD')
+		</if>
+		<if test="enDt != null and !enDt.isEmpty()">
+			and to_char(a.invite_date, 'YYYY-MM-DD') <![CDATA[  <= ]]>
+			to_char(to_date(#{enDt}, 'YYYY-MM-DD') , 'YYYY-MM-DD')
+		</if>
+		<if test="member_name != null and !member_name.isEmpty()">
+			and a.participant_name LIKE CONCAT('%', #{member_name}, '%')
+		</if>
+		<if test="company_name != null and !company_name.isEmpty()">
+			<!-- and company_name LIKE CONCAT('%', #{company_name}, '%') -->
+			and a.member_id in 
+				(select member_id from saehan.tb_member where office_rent_id in 
+					(select office_rent_id from saehan.tb_office_rent where company_name LIKE CONCAT('%', #{company_name}, '%'))
+				)
+		</if>
+		
+		
+			
+	</select>
+	
+	
+	<select id="getGuestList" parameterType="Map" resultType="Map">
+		<include
+			refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+		SELECT
+		a.participant_name,
+		<!-- company_name,  -->
+		(select company_name from saehan.tb_office_rent where office_rent_id = 
+			(select office_rent_id from saehan.tb_member where member_id = a.member_id)) as company_name,
+		a.phone_number, 
+		to_char(a.created_date,'YYYY-MM-DD hh24:mi:ss') as created_date,
+		to_char(a.invite_date,'YYYY-MM-DD hh24:mi:ss') as invite_date,
+		ROW_NUMBER() OVER(ORDER BY a.booking_participant_id desc ) as RNUM
+		FROM saehan.tb_booking_participant a
+		where a.status is not null
+		and a.send_prof_num > 500000
+		<if test="stDt != null and !stDt.isEmpty()">
+			and to_char(a.invite_date::date, 'YYYY-MM-DD') <![CDATA[  >= ]]>
+			to_char(to_date(#{stDt}, 'YYYY-MM-DD') , 'YYYY-MM-DD')
+		</if>
+		<if test="enDt != null and !enDt.isEmpty()">
+			and to_char(a.invite_date, 'YYYY-MM-DD') <![CDATA[  <= ]]>
+			to_char(to_date(#{enDt}, 'YYYY-MM-DD') , 'YYYY-MM-DD')
+		</if>
+		<if test="member_name != null and !member_name.isEmpty()">
+			and a.participant_name LIKE CONCAT('%', #{member_name}, '%')
+		</if>
+		<if test="company_name != null and !company_name.isEmpty()">
+			<!-- and company_name LIKE CONCAT('%', #{company_name}, '%') -->
+			and a.member_id in 
+				(select member_id from saehan.tb_member where office_rent_id in 
+					(select office_rent_id from saehan.tb_office_rent where company_name LIKE CONCAT('%', #{company_name}, '%'))
+				)
+		</if>
+		
+		<include
+			refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+			
+	</select>
+	
+	
+	
+	<select id="getOfficeRentUseInfo"  parameterType="Map" resultType="Map">
+		select 
+		office_id
+		 from saehan.tb_office_rent_use
+		where office_rent_id = #{id}::int
+	
+	</select>
+	
+	<update id="resetOffice" parameterType="Map" >
+		update saehan.tb_office
+		SET
+		residence_flag = 'N'		
+		where office_id in (select office_id from saehan.tb_office_rent_use where office_rent_id = #{office_rent_id}::int)
+	</update>
+	
+	
+	<update id="deleteMember" parameterType="Map" >
+		update saehan.tb_member
+		SET
+		state = 'O'		
+		where office_rent_id = #{office_rent_id}::int
+	</update>
+	
+	<update id="resetMngInfo" parameterType="Map" >
+		update saehan.tb_member
+		SET
+		aply_class = 'G'
+		
+		where office_rent_id = #{office_rent_id}::int
+		and aply_class = 'A'
+	</update>
+	
+	<update id="updateSetMngInfo" parameterType="Map" >
+		update saehan.tb_member
+		SET
+		aply_class = 'A',
+		hp_no = #{mgr_hp_no},
+		nm = #{mgr_name},
+		position_name = #{mgr_position_name},
+		email = #{mgr_email},
+		permit_yn = 'Y'
+		
+		where member_id = #{member_id}::int
+	</update>
+	
+	
+	<delete id="resetOfficeRentUse" parameterType="Map" >
+		delete from saehan.tb_office_rent_use		
+		where office_rent_id = #{office_rent_id}::int
+	</delete>
+	
+	<update id="resetOfficeStatus" parameterType="Map" >
+		update saehan.tb_office
+		SET
+		residence_flag = 'N'
+		
+		where office_id in (select office_id from saehan.tb_office_rent_use where office_rent_id = #{office_rent_id}::int)
+	</update>
+	
+	<update id="updateOfficeStatus" parameterType="Map" >
+		update saehan.tb_office
+		SET
+		residence_flag = 'Y'
+		
+		where office_id = #{id}::int
+	</update>
+	
+	<insert id="insertOfficeRentUse" parameterType="Map">
+		insert into saehan.tb_office_rent_use
+		(
+		office_id,
+		office_rent_id,
+		created_date
+		)
+		values
+		(
+		#{id}::int,
+		#{office_rent_id}::int,
+		now()
+		)
+	</insert>
+	
+	
+	<update id="deleteCompany" parameterType="Map" >
+	<![CDATA[
+		update saehan.tb_office_rent
+		SET
+		del_yn = 'Y',
+		
+		rent_end_dt = current_date - 1
+		
+		where office_rent_id = #{office_rent_id}::int
+		 
+		]]>
+		<!-- update saehan.tb_office_rent
+		SET
+		del_yn = 'Y',
+		
+		rent_end_dt = current_date - 1
+		
+		where office_rent_id = #{office_rent_id}::int
+		 and rent_end_dt > current_date - 1 -->
+	</update>
+	
+	<insert id="reinsertCompanyFile" parameterType="Map" >
+	INSERT INTO
+		saehan.tb_attach_file(
+		table_name,
+		reference_id,
+		file_name,
+		file_path,
+		create_dt
+		)values(
+		'tb_office_rent',
+		cast(#{id} as numeric),
+		#{name},
+		#{file_path},
+		now()
+		)
+	
+	</insert>
+	<delete id="resetCompantFile" parameterType="Map" >
+		delete from saehan.tb_attach_file
+		where reference_id = #{id}::int
+		and table_name = 'tb_office_rent'
+	
+	</delete>
+	<select id="getCompanyFile"  parameterType="Map" resultType="Map">
+		select 
+		attach_file_id,
+		reference_id,
+		file_name as name,
+		file_path
+		 from saehan.tb_attach_file
+		where reference_id = #{id}::int
+		and table_name = 'tb_office_rent'
+	
+	</select>
+	
+	<update id="updateMngInfo" parameterType="Map">
+	UPDATE saehan.tb_office_rent
+		SET
+		member_id = #{insertMemberKey}::int
+		WHERE office_rent_id = #{insertKey}::int
+	
+	</update>
+
+	
+	<insert id="insertCompanyInfo" parameterType="Map">
+		<selectKey keyProperty="insertKey" resultType="int" order="AFTER">
+			SELECT MAX(office_rent_id) FROM saehan.tb_office_rent
+		</selectKey>
+		insert into saehan.tb_office_rent
+		(
+		del_yn,
+		<if test="company_name != null and !company_name.isEmpty()">
+			company_name ,
+		</if>
+		<if test="meetingType != null and !meetingType.isEmpty()">
+			meetingType ,
+		</if>
+		<if test="company_number != null and !company_number.isEmpty()">
+			company_number,
+		</if>		
+			type,		
+		<if test="rep_office_name != null and !rep_office_name.isEmpty()">
+			rep_office_name,
+		</if>
+		<if test="aply_dt != null and !aply_dt.isEmpty()">
+			aply_dt,
+		</if>
+		<if test="rent_strt_dt != null and !rent_strt_dt.isEmpty()">
+			rent_strt_dt,
+		</if>
+		<if test="rent_end_dt != null and !rent_end_dt.isEmpty()">
+			rent_end_dt,
+		</if>
+		<if test="mem_cnt != null and !mem_cnt.isEmpty()">
+			mem_cnt,
+		</if>
+		
+		
+		
+		<if test="ceo_name != null and !ceo_name.isEmpty()">
+			ceo_name ,
+		</if>
+		<if test="mgr_name != null and !mgr_name.isEmpty()">
+			mgr_name ,
+		</if>
+		<if test="mgr_position_name != null and !mgr_position_name.isEmpty()">
+			mgr_position_name,
+		</if>
+		<if test="mgr_hp_no != null and !mgr_hp_no.isEmpty()">
+			mgr_hp_no ,
+		</if>
+		<if test="mgr_email != null and !mgr_email.isEmpty()">
+			mgr_email,
+		</if>
+		<if test="permit_dt != null and !permit_dt.isEmpty()">
+			permit_dt,
+		</if>
+		<if test="default_time != null and !default_time.isEmpty()">
+			default_time,
+			default_offer_time,
+		</if>
+		<if test="payment_time != null and !payment_time.isEmpty()">
+			payment_time,
+		</if>
+		<if test="payment_day != null and !payment_day.isEmpty()">
+			payment_day,
+		</if>
+	
+			rent_state,
+		
+		<if test="payment_type != null and !payment_type.isEmpty()">
+			payment_type,
+		</if>
+		<if test="company_name_eng != null and !company_name_eng.isEmpty()">
+			company_name_eng ,
+		</if>
+		<if test="ceo_hp_no != null and !ceo_hp_no.isEmpty()">
+			ceo_hp_no,
+		</if>
+		<if test="ceo_email != null and !ceo_email.isEmpty()">
+			ceo_email,
+		</if>
+		<if test="branch_id != null ">
+			branch_id ,
+		</if>
+		<if test="mgr_address != null and !mgr_address.isEmpty()">
+			mgr_address ,
+		</if>
+		<if test="facility_pay != null and !facility_pay.isEmpty()">
+			facility_pay ,
+		</if>
+		<if test="service_deposit != null and !service_deposit.isEmpty()">
+			service_deposit ,
+		</if>
+		<if test="area != null and !area.isEmpty()">
+			area ,
+		</if>
+		<if test="mgr_type != null and !mgr_type.isEmpty()">
+			mgr_type ,
+		</if>
+		<if test="etc != null and !etc.isEmpty()">
+			etc,
+		</if>
+		virtual_contract,
+		<if test="service_type != null and !service_type.isEmpty()">
+			service_type,
+		</if>
+		<if test="work_type != null and !work_type.isEmpty()">
+			work_type,
+		</if>
+		<if test="rent_fee != null and !rent_fee.isEmpty()">
+			rent_fee,
+		</if>
+		<if test="remark != null and !remark.isEmpty()">
+			remark,
+		</if>
+		aply_dt,
+		cret_dt
+		)
+		values
+		(
+		'N',
+		<if test="company_name != null and !company_name.isEmpty()">
+			#{company_name},
+		</if>
+		<if test="meetingType != null and !meetingType.isEmpty()">
+			#{meetingType},
+		</if>
+		<if test="company_number != null and !company_number.isEmpty()">
+			#{company_number},
+		</if>		
+			1,		
+		<if test="rep_office_name != null and !rep_office_name.isEmpty()">
+			#{rep_office_name},
+		</if>
+		<if test="aply_dt != null and !aply_dt.isEmpty()">
+			#{aply_dt}::date,
+		</if>
+		<if test="rent_strt_dt != null and !rent_strt_dt.isEmpty()">
+			#{rent_strt_dt}::date,
+		</if>
+		<if test="rent_end_dt != null and !rent_end_dt.isEmpty()">
+			#{rent_end_dt}::date,
+		</if>
+		<if test="mem_cnt != null and !mem_cnt.isEmpty()">
+			#{mem_cnt}::int,
+		</if>
+		<if test="ceo_name != null and !ceo_name.isEmpty()">
+			#{ceo_name},
+		</if>
+		<if test="mgr_name != null and !mgr_name.isEmpty()">
+			#{mgr_name},
+		</if>
+		<if test="mgr_position_name != null and !mgr_position_name.isEmpty()">
+			#{mgr_position_name},
+		</if>
+		<if test="mgr_hp_no != null and !mgr_hp_no.isEmpty()">
+			#{mgr_hp_no},
+		</if>
+		<if test="mgr_email != null and !mgr_email.isEmpty()">
+			#{mgr_email},
+		</if>
+		<if test="permit_dt != null and !permit_dt.isEmpty()">
+			#{permit_dt}::date,
+		</if>
+		<if test="default_time != null and !default_time.isEmpty()">
+			#{default_time}::int,
+			#{default_time}::int,
+		</if>
+		<if test="payment_time != null and !payment_time.isEmpty()">
+			#{payment_time}::int,
+		</if>
+		<if test="payment_day != null and !payment_day.isEmpty()">
+			#{payment_day}::int,
+		</if>
+		
+			'2',
+		
+		<if test="payment_type != null and !payment_type.isEmpty()">
+			#{payment_type},
+		</if>
+		<if test="company_name_eng != null and !company_name_eng.isEmpty()">
+			#{company_name_eng},
+		</if>
+		<if test="ceo_hp_no != null and !ceo_hp_no.isEmpty()">
+			#{ceo_hp_no},
+		</if>
+		<if test="ceo_email != null and !ceo_email.isEmpty()">
+			#{ceo_email},
+		</if>
+		<if test="branch_id != null ">
+			#{branch_id}::int,
+		</if>
+		<if test="mgr_address != null and !mgr_address.isEmpty()">
+			#{mgr_address},
+		</if>
+		<if test="facility_pay != null and !facility_pay.isEmpty()">
+			#{facility_pay}::int,
+		</if>
+		<if test="service_deposit != null and !service_deposit.isEmpty()">
+			#{service_deposit}::int,
+		</if>
+		<if test="area != null and !area.isEmpty()">
+			#{area}::float,
+		</if>
+		<if test="mgr_type != null and !mgr_type.isEmpty()">
+			#{mgr_type},
+		</if>
+		<if test="etc != null and !etc.isEmpty()">
+			#{etc},
+		</if>
+		'N',
+		<if test="service_type != null and !service_type.isEmpty()">
+			#{service_type},
+		</if>
+		<if test="work_type != null and !work_type.isEmpty()">
+			#{work_type},
+		</if>
+		<if test="rent_fee != null and !rent_fee.isEmpty()">
+			#{rent_fee}::int,
+		</if>
+		<if test="remark != null and !remark.isEmpty()">
+			#{remark},
+		</if>
+#{permit_dt}::date,
+now()
+		)
+
+
+	</insert>
+
+
+	<insert id="insertMngInfo" parameterType="Map">
+		<selectKey keyProperty="insertMemberKey" resultType="int"
+			order="AFTER">
+			SELECT MAX(member_id) FROM saehan.tb_member
+		</selectKey>
+		INSERT INTO
+		saehan.tb_member(
+		ID
+		, PASSWD
+		, NM
+		, office_rent_id
+		, type
+		
+		, position_name
+		
+		, HP_NO
+		, EMAIL
+		, APLY_CLASS
+		, REG_DT
+		, PERMIT_YN
+		, state
+		, company_name
+		)
+		VALUES(
+		#{member_id}
+		, #{mgr_hp_no}
+		, #{mgr_name}
+		,
+		#{insertKey}::int
+		, cast(1 as numeric)
+		
+		,
+		#{mgr_position_name}
+		
+		, #{mgr_hp_no}
+		, #{mgr_email}
+		, 'A'
+		, now()
+		, 'Y'
+		, 'S'
+		, #{company_name}
+		)
+	</insert>
+
+	<select id="dupCheckId" parameterType="Map" resultType="Map">
+		select * from saehan.tb_member
+		where
+		id = #{id}
+		and state not in ('O', 'D')
+	</select>
+
+	<select id="getCompanyList" parameterType="Map" resultType="Map">
+		<include
+			refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+		SELECT
+		a.office_rent_id, 
+		a.company_name, 
+		a.company_number, 
+		a.type, 
+		a.rep_office_name, 
+       a.aply_dt, 
+       a.rent_strt_dt, 
+       a.rent_end_dt, 
+       CASE WHEN a.rent_end_dt<![CDATA[  < ]]>now() + interval '1 month' and a.rent_end_dt <![CDATA[  > ]]> now() - interval '1 day' THEN 'color' ELSE 'black' END as text_color,
+       a.mem_cnt, 
+       a.ceo_name, 
+       a.member_id, 
+       (select id from saehan.tb_member where member_id = a.member_id) as mgr_member_id,
+       a.mgr_name, 
+       a.mgr_position_name, 
+       a.mgr_hp_no, 
+       a.mgr_email, 
+       a.permit_dt, 
+       a.default_time, 
+       a.payment_time, 
+       a.payment_day, 
+       a.rent_state, 
+       a.payment_type, 
+       a.company_name_eng, 
+       a.ceo_hp_no, 
+       a.ceo_email, 
+       a.branch_id, 
+       a.mgr_address, 
+       a.facility_pay, 
+       a.service_deposit, 
+       a.area, 
+       a.mgr_type, 
+       a.etc, 
+       a.virtual_contract, 
+       a.service_type, 
+       a.work_type, 
+       a.rent_fee,
+       a.default_offer_time,
+       a.payment_buying_time,
+       a.cret_dt::date,
+       a.remark,
+       a.meetingtype,
+		<!-- ROW_NUMBER() OVER(ORDER BY a.cret_dt desc ) as RNUM  -->
+		ROW_NUMBER() OVER(ORDER BY a.rent_end_dt asc ) as RNUM 
+		FROM saehan.tb_office_rent a
+		where 1=1
+		and a.del_yn = 'N'
+		and a.type =1
+		<if test="stDt != null and !stDt.isEmpty()">
+			and to_char(a.cret_dt::date, 'YYYY-MM-DD') <![CDATA[  >= ]]>
+			to_char(to_date(#{stDt}, 'YYYY-MM-DD') , 'YYYY-MM-DD')
+		</if>
+		<if test="enDt != null and !enDt.isEmpty()">
+			and to_char(a.cret_dt::date, 'YYYY-MM-DD') <![CDATA[  <= ]]>
+			to_char(to_date(#{enDt}, 'YYYY-MM-DD') , 'YYYY-MM-DD')
+		</if>
+		<if test="company_name != null and !company_name.isEmpty()">
+			and a.company_name LIKE CONCAT('%', #{company_name}, '%')
+		</if>
+		<if test="ceo_name != null and !ceo_name.isEmpty()">
+			and a.ceo_name LIKE CONCAT('%', #{ceo_name}, '%')
+		</if>
+		<if test="mgr_name != null and !mgr_name.isEmpty()">
+			and a.mgr_name LIKE CONCAT('%', #{mgr_name}, '%')
+		</if>
+		<if test="rep_office_name != null and !rep_office_name == ''">
+			and a.rep_office_name LIKE CONCAT('%', #{rep_office_name}, '%')
+		</if>
+		<if test="checkout_yn != null and !checkout_yn == '' and checkout_yn == 'Y'.toString()">
+			and to_char(a.rent_end_dt::date, 'YYYY-MM-DD') <![CDATA[  <= ]]>   to_char(now(), 'YYYY-MM-DD')
+		</if>
+		<if test="checkout_yn != null and !checkout_yn == '' and checkout_yn == 'N'.toString()">
+			and to_char(a.rent_end_dt::date, 'YYYY-MM-DD') <![CDATA[  >= ]]>   to_char(now(), 'YYYY-MM-DD')
+		</if>
+		<include
+			refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+			
+	</select>
+
+
+	<select id="getCompanyMember" parameterType="Map" resultType="Map">
+		select
+		member_id,
+  office_rent_id,
+  company_name,
+  id,
+  passwd,
+  nm,
+  dept_nm,
+  tel_no,
+  hp_no,
+  email,
+  intruduction,
+  member_number,
+  type,
+  aply_class,
+  reg_dt,
+  permit_yn,
+  state,
+  position_name,
+  language_type,
+  drop_issue,
+  qr_code,
+  branch_id,
+  ROW_NUMBER() OVER(ORDER BY member_id desc ) as RNUM
+		from
+		saehan.tb_member
+		where
+		office_rent_id = cast(#{id} as numeric)
+		and state = 'S'
+
+	</select>
+
+	<select id="getOfficeInfo" parameterType="Map" resultType="Map">
+		select
+		*
+		from
+		saehan.tb_office
+		where
+		branch_id = cast(#{id} as numeric)
+		and del_yn = 'N'
+		order by floor, office_name
+
+	</select>
+
+	<select id="getCompanyListExcel" parameterType="Map"
+		resultType="com.anylogic.iot.api.admin.tenant.vo.CompanyInfoVO">
+		SELECT
+		office_rent_id,
+		company_name,
+		company_number,
+		rep_office_name,
+		aply_dt,
+		rent_strt_dt,
+		rent_end_dt,
+		mem_cnt,
+		ceo_name,
+		member_id,
+		mgr_name,
+		mgr_position_name,
+		mgr_hp_no,
+		mgr_email,
+		permit_dt,
+		default_time,
+		payment_time,
+		payment_day,
+		rent_state,
+		payment_type,
+		ceo_hp_no,
+		ceo_email,
+		branch_id,
+		mgr_address,
+		facility_pay,
+		service_deposit,
+		area,
+		mgr_type ,
+		etc,
+		virtual_contract,
+		service_type,
+		work_type,
+		cret_dt::date,
+		ROW_NUMBER() OVER(ORDER BY rent_end_dt asc ) as RNUM
+		FROM saehan.tb_office_rent
+		where del_yn = 'N'
+		and type = 1
+		<if test="stDt != null and !stDt.isEmpty()">
+			and to_char(cret_dt::date, 'YYYY-MM-DD') <![CDATA[  >= ]]>
+			to_char(to_date(#{stDt}, 'YYYY-MM-DD') , 'YYYY-MM-DD')
+		</if>
+		<if test="enDt != null and !enDt.isEmpty()">
+			and to_char(cret_dt::date, 'YYYY-MM-DD') <![CDATA[  <= ]]>
+			to_char(to_date(#{enDt}, 'YYYY-MM-DD') , 'YYYY-MM-DD')
+		</if>
+		<if test="company_name != null and !company_name.isEmpty()">
+			and company_name LIKE CONCAT('%', #{company_name}, '%')
+		</if>
+		<if test="ceo_name != null and !ceo_name.isEmpty()">
+			and ceo_name LIKE CONCAT('%', #{ceo_name}, '%')
+		</if>
+		<if test="mgr_name != null and !mgr_name.isEmpty()">
+			and mgr_name LIKE CONCAT('%', #{mgr_name}, '%')
+		</if>
+		<if test="rep_office_name != null and !rep_office_name == ''">
+			and rep_office_name LIKE CONCAT('%', #{rep_office_name}, '%')
+		</if>
+	</select>
+
+	<update id="updateCompanyInfo" parameterType="Map">
+		update saehan.tb_office_rent
+		set
+		<if test="company_name != null and !company_name == ''">
+			company_name = #{company_name}
+		</if>
+		<if test="company_number != null and !company_number == ''">
+			,company_number = #{company_number}
+		</if>
+		<if test="type != null and !type == ''">
+			,type = #{type}::int
+		</if>
+		<if test="rep_office_name != null and !rep_office_name == ''">
+			,rep_office_name = #{rep_office_name}
+		</if>
+		<if test="aply_dt != null and !aply_dt == ''">
+			,aply_dt = to_date(#{aply_dt}, 'YYYY-MM-DD')
+		</if>
+		<if test="rent_strt_dt != null and !rent_strt_dt == ''">
+			,rent_strt_dt = to_date(#{rent_strt_dt}, 'YYYY-MM-DD')
+		</if>
+		<if test="rent_end_dt != null and !rent_end_dt == ''">
+			,rent_end_dt = to_date(#{rent_end_dt}, 'YYYY-MM-DD')
+		</if>
+		<if test="mem_cnt != null and !mem_cnt == ''">
+			,mem_cnt = #{mem_cnt}::int
+		</if>
+		<if test="ceo_name != null and !ceo_name == ''">
+			,ceo_name = #{ceo_name}
+		</if>
+		<if test="member_id != null and !member_id == ''">
+			,member_id = #{member_id}::int
+		</if>
+		<if test="mgr_name != null and !mgr_name == ''">
+			,mgr_name = #{mgr_name}
+		</if>
+		<if test="mgr_position_name != null and !mgr_position_name == ''">
+			,mgr_position_name = #{mgr_position_name}
+		</if>
+		<if test="mgr_hp_no != null and !mgr_hp_no == ''">
+			,mgr_hp_no = #{mgr_hp_no}
+		</if>
+		<if test="mgr_email != null and !mgr_email == ''">
+			,mgr_email = #{mgr_email}
+		</if>
+		<if test="permit_dt != null and !permit_dt == ''">
+			,permit_dt = to_date(#{permit_dt}, 'YYYY-MM-DD')
+		</if>
+		<!-- <if test="default_time != null and !default_time == ''">
+			,default_time = #{default_time}::int
+		</if> -->
+		<if test="payment_time != null and !payment_time == ''">
+			,payment_time = #{payment_time}::int
+		</if>
+		<if test="payment_day != null and !payment_day == ''">
+			,payment_day = #{payment_day}:int
+		</if>
+		<if test="rent_state != null and !rent_state == ''">
+			,rent_state = #{rent_state}
+		</if>
+		<if test="payment_type != null and !payment_type == ''">
+			,payment_type = #{payment_type}
+		</if>
+		<if test="company_name_eng != null and !company_name_eng == ''">
+			,company_name_eng = #{company_name_eng}
+		</if>
+		<if test="ceo_hp_no != null and !ceo_hp_no == ''">
+			,ceo_hp_no = #{ceo_hp_no}
+		</if>
+		<if test="ceo_email != null and !ceo_email == ''">
+			,ceo_email = #{ceo_email}
+		</if>
+		<if test="branch_id != null and !branch_id == ''">
+			,branch_id = #{branch_id}::int
+		</if>
+		<if test="mgr_address != null and !mgr_address == ''">
+			,mgr_address = #{mgr_address}
+		</if>
+		<if test="facility_pay != null and !facility_pay == ''">
+			,facility_pay = #{facility_pay}::int
+		</if>
+		<if test="service_deposit != null and !service_deposit == ''">
+			,service_deposit = #{service_deposit}::int
+		</if>
+		<if test="area != null and !area == ''">
+			,area = #{area}::float
+		</if>
+		<if test="mgr_type != null and !mgr_type == ''">
+			,mgr_type = #{mgr_type}
+		</if>
+		<if test="etc != null and !etc == ''">
+			,etc = #{etc}
+		</if>
+		<!-- <if test="default_offer_time != null and !default_offer_time == ''">
+			,default_offer_time = #{default_offer_time}::int
+		</if> -->
+		<if test="virtual_contract != null and !virtual_contract == ''">
+			,virtual_contract = #{virtual_contract}
+		</if>
+		<if test="service_type != null and !service_type == ''">
+			,service_type = #{service_type}
+		</if>
+		<if test="work_type != null and !work_type == ''">
+			,work_type = #{work_type}
+		</if>
+		
+		<if test="rent_fee != null and !rent_fee == ''">
+			,rent_fee = #{rent_fee}::int
+		</if>
+		<if test="remark != null and !remark == ''">
+			,remark = #{remark}
+		</if>
+		<if test="meetingtype != null and !meetingtype == ''">
+			,meetingtype = #{meetingtype}
+		</if>
+		where
+		office_rent_id = #{office_rent_id}
+	</update>
+
+	<insert id="insertFileData" parameterType="Map">
+		INSERT INTO
+		saehan.tb_attach_file(
+		table_name,
+		reference_id,
+		file_name,
+		file_path,
+		create_dt
+		)values(
+		#{tableName},
+		cast(#{insertKey} as numeric),
+		#{file_name},
+		#{file_path},
+		now()
+		)
+	</insert>
+
+
+
+</mapper>
+
+
+
+

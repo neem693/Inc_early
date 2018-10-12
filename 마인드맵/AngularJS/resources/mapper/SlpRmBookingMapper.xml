@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anylogic.iot.api.admin.booking.mapper.SlpRmBookingMapper">
+
+	<!-- 수면실 예약현환 >> 수면실 목록  조회 : 칼린터용 -->
+	<select id="getSlpList" parameterType="Map" resultType="Map">
+	    SELECT a.facility_id
+		     , a.branch_id
+		     , a.type
+   		     , (select branch_name from saehan.tb_branch where branch_id = a.branch_id) as branch_name
+		     , a.floor
+		     , a.room_name
+		     , a.acceptor_number
+		     , a.basic_use_hour
+		     , a.basic_use_fee
+			 , to_char(a.operation_open_time, 'HH24') operation_open_time
+			 , to_char(a.operation_close_time, 'HH24') operation_close_time
+		     , a.state
+			 , CASE a.state  
+				   WHEN 'U' THEN '사용중' 
+				   WHEN 'W' THEN '공실'
+				   WHEN 'R' THEN '수리중'
+	   			   ELSE '' 
+			   END as state_nm
+   		  FROM saehan.tb_facility a
+   		     , saehan.tb_branch b  		    
+  		 WHERE a.branch_id = b.branch_id
+  		   AND a.type = 'S'
+  		   AND a.state != 'R'
+		   AND a.del_yn in ('N', 'n')
+		   AND a.branch_id = CAST(#{branch_id} AS INTEGER) 		   
+    	  order by facility_id
+	</select>
+
+	<!-- 수면실 예약 목록  조회 : 칼린터용 -->
+	<select id="getSlpBookingList" parameterType="Map" resultType="Map">
+	SELECT ROW_NUMBER() OVER(ORDER BY t1.facility_id asc) as RNUM
+	     , t2.booking_facility_id
+	     , t1.facility_id
+	     , to_char(t2.booking_start_time,'YYYY-MM-DD') || 'T'  || to_char(t2.booking_start_time,'hh24:mi:ss') as start
+	     , to_char(t2.booking_end_time,'YYYY-MM-DD') || 'T'  || to_char(t2.booking_end_time,'hh24:mi:ss') as end
+		 , t2.member_nm || chr(10) ||  '(' ||  COALESCE(t2.company_name,'개인')  || ')' as title
+		 , case when t2.member_id = CAST(#{loginMemberId} AS INTEGER) then 'MY' else 'YOU' end my_booking
+      FROM (SELECT a.facility_id
+			     , a.branch_id
+			     , a.type
+			     , a.room_name
+			     , a.floor
+			     , a.acceptor_number
+			     , a.basic_use_hour
+			     , a.basic_use_fee
+			     , a.operation_open_time
+			     , a.operation_close_time
+			     , a.state
+				 , CASE a.state  
+					   WHEN 'U' THEN '사용중' 
+					   WHEN 'W' THEN '공실'
+					   WHEN 'R' THEN '수리중'
+		   			   ELSE '' 
+				   END as state_nm
+   		  FROM saehan.tb_facility a
+   		     , saehan.tb_branch b  
+	  		 WHERE a.branch_id = b.branch_id
+	  		   AND a.type = 'S'
+			   AND a.del_yn in ('N', 'n')
+
+			) t1, (SELECT c.booking_facility_id
+			            , c.facility_id
+					    , c.booking_start_time
+						, c.booking_end_time
+					    , (select company_name from saehan.tb_member WHERE member_id = cast(c.member_id as INTEGER)   ) as company_name
+					    , (select nm from saehan.tb_member WHERE member_id = cast(c.member_id as INTEGER) ) as member_nm 
+						, c.member_id
+	   		        FROM  saehan.tb_booking_facility c 
+	   		       WHERE c.booking_start_time between #{targetStartDate}::timestamp and #{targetEndDate}::timestamp 
+	                  or c.booking_end_time between #{targetStartDate}::timestamp and #{targetEndtDate}::timestamp 
+	               order by facility_id, booking_start_time
+       		     ) t2
+	    WHERE t1.facility_id = t2.facility_id
+	      AND booking_start_time is not null
+        order by facility_id, start	      
+	</select>
+	
+	<!-- 예약 등록 >> 수면실 예약 상세 -->
+	<select id="getSlpReserveDetail" parameterType="Map" resultType="Map">
+	   select c.booking_facility_id 
+	  		, c.member_id as booking_member_id
+	        , to_char(c.booking_start_time,'YYYY-MM-DD') as rsev_date  
+	        , to_char(c.booking_start_time,'hh24:mi') || '~' || to_char(c.booking_end_time,'hh24:mi') || ' / ' || use_time || ' 시간' as rsev_time
+			, (select company_name from saehan.tb_member WHERE member_id = CAST(c.member_id AS INTEGER) ) as company_name
+			, (select nm from saehan.tb_member WHERE member_id =  CAST(c.member_id AS INTEGER) ) as member_nm
+   		from  saehan.tb_booking_facility c
+   	   where c.booking_facility_id = cast(#{bookingFacilityId} as numeric) 
+	</select>	
+	
+	<!-- 예약 취소 >> 수면실 예약취소 -->
+	<select id="cancelSlpReserve" parameterType="Map">
+	  delete from saehan.tb_booking_facility
+   	   where booking_facility_id = cast(#{bookingFacilityId} as numeric)  
+	</select>	
+		
+	<!-- 예약 등록 >> 수면실 등록 가능한 날짜 시간인지 체크 -->
+	<select id="checkMySlpReserveTime" parameterType="Map" resultType="Map">
+	   select c.facility_id
+			, c.booking_start_time
+			, c.booking_end_time
+			, (select company_name from saehan.tb_member WHERE member_id = CAST(c.member_id AS INTEGER) ) as company_name
+			, (select nm from saehan.tb_member WHERE member_id =  CAST(c.member_id AS INTEGER) ) as member_nm
+   		from  saehan.tb_booking_facility c
+            , saehan.tb_facility a   		 
+   	   where a.facility_id = c.facility_id
+	     and booking_start_time is not null
+	     and (c.booking_start_time between #{slpOpenTime1}::timestamp and #{slpOpenTime2}::timestamp 
+          or c.booking_end_time between #{slpCloseTime1}::timestamp and #{slpCloseTime2}::timestamp)
+ 		 and a.type = 'S'
+		 and a.del_yn in ('N', 'n')            
+         and c.facility_id = CAST(#{facility_id} AS INTEGER)
+         and c.member_id = #{memberId}::int 
+	</select>
+		
+	<!-- 예약 등록 >> 수면실 등록 가능한 날짜 시간인지 체크 -->
+	<select id="checkSlpReserveTime" parameterType="Map" resultType="Map">
+	   select c.facility_id
+			, c.booking_start_time
+			, c.booking_end_time
+			, (select company_name from saehan.tb_member WHERE member_id = CAST(c.member_id AS INTEGER) ) as company_name
+			, (select nm from saehan.tb_member WHERE member_id =  CAST(c.member_id AS INTEGER) ) as member_nm
+			, (select acceptor_number from saehan.tb_facility WHERE facility_id =  CAST(c.facility_id AS INTEGER) ) as acceptor_number
+   		from  saehan.tb_booking_facility c
+            , saehan.tb_facility a   		 
+   	   where a.facility_id = c.facility_id
+	     and booking_start_time is not null
+	     and (c.booking_start_time between #{slpOpenTime1}::timestamp and #{slpOpenTime2}::timestamp 
+          or c.booking_end_time between #{slpCloseTime1}::timestamp and #{slpCloseTime2}::timestamp)
+ 		 and a.type = 'S'
+		 and a.del_yn in ('N', 'n')           
+         and c.facility_id = CAST(#{facility_id} AS numeric)
+       order by c.facility_id, booking_start_time 
+	</select>	
+
+	<insert id="insertSlpReserve" parameterType="Map">			
+		INSERT INTO saehan.tb_booking_facility
+		(
+			booking_facility_id
+		  , facility_id
+		  , booking_start_time
+		  ,	booking_end_time
+		  , use_time
+		  ,	company_name
+		  ,	member_id
+		  ,	created_date
+		)
+		VALUES
+		(
+		    CAST(#{booking_facility_id} AS numeric) 
+		  , CAST(#{facilityId} AS numeric) 
+		  , #{bookingStartTime}::timestamp
+		  , #{bookingEndTime}::timestamp
+		  , CAST(#{use_time} AS INTEGER)
+		  , (select company_name from saehan.tb_member WHERE member_id = CAST(#{memberId} AS INTEGER))
+		  , CAST(#{memberId} AS INTEGER) 
+   		  , now()
+		)
+	</insert>
+
+</mapper>
+
+
+
+

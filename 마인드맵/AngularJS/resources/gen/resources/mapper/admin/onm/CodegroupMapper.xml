@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+    namespace="com.anylogic.iot.api.admin.onm.mapper.CodegroupMapper">
+
+
+    <!--  코드그룹 - selectCodeGroup -->
+    <select id="selectCodeGroup" parameterType="Map" resultType="Map">
+
+        SELECT
+            codegroup_id
+            , codegroup_name
+            , code_type
+            , description
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by codegroup_id ) as RNUM 
+        FROM sdp.tb_codegroup
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+            and codegroup_id = #{searchText}::int
+        </if>
+
+    </select>
+
+
+    <!--  코드그룹 - selectCodeGroupSearch -->
+    <select id="selectCodeGroupSearch" parameterType="Map" resultType="Map">
+
+        SELECT
+            codegroup_id
+            , codegroup_name
+            , code_type
+            , description
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by codegroup_id ) as RNUM 
+        FROM sdp.tb_codegroup
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+            and codegroup_id = #{searchText}::int
+        </if>
+
+    </select>
+
+
+    <!--  코드그룹 - insertCodeGroup -->
+    <insert id="insertCodeGroup" parameterType="Map">
+        INSERT INTO
+        sdp.tb_codegroup(
+            codegroup_name
+            , code_type
+            , description
+            , create_id
+            , create_dt
+            , update_id
+            , update_dt
+            , del_yn
+        )
+        VALUES(
+            #{codegroup_name}
+            , #{code_type}
+            , #{description}
+            , #{create_id}::int
+            , now()
+            , #{update_id}::int
+            , #{update_dt}
+            , 'N' 
+        )
+    </insert>
+
+
+    <!--  코드그룹 - updateCodeGroup -->
+    <update id="updateCodeGroup" parameterType="Map">
+        UPDATE sdp.tb_codegroup
+        SET
+            codegroup_name = #{codegroup_name}
+            , code_type = #{code_type}
+            , description = #{description}
+            , create_id = #{create_id}::int
+            , update_id = #{update_id}::int
+            , update_dt = now()
+            , del_yn = #{del_yn}
+        WHERE codegroup_id = #{codegroup_id}::int
+    </update>
+
+
+    <!--  코드그룹 - deleteCodeGroup -->
+    <delete id="deleteCodeGroup" parameterType="Map">
+        UPDATE sdp.tb_codegroup
+        SET
+            del_yn = 'Y' 
+        WHERE codegroup_id = #{codegroup_id}::int
+    </delete>
+
+</mapper>

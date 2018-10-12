@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+    namespace="com.anylogic.iot.api.admin.legacy.mapper.OfficeMapper">
+
+
+    <!--  사무실 검색 -->
+    <select id="getOfficeList" parameterType="Map" resultType="Map">
+        <!--  페이징 SQL Header -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+
+        SELECT
+            branch_id
+            , office_name
+            , floor
+            , mem_cnt
+            , room_price
+            , created_date
+            , residence_flag
+            , state
+            , del_yn
+            , update_date
+            , ROW_NUMBER() OVER( order by office_id ) as RNUM 
+        FROM saehan.tb_office
+        WHERE 1 = 1
+        <if
+            test="searchType != null and (searchType eq 'branch'.toString()) and searchText != null and searchText"> 
+            and office_id = #{searchText}::int
+        </if>
+
+        <!--  페이징 SQL Footer -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+    </select>
+
+
+    <!--  사무실 검색 -->
+    <select id="insertOffice" parameterType="Map" resultType="Map">
+        <!--  페이징 SQL Header -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+
+        SELECT
+            branch_id
+            , office_name
+            , floor
+            , mem_cnt
+            , room_price
+            , created_date
+            , residence_flag
+            , state
+            , del_yn
+            , update_date
+            , ROW_NUMBER() OVER( order by office_id ) as RNUM 
+        FROM saehan.tb_office
+        WHERE 1 = 1
+        <if
+            test="searchType != null and (searchType eq 'branch'.toString()) and searchText != null and searchText"> 
+            and office_id = #{searchText}::int
+        </if>
+
+        <!--  페이징 SQL Footer -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+    </select>
+
+</mapper>

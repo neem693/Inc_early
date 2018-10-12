@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+    namespace="com.anylogic.iot.api.admin.tenant.mapper.Booking_participantMapper">
+
+
+    <!--  회의실 예약 참가자 검색 -->
+    <select id="downGuests" parameterType="Map" resultType="Map">
+
+        SELECT
+            booking_participant_id
+            , booking_conference_id
+            , member_id
+            , participant_name
+            , company_name
+            , phone_number
+            , status
+            , created_date
+            , send_prof_num
+            , invite_date
+            , ROW_NUMBER() OVER( order by booking_participant_id ) as RNUM 
+        FROM saehan.tb_booking_participant
+        WHERE 1 = 1
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+            and booking_participant_id = #{searchText}::int
+        </if>
+
+    </select>
+
+
+    <!--  회의실 예약 참가자 검색 -->
+    <select id="downGuestsExcel" parameterType="Map" resultType="Map">
+
+        SELECT
+            booking_participant_id
+            , booking_conference_id
+            , member_id
+            , participant_name
+            , company_name
+            , phone_number
+            , status
+            , created_date
+            , send_prof_num
+            , invite_date
+            , ROW_NUMBER() OVER( order by booking_participant_id ) as RNUM 
+        FROM saehan.tb_booking_participant
+        WHERE 1 = 1
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+            and booking_participant_id = #{searchText}::int
+        </if>
+
+    </select>
+
+</mapper>

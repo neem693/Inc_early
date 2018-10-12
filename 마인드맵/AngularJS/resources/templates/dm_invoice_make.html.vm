@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>S-Tower Coworkers > Invoice Preview</title>
+</head>
+<body>
+	<!-- mail code s -->
+	<div style="margin:0 auto;width:800px;text-align:center;border:1px solid #ddd;">
+		<h2 style="display:inline-block;margin:0;padding:20px 0;width:100%;text-align:left;background:#5e89cc;">
+			<img src="http://idrpub.dothome.co.kr/task/trunk/stower/ko/admin/contents/email/images/logo_top.png" alt="Coworkers" style="margin-left:20px;"/>
+		</h2>
+		<div style="margin:0 auto;padding:0;width:100%;">
+			<!-- mail contents s -->
+
+			<h3 style="margin:0;padding:20px 0;width:100%;font-size:16px;color:#444;text-align:left;">
+				<span style="padding:0 20px;font-size:1.3em;">Invoice 안내</span>
+				<div style="
+    text-align: right;
+    margin-left: 280px;
+    display: inline-flex;
+    padding-right: 30px;
+">
+<img src="data:image/png;base64,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">
+    
+
+
+</div>
+
+			</h3>
+
+			<div style="margin:20px 3%;width:94%;text-align:left;">
+				<ul style="margin:0;padding:0;margin-bottom:30px;line-height:1;">
+					<li style="margin-bottom:10px;list-style:none;">세안홀딩스 (주)Seian holdings Co.,LTD</li>
+					
+					<li style="margin-bottom:10px;list-style:none;">President: Suk Hoon PARK Regd. no.: 102-81-22968</li>
+					<li style="margin-bottom:10px;list-style:none;">19F, S-Tower, 82Saemunanro, Jongno-Gu, Seoul 03815</li>
+					<li style="margin-bottom:10px;list-style:none;">T: 02-723-1800 F: 02-738-1801 www.coworkerskorea.com</li>
+				</ul>
+				<h1 style="font-size:1.2em;">INVOICE</h1>
+				<table cellspacing="0" cellpadding="0" style="margin-bottom:30px;width:100%;font-size:0.9em;border:1px solid #dcdcdc;">
+					<tbody>
+						<tr>
+							<th style="padding:15px 20px;background:#eaedf2;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;">Company</th>
+							<td colspan="3" style="padding:15px 20px;border-bottom:1px solid #dcdcdc;">$data.company_name</td>
+						</tr>
+						<tr>
+							<th style="padding:15px 20px;background:#eaedf2;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;">Attention</th>
+							<td colspan="3" style="padding:15px 20px;border-bottom:1px solid #dcdcdc;">$data.mgr_name</td>
+						</tr>
+						<tr>
+							<th style="padding:15px 20px;background:#eaedf2;border-right:1px solid #dcdcdc;">Issued by</th>
+							<td style="padding:15px 20px;border-right:1px solid #dcdcdc;">$data.loginNm</td>
+							<th style="padding:15px 20px;background:#eaedf2;border-right:1px solid #dcdcdc;">Issued date</th>
+							<td style="padding:15px 20px;">$data.issue_month</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<table cellspacing="0" cellpadding="0" style="width:100%;font-size:0.9em;border-top:1px solid #dcdcdc;">
+					<thead>
+						<tr>
+							<th style="padding:15px 20px;text-align:center;background:#eaedf2;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;border-left:1px solid #dcdcdc;">Date</th>
+							<th style="padding:15px 20px;text-align:center;background:#eaedf2;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;">Text</th>
+							<th style="padding:15px 20px;text-align:center;background:#eaedf2;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;">Debits</th>
+							<th style="padding:15px 20px;text-align:center;background:#eaedf2;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;">Credits</th>
+							<th style="padding:15px 20px;text-align:center;background:#eaedf2;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;">Remarks</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td style="padding:15px 10px;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;">$data.cur_start_date ~ $data.cur_end_date</td>
+							<td style="padding:15px 10px;text-align:left;border-right:1px solid #dcdcdc;">Monthly Rental Charge</td>
+							<td style="padding:15px 10px;text-align:right;border-right:1px solid #dcdcdc;">$data.rent_charges</td>
+							<td style="padding:15px 10px;text-align:center;border-right:1px solid #dcdcdc;">&nbsp;</td>
+							<td style="padding:15px 10px;text-align:center;border-right:1px solid #dcdcdc;">&nbsp;</td>
+						</tr>
+						
+						<tr>
+							<td style="padding:15px 10px;text-align:center;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:15px 10px;text-align:left;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;">$data.addition_name</td>
+							<td style="padding:15px 10px;text-align:right;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;">$data.addition</td>
+							<td style="padding:15px 10px;text-align:center;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;">&nbsp;</td>
+							<td style="padding:15px 10px;text-align:center;border-right:1px solid #dcdcdc;border-bottom:1px solid #dcdcdc;">&nbsp;</td>
+						</tr>
+						
+						<tr>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;">$data.eng_start_date ~ $data.eng_end_date</td>
+							<td style="padding:15px 10px 5px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Additional Service Charge</td>
+							<td style="padding:15px 10px 5px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_service</td>
+							<td style="padding:15px 10px 5px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:15px 10px 5px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;">$data.service_remark</td>
+						</tr>
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Vending Machine Time</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_vending</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;">$data.vending_remark</td>
+						</tr>
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Printing Machine</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_mul_machine</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;">$data.mul_machine_remark</td>
+						</tr>
+						<!--<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Equipment Rental</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_equip</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+						</tr>
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Customized Secretarial Service</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_css</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+						</tr>
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Courier Service</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_cs</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+						</tr>
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Stationery</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_stationary</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+						</tr> -->
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Miscellaneous Charge</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_miscellaneous_charge</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;">$data.miscellaneous_charge_remark</td>
+						</tr>
+						<!--<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Beverage</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_beverage</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+						</tr>
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Telephone</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_telephone</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+						</tr>
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Beverage</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_internet</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+						</tr>
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Internet</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">0</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+						</tr>
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Installation</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_installation</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+						</tr>-->
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">IT</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_it</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;">$data.it_remark</td>
+						</tr>
+						<tr>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:left;border-right:1px solid #dcdcdc;">Parking Fee</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:right;border-right:1px solid #dcdcdc;">$data.non_parking_fee</td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:5px 10px 15px;vertical-align:top;text-align:center;border-right:1px solid #dcdcdc;">$data.parking_fee_remark</td>
+						</tr>
+						<tr>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:center;border-top:1px solid #dcdcdc;border-right:0px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:left;border-top:1px solid #dcdcdc;border-right:1px solid #dcdcdc;">Service Use Total</td>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:right;border-top:1px solid #dcdcdc;border-right:1px solid #dcdcdc;">$data.serviceusetotal</td>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:center;border-top:1px solid #dcdcdc;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:center;border-top:1px solid #dcdcdc;border-right:1px solid #dcdcdc;"></td>
+						</tr>
+						<tr>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:center;border-top:1px solid #dcdcdc;border-right:0px solid #dcdcdc;border-left:1px solid #dcdcdc;"></td>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:left;border-top:1px solid #dcdcdc;border-right:1px solid #dcdcdc;">VAT Total</td>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:right;border-top:1px solid #dcdcdc;border-right:1px solid #dcdcdc;">$data.vattotal</td>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:center;border-top:1px solid #dcdcdc;border-right:1px solid #dcdcdc;"></td>
+							<td style="padding:15px 10px 15px;vertical-align:top;text-align:center;border-top:1px solid #dcdcdc;border-right:1px solid #dcdcdc;"></td>
+						</tr>
+						<tr>
+							<td colspan="5" style="padding:20px;font-size:1.2em;text-align:right;border-top:1px solid #dcdcdc;"><strong>Grand Total Amount<span style="margin-left:20px;">$data.grandtotalamount</span></strong></td>
+						</tr>
+					</tbody>
+				</table>
+	<img src="http://www.coworkerskorea.net/seian_admin/images/seal.png">
+				<table cellspacing="0" cellpadding="0" style="margin-bottom:30px;width:100%;font-size:0.9em;border-top:2px solid #dcdcdc;border-bottom:2px solid #dcdcdc;">
+					
+	
+					<tr>
+						<th colspan="3" style="padding:30px 20px 5px 20px;">BANK INFORMATION</th>
+					</tr>
+					<tr>
+						<td style="padding:0 20px;">BANK NAME</td>
+						<td colspan="2" style="padding:0 20px;">Shinhan Bank</td>
+					</tr>
+					<tr>
+						<td style="padding:0 20px;">BANK ACCOUNT</td>
+						<td colspan="2" style="padding:0 20px;">140-009-489904</td>
+					</tr>
+					<tr>
+						<td style="padding:0 20px;">BENEFICIARY</td>
+						<td colspan="2" style="padding:0 20px;">Seian holdings Co.,LTD.</td>
+					</tr>
+					<tr>
+						<td style="padding:0 20px 30px 20px;">SWIFT CODE</td>
+						<td style="padding:0 20px 30px 20px;">SHBKKRSE</td>
+						<td style="padding:0 20px 30px 20px;text-align:right;">T: 02-723-1800 F: 02-738-1801 www.coworkerskorea.com </td>
+					</tr>
+				</table>
+			</div>
+			
+			<div style="margin-top:40px;text-align:center;">
+				<a href="#none" style="display:inline-block;padding:10px 50px;font-weight:bold;font-size:1em;color:#fff;text-align:center;text-decoration:none;background:#3b6ebb;border-radius:3px;">Coworkers 멤버전용 페이지 바로가기</a>
+			</div>
+
+			<!-- mail contents e -->
+		</div>
+		<div style="margin-top:60px;padding:16px 0;text-align:center;background:#f4f6f9;">
+			<span style="display:inline-block;margin:0 auto;padding-left:90px;height:14px;font:normal 12px 'dotum';color:#666;text-align:center;background:url(http://idrpub.dothome.co.kr/task/trunk/stower/admin/contents/email/images/logo_footer.png) no-repeat 0 50%;">
+			| Copyright (c) 2017 Seian Hoidings CO., LTD. All Right Reserved.</span>
+		</div>
+	</div>
+	<!-- mail code e -->
+</body>
+</html>

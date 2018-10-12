@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anylogic.iot.api.admin.tour.mapper.TourMapper">
+
+	<sql id="getTourApplicantsListSql">
+		SELECT
+				ROW_NUMBER() OVER (ORDER BY tour_date DESC, reg_date DESC) AS RNUM
+				, tour_applicant_id
+				, name
+				, mobile
+				, to_char(tour_date, 'YYYY-MM-DD HH24:MI') as tour_date
+				, to_char(reg_date, 'YYYY-MM-DD HH24:MI:SS') as reg_date
+				, tour_attendee
+				, room_size
+				, email
+		FROM saehan.tb_tour_applicant
+	</sql>
+
+	<select id="getTourApplicantsList" parameterType="Map" resultType="Map">
+    	<include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql"/>
+    	<include refid="getTourApplicantsListSql"/>
+		<include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql"/>
+	</select>
+	
+	<select id="getTourApplicantsListExcel" parameterType="Map" resultType="Map">
+    	
+    	<include refid="getTourApplicantsListSql"/>
+	</select>
+
+	<delete id="deleteTourApplicantsList" parameterType="Map">
+		DELETE FROM saehan.tb_tour_applicant
+		WHERE tour_applicant_id IN <foreach collection="list" item="target" open="(" close=")" separator=",">#{target}::int</foreach>
+	</delete> 
+
+	<insert id="addTourApplicants" parameterType="Map">
+	INSERT INTO saehan.tb_tour_applicant (name, mobile, email, tour_date, reg_date, tour_attendee, room_size)
+	values (#{name}, #{mobile}, #{email}, to_timestamp(#{tour_date}, 'YYYY-MM-DD HH24:MI'), now(), #{tour_attendee}::int, #{room_size}::int)
+
+	</insert>
+
+	<select id="getManagersEmailList" resultType="Map">
+		SELECT email FROM saehan.tb_member
+		WHERE aply_class IN ('SU', 'SA') AND type = 4 AND state = 'S'
+	</select>
+</mapper>
+
+
+
+

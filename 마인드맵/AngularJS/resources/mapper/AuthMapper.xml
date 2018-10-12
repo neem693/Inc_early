@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anylogic.iot.api.admin.auth.mapper.AuthMapper_origin">
+
+<select id="getUserInfo" parameterType="Map" resultType="Map">
+	SELECT
+			id
+	FROM 	
+			saehan.tb_member
+	where 
+			nm = #{userNm}
+		and hp_no = #{userNumber}
+		and email = #{userEmail}
+		and id = #{userId}
+		and state = 'S'
+		and type = 4
+</select>
+
+<select id="getMemberList" parameterType="Map" resultType="Map">
+<include
+			refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+			
+		select
+		ROW_NUMBER() OVER( ORDER BY member_id asc ) as RNUM,
+		member_id,
+		office_rent_id,
+		company_name,
+		id,
+		nm,
+		type
+		from
+		saehan.tb_member
+		where 1=1
+		and state = 'S'
+		<if test="searchText != null and !searchText.isEmpty()">
+			AND (company_name LIKE CONCAT('%', #{searchText}, '%') or nm LIKE CONCAT('%', #{searchText}, '%'))
+		</if>
+		
+		<if test="type != null and type != '5'">
+			AND type = #{type}::int
+		</if>
+		<include
+			refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+	</select>
+	
+	<update id="findPw" parameterType="Map">
+		UPDATE saehan.tb_member
+		SET
+			  passwd = #{tempKey}
+			
+		WHERE id = #{userId}
+	</update>
+	
+	
+	<select id="getMainViewInfo" parameterType="Map" resultType="Map">
+		select
+		(
+			select count(*) from saehan.tb_office_rent
+			<!-- where to_char(rent_strt_dt, 'YYYY-MM-DD') <![CDATA[ >= ]]>
+			#{firstDay}
+			and to_char(rent_strt_dt, 'YYYY-MM-DD') <![CDATA[ <= ]]>
+			#{lastDay} -->
+			where rent_strt_dt  <![CDATA[ < ]]>now() + interval '1 month' and rent_strt_dt <![CDATA[ >  ]]>now() and del_yn = 'N'
+		) as thisWeekCome,
+		(
+			select count(*) from saehan.tb_office_rent
+			<!-- where to_char(rent_end_dt, 'YYYY-MM-DD') <![CDATA[ >= ]]>
+			#{firstDay}
+			and to_char(rent_end_dt, 'YYYY-MM-DD') <![CDATA[ <= ]]>
+			#{lastDay} -->
+			 where rent_end_dt <![CDATA[  < ]]>now() + interval '2 month' and rent_end_dt <![CDATA[  > ]]> now() and del_yn = 'N'
+		) as thisWeekEndCont,
+		( 
+			select count(*) from saehan.tb_booking_conference
+			where to_char(meeting_end_time, 'YYYY-MM-DD') <![CDATA[ = ]]>
+			#{today}
+			<!-- and to_char(meeting_end_time, 'YYYY-MM-DD') <![CDATA[ <= ]]>
+			#{lastDay} -->
+		) as thisWeekConfCont
+	</select> 
+	<!-- 로그인 -->
+	<select id="userLogin" parameterType="Map" resultType="Map">
+		SELECT
+			a.member_id,
+			a.id,
+			a.passwd,
+			a.nm,
+			a.aply_class,
+			a.type,
+			(select company_name from 
+		saehan.tb_office_rent where office_rent_id = a.office_rent_id) as company_name
+		FROM saehan.tb_member a
+		WHERE a.id = #{id} and a.state not in ('D','O')
+			AND a.passwd = #{pw}
+			AND a.aply_class not in ('G', 'O', 'A');
+
+	</select>
+
+	<!-- 회사정보 조회 -->
+	<select id="getCompanyInfo" parameterType="Map" resultType="Map">
+		SELECT
+		OFFICE_RENT_ID,
+		COMPANY_NAME
+		FROM saehan.TB_OFFICE_RENT
+	</select>
+	
+	<insert id="insertMember" parameterType="Map">
+		INSERT INTO
+		saehan.tb_member(
+		ID
+		, PASSWD
+		, NM
+		, office_rent_id
+		, type
+		, dept_nm
+		, position_name
+		, tel_no
+		, HP_NO
+		, EMAIL
+		, APLY_CLASS
+		
+		, REG_DT
+		, PERMIT_YN
+
+		)
+		VALUES(
+		#{id}
+		, #{pw}
+		, #{userNm}
+		, #{office_rent_id}
+		, cast(#{type} as numeric)
+		, #{deptNm}
+		, #{positionName}
+		, #{telNo}
+		, #{cellphoneNo}
+		, #{email}
+		, 'G'
+		, 'P'
+		, 'Y'
+		, now()
+		, 'Y'
+
+		)
+	</insert>
+	
+	
+	<select id="findId" parameterType="Map" resultType="Map">
+		SELECT
+		id,
+		COMPANY_NAME
+		FROM saehan.tb_member
+		where 
+		nm = #{userNm}
+		and hp_no = #{userNumber}
+		and email = #{userEmail}
+	</select>
+</mapper>
+
+
+
+

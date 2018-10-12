@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+    namespace="com.anylogic.iot.api.admin.onm.mapper.MenuMapper">
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectMenu" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectMenuL" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectMenuM" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectMenuS" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectMenuD" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+
+    <!--  메뉴 검색 -->
+    <select id="viewMenu" parameterType="Map" resultType="Map">
+        <!--  페이징 SQL Header -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+        <!--  페이징 SQL Footer -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+    </select>
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectIDL" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectIDM" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectIDS" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectIDD" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+
+    <!--  메뉴 등록 -->
+    <insert id="insertMenuL" parameterType="Map">
+        INSERT INTO
+        sdp.tb_menu(
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , create_dt
+            , update_id
+            , update_dt
+            , del_yn
+        )
+        VALUES(
+            #{menu_id}
+            , #{lmenu_id}
+            , #{mmenu_id}
+            , #{smenu_id}
+            , #{menu_name}
+            , #{mapping_prog}
+            , #{mapping_para}
+            , #{rank}::int
+            , #{comment}
+            , #{menu_level}::int
+            , #{create_id}::int
+            , now()
+            , #{update_id}::int
+            , #{update_dt}
+            , #{del_yn}
+        )
+    </insert>
+
+
+    <!--  메뉴 등록 -->
+    <insert id="insertMenuM" parameterType="Map">
+        INSERT INTO
+        sdp.tb_menu(
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , create_dt
+            , update_id
+            , update_dt
+            , del_yn
+        )
+        VALUES(
+            #{menu_id}
+            , #{lmenu_id}
+            , #{mmenu_id}
+            , #{smenu_id}
+            , #{menu_name}
+            , #{mapping_prog}
+            , #{mapping_para}
+            , #{rank}::int
+            , #{comment}
+            , #{menu_level}::int
+            , #{create_id}::int
+            , now()
+            , #{update_id}::int
+            , #{update_dt}
+            , #{del_yn}
+        )
+    </insert>
+
+
+    <!--  메뉴 등록 -->
+    <insert id="insertMenuS" parameterType="Map">
+        INSERT INTO
+        sdp.tb_menu(
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , create_dt
+            , update_id
+            , update_dt
+            , del_yn
+        )
+        VALUES(
+            #{menu_id}
+            , #{lmenu_id}
+            , #{mmenu_id}
+            , #{smenu_id}
+            , #{menu_name}
+            , #{mapping_prog}
+            , #{mapping_para}
+            , #{rank}::int
+            , #{comment}
+            , #{menu_level}::int
+            , #{create_id}::int
+            , now()
+            , #{update_id}::int
+            , #{update_dt}
+            , #{del_yn}
+        )
+    </insert>
+
+
+    <!--  메뉴 등록 -->
+    <insert id="insertMenuD" parameterType="Map">
+        INSERT INTO
+        sdp.tb_menu(
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , create_dt
+            , update_id
+            , update_dt
+            , del_yn
+        )
+        VALUES(
+            #{menu_id}
+            , #{lmenu_id}
+            , #{mmenu_id}
+            , #{smenu_id}
+            , #{menu_name}
+            , #{mapping_prog}
+            , #{mapping_para}
+            , #{rank}::int
+            , #{comment}
+            , #{menu_level}::int
+            , #{create_id}::int
+            , now()
+            , #{update_id}::int
+            , #{update_dt}
+            , #{del_yn}
+        )
+    </insert>
+
+
+    <!--  메뉴 변경 -->
+    <update id="updateMenuL" parameterType="Map">
+        UPDATE sdp.tb_menu
+        SET
+            lmenu_id = #{lmenu_id}
+            , mmenu_id = #{mmenu_id}
+            , smenu_id = #{smenu_id}
+            , menu_name = #{menu_name}
+            , mapping_prog = #{mapping_prog}
+            , mapping_para = #{mapping_para}
+            , rank = #{rank}::int
+            , comment = #{comment}
+            , menu_level = #{menu_level}::int
+            , create_id = #{create_id}::int
+            , #{create_dt}
+            , update_id = #{update_id}::int
+            , now()
+            , del_yn = #{del_yn}
+        WHERE menu_id = #{menu_id}
+    </update>
+
+
+    <!--  메뉴 변경 -->
+    <update id="updateMenuM" parameterType="Map">
+        UPDATE sdp.tb_menu
+        SET
+            lmenu_id = #{lmenu_id}
+            , mmenu_id = #{mmenu_id}
+            , smenu_id = #{smenu_id}
+            , menu_name = #{menu_name}
+            , mapping_prog = #{mapping_prog}
+            , mapping_para = #{mapping_para}
+            , rank = #{rank}::int
+            , comment = #{comment}
+            , menu_level = #{menu_level}::int
+            , create_id = #{create_id}::int
+            , #{create_dt}
+            , update_id = #{update_id}::int
+            , now()
+            , del_yn = #{del_yn}
+        WHERE menu_id = #{menu_id}
+    </update>
+
+
+    <!--  메뉴 변경 -->
+    <update id="updateMenuS" parameterType="Map">
+        UPDATE sdp.tb_menu
+        SET
+            lmenu_id = #{lmenu_id}
+            , mmenu_id = #{mmenu_id}
+            , smenu_id = #{smenu_id}
+            , menu_name = #{menu_name}
+            , mapping_prog = #{mapping_prog}
+            , mapping_para = #{mapping_para}
+            , rank = #{rank}::int
+            , comment = #{comment}
+            , menu_level = #{menu_level}::int
+            , create_id = #{create_id}::int
+            , #{create_dt}
+            , update_id = #{update_id}::int
+            , now()
+            , del_yn = #{del_yn}
+        WHERE menu_id = #{menu_id}
+    </update>
+
+
+    <!--  메뉴 변경 -->
+    <update id="updateMenuD" parameterType="Map">
+        UPDATE sdp.tb_menu
+        SET
+            lmenu_id = #{lmenu_id}
+            , mmenu_id = #{mmenu_id}
+            , smenu_id = #{smenu_id}
+            , menu_name = #{menu_name}
+            , mapping_prog = #{mapping_prog}
+            , mapping_para = #{mapping_para}
+            , rank = #{rank}::int
+            , comment = #{comment}
+            , menu_level = #{menu_level}::int
+            , create_id = #{create_id}::int
+            , #{create_dt}
+            , update_id = #{update_id}::int
+            , now()
+            , del_yn = #{del_yn}
+        WHERE menu_id = #{menu_id}
+    </update>
+
+
+    <!--  메뉴 삭제 -->
+    <delete id="deleteMenuL" parameterType="Map">
+        UPDATE sdp.tb_menu
+        SET
+            del_yn = 'Y' 
+        WHERE menu_id = #{menu_id}
+    </delete>
+
+
+    <!--  메뉴 삭제 -->
+    <delete id="deleteMenuM" parameterType="Map">
+        UPDATE sdp.tb_menu
+        SET
+            del_yn = 'Y' 
+        WHERE menu_id = #{menu_id}
+    </delete>
+
+
+    <!--  메뉴 삭제 -->
+    <delete id="deleteMenuS" parameterType="Map">
+        UPDATE sdp.tb_menu
+        SET
+            del_yn = 'Y' 
+        WHERE menu_id = #{menu_id}
+    </delete>
+
+
+    <!--  메뉴 삭제 -->
+    <delete id="deleteMenuD" parameterType="Map">
+        UPDATE sdp.tb_menu
+        SET
+            del_yn = 'Y' 
+        WHERE menu_id = #{menu_id}
+    </delete>
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectMenuAll" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+
+    <!--  메뉴 검색 -->
+    <select id="selectMyMenu" parameterType="Map" resultType="Map">
+
+        SELECT
+            menu_id
+            , lmenu_id
+            , mmenu_id
+            , smenu_id
+            , menu_name
+            , mapping_prog
+            , mapping_para
+            , rank
+            , comment
+            , menu_level
+            , create_id
+            , to_char(create_dt,'YYYY-MM-DD hh24:mi:ss') as create_dt
+            , update_id
+            , to_char(update_dt,'YYYY-MM-DD hh24:mi:ss') as update_dt
+            , del_yn
+            , ROW_NUMBER() OVER( order by menu_id ) as RNUM 
+        FROM sdp.tb_menu
+        WHERE 1 = 1
+            and del_yn = 'N' 
+        <if test="searchType != null and (searchType eq 'A'.toString()) and searchText != null and searchText"> 
+        and menu_id = #{menu_id}
+        </if>
+
+    </select>
+
+</mapper>

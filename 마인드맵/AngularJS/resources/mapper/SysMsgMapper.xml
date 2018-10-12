@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anylogic.iot.api.sysmsg.mapper.SysMsgMapper">
+	<select id="selectSysMsgs" parameterType="Map" resultType="Map">
+    	SELECT
+			smb.msg_id as msgId
+		 	,smld.msg_sbst as msgSbst
+		FROM SYS_MSG_BAS smb
+		INNER JOIN SYS_MSG_LANG_DTL smld
+		ON smb.sys_div_cd = smld.sys_div_cd
+		AND smb.msg_type_cd = smld.msg_type_cd
+		AND smb.msg_id = smld.msg_id
+		WHERE smb.use_yn = 'Y'
+		AND smb.sys_div_cd = #{sysDivCd}
+		AND smb.msg_type_cd = #{msgTypeCd}
+		AND smld.lang_cd = #{langCd}
+    </select>
+
+</mapper>

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+    namespace="com.anylogic.iot.api.admin.calc.mapper.InvoiceMapper">
+
+
+    <!--  청구내역 검색 -->
+    <select id="getInvoice" parameterType="Map" resultType="Map">
+        <!--  페이징 SQL Header -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+
+        SELECT
+            issu_order_num
+            , office_rent_id
+            , company_name
+            , create_id
+            , update_id
+            , amount
+            , start_date
+            , end_date
+            , issue_date
+            , default_offer_time
+            , buying_time
+            , conference_time
+            , fc_time
+            , sleeping_time
+            , charge_time
+            , rent_charges
+            , addition_name
+            , addition
+            , service
+            , vending
+            , mul_machine
+            , equip
+            , css
+            , cs
+            , stationary
+            , miscellaneous_charge
+            , beverage
+            , telephone
+            , internet
+            , installation
+            , it
+            , add1
+            , add2
+            , add3
+            , service_vat
+            , vending_vat
+            , mul_machine_vat
+            , equip_vat
+            , css_vat
+            , cs_vat
+            , stationary_vat
+            , miscellaneous_charge_vat
+            , beverage_vat
+            , telephone_vat
+            , internet_vat
+            , installation_vat
+            , it_vat
+            , add1_vat
+            , add2_vat
+            , add3_vat
+            , service_remark
+            , vending_remark
+            , mul_machine_remark
+            , equip_remark
+            , css_remark
+            , cs_remark
+            , stationary_remark
+            , miscellaneous_charge_remark
+            , beverage_remark
+            , telephone_remark
+            , internet_remark
+            , installation_remark
+            , it_remark
+            , add1_remark
+            , add2_remark
+            , add3_remark
+            , default_use_period
+            , default_use_time
+            , perchase_use_peroid
+            , perchase_use_time
+            , issue_status
+            , tax_bill_status
+            , create_dt
+            , parking_fee
+            , parking_fee_vat
+            , parking_fee_remark
+            , issue_month
+            , deposit_status
+            , booking_id
+            , ROW_NUMBER() OVER( order by invoice_id ) as RNUM 
+        FROM saehan.tb_invoice
+        WHERE 1 = 1
+        <if
+            test="searchType != null and (searchType eq 'branch'.toString()) and searchText != null and searchText"> 
+            and invoice_id = #{searchText}::int
+        </if>
+
+        <!--  페이징 SQL Footer -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+    </select>
+
+
+    <!--  청구내역 검색 -->
+    <select id="selectIV" parameterType="Map" resultType="Map">
+        <!--  페이징 SQL Header -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+
+        SELECT
+            issu_order_num
+            , office_rent_id
+            , company_name
+            , create_id
+            , update_id
+            , amount
+            , start_date
+            , end_date
+            , issue_date
+            , default_offer_time
+            , buying_time
+            , conference_time
+            , fc_time
+            , sleeping_time
+            , charge_time
+            , rent_charges
+            , addition_name
+            , addition
+            , service
+            , vending
+            , mul_machine
+            , equip
+            , css
+            , cs
+            , stationary
+            , miscellaneous_charge
+            , beverage
+            , telephone
+            , internet
+            , installation
+            , it
+            , add1
+            , add2
+            , add3
+            , service_vat
+            , vending_vat
+            , mul_machine_vat
+            , equip_vat
+            , css_vat
+            , cs_vat
+            , stationary_vat
+            , miscellaneous_charge_vat
+            , beverage_vat
+            , telephone_vat
+            , internet_vat
+            , installation_vat
+            , it_vat
+            , add1_vat
+            , add2_vat
+            , add3_vat
+            , service_remark
+            , vending_remark
+            , mul_machine_remark
+            , equip_remark
+            , css_remark
+            , cs_remark
+            , stationary_remark
+            , miscellaneous_charge_remark
+            , beverage_remark
+            , telephone_remark
+            , internet_remark
+            , installation_remark
+            , it_remark
+            , add1_remark
+            , add2_remark
+            , add3_remark
+            , default_use_period
+            , default_use_time
+            , perchase_use_peroid
+            , perchase_use_time
+            , issue_status
+            , tax_bill_status
+            , create_dt
+            , parking_fee
+            , parking_fee_vat
+            , parking_fee_remark
+            , issue_month
+            , deposit_status
+            , booking_id
+            , ROW_NUMBER() OVER( order by invoice_id ) as RNUM 
+        FROM saehan.tb_invoice
+        WHERE 1 = 1
+        <if
+            test="searchType != null and (searchType eq 'branch'.toString()) and searchText != null and searchText"> 
+            and invoice_id = #{searchText}::int
+        </if>
+
+        <!--  페이징 SQL Footer -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+    </select>
+
+
+    <!--  청구내역 등록 -->
+    <insert id="insertIV" parameterType="Map">
+        INSERT INTO
+        saehan.tb_invoice(
+            invoice_id
+            , issu_order_num
+            , office_rent_id
+            , company_name
+            , create_id
+            , update_id
+            , amount
+            , start_date
+            , end_date
+            , issue_date
+            , default_offer_time
+            , buying_time
+            , conference_time
+            , fc_time
+            , sleeping_time
+            , charge_time
+            , rent_charges
+            , addition_name
+            , addition
+            , service
+            , vending
+            , mul_machine
+            , equip
+            , css
+            , cs
+            , stationary
+            , miscellaneous_charge
+            , beverage
+            , telephone
+            , internet
+            , installation
+            , it
+            , add1
+            , add2
+            , add3
+            , service_vat
+            , vending_vat
+            , mul_machine_vat
+            , equip_vat
+            , css_vat
+            , cs_vat
+            , stationary_vat
+            , miscellaneous_charge_vat
+            , beverage_vat
+            , telephone_vat
+            , internet_vat
+            , installation_vat
+            , it_vat
+            , add1_vat
+            , add2_vat
+            , add3_vat
+            , service_remark
+            , vending_remark
+            , mul_machine_remark
+            , equip_remark
+            , css_remark
+            , cs_remark
+            , stationary_remark
+            , miscellaneous_charge_remark
+            , beverage_remark
+            , telephone_remark
+            , internet_remark
+            , installation_remark
+            , it_remark
+            , add1_remark
+            , add2_remark
+            , add3_remark
+            , default_use_period
+            , default_use_time
+            , perchase_use_peroid
+            , perchase_use_time
+            , issue_status
+            , tax_bill_status
+            , create_dt
+            , parking_fee
+            , parking_fee_vat
+            , parking_fee_remark
+            , issue_month
+            , deposit_status
+            , booking_id
+        )
+        VALUES(
+            #{invoice_id}::int
+            , #{issu_order_num}::int
+            , #{office_rent_id}::int
+            , #{company_name}
+            , #{create_id}::int
+            , #{update_id}::int
+            , #{amount}::int
+            , #{start_date}
+            , #{end_date}
+            , #{issue_date}
+            , #{default_offer_time}::int
+            , #{buying_time}::int
+            , #{conference_time}::int
+            , #{fc_time}::int
+            , #{sleeping_time}::int
+            , #{charge_time}::int
+            , #{rent_charges}::int
+            , #{addition_name}
+            , #{addition}::int
+            , #{service}::int
+            , #{vending}::int
+            , #{mul_machine}::int
+            , #{equip}::int
+            , #{css}::int
+            , #{cs}::int
+            , #{stationary}::int
+            , #{miscellaneous_charge}::int
+            , #{beverage}::int
+            , #{telephone}::int
+            , #{internet}::int
+            , #{installation}::int
+            , #{it}::int
+            , #{add1}::int
+            , #{add2}::int
+            , #{add3}::int
+            , #{service_vat}::int
+            , #{vending_vat}::int
+            , #{mul_machine_vat}::int
+            , #{equip_vat}::int
+            , #{css_vat}::int
+            , #{cs_vat}::int
+            , #{stationary_vat}::int
+            , #{miscellaneous_charge_vat}::int
+            , #{beverage_vat}::int
+            , #{telephone_vat}::int
+            , #{internet_vat}::int
+            , #{installation_vat}::int
+            , #{it_vat}::int
+            , #{add1_vat}::int
+            , #{add2_vat}::int
+            , #{add3_vat}::int
+            , #{service_remark}
+            , #{vending_remark}
+            , #{mul_machine_remark}
+            , #{equip_remark}
+            , #{css_remark}
+            , #{cs_remark}
+            , #{stationary_remark}
+            , #{miscellaneous_charge_remark}
+            , #{beverage_remark}
+            , #{telephone_remark}
+            , #{internet_remark}
+            , #{installation_remark}
+            , #{it_remark}
+            , #{add1_remark}
+            , #{add2_remark}
+            , #{add3_remark}
+            , #{default_use_period}::int
+            , #{default_use_time}::int
+            , #{perchase_use_peroid}::int
+            , #{perchase_use_time}::int
+            , #{issue_status}
+            , #{tax_bill_status}
+            , #{create_dt}
+            , #{parking_fee}::int
+            , #{parking_fee_vat}::int
+            , #{parking_fee_remark}
+            , #{issue_month}
+            , #{deposit_status}
+            , #{booking_id}::int
+        )
+    </insert>
+
+
+    <!--  청구내역 변경 -->
+    <update id="updateIV" parameterType="Map">
+        UPDATE saehan.tb_invoice
+        SET
+            issu_order_num = #{issu_order_num}::int
+            , office_rent_id = #{office_rent_id}::int
+            , company_name = #{company_name}
+            , create_id = #{create_id}::int
+            , update_id = #{update_id}::int
+            , amount = #{amount}::int
+            , start_date = #{start_date}
+            , end_date = #{end_date}
+            , issue_date = #{issue_date}
+            , default_offer_time = #{default_offer_time}::int
+            , buying_time = #{buying_time}::int
+            , conference_time = #{conference_time}::int
+            , fc_time = #{fc_time}::int
+            , sleeping_time = #{sleeping_time}::int
+            , charge_time = #{charge_time}::int
+            , rent_charges = #{rent_charges}::int
+            , addition_name = #{addition_name}
+            , addition = #{addition}::int
+            , service = #{service}::int
+            , vending = #{vending}::int
+            , mul_machine = #{mul_machine}::int
+            , equip = #{equip}::int
+            , css = #{css}::int
+            , cs = #{cs}::int
+            , stationary = #{stationary}::int
+            , miscellaneous_charge = #{miscellaneous_charge}::int
+            , beverage = #{beverage}::int
+            , telephone = #{telephone}::int
+            , internet = #{internet}::int
+            , installation = #{installation}::int
+            , it = #{it}::int
+            , add1 = #{add1}::int
+            , add2 = #{add2}::int
+            , add3 = #{add3}::int
+            , service_vat = #{service_vat}::int
+            , vending_vat = #{vending_vat}::int
+            , mul_machine_vat = #{mul_machine_vat}::int
+            , equip_vat = #{equip_vat}::int
+            , css_vat = #{css_vat}::int
+            , cs_vat = #{cs_vat}::int
+            , stationary_vat = #{stationary_vat}::int
+            , miscellaneous_charge_vat = #{miscellaneous_charge_vat}::int
+            , beverage_vat = #{beverage_vat}::int
+            , telephone_vat = #{telephone_vat}::int
+            , internet_vat = #{internet_vat}::int
+            , installation_vat = #{installation_vat}::int
+            , it_vat = #{it_vat}::int
+            , add1_vat = #{add1_vat}::int
+            , add2_vat = #{add2_vat}::int
+            , add3_vat = #{add3_vat}::int
+            , service_remark = #{service_remark}
+            , vending_remark = #{vending_remark}
+            , mul_machine_remark = #{mul_machine_remark}
+            , equip_remark = #{equip_remark}
+            , css_remark = #{css_remark}
+            , cs_remark = #{cs_remark}
+            , stationary_remark = #{stationary_remark}
+            , miscellaneous_charge_remark = #{miscellaneous_charge_remark}
+            , beverage_remark = #{beverage_remark}
+            , telephone_remark = #{telephone_remark}
+            , internet_remark = #{internet_remark}
+            , installation_remark = #{installation_remark}
+            , it_remark = #{it_remark}
+            , add1_remark = #{add1_remark}
+            , add2_remark = #{add2_remark}
+            , add3_remark = #{add3_remark}
+            , default_use_period = #{default_use_period}::int
+            , default_use_time = #{default_use_time}::int
+            , perchase_use_peroid = #{perchase_use_peroid}::int
+            , perchase_use_time = #{perchase_use_time}::int
+            , issue_status = #{issue_status}
+            , tax_bill_status = #{tax_bill_status}
+            , create_dt = #{create_dt}
+            , parking_fee = #{parking_fee}::int
+            , parking_fee_vat = #{parking_fee_vat}::int
+            , parking_fee_remark = #{parking_fee_remark}
+            , issue_month = #{issue_month}
+            , deposit_status = #{deposit_status}
+            , booking_id = #{booking_id}::int
+        WHERE invoice_id = #{invoice_id}::int
+    </update>
+
+
+    <!--  청구내역 삭제 -->
+    <delete id="deleteIV" parameterType="Map">
+        DELETE FROM saehan.tb_invoice
+        WHERE invoice_id = #{invoice_id}::int
+    </delete>
+
+</mapper>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+    namespace="com.anylogic.iot.api.admin.systemconfig.mapper.MemberMapper">
+
+
+    <!--  회원정보 검색 -->
+    <select id="idCheck" parameterType="Map" resultType="Map">
+        <!--  페이징 SQL Header -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+
+        SELECT
+            office_rent_id
+            , company_name
+            , id
+            , passwd
+            , nm
+            , dept_nm
+            , tel_no
+            , hp_no
+            , email
+            , intruduction
+            , member_number
+            , type
+            , aply_class
+            , reg_dt
+            , permit_yn
+            , state
+            , position_name
+            , language_type
+            , drop_issue
+            , qr_code
+            , branch_id
+            , ROW_NUMBER() OVER( order by member_id ) as RNUM 
+        FROM saehan.tb_member
+        WHERE 1 = 1
+        <if
+            test="searchType != null and (searchType eq 'branch'.toString()) and searchText != null and searchText"> 
+            and member_id = #{searchText}::int
+        </if>
+
+        <!--  페이징 SQL Footer -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+    </select>
+
+
+    <!--  회원정보 변경 -->
+    <update id="updateMB" parameterType="Map">
+        UPDATE saehan.tb_member
+        SET
+            office_rent_id = #{office_rent_id}::int
+            , company_name = #{company_name}
+            , id = #{id}
+            , passwd = #{passwd}
+            , nm = #{nm}
+            , dept_nm = #{dept_nm}
+            , tel_no = #{tel_no}
+            , hp_no = #{hp_no}
+            , email = #{email}
+            , intruduction = #{intruduction}
+            , member_number = #{member_number}
+            , type = #{type}::int
+            , aply_class = #{aply_class}
+            , reg_dt = #{reg_dt}
+            , permit_yn = #{permit_yn}
+            , state = #{state}
+            , position_name = #{position_name}
+            , language_type = #{language_type}
+            , drop_issue = #{drop_issue}
+            , qr_code = #{qr_code}
+            , branch_id = #{branch_id}::int
+        WHERE member_id = #{member_id}::int
+    </update>
+
+
+    <!--  회원정보 검색 -->
+    <select id="selectMB" parameterType="Map" resultType="Map">
+        <!--  페이징 SQL Header -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingHeaderSql" />
+
+        SELECT
+            office_rent_id
+            , company_name
+            , id
+            , passwd
+            , nm
+            , dept_nm
+            , tel_no
+            , hp_no
+            , email
+            , intruduction
+            , member_number
+            , type
+            , aply_class
+            , reg_dt
+            , permit_yn
+            , state
+            , position_name
+            , language_type
+            , drop_issue
+            , qr_code
+            , branch_id
+            , ROW_NUMBER() OVER( order by member_id ) as RNUM 
+        FROM saehan.tb_member
+        WHERE 1 = 1
+        <if
+            test="searchType != null and (searchType eq 'branch'.toString()) and searchText != null and searchText"> 
+            and member_id = #{searchText}::int
+        </if>
+
+        <!--  페이징 SQL Footer -->
+        <include refid="com.anylogic.iot.api.common.mapper.CommonMapper.pagingFooterSql" />
+    </select>
+
+
+    <!--  회원정보 삭제 -->
+    <delete id="deleteMB" parameterType="Map">
+        DELETE FROM saehan.tb_member
+        WHERE member_id = #{member_id}::int
+    </delete>
+
+
+    <!--  회원정보 등록 -->
+    <insert id="insertMB" parameterType="Map">
+        INSERT INTO
+        saehan.tb_member(
+            member_id
+            , office_rent_id
+            , company_name
+            , id
+            , passwd
+            , nm
+            , dept_nm
+            , tel_no
+            , hp_no
+            , email
+            , intruduction
+            , member_number
+            , type
+            , aply_class
+            , reg_dt
+            , permit_yn
+            , state
+            , position_name
+            , language_type
+            , drop_issue
+            , qr_code
+            , branch_id
+        )
+        VALUES(
+            #{member_id}::int
+            , #{office_rent_id}::int
+            , #{company_name}
+            , #{id}
+            , #{passwd}
+            , #{nm}
+            , #{dept_nm}
+            , #{tel_no}
+            , #{hp_no}
+            , #{email}
+            , #{intruduction}
+            , #{member_number}
+            , #{type}::int
+            , #{aply_class}
+            , #{reg_dt}
+            , #{permit_yn}
+            , #{state}
+            , #{position_name}
+            , #{language_type}
+            , #{drop_issue}
+            , #{qr_code}
+            , #{branch_id}::int
+        )
+    </insert>
+
+</mapper>

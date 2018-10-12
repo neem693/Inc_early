@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.anylogic.iot.api.comCode.mapper.ComCodeMapper">
+
+
+	<!-- 코드 그룹 목록 조회 -->
+  <!--   <select id="listCdGroup" parameterType="Map" resultType="com.anylogic.iot.api.comCode.vo.CdGroupVO">
+
+    </select>
+ -->
+    <!-- EXCEL 다운로드 -->
+    <!-- <select id="listCdGroupExcel" parameterType="Map" resultType="com.anylogic.iot.api.comCode.vo.CdGroupVO">
+
+    </select>
+ -->
+    <!-- 코드 그룹 목록 토탈 카운트 -->
+	<select id="countCdGroup" parameterType="Map" resultType="Integer">
+
+	</select>
+
+
+    <!-- 코드 그룹 상세 조회 -->
+    <!-- <select id="selectCdGroup" parameterType="Map" resultType="com.anylogic.iot.api.comCode.vo.CdGroupVO">
+    	SELECT
+			  cgb.cd_group_id as cdGroupId
+			, cgb.cd_group_nm as cdGroupNm
+			, cgb.cd_group_std_nm as cdGroupStdNm
+			, cgb.cd_group_desc as cdGroupDesc
+			, cgb.cd_len as cdLen
+			, (SELECT COUNT(*) FROM CD_DTL WHERE cd_group_id = cgb.cd_group_id) as dtlCdCnt
+			, cgb.use_yn as useYn
+			, cgb.cretr_id as cretrId
+			, to_char(cgb.cret_dt, 'YYYY-MM-DD HH24:MI:SS') as cretDt
+		FROM CD_GROUP_BAS cgb
+		WHERE cd_group_id = #{cdGroupId}
+    </select>
+ -->
+
+    <!-- 코드 그룹 아이디 중복 체크 -->
+    <!-- <select id="checkCdGroupId" parameterType="Map" resultType="com.anylogic.iot.api.comCode.vo.CdGroupVO">
+    	SELECT
+			  cd_group_id as cdGroupId
+		FROM CD_GROUP_BAS
+		WHERE cd_group_id = #{cdGroupId}
+    </select>
+ -->
+
+	<!-- 코드 그룹 등록 -->
+	<insert id="insertCdGroup" parameterType="Map">
+		INSERT INTO CD_GROUP_BAS(
+			  cd_group_id
+			, cd_group_nm
+			, cd_group_std_nm
+			, cd_group_desc
+			, cd_len
+			, cretr_id
+			, use_yn
+			, del_yn
+		)VALUES(
+			  #{cdGroupId}
+			, #{cdGroupNm}
+			, #{cdGroupStdNm}
+			, #{cdGroupDesc}
+			, cast(#{cdLen} as numeric)
+			, #{cretrId}
+			, #{useYn}
+			, 'N'
+		)
+	</insert>
+
+
+	<!-- 코드 그룹 수정 -->
+	<update id="updateCdGroup" parameterType="Map">
+		UPDATE CD_GROUP_BAS
+		SET
+			  cd_group_nm = #{cdGroupNm}
+			, cd_group_std_nm = #{cdGroupStdNm}
+			, cd_group_desc = #{cdGroupDesc}
+			, cd_len = cast(#{cdLen} as numeric)
+			, use_yn = #{useYn}
+		WHERE cd_group_id = #{cdGroupId}
+	</update>
+
+
+	<!-- 상세 코드 갯수 조회 -->
+	<select id="countDtlCd" parameterType="Map" resultType="Integer">
+		SELECT
+			COUNT(*) as countDtlCd
+		FROM CD_DTL
+		WHERE cd_group_id = #{cdGroupId}
+	</select>
+
+	<!-- 코드 그룹 삭제 -->
+	<!-- 
+	<delete id="deleteCdGroup" parameterType="Map">
+		DELETE FROM CD_GROUP_BAS
+		WHERE cd_group_id = #{cdGroupId}
+	</delete>
+	 -->
+	<delete id="deleteCdGroup" parameterType="Map">
+		UPDATE CD_GROUP_BAS
+		SET	USE_YN='N', DEL_YN='Y'
+		WHERE cd_group_id = #{cdGroupId}
+	</delete>
+
+	<!-- 상세코드 목록 조회를 위한 코드그룹아이디 유무확인 -->
+	<select id="cdGroupIdCheck" parameterType="Map" resultType="Integer">
+		SELECT COUNT(*) FROM CD_DTL
+		WHERE cd_group_id = #{cdGroupId}
+	</select>
+
+    <!-- 상세 코드 목록 조회 -->
+    <!-- <select id="listDtlCd" parameterType="Map" resultType="com.anylogic.iot.api.comCode.vo.DtlCdVO">
+
+    </select> -->
+
+	<!-- 상세 코드 엑셀 다운 -->
+	<!-- <select id="listcdDetailExcel" parameterType="Map" resultType="com.anylogic.iot.api.comCode.vo.DtlCdVO">
+		
+	</select>
+ -->
+    <!-- 상세 코드 코드명목록 조회 -->
+    <!-- <select id="listDtlCdNm" parameterType="Map" resultType="com.anylogic.iot.api.comCode.vo.DtlCdVO">
+    	SELECT
+			  lang_cd as langCd
+			, dtl_cd_nm as dtlCdNm
+		FROM CD_DTL
+		WHERE cd_group_id = #{cdGroupId}
+		AND dtl_cd = #{dtlCd}
+    </select>
+ -->
+    <!-- 상세 코드 중복 체크 -->
+    <!-- <select id="checkDtlCd" parameterType="Map" resultType="com.anylogic.iot.api.comCode.vo.DtlCdVO">
+    	SELECT
+			  dtl_cd as dtlCd
+		FROM CD_DTL
+		WHERE cd_group_id = #{cdGroupId}
+		AND dtl_cd = #{dtlCd}
+		AND lang_cd = 'KOR'
+    </select> -->
+
+	<!-- 상세 코드 등록 -->
+    <insert id="insertDtlCdExcel" parameterType="Map">
+    	INSERT INTO CD_DTL(
+		      cd_group_id
+			, dtl_cd
+			, lang_cd
+			, dtl_cd_nm
+			, indc_odrg
+			, cretr_id
+			, use_yn
+			, del_yn
+    	)VALUES(
+    		  #{cdGroupId}
+    		, #{dtlCd}
+    		, #{langCd}
+    		, #{dtlCdNm}
+    		, cast(#{indcOdrg} as numeric)
+    		, #{cretrId}
+    		, #{useYn}
+    		, 'N'
+    	)
+    </insert>
+
+    <!-- 상세 코드 등록 -->
+    <insert id="insertDtlCd" parameterType="Map">
+
+    	<foreach collection="dtlCdList" item="item" separator=" ; ">
+	    	INSERT INTO CD_DTL(
+			      cd_group_id
+				, dtl_cd
+				, lang_cd
+				, dtl_cd_nm
+				, indc_odrg
+				, use_yn
+				, cretr_id
+				, del_yn
+	    	)VALUES(
+	    		  #{cdGroupId}
+	    		, #{dtlCd}
+	    		, #{item.langCd}
+	    		, #{item.dtlCdNm}
+	    		, cast(#{indcOdrg} as numeric)
+	    		, #{useYn}
+	    		, #{cretrId}
+	    		, 'N'
+	    	)
+    	</foreach>
+    </insert>
+
+
+    <!-- 상세 코드 수정 -->
+    <update id="updateDtlCd" parameterType="Map">
+
+    	<foreach collection="dtlCdList" item="item" separator=" ; ">
+	    	UPDATE CD_DTL
+	    	SET
+	    		  <!-- lang_cd = #{item.langCd}
+				,  -->
+				dtl_cd_nm = #{item.dtlCdNm}
+				, indc_odrg = cast(#{indcOdrg} as numeric)
+				, use_yn = #{useYn}
+	    	WHERE cd_group_id = #{cdGroupId}
+	    	AND dtl_cd = #{dtlCd}
+	    	AND lang_cd = #{langCd}
+    	</foreach>
+
+    </update>
+
+
+    <!-- 상세 코드 삭제 -->
+    <!-- 
+	<delete id="deleteDtlCd" parameterType="Map">
+
+    	DELETE FROM CD_DTL
+    	WHERE cd_group_id = #{cdGroupId}
+    	AND dtl_cd = #{dtlCd}
+    </delete>
+     -->
+	<delete id="deleteDtlCd" parameterType="Map">
+		UPDATE CD_DTL
+		SET	USE_YN='N', DEL_YN='Y'
+    	WHERE cd_group_id = #{cdGroupId}
+    	AND dtl_cd = #{dtlCd}
+    </delete>
+    
+    <delete id="deleteUpdateDtlCd" parameterType="Map">
+
+    	DELETE FROM CD_DTL
+    	WHERE cd_group_id = #{cdGroupId}
+    	AND dtl_cd = #{dtlCd}
+    </delete>
+
+    <select id="dtlCdLangCheck" parameterType="Map" resultType="String">
+    	SELECT lang_cd FROM cd_dtl
+    	WHERE cd_group_id = #{cdGroupId}
+    	AND dtl_cd = #{dtlCd}
+    	AND del_yn = 'N'
+    </select>
+
+</mapper>
+
+
+
+
