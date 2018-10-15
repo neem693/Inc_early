@@ -1,2 +1,0 @@
-<%=session.getAttribute("loginAuth")%>
-test
