@@ -1,9 +1,0 @@
-<HTML>
-    <HEAD>
-      <TITLE>Pet Store Sale!</TITLE>
-    </HEAD>
-
-    <BODY>
-      $data.test1<br/> $data.test2<br/> $data.test3<br/> $data.test4<br/> $data.test5 
-    </BODY>
-</HTML>
