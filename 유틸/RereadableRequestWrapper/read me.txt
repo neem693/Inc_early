@@ -1,0 +1,21 @@
+해당 텍스트는 다음을 기반으로 한다.
+
+https://meetup.toast.com/posts/44
+
+일단 이 wrapper는 만약 post로 받을시에 request에서 읽어들일 시에 inputSteam을 통해서 작동하는데,
+이 병맛같은게 한번 읽어들이면 그 다음부터는 못 읽어들이는 문제가 있다.
+
+따라서 이것을 filter에서 걸어줘서 해당하는 값을 post가 아니라도 사용할 수 있게끔 하면 된다.
+
+
+=====================================
+
+    @Override
+    public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
+        RereadableRequestWrapper rereadableRequestWrapper = new RereadableRequestWrapper((HttpServletRequest)request);
+        ...
+        chain.doFilter(rereadableRequestWrapper , response); <-----이렇게 넣어줘 버리면
+        ...
+
+=====================================
+끝난다.
